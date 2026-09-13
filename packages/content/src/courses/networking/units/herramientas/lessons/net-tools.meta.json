@@ -1,0 +1,15 @@
+{
+  "id": "net-tools",
+  "title": "Herramientas de red: ping, traceroute, nmap y mas",
+  "module": "herramientas",
+  "difficulty": "principiante",
+  "estimatedMinutes": 16,
+  "xp": 75,
+  "summary": "Las herramientas esenciales para diagnosticar, monitorear y auditar redes.",
+  "keyTakeaways": [
+    "Ping mide latencia y perdida via ICMP. ping -c 4 para limitar paquetes.",
+    "Traceroute muestra cada hop. Asteriscos = router no responde ICMP.",
+    "Nmap es el scanner definitivo. -sS es stealth, -sV detecta versiones, -p- todos los puertos.",
+    "Netcat es la navaja suiza: servers, clients, port scan, file transfer. iperf3 mide throughput real."
+  ]
+}

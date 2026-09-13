@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Para que sirve XCom en Airflow?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Es un motor de streams"
+    },
+    {
+      "id": "1",
+      "text": "Mecanismo para pasar variables pequenas entre tasks (max 48KB)"
+    },
+    {
+      "id": "2",
+      "text": "Es el sistema de logs"
+    },
+    {
+      "id": "3",
+      "text": "Es un tipo de base de datos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "XCom (cross-communication) permite que un task comparta datos pequenos con otro (un path, un ID). Para datos grandes, usa S3/DB.",
+  "irtA": 1.008,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

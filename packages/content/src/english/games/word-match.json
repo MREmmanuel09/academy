@@ -1,0 +1,70 @@
+{
+  "id": "game-word-match",
+  "slug": "word-match",
+  "type": "word-match",
+  "title": "Word match",
+  "titleEs": "Emparejar palabras",
+  "description": "Match English words to their Spanish translations as fast as you can.",
+  "rounds": [
+    {
+      "id": "wm-1",
+      "en": "beautiful",
+      "es": "hermoso/a",
+      "options": ["hermoso/a", "feo/a", "grande", "pequeño/a"]
+    },
+    {
+      "id": "wm-2",
+      "en": "house",
+      "es": "casa",
+      "options": ["casa", "coche", "árbol", "libro"]
+    },
+    {
+      "id": "wm-3",
+      "en": "quickly",
+      "es": "rápidamente",
+      "options": ["rápidamente", "lentamente", "fácilmente", "simplemente"]
+    },
+    {
+      "id": "wm-4",
+      "en": "important",
+      "es": "importante",
+      "options": ["importante", "difícil", "posible", "claro"]
+    },
+    {
+      "id": "wm-5",
+      "en": "water",
+      "es": "agua",
+      "options": ["agua", "fuego", "tierra", "aire"]
+    },
+    {
+      "id": "wm-6",
+      "en": "friend",
+      "es": "amigo/a",
+      "options": ["amigo/a", "enemigo", "hermano", "compañero"]
+    },
+    {
+      "id": "wm-7",
+      "en": "work",
+      "es": "trabajo",
+      "options": ["trabajo", "descanso", "juego", "estudio"]
+    },
+    {
+      "id": "wm-8",
+      "en": "time",
+      "es": "tiempo",
+      "options": ["tiempo", "dinero", "lugar", "nombre"]
+    },
+    {
+      "id": "wm-9",
+      "en": "good",
+      "es": "bueno/a",
+      "options": ["bueno/a", "malo/a", "regular", "mejor"]
+    },
+    {
+      "id": "wm-10",
+      "en": " eat",
+      "es": "comer",
+      "options": ["comer", "beber", "dormir", "correr"]
+    }
+  ]
+}

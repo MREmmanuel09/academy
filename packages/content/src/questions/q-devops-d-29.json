@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-d-29",
+  "quizId": "exam-docker",
+  "type": "truefalse",
+  "prompt": "Las imágenes Docker son layers inmutables.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Cada instrucción del Dockerfile crea una layer. Las layers son cacheadas y compartidas entre imágenes. La imagen final es la suma de las layers.",
+  "irtA": 0.8320000000000001,
+  "irtB": 0.44,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

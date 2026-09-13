@@ -1,0 +1,31 @@
+{
+  "id": "q-da-mp-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que formato es preferible para publicar una figura vectorial?",
+  "options": [
+    {
+      "id": "0",
+      "text": "PNG"
+    },
+    {
+      "id": "1",
+      "text": "JPEG"
+    },
+    {
+      "id": "2",
+      "text": "PDF o SVG"
+    },
+    {
+      "id": "3",
+      "text": "BMP"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "PDF y SVG son formatos vectoriales: escalan sin pixelarse. PNG es raster. JPEG es para fotos, no para plots.",
+  "irtA": 0.8600000000000001,
+  "irtB": 1.74,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

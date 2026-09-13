@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-8",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué palabra clave se usa para definir una función asíncrona en Python?",
+  "options": [
+    {
+      "id": "0",
+      "text": "def"
+    },
+    {
+      "id": "1",
+      "text": "async"
+    },
+    {
+      "id": "2",
+      "text": "await"
+    },
+    {
+      "id": "3",
+      "text": "defer"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "async def define una coroutine. await espera el resultado de otra coroutine sin bloquear.",
+  "irtA": 0.936,
+  "irtB": 0.96,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-12",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué es ENTRYPOINT vs CMD?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son sinónimos"
+    },
+    {
+      "id": "1",
+      "text": "ENTRYPOINT es fijo, CMD es reemplazable"
+    },
+    {
+      "id": "2",
+      "text": "CMD es fijo, ENTRYPOINT reemplazable"
+    },
+    {
+      "id": "3",
+      "text": "ENTRYPOINT es para ENV"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ENTRYPOINT define el ejecutable principal (no se reemplaza). CMD son argumentos por defecto. docker run img arg reemplaza CMD pero se agrega a ENTRYPOINT.",
+  "irtA": 1.08,
+  "irtB": 0.4,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

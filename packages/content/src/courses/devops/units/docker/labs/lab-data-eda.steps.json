@@ -1,0 +1,69 @@
+{
+  "id": "lab-data-eda",
+  "title": "Data EDA: exploracion y profiling con SQL",
+  "steps": [
+    {
+      "instruction": "PASO 1 - Shape: ¿Cuántas filas y columnas tiene el dataset? Usa COUNT(*) y la metadata de INFORMATION_SCHEMA.",
+      "expectedCommand": "SELECT COUNT(*) as num_rows FROM orders; SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'orders';",
+      "hint": "COUNT(*) para filas, information_schema.columns para columnas y tipos."
+    },
+    {
+      "instruction": "PASO 2 - Tipos y cardinalidad: Para cada columna, muestra su tipo y cuántos valores distintos tiene. Esto te dice qué columnas son categóricas vs numéricas.",
+      "expectedCommand": "SELECT 'customer_id' as col, 'INT' as type, COUNT(DISTINCT customer_id) as distinct_vals FROM orders UNION ALL SELECT 'product_id', 'INT', COUNT(DISTINCT product_id) FROM orders UNION ALL SELECT 'order_date', 'DATE', COUNT(DISTINCT order_date) FROM orders;",
+      "hint": "COUNT(DISTINCT col) por cada columna. Si distinct_vals << COUNT(*), la columna es categórica."
+    },
+    {
+      "instruction": "PASO 3 - Nulls: ¿Qué columnas tienen nulos? ¿Cuántos por columna?",
+      "expectedCommand": "SELECT COUNT(*) as total_rows, COUNT(*) - COUNT(customer_id) as null_customer_id, COUNT(*) - COUNT(product_id) as null_product_id, COUNT(*) - COUNT(total) as null_total, COUNT(*) - COUNT(order_date) as null_order_date FROM orders;",
+      "hint": "COUNT(col) cuenta no-nulos. COUNT(*) - COUNT(col) = nulos. Compara cada columna."
+    },
+    {
+      "instruction": "PASO 4 - Estadísticas básicas: Para columnas numéricas, calcula min, max, avg, median y stddev. Para fechas, min y max.",
+      "expectedCommand": "SELECT MIN(total) as min_total, MAX(total) as max_total, AVG(total) as avg_total, PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY total) as median_total, STDDEV(total) as stddev_total, MIN(order_date) as first_order, MAX(order_date) as last_order FROM orders;",
+      "hint": "Usa MIN, MAX, AVG, PERCENTILE_CONT(0.5) WITHIN GROUP para mediana, STDDEV para desviación."
+    },
+    {
+      "instruction": "PASO 5 - Distribución: Top 10 valores más frecuentes y su frecuencia. ¿Hay concentración en pocos valores?",
+      "expectedCommand": "SELECT customer_id, COUNT(*) as frequency FROM orders GROUP BY customer_id ORDER BY frequency DESC LIMIT 10;",
+      "hint": "GROUP BY + COUNT(*) + ORDER BY DESC LIMIT 10. Útil para detectar heavy users o datos concentrados."
+    },
+    {
+      "instruction": "PASO 6 - Outliers: Detecta outliers en la columna \"total\" usando IQR. Valores fuera de [Q1 - 1.5*IQR, Q3 + 1.5*IQR] son outliers.",
+      "expectedCommand": "WITH quartiles AS (SELECT PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY total) as q1, PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY total) as q3 FROM orders) SELECT COUNT(*) as num_outliers FROM orders, quartiles WHERE total < q1 - 1.5 * (q3 - q1) OR total > q3 + 1.5 * (q3 - q1);",
+      "hint": "CTE con Q1 y Q3, luego WHERE filtrando fuera de [Q1 - 1.5*IQR, Q3 + 1.5*IQR]."
+    },
+    {
+      "instruction": "PASO 7 - Relaciones: ¿Cuál es la correlación entre el número de órdenes por cliente y su gasto total? Agrupa por cliente y mira la distribución.",
+      "expectedCommand": "WITH per_customer AS (SELECT customer_id, COUNT(*) as num_orders, SUM(total) as total_spent FROM orders GROUP BY customer_id) SELECT num_orders, COUNT(*) as num_customers, AVG(total_spent) as avg_spent FROM per_customer GROUP BY num_orders ORDER BY num_orders;",
+      "hint": "CTE con métricas por cliente. Agrupa por num_orders, mira avg_spent. Patrones esperados: a más órdenes, más gasto."
+    },
+    {
+      "instruction": "PASO 8 - Resumen ejecutivo: Escribe un párrafo (5 líneas) resumiendo los hallazgos más importantes del EDA. ¿Qué problemas de calidad detectaste? ¿Qué patrones interesantes encontraste?",
+      "expectedCommand": "echo \"Resumen: Dataset de 1000 filas, 5% nulos en customer_id, outliers en total (>Q3+1.5IQR), correlación positiva entre num_orders y total_spent.\"",
+      "hint": "Tu resumen debe incluir: tamaño del dataset, nulos detectados, outliers, distribuciones, relaciones. Esto es lo que presentarías a un stakeholder."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "Dataset",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "Analyst",
+        "x": 200,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "Dataset",
+        "to": "Analyst"
+      }
+    ]
+  },
+  "validation": "Después de completar los pasos, deberías tener una visión completa del dataset: su forma, calidad, distribuciones y relaciones. Practica escribir el resumen ejecutivo como si lo presentaras a un equipo de producto."
+}

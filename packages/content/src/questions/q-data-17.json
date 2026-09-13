@@ -1,0 +1,14 @@
+{
+  "id": "q-data-17",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "Un Data Catalog es una \"biblioteca\" donde los analistas descubren qué datos hay disponibles.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. Un Data Catalog documenta tablas, columnas, owners, descripciones y permite buscar/descubrir datos.",
+  "irtA": 1.012,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

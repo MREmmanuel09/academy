@@ -1,0 +1,31 @@
+{
+  "id": "q-da-pd-10",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que pasa con pd.merge(df_left, df_right, on=\"id\") si la clave \"id\" esta duplicada en ambos DataFrames?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Falla con un error"
+    },
+    {
+      "id": "1",
+      "text": "Devuelve el producto cartesiano (1 fila izq x N filas der)"
+    },
+    {
+      "id": "2",
+      "text": "Elimina los duplicados automaticamente"
+    },
+    {
+      "id": "3",
+      "text": "Solo conserva la primera coincidencia"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Si la clave tiene duplicados, el resultado es el producto cartesiano. Por eso pd.merge ofrece validate=\"one_to_one\" o validate=\"one_to_many\" para fallar ruidosamente si no se cumple la cardinalidad esperada.",
+  "irtA": 0.9440000000000001,
+  "irtB": -0.1,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

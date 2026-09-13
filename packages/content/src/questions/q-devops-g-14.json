@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-14",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué hace `git rebase -i HEAD~3`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Borra 3 commits"
+    },
+    {
+      "id": "1",
+      "text": "Rebase interactivo de los últimos 3 commits"
+    },
+    {
+      "id": "2",
+      "text": "Hace merge"
+    },
+    {
+      "id": "3",
+      "text": "Crea tag"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "git rebase -i abre editor con lista de commits donde puedes reordenar, combinar (squash), reescribir mensajes (reword) o borrar (drop).",
+  "irtA": 0.98,
+  "irtB": 0.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-5",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué tipo de JOIN devuelve solo las filas con coincidencia en ambas tablas?",
+  "options": [
+    {
+      "id": "0",
+      "text": "LEFT JOIN"
+    },
+    {
+      "id": "1",
+      "text": "RIGHT JOIN"
+    },
+    {
+      "id": "2",
+      "text": "INNER JOIN"
+    },
+    {
+      "id": "3",
+      "text": "FULL OUTER JOIN"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "INNER JOIN devuelve la intersección: solo filas que tienen match en ambas tablas.",
+  "irtA": 0.888,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

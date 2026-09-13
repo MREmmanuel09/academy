@@ -1,0 +1,15 @@
+{
+  "id": "mq-1",
+  "title": "Message Queues: Kafka, RabbitMQ, NATS",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 18,
+  "xp": 95,
+  "summary": "Colas de mensajes, event streaming, pub/sub, garantias de entrega, cuando usar cada uno.",
+  "keyTakeaways": [
+    "Message queue desacopla producers y consumers, haciendo sistemas mas resilientes.",
+    "3 garantias: at-most-once (rapido, puede perder), at-least-once (duplicados posibles), exactly-once (complejo).",
+    "Kafka = event store persistente (LinkedIn, 2011), ideal para event sourcing y multiples consumers.",
+    "RabbitMQ = AMQP con routing complejo, ideal para tareas async enterprise. NATS = cloud-native, low-latency."
+  ]
+}

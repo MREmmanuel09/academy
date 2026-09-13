@@ -1,0 +1,31 @@
+{
+  "id": "q-h-1",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué comando hace ping en Linux?",
+  "options": [
+    {
+      "id": "0",
+      "text": "ping"
+    },
+    {
+      "id": "1",
+      "text": "trace"
+    },
+    {
+      "id": "2",
+      "text": "netstat"
+    },
+    {
+      "id": "3",
+      "text": "ifconfig"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "ping usa ICMP echo request/reply para verificar alcanzabilidad.",
+  "irtA": 1.024,
+  "irtB": -1.1,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

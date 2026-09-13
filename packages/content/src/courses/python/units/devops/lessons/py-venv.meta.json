@@ -1,0 +1,15 @@
+{
+  "id": "py-venv",
+  "title": "Entornos virtuales: venv, pip, requirements.txt",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 55,
+  "summary": "Aislamiento de dependencias, pip, freeze, requirements.txt, herramientas modernas (poetry, uv).",
+  "keyTakeaways": [
+    "venv aísla dependencias por proyecto. SIEMPRE usarlo, incluso para scripts.",
+    "requirements.txt versiona dependencias. pip freeze > requirements.txt.",
+    "En Docker, copia requirements.txt antes que el codigo para cachear capas.",
+    "uv es el reemplazo moderno de pip — 10-100x mas rapido."
+  ]
+}

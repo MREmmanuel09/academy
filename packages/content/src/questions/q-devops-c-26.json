@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-26",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Cómo se comunican microservicios en AWS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Solo HTTP directo"
+    },
+    {
+      "id": "1",
+      "text": "API Gateway + Lambda o ALB + ECS/EKS"
+    },
+    {
+      "id": "2",
+      "text": "Solo SQS"
+    },
+    {
+      "id": "3",
+      "text": "Solo SNS"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "API Gateway + Lambda o ALB + ECS/EKS. Para async: SQS, SNS, EventBridge. Para realtime: WebSocket API.",
+  "irtA": 0.8560000000000001,
+  "irtB": 1.82,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-intro-6",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es un algoritmo de consenso?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Algoritmo para comprimir datos"
+    },
+    {
+      "id": "1",
+      "text": "Protocolo para que multiples nodos se pongan de acuerdo sobre un valor"
+    },
+    {
+      "id": "2",
+      "text": "Algoritmo de busqueda en grafos"
+    },
+    {
+      "id": "3",
+      "text": "Metodo de encriptacion"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Algoritmos como Raft y Paxos permiten que N nodos lleguen a un acuerdo a pesar de fallos. Usados para eleccion de lider y replicacion.",
+  "irtA": 1.048,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

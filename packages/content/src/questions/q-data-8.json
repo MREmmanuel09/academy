@@ -1,0 +1,14 @@
+{
+  "id": "q-data-8",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "Un Data Lake almacena datos en cualquier formato, incluyendo datos crudos.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. Data Lake es flexible: almacena datos crudos, semi y no estructurados (CSV, JSON, Parquet, imágenes).",
+  "irtA": 0.8600000000000001,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

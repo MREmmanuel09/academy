@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-10",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Cuándo NO usar service mesh?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Microservicios complejos"
+    },
+    {
+      "id": "1",
+      "text": "Apps con pocas llamadas internas"
+    },
+    {
+      "id": "2",
+      "text": "Tráfico este-oeste alto"
+    },
+    {
+      "id": "3",
+      "text": "Necesitas mTLS"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "NO uses service mesh en: apps monolitos, pocas llamadas internas, equipo pequeño sin tiempo para operarlo. La complejidad no vale.",
+  "irtA": 1.032,
+  "irtB": -1.82,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

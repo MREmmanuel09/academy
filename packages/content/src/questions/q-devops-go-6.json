@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-6",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Qué es sync wave en ArgoCD?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Onda de radio"
+    },
+    {
+      "id": "1",
+      "text": "Orden de despliegue basado en annotations"
+    },
+    {
+      "id": "2",
+      "text": "Tipo de load balancer"
+    },
+    {
+      "id": "3",
+      "text": "Una métrica"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Sync wave: orden de despliegue. argocd.argoproj.io/sync-wave: \"0\" se despliega antes que \"1\", etc.",
+  "irtA": 0.996,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

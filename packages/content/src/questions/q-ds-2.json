@@ -1,0 +1,31 @@
+{
+  "id": "q-ds-2",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre SAST y DAST?",
+  "options": [
+    {
+      "id": "0",
+      "text": "SAST es para Java, DAST para Python"
+    },
+    {
+      "id": "1",
+      "text": "SAST analiza codigo fuente, DAST prueba la app en ejecucion"
+    },
+    {
+      "id": "2",
+      "text": "SAST es gratis, DAST de pago"
+    },
+    {
+      "id": "3",
+      "text": "Son sinonimos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "SAST (Static) analiza codigo sin ejecutar. DAST (Dynamic) prueba la app corriendo, simulando ataques externos.",
+  "irtA": 0.912,
+  "irtB": 0.84,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

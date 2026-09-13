@@ -1,0 +1,15 @@
+{
+  "id": "py-websockets",
+  "title": "WebSockets: monitoreo en tiempo real",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 20,
+  "xp": 85,
+  "summary": "Comunicaciones bidireccionales full-duplex: websockets para dashboards y alertas live.",
+  "keyTakeaways": [
+    "WebSocket: conexion bidireccional persistente para tiempo real.",
+    "websockets lib: async/await nativo, compatible con FastAPI.",
+    "Implementa SIEMPRE reconnect logic con backoff exponencial.",
+    "ping_interval para detectar conexiones muertas."
+  ]
+}

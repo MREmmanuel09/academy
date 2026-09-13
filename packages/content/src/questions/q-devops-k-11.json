@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-11",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué hace kubectl scale deployment web --replicas=5?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Borra deployment"
+    },
+    {
+      "id": "1",
+      "text": "Escala el deployment a 5 réplicas"
+    },
+    {
+      "id": "2",
+      "text": "Reinicia pods"
+    },
+    {
+      "id": "3",
+      "text": "Crea namespace"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "scale cambia el número de réplicas. K8s crea o elimina pods según sea necesario para llegar al número.",
+  "irtA": 0.8240000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

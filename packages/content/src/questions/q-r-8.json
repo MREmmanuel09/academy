@@ -1,0 +1,31 @@
+{
+  "id": "q-r-8",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "Para una red 10.0.0.0/22, ¿cuál es la primera IP utilizable?",
+  "options": [
+    {
+      "id": "0",
+      "text": "10.0.0.0"
+    },
+    {
+      "id": "1",
+      "text": "10.0.0.1"
+    },
+    {
+      "id": "2",
+      "text": "10.0.0.255"
+    },
+    {
+      "id": "3",
+      "text": "10.0.3.255"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "10.0.0.0/22 cubre 10.0.0.0–10.0.3.255 (1024 direcciones, salto 4). La primera IP usable es 10.0.0.1, el broadcast es 10.0.3.255.",
+  "irtA": 1.092,
+  "irtB": 0.92,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

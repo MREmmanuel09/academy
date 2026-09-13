@@ -1,0 +1,14 @@
+{
+  "id": "q-data-12",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "Parquet es un formato row-based (orientado a filas).",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Falso. Parquet es columnar (orientado a columnas), lo que lo hace muy eficiente para queries analíticas.",
+  "irtA": 0.992,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

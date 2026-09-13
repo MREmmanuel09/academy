@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-4",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Qué es VirtualService en Istio?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una VM"
+    },
+    {
+      "id": "1",
+      "text": "Reglas de routing del tráfico HTTP en el mesh"
+    },
+    {
+      "id": "2",
+      "text": "Un secret"
+    },
+    {
+      "id": "3",
+      "text": "Un ingress"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "VirtualService: define reglas de routing (canary, A/B, retries, timeouts, fault injection).",
+  "irtA": 0.8680000000000001,
+  "irtB": -1.94,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

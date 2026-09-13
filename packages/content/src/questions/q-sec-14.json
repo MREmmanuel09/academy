@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-14",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que es \"shift left\" en seguridad?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Mover el codigo a la izquierda del editor"
+    },
+    {
+      "id": "1",
+      "text": "Integrar seguridad desde el inicio del desarrollo, no al final"
+    },
+    {
+      "id": "2",
+      "text": "Usar solo Linux"
+    },
+    {
+      "id": "3",
+      "text": "Cifrar en transito"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Shift left = mover seguridad al inicio del ciclo. SAST en IDE, SCA en CI, secrets scan en pre-commit. Encuentra bugs cuando son baratos de arreglar.",
+  "irtA": 1.06,
+  "irtB": -0.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

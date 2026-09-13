@@ -1,0 +1,31 @@
+{
+  "id": "q-f-3",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿En qué capa opera un router?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Capa 1"
+    },
+    {
+      "id": "1",
+      "text": "Capa 2"
+    },
+    {
+      "id": "2",
+      "text": "Capa 3"
+    },
+    {
+      "id": "3",
+      "text": "Capa 4"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Los routers operan en la capa 3 (Red) reenviando paquetes según direcciones IP.",
+  "irtA": 0.9440000000000001,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

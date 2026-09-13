@@ -1,0 +1,8 @@
+{
+  "slug": "python",
+  "track": "devops",
+  "title": "Python para DevOps",
+  "description": "Fundamentos, boto3, automation, automatizacion DevOps y herramientas de productividad.",
+  "difficulty": "intermediate",
+  "estimatedHours": 35
+}

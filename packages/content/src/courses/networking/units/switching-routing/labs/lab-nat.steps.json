@@ -1,0 +1,89 @@
+{
+  "id": "lab-nat",
+  "title": "Configurar NAT (PAT overload) en un router",
+  "steps": [
+    {
+      "instruction": "Entra a la interfaz G0/0 (LAN interna) y asignale una IP del rango 192.168.1.0/24.",
+      "expectedCommand": "ip address 192.168.1.1 255.255.255.0",
+      "hint": "Esta sera la puerta de enlace de los hosts internos."
+    },
+    {
+      "instruction": "Activa la interfaz LAN.",
+      "expectedCommand": "no shutdown",
+      "hint": "Recuerda que las interfaces estan apagadas por defecto."
+    },
+    {
+      "instruction": "Marca esa interfaz como \"inside\" de NAT.",
+      "expectedCommand": "ip nat inside",
+      "hint": "Las interfaces inside son las que conectan a las redes privadas internas."
+    },
+    {
+      "instruction": "Entra a G0/1 (WAN publica) y asignale una IP del rango 203.0.113.0/24.",
+      "expectedCommand": "ip address 203.0.113.2 255.255.255.0",
+      "hint": "Esta es la IP publica que el ISP asigna al router edge."
+    },
+    {
+      "instruction": "Activa la interfaz WAN.",
+      "expectedCommand": "no shutdown",
+      "hint": "Verifica que el enlace con el ISP este up con 'show ip interface brief'."
+    },
+    {
+      "instruction": "Marca esa interfaz como \"outside\" de NAT.",
+      "expectedCommand": "ip nat outside",
+      "hint": "Las interfaces outside conectan a la red publica o Internet."
+    },
+    {
+      "instruction": "Crea una ACL estandar que permita toda la subred 192.168.1.0/24.",
+      "expectedCommand": "access-list 1 permit 192.168.1.0 0.0.0.255",
+      "hint": "La ACL define que tráfico interno sera traducido por NAT."
+    },
+    {
+      "instruction": "Configura la traduccion NAT overload usando la ACL y la interfaz WAN.",
+      "expectedCommand": "ip nat inside source list 1 interface GigabitEthernet 0/1 overload",
+      "hint": "El keyword 'overload' habilita PAT, permitiendo multiples hosts internos compartir una IP publica."
+    },
+    {
+      "instruction": "Configura una ruta por defecto apuntando al gateway del ISP.",
+      "expectedCommand": "ip route 0.0.0.0 0.0.0.0 203.0.113.1",
+      "hint": "La ruta por defecto es necesaria para que el router sepa hacia donde enviar el tráfico no local."
+    },
+    {
+      "instruction": "Genera trafico desde la PC interna y verifica las traducciones activas.",
+      "expectedCommand": "show ip nat translations",
+      "hint": "Si no aparecen traducciones, asegurate de que el tráfico este saliendo por la interfaz outside."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "router",
+        "name": "Edge",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "PC-Int",
+        "x": 100,
+        "y": 220
+      },
+      {
+        "type": "router",
+        "name": "ISP",
+        "x": 300,
+        "y": 100
+      }
+    ],
+    "links": [
+      {
+        "from": "Edge",
+        "to": "PC-Int"
+      },
+      {
+        "from": "Edge",
+        "to": "ISP"
+      }
+    ]
+  },
+  "validation": "Al completar, la LAN debe salir a Internet con una sola IP (PAT) y debes poder leer la tabla de translations para diagnosticar."
+}

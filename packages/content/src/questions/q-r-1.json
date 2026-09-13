@@ -1,0 +1,31 @@
+{
+  "id": "q-r-1",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Cuántos bits tiene una dirección IPv4?",
+  "options": [
+    {
+      "id": "0",
+      "text": "8"
+    },
+    {
+      "id": "1",
+      "text": "16"
+    },
+    {
+      "id": "2",
+      "text": "32"
+    },
+    {
+      "id": "3",
+      "text": "64"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "IPv4 usa 32 bits (4 octetos de 8 bits), expresados en decimal punteado (ej. 192.168.1.1).",
+  "irtA": 1.064,
+  "irtB": 0.9,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

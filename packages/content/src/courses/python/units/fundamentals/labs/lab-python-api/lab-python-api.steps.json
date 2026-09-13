@@ -1,0 +1,54 @@
+{
+  "id": "lab-python-api",
+  "title": "Consumir una REST API con requests",
+  "steps": [
+    {
+      "instruction": "Instala requests si no lo tienes instalado.",
+      "expectedCommand": "pip install requests",
+      "hint": "Verifica con 'pip list' que requests este en la lista de paquetes."
+    },
+    {
+      "instruction": "Realiza un GET a https://jsonplaceholder.typicode.com/posts y guarda la respuesta.",
+      "expectedCommand": "response = requests.get('https://jsonplaceholder.typicode.com/posts')",
+      "hint": "Usa requests.get() y asigna el resultado a una variable."
+    },
+    {
+      "instruction": "Parsea la respuesta como JSON y muestra los primeros 3 posts.",
+      "expectedCommand": "data = response.json()",
+      "hint": "Usa response.json() para convertir la respuesta a un diccionario/lista de Python."
+    },
+    {
+      "instruction": "Implementa manejo de errores con try/except para capturar exceptions de conexion.",
+      "expectedCommand": "try: ... except requests.exceptions.RequestException as e:",
+      "hint": "Captura requests.exceptions.RequestException para errores generales de HTTP."
+    },
+    {
+      "instruction": "Guarda los posts en un archivo posts.json con formato JSON indentado.",
+      "expectedCommand": "json.dump(data, f, indent=2)",
+      "hint": "Usa json.dump() con indent=2 para un formato legible."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "pc",
+        "name": "dev-machine",
+        "x": 100,
+        "y": 150
+      },
+      {
+        "type": "server",
+        "name": "api-server",
+        "x": 300,
+        "y": 150
+      }
+    ],
+    "links": [
+      {
+        "from": "dev-machine",
+        "to": "api-server"
+      }
+    ]
+  },
+  "validation": null
+}

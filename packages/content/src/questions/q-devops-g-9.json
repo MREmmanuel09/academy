@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-9",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué hace `git stash`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Borra cambios"
+    },
+    {
+      "id": "1",
+      "text": "Guarda cambios sin commitear y limpia el working dir"
+    },
+    {
+      "id": "2",
+      "text": "Commitea cambios"
+    },
+    {
+      "id": "3",
+      "text": "Hace push"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "git stash guarda cambios no commiteados en una pila y restaura el working dir. `git stash pop` los recupera.",
+  "irtA": 0.972,
+  "irtB": 1.32,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

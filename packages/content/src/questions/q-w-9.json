@@ -1,0 +1,14 @@
+{
+  "id": "q-w-9",
+  "quizId": "exam-security",
+  "type": "truefalse",
+  "prompt": "DFS en 5 GHz es para evitar interferir con radares meteorológicos.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. DFS (Dynamic Frequency Selection) en 5 GHz detecta radares y libera el canal automáticamente.",
+  "irtA": 1.116,
+  "irtB": -0.08,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

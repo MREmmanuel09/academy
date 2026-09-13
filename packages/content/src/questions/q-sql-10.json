@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-10",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué hace la cláusula ORDER BY price DESC?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cuenta precios distintos"
+    },
+    {
+      "id": "1",
+      "text": "Filtra por precio"
+    },
+    {
+      "id": "2",
+      "text": "Ordena de mayor a menor precio"
+    },
+    {
+      "id": "3",
+      "text": "Calcula el precio total"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "ORDER BY price DESC ordena los resultados por precio de mayor a menor (descendente).",
+  "irtA": 1.1920000000000002,
+  "irtB": 1.64,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

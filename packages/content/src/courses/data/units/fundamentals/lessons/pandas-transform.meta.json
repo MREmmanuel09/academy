@@ -1,0 +1,15 @@
+{
+  "id": "pandas-transform",
+  "title": "Pandas: merge, join, concat, melt y stack",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 70,
+  "summary": "Combina DataFrames como en SQL y reformatea entre wide/long para analisis y visualizacion.",
+  "keyTakeaways": [
+    "concat apila; merge une por clave (estilo SQL); join une por indice.",
+    "Tipos de join: inner (default), left, right, outer. Cuidado con claves duplicadas.",
+    "melt convierte wide -> long, ideal para graficar con Seaborn.",
+    "validate=\"one_to_one\" en merge previene explosiones cartesianas accidentales."
+  ]
+}

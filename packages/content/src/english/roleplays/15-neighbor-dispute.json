@@ -1,0 +1,64 @@
+{
+  "id": "15-neighbor-dispute",
+  "title": "Neighbor noise complaint",
+  "titleEs": "Queja al vecino por ruido",
+  "level": "B1",
+  "scenario": "Your upstairs neighbor plays loud music every night. You haven't been able to sleep. You knock on their door to talk about it.",
+  "aiCharacter": "Your upstairs neighbor",
+  "userRole": "Fed-up neighbor downstairs",
+  "greeting": "Oh, hi. What's up?",
+  "objectives": [
+    "Politely describe the problem (loud music at night)",
+    "Explain how it affects you (can't sleep)",
+    "Ask for a specific change (lower volume, earphones, after 10pm)",
+    "Stay calm and not aggressive"
+  ],
+  "vocabulary": [
+    {
+      "word": "to be reasonable",
+      "translation": "ser razonable",
+      "example": "I'm sure we can be reasonable about this."
+    },
+    { "word": "noise", "translation": "ruido", "example": "The noise keeps me awake." },
+    {
+      "word": "to keep [someone] up",
+      "translation": "mantener despierto",
+      "example": "The music keeps me up at night."
+    },
+    {
+      "word": "to compromise",
+      "translation": "llegar a un acuerdo",
+      "example": "Can we compromise?"
+    },
+    { "word": "to apologize", "translation": "disculparse", "example": "Sorry to bother you." },
+    { "word": "reasonable", "translation": "razonable", "example": "It's not a reasonable hour." },
+    {
+      "word": "to turn down",
+      "translation": "bajar el volumen",
+      "example": "Could you turn the volume down?"
+    },
+    {
+      "word": "to be considerate",
+      "translation": "ser considerado",
+      "example": "Please be more considerate."
+    }
+  ],
+  "falseFriends": [
+    { "word": "sympathetic", "trap": "simpático", "real": "compasivo" },
+    { "word": "compromise", "trap": "compromiso", "real": "acuerdo" }
+  ],
+  "successCriteria": [
+    "User describes the problem calmly",
+    "User explains the impact (can't sleep)",
+    "User asks for a specific change",
+    "User ends constructively"
+  ],
+  "fallbackHints": [
+    "Start with: 'Hi, sorry to bother you. I wanted to talk about the music.'",
+    "Say: 'The music after 10pm keeps me awake.'",
+    "End with: 'Thanks for understanding. I appreciate it.'"
+  ],
+  "aiSystemPrompt": "You are the upstairs neighbor. You didn't realize the music was that loud, or you thought it was OK because it's your place. You might be a bit defensive at first, but you should be willing to compromise. Be reasonable and try to find a solution (lower volume, earphones, quiet hours). Correct major mistakes gently.",
+  "firstTurn": "Oh, hi. Is everything OK?",
+  "exchangeCount": 8
+}

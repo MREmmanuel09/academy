@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-8",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué componente de red conecta tu VPC a Internet?",
+  "options": [
+    {
+      "id": "0",
+      "text": "NAT Gateway"
+    },
+    {
+      "id": "1",
+      "text": "Internet Gateway"
+    },
+    {
+      "id": "2",
+      "text": "VPN Gateway"
+    },
+    {
+      "id": "3",
+      "text": "Direct Connect"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Internet Gateway (IGW) es la puerta a Internet para tu VPC. NAT Gateway permite a subnets privadas salir a Internet sin ser accesibles.",
+  "irtA": 1.1920000000000002,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

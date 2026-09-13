@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-op-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es un Operator pattern?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una persona que opera"
+    },
+    {
+      "id": "1",
+      "text": "CRD + Controller que automatiza tareas de una app específica"
+    },
+    {
+      "id": "2",
+      "text": "Un plugin"
+    },
+    {
+      "id": "3",
+      "text": "Un monitor"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Operator pattern: CRD (el recurso) + Controller (que lo reconcilia) = automatización de domain knowledge.",
+  "irtA": 0.936,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

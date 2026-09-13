@@ -1,0 +1,69 @@
+{
+  "id": "lab-data-cleaning",
+  "title": "Limpieza y transformación de datos",
+  "steps": [
+    {
+      "instruction": "PASO 1 - Cargar datos sucios: Importa pandas y carga el dataset 'dirty_data.csv' que contiene valores nulos, duplicados y formatos inconsistentes.",
+      "expectedCommand": "import pandas as pd\ndf = pd.read_csv('dirty_data.csv')\nprint(f'Filas iniciales: {len(df)}')\nprint(f'Columnas: {list(df.columns)}')",
+      "hint": "Usa pd.read_csv() para cargar el archivo. len(df) muestra el número de filas."
+    },
+    {
+      "instruction": "PASO 2 - Manejar nulos: Identifica y trata los valores nulos. Rellena nulos numéricos con la mediana y nulos de texto con 'Unknown'.",
+      "expectedCommand": "print(df.isnull().sum())\nfor col in df.select_dtypes(include=['number']).columns:\n    df[col].fillna(df[col].median(), inplace=True)\nfor col in df.select_dtypes(include=['object']).columns:\n    df[col].fillna('Unknown', inplace=True)",
+      "hint": "isnull().sum() cuenta nulos. fillna() rellena valores nulos. median() calcula la mediana."
+    },
+    {
+      "instruction": "PASO 3 - Eliminar duplicados: Identifica y elimina las filas completamente duplicadas del DataFrame.",
+      "expectedCommand": "duplicados = df.duplicated().sum()\nprint(f'Duplicados encontrados: {duplicados}')\ndf = df.drop_duplicates()\nprint(f'Filas después de eliminar duplicados: {len(df)}')",
+      "hint": "duplicated() detecta filas duplicadas. drop_duplicates() las elimina."
+    },
+    {
+      "instruction": "PASO 4 - Normalizar columnas: Convierte los nombres de columnas a minúsculas, reemplaza espacios por guiones bajos y elimina caracteres especiales.",
+      "expectedCommand": "df.columns = df.columns.str.lower().str.replace(' ', '_').str.replace('[^a-z0-9_]', '', regex=True)\nprint('Columnas normalizadas:', list(df.columns))",
+      "hint": "str.lower() convierte a minúsculas. str.replace() reemplaza caracteres. regex=True permite expresiones regulares."
+    },
+    {
+      "instruction": "PASO 5 - Validar datos: Verifica que las columnas numéricas tengan valores positivos y que las fechas estén en formato correcto.",
+      "expectedCommand": "num_cols = df.select_dtypes(include=['number']).columns\nfor col in num_cols:\n    negativos = (df[col] < 0).sum()\n    if negativos > 0:\n        print(f'Advertencia: {negativos} valores negativos en {col}')\ndf['date'] = pd.to_datetime(df['date'], errors='coerce')\nprint('Fechas convertidas:', df['date'].head())",
+      "hint": "to_datetime() con errors='coerce' convierte fechas inválidas a NaT. Verifica valores negativos en columnas numéricas."
+    },
+    {
+      "instruction": "PASO 6 - Guardar datos limpios: Exporta el DataFrame limpio a un nuevo archivo CSV 'clean_data.csv'.",
+      "expectedCommand": "df.to_csv('clean_data.csv', index=False)\nprint(f'Datos limpios guardados: {len(df)} filas')\nprint('Primeras filas del dataset limpio:')\nprint(df.head())",
+      "hint": "to_csv() exporta a CSV. index=False evita guardar el índice como columna."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "Datos Sucios",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "Pipeline Limpieza",
+        "x": 200,
+        "y": 220
+      },
+      {
+        "type": "server",
+        "name": "Datos Limpios",
+        "x": 200,
+        "y": 340
+      }
+    ],
+    "links": [
+      {
+        "from": "Datos Sucios",
+        "to": "Pipeline Limpieza"
+      },
+      {
+        "from": "Pipeline Limpieza",
+        "to": "Datos Limpios"
+      }
+    ]
+  },
+  "validation": "Al completar los pasos, deberías poder: cargar datasets con problemas, tratar valores nulos (numéricos y categóricos), eliminar duplicados, normalizar nombres de columnas, validar integridad de datos, y exportar datasets limpios."
+}

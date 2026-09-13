@@ -1,0 +1,15 @@
+{
+  "id": "iac-1",
+  "title": "Terraform: Infrastructure as Code",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 80,
+  "summary": "Definir infraestructura como código. Multi-cloud, reproducible, versionado.",
+  "keyTakeaways": [
+    "Terraform define infra como código. Workflow: init, plan, apply, destroy.",
+    "Providers se declaran en required_providers. Recursos con resource \"tipo\" \"nombre\".",
+    "State es crítico: en remote backend (S3, Terraform Cloud), NUNCA en git.",
+    "Módulos reutilizan código. Lifecycle rules controlan creación/destrucción."
+  ]
+}

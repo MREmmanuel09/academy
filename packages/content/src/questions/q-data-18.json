@@ -1,0 +1,14 @@
+{
+  "id": "q-data-18",
+  "quizId": "practice-general",
+  "type": "short",
+  "prompt": "¿Cuántas fases tiene el ciclo de vida del dato (Collect, Store, Process, Analyze, Visualize)?",
+  "options": null,
+  "correctAnswer": "5",
+  "explanation": "5 fases: Collect, Store, Process, Analyze, Visualize.",
+  "irtA": 1.016,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

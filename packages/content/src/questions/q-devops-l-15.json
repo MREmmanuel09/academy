@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-15",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué hace el sticky bit en un directorio?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Lo oculta"
+    },
+    {
+      "id": "1",
+      "text": "Solo el owner puede borrar sus archivos"
+    },
+    {
+      "id": "2",
+      "text": "Lo monta automáticamente"
+    },
+    {
+      "id": "3",
+      "text": "Lo cifra"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Sticky bit (/tmp lo tiene) significa que aunque el directorio sea world-writable, solo el owner del archivo o root puede borrarlo.",
+  "irtA": 0.804,
+  "irtB": 1.36,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

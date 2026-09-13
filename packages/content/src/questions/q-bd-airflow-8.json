@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-8",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que operator usarias para correr un pod de Kubernetes arbitrario como task?",
+  "options": [
+    {
+      "id": "0",
+      "text": "BashOperator"
+    },
+    {
+      "id": "1",
+      "text": "PythonOperator"
+    },
+    {
+      "id": "2",
+      "text": "KubernetesPodOperator"
+    },
+    {
+      "id": "3",
+      "text": "DockerOperator"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "KubernetesPodOperator crea un pod efimero para cada corrida del task. Util para ML jobs o ETL custom donde quieres control fino del ambiente.",
+  "irtA": 0.992,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

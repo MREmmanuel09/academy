@@ -1,0 +1,31 @@
+{
+  "id": "q-da-pd-8",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre .loc y .iloc?",
+  "options": [
+    {
+      "id": "0",
+      "text": ".loc usa etiquetas, .iloc usa posiciones enteras"
+    },
+    {
+      "id": "1",
+      "text": ".loc es mas rapido"
+    },
+    {
+      "id": "2",
+      "text": ".iloc solo funciona con strings"
+    },
+    {
+      "id": "3",
+      "text": "Son sinonimos"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": ".loc[row, col] accede por etiquetas; .iloc[row, col] accede por posicion entera. Mezclarlos es causa comun de bugs.",
+  "irtA": 1.036,
+  "irtB": -1.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

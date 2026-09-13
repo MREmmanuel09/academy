@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué archivo lista los archivos que Git debe ignorar?",
+  "options": [
+    {
+      "id": "0",
+      "text": ".gitignore"
+    },
+    {
+      "id": "1",
+      "text": "git.config"
+    },
+    {
+      "id": "2",
+      "text": "gitignore.txt"
+    },
+    {
+      "id": "3",
+      "text": ".git-config"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": ".gitignore en la raíz del repo. Patrones como *.log, node_modules/, .env.",
+  "irtA": 0.9560000000000001,
+  "irtB": 1.32,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

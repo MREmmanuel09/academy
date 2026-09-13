@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-19",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que hace fail2ban?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Firewall de aplicacion que bloquea IPs tras N intentos fallidos"
+    },
+    {
+      "id": "1",
+      "text": "Backup automatizado"
+    },
+    {
+      "id": "2",
+      "text": "Monitoreo de logs"
+    },
+    {
+      "id": "3",
+      "text": "Load balancer"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "fail2ban escanea logs (auth.log) y banea IPs con muchos intentos fallidos via iptables/nftables. Protege contra brute force en SSH, HTTP, etc.",
+  "irtA": 1.04,
+  "irtB": -0.4,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

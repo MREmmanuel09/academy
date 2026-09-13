@@ -1,0 +1,147 @@
+{
+  "id": "game-listening",
+  "title": "Listening",
+  "titleEs": "Comprensión auditiva",
+  "level": "A1-A2",
+  "rounds": [
+    {
+      "id": "l1",
+      "level": "A1",
+      "sentence": "Where is the train station?",
+      "translation": "¿Dónde está la estación de tren?",
+      "options": [
+        "¿Dónde está la estación de tren?",
+        "¿Cómo llego al centro?",
+        "¿Cuándo sale el próximo tren?",
+        "¿Puedo pagar con tarjeta?"
+      ]
+    },
+    {
+      "id": "l2",
+      "level": "A1",
+      "sentence": "I would like a coffee, please.",
+      "translation": "Me gustaría un café, por favor.",
+      "options": [
+        "Me gustaría un café, por favor.",
+        "¿Tienen té?",
+        "La cuenta, por favor.",
+        "¿Dónde está el baño?"
+      ]
+    },
+    {
+      "id": "l3",
+      "level": "A1",
+      "sentence": "How much does it cost?",
+      "translation": "¿Cuánto cuesta?",
+      "options": ["¿Cuánto cuesta?", "¿Aceptan tarjetas?", "¿Está incluido?", "¿Tiene cambio?"]
+    },
+    {
+      "id": "l4",
+      "level": "A2",
+      "sentence": "I've been waiting for forty minutes.",
+      "translation": "Llevo cuarenta minutos esperando.",
+      "options": [
+        "Llevo cuarenta minutos esperando.",
+        "Espero desde hace una hora.",
+        "Llegué hace media hora.",
+        "Tengo cuarenta minutos libres."
+      ]
+    },
+    {
+      "id": "l5",
+      "level": "A2",
+      "sentence": "Could you tell me where the library is?",
+      "translation": "¿Podría decirme dónde está la biblioteca?",
+      "options": [
+        "¿Podría decirme dónde está la biblioteca?",
+        "¿Cómo llego a la biblioteca?",
+        "¿La biblioteca abre los domingos?",
+        "¿Hay una biblioteca por aquí?"
+      ]
+    },
+    {
+      "id": "l6",
+      "level": "A2",
+      "sentence": "I usually wake up at seven in the morning.",
+      "translation": "Normalmente me despierto a las siete de la mañana.",
+      "options": [
+        "Normalmente me despierto a las siete de la mañana.",
+        "Me levanto a las siete cada día.",
+        "Hoy me desperté a las siete.",
+        "Tengo que madrugar mañana."
+      ]
+    },
+    {
+      "id": "l7",
+      "level": "A2",
+      "sentence": "I'm looking forward to the weekend.",
+      "translation": "Estoy deseando que llegue el fin de semana.",
+      "options": [
+        "Estoy deseando que llegue el fin de semana.",
+        "Este fin de semana voy a descansar.",
+        "Tengo planes para el sábado.",
+        "El fin de semana trabajaré."
+      ]
+    },
+    {
+      "id": "l8",
+      "level": "A2",
+      "sentence": "She has been living in Madrid for three years.",
+      "translation": "Ella ha estado viviendo en Madrid durante tres años.",
+      "options": [
+        "Ella ha estado viviendo en Madrid durante tres años.",
+        "Vivió en Madrid durante tres años.",
+        "Vive en Madrid desde hace poco.",
+        "Hace tres años se mudó a Madrid."
+      ]
+    },
+    {
+      "id": "l9",
+      "level": "B1",
+      "sentence": "If I had known, I would have called you earlier.",
+      "translation": "Si hubiera sabido, te habría llamado antes.",
+      "options": [
+        "Si hubiera sabido, te habría llamado antes.",
+        "Como no sabía, no te llamé.",
+        "Debería haberte llamado antes.",
+        "Te llamé porque me enteré."
+      ]
+    },
+    {
+      "id": "l10",
+      "level": "B1",
+      "sentence": "The project was eventually completed on time.",
+      "translation": "El proyecto finalmente se completó a tiempo.",
+      "options": [
+        "El proyecto finalmente se completó a tiempo.",
+        "El proyecto estuvo listo cuando se debía.",
+        "Tardamos más de lo previsto.",
+        "Hubo que reprogramar el proyecto."
+      ]
+    },
+    {
+      "id": "l11",
+      "level": "B1",
+      "sentence": "I didn't realize how expensive it would be.",
+      "translation": "No me di cuenta de lo caro que sería.",
+      "options": [
+        "No me di cuenta de lo caro que sería.",
+        "No sabía que costaba tanto.",
+        "Me sorprendió el precio bajo.",
+        "Esperaba que fuera más barato."
+      ]
+    },
+    {
+      "id": "l12",
+      "level": "B1",
+      "sentence": "We should consider all the options before deciding.",
+      "translation": "Deberíamos considerar todas las opciones antes de decidir.",
+      "options": [
+        "Deberíamos considerar todas las opciones antes de decidir.",
+        "Tenemos que decidir pronto.",
+        "Ya hemos considerado las opciones.",
+        "Hay que elegir una opción ya."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sql-6",
+  "title": "Indexes y query performance (EXPLAIN, B-tree, hash)",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 16,
+  "xp": 85,
+  "summary": "Cómo hacer queries rápidas. Indexes, planes de ejecución, y por qué tu query tarda 10 minutos.",
+  "keyTakeaways": [
+    "Sin índice, las queries hacen full table scan. Indexa columnas en WHERE, JOIN, ORDER BY.",
+    "B-tree es el default y cubre 95% de los casos. GIN para JSON/arrays, BRIN para time series.",
+    "EXPLAIN ANALYZE muestra el plan. Si ves Seq Scan en tabla grande, falta índice.",
+    "Los índices cuestan en escrituras. Mantén 3-7 por tabla. Borra los que nadie usa."
+  ]
+}

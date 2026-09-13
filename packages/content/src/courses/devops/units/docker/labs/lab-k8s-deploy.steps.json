@@ -1,0 +1,89 @@
+{
+  "id": "lab-k8s-deploy",
+  "title": "Deploy de app en Kubernetes",
+  "steps": [
+    {
+      "instruction": "Crea un namespace llamado \"web\".",
+      "expectedCommand": "kubectl create namespace web",
+      "hint": "Los namespaces aíslan recursos. web es para separar producción de otros entornos."
+    },
+    {
+      "instruction": "Aplica el manifiesto del Deployment de nginx (3 replicas) en ese namespace.",
+      "expectedCommand": "kubectl apply -f deployment.yaml -n web",
+      "hint": "El YAML debe tener kind: Deployment, spec.replicas: 3, y namespace: web."
+    },
+    {
+      "instruction": "Verifica el estado de los pods.",
+      "expectedCommand": "kubectl get pods -n web -w",
+      "hint": "El flag -w muestra cambios en tiempo real (watch). Ctrl+C para salir."
+    },
+    {
+      "instruction": "Escala el deployment a 5 replicas.",
+      "expectedCommand": "kubectl scale deployment nginx-deployment --replicas=5 -n web",
+      "hint": "kubectl scale es un cambio inmediato, no necesita apply de un YAML."
+    },
+    {
+      "instruction": "Aplica el manifiesto del Service tipo NodePort.",
+      "expectedCommand": "kubectl apply -f service.yaml -n web",
+      "hint": "NodePort expone el servicio en un puerto del nodo (30000-32767)."
+    },
+    {
+      "instruction": "Verifica que el Service tenga endpoints asignados.",
+      "expectedCommand": "kubectl get endpoints -n web",
+      "hint": "Si endpoints está vacío, los labels del Service no coinciden con el Deployment."
+    },
+    {
+      "instruction": "Actualiza la imagen del deployment a una nueva version con un rolling update.",
+      "expectedCommand": "kubectl set image deployment/nginx-deployment nginx=nginx:1.25 -n web",
+      "hint": "Rolling update reemplaza pods gradualmente. strategy.type: RollingUpdate en el YAML."
+    },
+    {
+      "instruction": "Verifica que el rollout se completo exitosamente.",
+      "expectedCommand": "kubectl rollout status deployment/nginx-deployment -n web",
+      "hint": "Si falla, usa kubectl rollout undo para revertir al anterior."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "k8s-master",
+        "x": 100,
+        "y": 100
+      },
+      {
+        "type": "server",
+        "name": "k8s-node-1",
+        "x": 250,
+        "y": 80
+      },
+      {
+        "type": "server",
+        "name": "k8s-node-2",
+        "x": 250,
+        "y": 180
+      },
+      {
+        "type": "pc",
+        "name": "kubectl",
+        "x": 100,
+        "y": 250
+      }
+    ],
+    "links": [
+      {
+        "from": "kubectl",
+        "to": "k8s-master"
+      },
+      {
+        "from": "k8s-master",
+        "to": "k8s-node-1"
+      },
+      {
+        "from": "k8s-master",
+        "to": "k8s-node-2"
+      }
+    ]
+  },
+  "validation": "Al completar, el Deployment debe tener las replicas Ready, el Service accesible y el rollout registrado sin downtime."
+}

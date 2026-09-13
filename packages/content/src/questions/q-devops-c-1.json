@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-1",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué significa IaaS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Internet as a Service"
+    },
+    {
+      "id": "1",
+      "text": "Infrastructure as a Service"
+    },
+    {
+      "id": "2",
+      "text": "Integration as a Service"
+    },
+    {
+      "id": "3",
+      "text": "Internal as a Service"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "IaaS: te dan VMs, redes, storage. Tú gestionas OS, runtime, app. Ej: EC2, Azure VM.",
+  "irtA": 1.1640000000000001,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

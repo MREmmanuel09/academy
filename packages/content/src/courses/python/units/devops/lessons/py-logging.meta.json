@@ -1,0 +1,15 @@
+{
+  "id": "py-logging",
+  "title": "Logging estructurado: logging + JSON",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 18,
+  "xp": 75,
+  "summary": "Logging profesional con el modulo logging: niveles, handlers, formato JSON para produccion.",
+  "keyTakeaways": [
+    "Usa logging (nunca print en produccion). Niveles: DEBUG/INFO/WARNING/ERROR/CRITICAL.",
+    "logger = logging.getLogger(__name__) en cada modulo.",
+    "JSON logging para ingestion en Loki/Elasticsearch/Datadog.",
+    "extra={} agrega contexto estructurado (user_id, request_id, etc)."
+  ]
+}

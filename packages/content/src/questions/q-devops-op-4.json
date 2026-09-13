@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-op-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué hace cert-manager?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Borra certs"
+    },
+    {
+      "id": "1",
+      "text": "Automatiza TLS con Let's Encrypt y rotación"
+    },
+    {
+      "id": "2",
+      "text": "Solo firma"
+    },
+    {
+      "id": "3",
+      "text": "Solo lee"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "cert-manager: automatiza emisión y rotación de certificados TLS. Integración con Let's Encrypt, Vault, etc.",
+  "irtA": 0.9440000000000001,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

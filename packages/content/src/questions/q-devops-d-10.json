@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-10",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace `docker exec -it container bash`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Reinicia el container"
+    },
+    {
+      "id": "1",
+      "text": "Abre un shell interactivo dentro del container"
+    },
+    {
+      "id": "2",
+      "text": "Borra el container"
+    },
+    {
+      "id": "3",
+      "text": "Crea imagen"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "docker exec ejecuta un comando en un container corriendo. -i interactivo, -t asigna TTY. Útil para debug.",
+  "irtA": 1.072,
+  "irtB": 0.4,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

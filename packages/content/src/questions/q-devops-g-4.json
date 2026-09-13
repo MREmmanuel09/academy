@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es la diferencia entre merge y rebase?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son lo mismo"
+    },
+    {
+      "id": "1",
+      "text": "Merge preserva historia, rebase la reescribe"
+    },
+    {
+      "id": "2",
+      "text": "Rebase es más lento"
+    },
+    {
+      "id": "3",
+      "text": "Merge borra commits"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Merge crea un commit de merge preservando la historia. Rebase reescribe commits para tener historia lineal.",
+  "irtA": 0.9520000000000001,
+  "irtB": 1.32,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

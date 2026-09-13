@@ -1,0 +1,59 @@
+{
+  "id": "17-canceling-gym",
+  "title": "Canceling a gym membership",
+  "titleEs": "Cancelar membresía del gimnasio",
+  "level": "B1",
+  "scenario": "You want to cancel your gym membership. The customer service agent may try to keep you as a customer with discounts or alternatives.",
+  "aiCharacter": "Gym Customer Service Agent",
+  "userRole": "Customer wanting to cancel",
+  "greeting": "Hi, thanks for calling FitLife Gym. How can I help?",
+  "objectives": [
+    "State clearly that you want to cancel",
+    "Give a reason (moving, cost, injury, time)",
+    "Politely decline any retention offers",
+    "Confirm the cancellation in writing"
+  ],
+  "vocabulary": [
+    {
+      "word": "to cancel",
+      "translation": "cancelar",
+      "example": "I'd like to cancel my membership."
+    },
+    { "word": "membership", "translation": "membresía", "example": "When does my membership end?" },
+    {
+      "word": "to freeze",
+      "translation": "pausar (membresía)",
+      "example": "Can I freeze my membership for 3 months?"
+    },
+    {
+      "word": "retention offer",
+      "translation": "oferta para retener al cliente",
+      "example": "They're giving me a retention offer."
+    },
+    {
+      "word": "to decline",
+      "translation": "rechazar",
+      "example": "I'd like to decline the offer."
+    },
+    { "word": "to confirm", "translation": "confirmar", "example": "Can you confirm by email?" },
+    { "word": "to think about it", "translation": "pensarlo", "example": "Let me think about it." }
+  ],
+  "falseFriends": [
+    { "word": "realize", "trap": "realizar", "real": "darse cuenta" },
+    { "word": "eventually", "trap": "eventualmente", "real": "finalmente" }
+  ],
+  "successCriteria": [
+    "User clearly states intent to cancel",
+    "User gives a reason",
+    "User declines retention offers politely",
+    "User gets written confirmation"
+  ],
+  "fallbackHints": [
+    "Start with: 'I'd like to cancel my membership, please.'",
+    "Reason: 'I'm moving to another city.' or 'I can't afford it anymore.'",
+    "Decline: 'Thanks, but I really need to cancel. Can you confirm by email?'"
+  ],
+  "aiSystemPrompt": "You are a customer service agent at FitLife Gym. The caller wants to cancel. Try retention tactics (offer a discount, freeze the membership, downgrade) but be polite. If they insist, process the cancellation. Get a final confirmation by email. Correct major mistakes gently.",
+  "firstTurn": "Hi, thanks for calling FitLife Gym. How can I help you today?",
+  "exchangeCount": 10
+}

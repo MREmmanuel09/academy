@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-16",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Cual es el riesgo de \"chmod 777 archivo\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay riesgo"
+    },
+    {
+      "id": "1",
+      "text": "Todos pueden leer/escribir/ejecutar, malware puede tomar el control"
+    },
+    {
+      "id": "2",
+      "text": "Solo root puede acceder"
+    },
+    {
+      "id": "3",
+      "text": "Es mejor que 755"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "chmod 777 da permisos a todos. Malware que llega al container puede escribir/modificar/ejecutar el archivo. Usar minimo necesario: 644 (files) o 755 (binarios).",
+  "irtA": 1.052,
+  "irtB": -0.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-10",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es la diferencia entre `git fetch` y `git pull`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son lo mismo"
+    },
+    {
+      "id": "1",
+      "text": "Fetch solo descarga, pull descarga y mergea"
+    },
+    {
+      "id": "2",
+      "text": "Pull solo descarga"
+    },
+    {
+      "id": "3",
+      "text": "Fetch borra"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "git fetch descarga refs/objects del remoto sin modificar tu working dir. git pull = fetch + merge.",
+  "irtA": 0.9640000000000001,
+  "irtB": 0.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

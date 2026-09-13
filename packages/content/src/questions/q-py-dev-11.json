@@ -1,0 +1,14 @@
+{
+  "id": "q-py-dev-11",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "subprocess.run(cmd, shell=True) con input del usuario es una vulnerabilidad de command injection.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "shell=True interpreta caracteres especiales. Usa siempre lista de args: subprocess.run([\"ls\", user_input]).",
+  "irtA": 0.976,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

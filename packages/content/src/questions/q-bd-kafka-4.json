@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-kafka-4",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que sucede si envias mensajes con la misma key a Kafka?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Van a particiones aleatorias"
+    },
+    {
+      "id": "1",
+      "text": "Siempre van a la misma particion (orden garantizado por key)"
+    },
+    {
+      "id": "2",
+      "text": "Son rechazados"
+    },
+    {
+      "id": "3",
+      "text": "Se duplican en todas las particiones"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El default partitioner hace hash(key) % num_partitions. Misma key = misma particion. Esto garantiza que eventos de un mismo user_id lleguen en orden.",
+  "irtA": 1,
+  "irtB": -0.8,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

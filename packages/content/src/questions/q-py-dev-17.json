@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-17",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En paramiko (SSH), ¿qué política de host key es la mas segura para producción?",
+  "options": [
+    {
+      "id": "0",
+      "text": "AutoAddPolicy (acepta cualquier host)"
+    },
+    {
+      "id": "1",
+      "text": "WarningPolicy (warning pero acepta)"
+    },
+    {
+      "id": "2",
+      "text": "RejectPolicy (rechaza hosts no conocidos)"
+    },
+    {
+      "id": "3",
+      "text": "NoHostKeyPolicy"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "RejectPolicy rechaza conexiones a hosts no en known_hosts. AutoAddPolicy es vulnerable a MITM.",
+  "irtA": 0.9520000000000001,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

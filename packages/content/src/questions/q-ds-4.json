@@ -1,0 +1,31 @@
+{
+  "id": "q-ds-4",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Por que NUNCA debes poner secrets en variables de entorno?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No se pueden exportar"
+    },
+    {
+      "id": "1",
+      "text": "Aparecen en docker inspect, ps aux, logs, child processes; no rotan; no hay audit"
+    },
+    {
+      "id": "2",
+      "text": "Cifran mal"
+    },
+    {
+      "id": "3",
+      "text": "Son muy lentas"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Env vars se ven en docker inspect, ps aux, logs. No rotan, no hay audit trail. Usa Vault o AWS Secrets Manager.",
+  "irtA": 0.904,
+  "irtB": 0.84,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

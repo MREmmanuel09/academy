@@ -1,0 +1,15 @@
+{
+  "id": "obs-1",
+  "title": "Observabilidad: OpenTelemetry, traces, logs",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 15,
+  "xp": 80,
+  "summary": "Los tres pilares, OpenTelemetry, distributed tracing, SLI/SLO monitoring.",
+  "keyTakeaways": [
+    "OpenTelemetry es el estándar CNCF: un SDK, múltiples backends.",
+    "Distributed tracing sigue un request a través de servicios con trace_id.",
+    "Trace context se propaga via header HTTP (W3C standard).",
+    "Spans permiten ver exactamente dónde se va la latencia."
+  ]
+}

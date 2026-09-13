@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-9",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué función de agregación cuenta el número de filas únicas?",
+  "options": [
+    {
+      "id": "0",
+      "text": "COUNT(*)"
+    },
+    {
+      "id": "1",
+      "text": "COUNT(column)"
+    },
+    {
+      "id": "2",
+      "text": "COUNT(DISTINCT column)"
+    },
+    {
+      "id": "3",
+      "text": "SUM(column)"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "COUNT(DISTINCT column) cuenta valores únicos (no nulos). COUNT(*) cuenta todas las filas, incluidos duplicados.",
+  "irtA": 0.872,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

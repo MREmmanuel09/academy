@@ -1,0 +1,31 @@
+{
+  "id": "q-r-7",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿En qué consiste el handshake DHCP?",
+  "options": [
+    {
+      "id": "0",
+      "text": "SYN, SYN-ACK, ACK"
+    },
+    {
+      "id": "1",
+      "text": "DORA"
+    },
+    {
+      "id": "2",
+      "text": "HELLO, ACKnowledge"
+    },
+    {
+      "id": "3",
+      "text": "AUTH, DATA"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El handshake DHCP es DORA: Discover, Offer, Request, Acknowledge. Permite al cliente obtener IP, máscara, gateway y DNS.",
+  "irtA": 1.088,
+  "irtB": 0.92,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

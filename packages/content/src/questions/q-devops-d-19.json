@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-19",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Cómo ves los logs de un container?",
+  "options": [
+    {
+      "id": "0",
+      "text": "docker log container"
+    },
+    {
+      "id": "1",
+      "text": "docker logs container"
+    },
+    {
+      "id": "2",
+      "text": "docker show container"
+    },
+    {
+      "id": "3",
+      "text": "docker cat container"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "docker logs <container>. Con -f hace follow (como tail -f). Con --tail N muestra las últimas N líneas.",
+  "irtA": 1.108,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

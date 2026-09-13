@@ -1,0 +1,15 @@
+{
+  "id": "mon-1",
+  "title": "Monitoring, métricas y observabilidad",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 75,
+  "summary": "Las 3 señales (logs, metrics, traces). Prometheus, Grafana, ELK.",
+  "keyTakeaways": [
+    "3 pilares: metrics (agregados), logs (eventos), traces (request path).",
+    "RED para servicios (Rate, Errors, Duration). USE para recursos (Utilization, Saturation, Errors).",
+    "Prometheus + Grafana es el stack open source estándar. PromQL queries métricas.",
+    "Alertas con Alertmanager van a Slack, PagerDuty, email."
+  ]
+}

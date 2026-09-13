@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-8",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Qué hace boto3.client() vs boto3.resource()?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son sinonimos"
+    },
+    {
+      "id": "1",
+      "text": "client es API de bajo nivel, resource es de alto nivel orientada a objetos"
+    },
+    {
+      "id": "2",
+      "text": "client es para S3, resource para EC2"
+    },
+    {
+      "id": "3",
+      "text": "resource es deprecated"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "client expone la API AWS 1:1, resource es una abstracción orientada a objetos mas pitonica.",
+  "irtA": 1.024,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

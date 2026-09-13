@@ -1,0 +1,15 @@
+{
+  "id": "l-7",
+  "title": "Bash scripting",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 18,
+  "xp": 80,
+  "summary": "Variables, condicionales, loops, funciones. Automatiza todo.",
+  "keyTakeaways": [
+    "Un script empieza con #!/bin/bash y se hace ejecutable con chmod +x.",
+    "Variables: $VAR o ${VAR}. Comparaciones: -eq, -lt, ==, -f, -d.",
+    "Pipes (|) encadenan comandos. Redirección (>, >>) envía a archivos.",
+    "Exit code 0 = éxito, no-cero = error. Útil en if/while."
+  ]
+}

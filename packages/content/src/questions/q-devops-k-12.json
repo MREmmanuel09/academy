@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-12",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué hace un Ingress?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Balancea carga interno"
+    },
+    {
+      "id": "1",
+      "text": "Enruta tráfico HTTP/HTTPS externo a servicios"
+    },
+    {
+      "id": "2",
+      "text": "Crea pods"
+    },
+    {
+      "id": "3",
+      "text": "Almacena datos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Ingress: capa 7 (HTTP), expone servicios al exterior. Requiere un Ingress Controller (nginx, traefik).",
+  "irtA": 0.8280000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

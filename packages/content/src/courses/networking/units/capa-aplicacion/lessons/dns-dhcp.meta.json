@@ -1,0 +1,15 @@
+{
+  "id": "dns-dhcp",
+  "title": "DNS y DHCP: resolucion de nombres y asignacion de IP",
+  "module": "capa-aplicacion",
+  "difficulty": "principiante",
+  "estimatedMinutes": 15,
+  "xp": 70,
+  "summary": "Como se resuelven nombres de dominio a IPs, y como se asignan direcciones automaticamente.",
+  "keyTakeaways": [
+    "DNS traduce nombres a IPs. Jerarquia: root -> TLD -> authoritative NS. Registros A, AAAA, CNAME, MX, TXT, NS.",
+    "DNS tiene cache (TTL). dig y nslookup son las herramientas para consultar.",
+    "DHCP asigna IPs via DORA: Discover, Offer, Request, Ack. Incluye IP, mascara, gateway, DNS.",
+    "En Kubernetes, CoreDNS resuelve servicios internos. En /etc/hosts puedes hacer overrides locales."
+  ]
+}

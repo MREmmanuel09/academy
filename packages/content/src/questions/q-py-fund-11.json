@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-11",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es la forma CORRECTA de abrir un archivo en Python?",
+  "options": [
+    {
+      "id": "0",
+      "text": "f = open(\"file.txt\")"
+    },
+    {
+      "id": "1",
+      "text": "with open(\"file.txt\", \"r\") as f: ..."
+    },
+    {
+      "id": "2",
+      "text": "open(\"file.txt\", \"r\")"
+    },
+    {
+      "id": "3",
+      "text": "f.read(\"file.txt\")"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El context manager (with) garantiza que el archivo se cierre incluso si hay excepciones. SIEMPRE usalo.",
+  "irtA": 1.1520000000000001,
+  "irtB": 0.68,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

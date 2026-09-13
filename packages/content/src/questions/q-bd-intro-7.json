@@ -1,0 +1,14 @@
+{
+  "id": "q-bd-intro-7",
+  "quizId": "exam-bigdata",
+  "type": "truefalse",
+  "prompt": "En un cluster de 1000 nodos, esperar al menos 1 fallo por dia es razonable.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Los fallos son la norma, no la excepcion. Un sistema distribuido robusto disena asumiendo que los nodos fallaran.",
+  "irtA": 1.044,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

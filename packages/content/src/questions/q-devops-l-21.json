@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-21",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Cómo generas un par de claves SSH con algoritmo ed25519?",
+  "options": [
+    {
+      "id": "0",
+      "text": "ssh-keygen -t rsa"
+    },
+    {
+      "id": "1",
+      "text": "ssh-keygen -t ed25519"
+    },
+    {
+      "id": "2",
+      "text": "ssh-keygen -t dsa"
+    },
+    {
+      "id": "3",
+      "text": "ssh --gen-key"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ssh-keygen -t ed25519 genera el par de claves con el algoritmo ed25519, el más moderno y seguro.",
+  "irtA": 0.912,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

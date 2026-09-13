@@ -1,0 +1,15 @@
+{
+  "id": "py-requests",
+  "title": "HTTP con requests: APIs REST y autenticacion",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 18,
+  "xp": 70,
+  "summary": "Consumir APIs externas: GET/POST/PUT/DELETE, headers, autenticacion basica y bearer tokens.",
+  "keyTakeaways": [
+    "requests: GET/POST/PUT/DELETE con .json(), .text, .status_code.",
+    "SIEMPRE timeout= para evitar cuelgues infinitos.",
+    "Sesiones (requests.Session) reutilizan conexiones y mantienen headers/cookies.",
+    "Reintentos automaticos para 5xx con urllib3.Retry + HTTPAdapter."
+  ]
+}

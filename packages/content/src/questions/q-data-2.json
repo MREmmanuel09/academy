@@ -1,0 +1,14 @@
+{
+  "id": "q-data-2",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "JSON es un ejemplo de dato estructurado.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Falso. JSON es semi-estructurado: tiene tags y jerarquía pero no un esquema fijo como una tabla SQL.",
+  "irtA": 0.884,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

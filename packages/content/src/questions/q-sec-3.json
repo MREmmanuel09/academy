@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-3",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué defensa principal hay contra ARP spoofing en switches?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Port security"
+    },
+    {
+      "id": "1",
+      "text": "DAI (Dynamic ARP Inspection)"
+    },
+    {
+      "id": "2",
+      "text": "ACL"
+    },
+    {
+      "id": "3",
+      "text": "BPDU guard"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "DAI valida los paquetes ARP contra una tabla DHCP snooping, descartando los ARP falsos.",
+  "irtA": 1.06,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-data-20",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué patrón medallion usa el modelo Bronze/Silver/Gold?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un patrón de seguridad"
+    },
+    {
+      "id": "1",
+      "text": "Un patrón de organización de datos en capas (crudo, limpio, agregado)"
+    },
+    {
+      "id": "2",
+      "text": "Un sistema de backups"
+    },
+    {
+      "id": "3",
+      "text": "Un protocolo de red"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El patrón medallion organiza los datos en 3 capas: Bronze (crudo), Silver (limpio) y Gold (agregado, listo para BI).",
+  "irtA": 1.108,
+  "irtB": -0.58,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

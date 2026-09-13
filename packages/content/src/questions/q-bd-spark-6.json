@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-6",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre reduceByKey y groupByKey?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son identicas"
+    },
+    {
+      "id": "1",
+      "text": "reduceByKey combina valores localmente antes del shuffle, groupByKey los mueve todos"
+    },
+    {
+      "id": "2",
+      "text": "groupByKey es mas rapido"
+    },
+    {
+      "id": "3",
+      "text": "reduceByKey no existe en Spark"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "reduceByKey aplica la funcion de reduccion localmente en cada partition antes de hacer shuffle. groupByKey mueve todos los valores a un solo nodo. Siempre prefiere reduceByKey.",
+  "irtA": 1.1400000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

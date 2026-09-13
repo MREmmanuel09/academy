@@ -1,0 +1,15 @@
+{
+  "id": "cost-1",
+  "title": "FinOps y optimización de costos cloud",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 12,
+  "xp": 65,
+  "summary": "Cost monitoring, right-sizing, reserved instances, spot instances, FinOps culture.",
+  "keyTakeaways": [
+    "Cloud waste promedio: 30-40%. FinOps es la cultura para combatirlo.",
+    "Right-sizing, Reserved Instances, Spot, auto-scaling son las 4 palancas.",
+    "Spot instances: 60-90% descuento, ideal para stateless y batch.",
+    "Tagging obligatorio para atribuir costos a equipos/proyectos."
+  ]
+}

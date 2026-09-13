@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-kafka-7",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es log compaction en Kafka?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Comprimir con gzip"
+    },
+    {
+      "id": "1",
+      "text": "Retener solo el ultimo valor por key, en vez de borrar por tiempo"
+    },
+    {
+      "id": "2",
+      "text": "Borrar todos los logs"
+    },
+    {
+      "id": "3",
+      "text": "Mover logs a S3"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Log compaction (cleanup.policy=compact) retiene el ultimo valor por key, sin importar cuanto tiempo paso. Util para mantener un estado actual (ej. ultimo perfil de usuario).",
+  "irtA": 1.012,
+  "irtB": -0.78,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

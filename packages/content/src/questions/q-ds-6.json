@@ -1,0 +1,31 @@
+{
+  "id": "q-ds-6",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que es SLSA?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un lenguaje de programacion"
+    },
+    {
+      "id": "1",
+      "text": "Supply chain Levels for Software Artifacts: framework de assurance"
+    },
+    {
+      "id": "2",
+      "text": "Una base de datos"
+    },
+    {
+      "id": "3",
+      "text": "Un antivirus"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "SLSA (salsa) es un framework de niveles (1-3) para asegurar la integridad del supply chain. SLSA 3 es lo que usa Google internamente.",
+  "irtA": 0.896,
+  "irtB": 0.84,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

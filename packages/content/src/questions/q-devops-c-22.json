@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-22",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué hace CloudWatch?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Almacena archivos"
+    },
+    {
+      "id": "1",
+      "text": "Métricas, logs y alarmas de AWS"
+    },
+    {
+      "id": "2",
+      "text": "Solo billing"
+    },
+    {
+      "id": "3",
+      "text": "Solo networking"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "CloudWatch: métricas (CPU, red), logs centralizados, alarmas (cuando métrica > threshold).",
+  "irtA": 0.8400000000000001,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

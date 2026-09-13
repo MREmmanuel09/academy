@@ -1,0 +1,15 @@
+{
+  "id": "data-3",
+  "title": "Calidad del dato",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 15,
+  "xp": 70,
+  "summary": "Validación, nulls, outliers, data drift. Por qué los datos malos son el enemigo #1.",
+  "keyTakeaways": [
+    "La calidad se mide en 6 dimensiones: completitud, exactitud, consistencia, validez, unicidad, actualidad.",
+    "Los nulls tienen semántica: propio, desconocido, no aplicable. Nunca los borres a ciegas.",
+    "Los outliers pueden ser errores o eventos raros reales: analiza antes de decidir.",
+    "El data drift degrada modelos con el tiempo. Monitorea distribución continuamente."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "slug": "networking",
+  "track": "networking",
+  "title": "Redes y Fundamentos",
+  "description": "De OSI/TCP-IP a routing, switching, wireless y seguridad.",
+  "difficulty": "beginner",
+  "estimatedHours": 30
+}

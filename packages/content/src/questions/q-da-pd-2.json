@@ -1,0 +1,31 @@
+{
+  "id": "q-da-pd-2",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "Que metodo muestra las primeras N filas de un DataFrame?",
+  "options": [
+    {
+      "id": "0",
+      "text": "df.top()"
+    },
+    {
+      "id": "1",
+      "text": "df.first()"
+    },
+    {
+      "id": "2",
+      "text": "df.head()"
+    },
+    {
+      "id": "3",
+      "text": "df.preview()"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "df.head(n) muestra las primeras n filas (default 5). Tambien existe df.tail(n) para las ultimas.",
+  "irtA": 1.012,
+  "irtB": -1.6,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "py-ssh",
+  "title": "SSH remoto con paramiko",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 18,
+  "xp": 75,
+  "summary": "Ejecutar comandos y transferir archivos por SSH desde Python: paramiko y fabric.",
+  "keyTakeaways": [
+    "paramiko: cliente SSH de bajo nivel, soporta exec y SFTP.",
+    "SIEMPRE key_filename en lugar de password. Carga la key de un vault.",
+    "set_missing_host_key_policy(AutoAddPolicy) acepta hosts nuevos (peligroso en prod).",
+    "Fabric: API mas amigable sobre paramiko. Ideal para scripts multi-host."
+  ]
+}

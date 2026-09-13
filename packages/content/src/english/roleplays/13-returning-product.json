@@ -1,0 +1,48 @@
+{
+  "id": "13-returning-product",
+  "title": "Returning a product",
+  "titleEs": "Devolver un producto",
+  "level": "A2",
+  "scenario": "You bought a jacket last week but it has a defect. You want to return it and get a refund.",
+  "aiCharacter": "Store Assistant",
+  "userRole": "Customer returning a defective product",
+  "greeting": "Hi there. Can I help you with anything?",
+  "objectives": [
+    "Explain the problem with the product",
+    "Show the receipt or proof of purchase",
+    "Request a refund or exchange",
+    "Stay calm and polite"
+  ],
+  "vocabulary": [
+    { "word": "receipt", "translation": "recibo", "example": "Here's my receipt." },
+    { "word": "to return", "translation": "devolver", "example": "I'd like to return this." },
+    { "word": "refund", "translation": "reembolso", "example": "Can I get a refund?" },
+    { "word": "exchange", "translation": "cambio", "example": "I'd prefer an exchange." },
+    { "word": "defect", "translation": "defecto", "example": "There's a defect on the zipper." },
+    { "word": "to fit", "translation": "quedar (ropa)", "example": "It doesn't fit properly." },
+    { "word": "warranty", "translation": "garantía", "example": "Is it still under warranty?" },
+    {
+      "word": "to complain",
+      "translation": "quejarse",
+      "example": "I want to complain about the quality."
+    }
+  ],
+  "falseFriends": [
+    { "word": "sympathetic", "trap": "simpático", "real": "compasivo" },
+    { "word": "realize", "trap": "realizar", "real": "darse cuenta" }
+  ],
+  "successCriteria": [
+    "User explains the problem clearly",
+    "User provides proof of purchase",
+    "User requests a specific solution",
+    "User stays polite"
+  ],
+  "fallbackHints": [
+    "Start with: 'I'd like to return this, please.'",
+    "Say: 'I bought it [when] and there's a defect.'",
+    "End with: 'Thank you for understanding.'"
+  ],
+  "aiSystemPrompt": "You are a store assistant. The customer wants to return a defective product. Be polite and follow store policy. Ask for the receipt. If the return is within the return period (usually 30 days), process the refund or exchange. Be helpful but realistic — you can't always approve everything. Correct major mistakes gently.",
+  "firstTurn": "Hi! How can I help you today?",
+  "exchangeCount": 8
+}

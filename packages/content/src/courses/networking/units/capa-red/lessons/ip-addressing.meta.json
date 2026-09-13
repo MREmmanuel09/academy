@@ -1,0 +1,15 @@
+{
+  "id": "ip-addressing",
+  "title": "Direccion IP: IPv4, subredes y CIDR",
+  "module": "capa-red",
+  "difficulty": "principiante",
+  "estimatedMinutes": 15,
+  "xp": 70,
+  "summary": "Como se identifican los dispositivos en una red, como se dividen subredes, y por que CIDR reemplazo a las clases.",
+  "keyTakeaways": [
+    "IPv4 usa 32 bits (4 octetos). IPv6 usa 128 bits. Las clases (A/B/C) son obsoletas, CIDR es el estandar.",
+    "CIDR permite divisiones flexibles: /24 = 254 hosts, /30 = 2 hosts (punto a punto).",
+    "Direcciones privadas (RFC 1918): 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16. No se rutean en Internet.",
+    "127.0.0.1 es loopback. 169.254.x.x es APIPA (sin DHCP)."
+  ]
+}

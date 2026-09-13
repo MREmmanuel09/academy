@@ -1,0 +1,31 @@
+{
+  "id": "q-t-7",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué mecanismo usa TCP para evitar saturar al receptor?",
+  "options": [
+    {
+      "id": "0",
+      "text": "MTU discovery"
+    },
+    {
+      "id": "1",
+      "text": "Ventana deslizante"
+    },
+    {
+      "id": "2",
+      "text": "TTL"
+    },
+    {
+      "id": "3",
+      "text": "ICMP unreachable"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "TCP usa control de flujo con ventana deslizante: el receptor anuncia cuánto buffer libre tiene (rwnd).",
+  "irtA": 1.1760000000000002,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

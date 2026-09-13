@@ -1,0 +1,64 @@
+{
+  "id": "14-asking-raise",
+  "title": "Asking for a raise",
+  "titleEs": "Pedir un aumento de sueldo",
+  "level": "B2",
+  "scenario": "You've been at the company for two years. You want to ask your manager for a raise because you've taken on more responsibility.",
+  "aiCharacter": "Your Manager",
+  "userRole": "Employee asking for a raise",
+  "greeting": "Hi, you wanted to talk to me?",
+  "objectives": [
+    "State your case clearly and confidently",
+    "Mention your achievements and new responsibilities",
+    "Propose a specific number (salary or percentage)",
+    "Listen to the manager's response and negotiate"
+  ],
+  "vocabulary": [
+    {
+      "word": "raise",
+      "translation": "aumento de sueldo",
+      "example": "I'd like to discuss a raise."
+    },
+    {
+      "word": "responsibility",
+      "translation": "responsabilidad",
+      "example": "I've taken on more responsibility."
+    },
+    {
+      "word": "achievement",
+      "translation": "logro",
+      "example": "My biggest achievement this year was..."
+    },
+    {
+      "word": "to negotiate",
+      "translation": "negociar",
+      "example": "Let's negotiate a fair salary."
+    },
+    { "word": "to deserve", "translation": "merecer", "example": "I think I deserve a raise." },
+    {
+      "word": "performance",
+      "translation": "desempeño",
+      "example": "My performance reviews have been excellent."
+    },
+    { "word": "salary", "translation": "salario", "example": "What's your current salary?" },
+    { "word": "to be worth", "translation": "valer", "example": "I believe I'm worth 10% more." }
+  ],
+  "falseFriends": [
+    { "word": "realize", "trap": "realizar", "real": "darse cuenta" },
+    { "word": "sensible", "trap": "sensible", "real": "razonable" }
+  ],
+  "successCriteria": [
+    "User states the case clearly",
+    "User mentions specific achievements",
+    "User proposes a specific number",
+    "User handles objections professionally"
+  ],
+  "fallbackHints": [
+    "Start with: 'I'd like to discuss my salary.'",
+    "Say: 'In the past year, I've [achievement].'",
+    "Propose: 'I believe a 10% raise is fair.'"
+  ],
+  "aiSystemPrompt": "You are a manager. Your direct report is asking for a raise. You respect them, but you have budget constraints. You want to understand their case. Be fair but also realistic. You may offer a smaller raise, a bonus, or other benefits. Be willing to negotiate but have limits. Correct major mistakes gently.",
+  "firstTurn": "Hi, you said you wanted to chat. Sure, what's on your mind?",
+  "exchangeCount": 10
+}

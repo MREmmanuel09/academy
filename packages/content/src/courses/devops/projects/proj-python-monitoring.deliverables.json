@@ -1,0 +1,31 @@
+{
+  "id": "proj-python-monitoring",
+  "deliverables": [
+    "Backend Python con FastAPI y arquitectura modular (services, repositories, schemas)",
+    "Scrapers de metricas custom con schedule (CPU por container, latency p99, queue depth)",
+    "SQLite con schema para series temporales + queries agregadas",
+    "API REST con OpenAPI docs y validacion con Pydantic",
+    "Dashboard web simple (HTML + JS vanilla o Streamlit) con graficos en tiempo real",
+    "Sistema de alertas con deduplicacion, silenciamiento, y escalamiento",
+    "Integracion con Slack (webhooks + Slack bot para ack/resolution)",
+    "Tests con pytest (unit + integration), coverage >80%",
+    "Dockerfile + docker-compose para dev y produccion",
+    "CI/CD con GitHub Actions (lint + test + build + deploy)",
+    "Documentacion: README, ARCHITECTURE.md, runbook de incidentes"
+  ],
+  "tech": [
+    "Python 3.11+",
+    "FastAPI + Uvicorn",
+    "Pydantic",
+    "SQLite (desarrollo) / PostgreSQL (produccion)",
+    "SQLAlchemy 2.0 (async)",
+    "httpx (async HTTP client)",
+    "schedule / APScheduler",
+    "slack-sdk (webhooks + bot)",
+    "pytest + pytest-cov + pytest-asyncio",
+    "structlog (logging JSON)",
+    "prometheus-client (exponer metricas del propio sistema)",
+    "Docker + docker-compose",
+    "GitHub Actions"
+  ]
+}

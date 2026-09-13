@@ -1,0 +1,68 @@
+{
+  "id": "11-bank-appointment",
+  "title": "Bank appointment",
+  "titleEs": "Cita en el banco",
+  "level": "A2",
+  "scenario": "You go to the bank to open a current account. You need to provide information and ask questions about fees.",
+  "aiCharacter": "Bank Advisor",
+  "userRole": "New customer opening a bank account",
+  "greeting": "Good morning. Do you have an appointment?",
+  "objectives": [
+    "Explain what you need (open an account)",
+    "Provide personal information (name, address, ID)",
+    "Ask about fees and minimum balance",
+    "Confirm the next steps"
+  ],
+  "vocabulary": [
+    {
+      "word": "current account",
+      "translation": "cuenta corriente",
+      "example": "I'd like to open a current account."
+    },
+    {
+      "word": "savings account",
+      "translation": "cuenta de ahorros",
+      "example": "How much interest do I get on a savings account?"
+    },
+    {
+      "word": "ID",
+      "translation": "documento de identidad",
+      "example": "Can I see your ID, please?"
+    },
+    {
+      "word": "proof of address",
+      "translation": "comprobante de domicilio",
+      "example": "I'll need proof of address."
+    },
+    { "word": "fee", "translation": "comisión", "example": "Is there a monthly fee?" },
+    {
+      "word": "minimum balance",
+      "translation": "saldo mínimo",
+      "example": "What's the minimum balance?"
+    },
+    {
+      "word": "debit card",
+      "translation": "tarjeta de débito",
+      "example": "When do I get the debit card?"
+    },
+    { "word": "to withdraw", "translation": "retirar", "example": "Can I withdraw money abroad?" }
+  ],
+  "falseFriends": [
+    { "word": "constipated", "trap": "constipado", "real": "estreñido" },
+    { "word": "sensible", "trap": "sensible (emocional)", "real": "razonable" }
+  ],
+  "successCriteria": [
+    "User explains what they need clearly",
+    "User provides all required information",
+    "User asks at least 2 questions about the account",
+    "User confirms understanding"
+  ],
+  "fallbackHints": [
+    "Say: 'I'd like to open a current account, please.'",
+    "Ask: 'Is there a monthly fee?' and 'What's the minimum balance?'",
+    "End with: 'Thank you for your help.'"
+  ],
+  "aiSystemPrompt": "You are a bank advisor. The customer wants to open a new account. Be professional, clear, and patient. Ask for the required documents (ID, proof of address). Explain the account types and fees. Correct major mistakes gently.",
+  "firstTurn": "Good morning. Welcome to First National Bank. How can I help you today?",
+  "exchangeCount": 8
+}

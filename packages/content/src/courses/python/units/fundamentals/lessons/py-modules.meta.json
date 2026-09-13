@@ -1,0 +1,15 @@
+{
+  "id": "py-modules",
+  "title": "Modulos, paquetes y __init__.py",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 50,
+  "summary": "Organizar codigo en modulos, paquetes, importacion, __name__, estructura profesional.",
+  "keyTakeaways": [
+    "Modulo = archivo .py. Paquete = directorio con __init__.py.",
+    "if __name__ == \"__main__\" separa \"ejecutable\" de \"importable\".",
+    "Evita \"import *\" — contamina el namespace.",
+    "Estructura profesional: src/ + tests/ + pyproject.toml."
+  ]
+}

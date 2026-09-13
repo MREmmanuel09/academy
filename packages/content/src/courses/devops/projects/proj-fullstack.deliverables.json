@@ -1,0 +1,21 @@
+{
+  "id": "proj-fullstack",
+  "deliverables": [
+    "Repositorio con IaC (Terraform)",
+    "Pipeline CI/CD con GitHub Actions",
+    "Aplicacion desplegada con HTTPS",
+    "Monitoring con Prometheus + Grafana",
+    "Backups automatizados",
+    "Runbook de incidentes"
+  ],
+  "tech": [
+    "Docker",
+    "Kubernetes (o ECS/Fargate)",
+    "Terraform",
+    "GitHub Actions",
+    "Prometheus",
+    "Grafana",
+    "PostgreSQL",
+    "Nginx"
+  ]
+}

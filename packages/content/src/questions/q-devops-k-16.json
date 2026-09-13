@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-16",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué hace kubectl exec -it pod -- bash?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Reinicia el pod"
+    },
+    {
+      "id": "1",
+      "text": "Abre un shell interactivo dentro del pod"
+    },
+    {
+      "id": "2",
+      "text": "Borra el pod"
+    },
+    {
+      "id": "3",
+      "text": "Crea pod"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "exec ejecuta comando en container corriendo. -i interactivo, -t TTY. Útil para troubleshooting.",
+  "irtA": 0.8440000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-h-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué comando muestra la tabla de rutas en Linux moderno?",
+  "options": [
+    {
+      "id": "0",
+      "text": "route"
+    },
+    {
+      "id": "1",
+      "text": "ip route"
+    },
+    {
+      "id": "2",
+      "text": "netstat -r"
+    },
+    {
+      "id": "3",
+      "text": "Todas son válidas"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "route, netstat -r e ip route son todas válidas, pero \"ip route\" es la recomendada (iproute2).",
+  "irtA": 1.028,
+  "irtB": -1.1,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

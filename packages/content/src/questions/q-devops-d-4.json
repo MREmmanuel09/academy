@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-d-4",
+  "quizId": "exam-docker",
+  "type": "truefalse",
+  "prompt": "Los containers Docker comparten el kernel del host.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "A diferencia de VMs, los containers comparten el kernel del host. Por eso son más ligeros pero menos aislados.",
+  "irtA": 1.02,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

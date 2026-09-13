@@ -1,0 +1,119 @@
+{
+  "id": "lab-ospf",
+  "title": "Configurar OSPF entre dos routers",
+  "steps": [
+    {
+      "instruction": "En R1, entra a enable y modo de configuracion global.",
+      "expectedCommand": "configure terminal",
+      "hint": "Primero 'enable' para entrar al modo privilegiado, luego 'configure terminal' para configuracion global."
+    },
+    {
+      "instruction": "Asigna el hostname R1.",
+      "expectedCommand": "hostname R1",
+      "hint": "El hostname identifica al router en la linea de comandos y en protocolos como CDP."
+    },
+    {
+      "instruction": "Entra a la interfaz LAN (G0/0).",
+      "expectedCommand": "interface GigabitEthernet 0/0",
+      "hint": "Puedes abreviar como 'int g0/0' para ir mas rapido."
+    },
+    {
+      "instruction": "Asignale una IP del rango 192.168.1.0/24, mascara /24.",
+      "expectedCommand": "ip address 192.168.1.1 255.255.255.0",
+      "hint": "Usa una IP libre de la subred, como 192.168.1.1 para el router."
+    },
+    {
+      "instruction": "Activa la interfaz con el comando para \"no apagar\".",
+      "expectedCommand": "no shutdown",
+      "hint": "Las interfaces estan apagadas por defecto en Cisco IOS."
+    },
+    {
+      "instruction": "Entra a la interfaz WAN (S0/0/0).",
+      "expectedCommand": "interface Serial 0/0/0",
+      "hint": "La interfaz serial se usa para enlaces WAN punto a punto."
+    },
+    {
+      "instruction": "Asignale una IP del rango 10.0.0.0/30, mascara /30.",
+      "expectedCommand": "ip address 10.0.0.1 255.255.255.252",
+      "hint": "Una red /30 solo tiene 2 IPs validos para hosts, ideal para enlaces point-to-point."
+    },
+    {
+      "instruction": "Activa la interfaz WAN.",
+      "expectedCommand": "no shutdown",
+      "hint": "Recuerda que la interfaz serial tambien necesita 'clock rate' en el lado DCE."
+    },
+    {
+      "instruction": "Ingresa al modo de configuracion del proceso OSPF con ID 1.",
+      "expectedCommand": "router ospf 1",
+      "hint": "El ID del proceso (1) es local al router, no necesita coincidir en ambos lados."
+    },
+    {
+      "instruction": "Anuncia la red LAN en area 0 con su wildcard mask.",
+      "expectedCommand": "network 192.168.1.0 0.0.0.255 area 0",
+      "hint": "La wildcard mask es la inversa de la mascara de subred: 255.255.255.0 -> 0.0.0.255."
+    },
+    {
+      "instruction": "Anuncia la red WAN en area 0 con su wildcard mask.",
+      "expectedCommand": "network 10.0.0.0 0.0.0.3 area 0",
+      "hint": "Wildcard para /30 es 0.0.0.3. Area 0 es el area backbone obligatorio en OSPF."
+    },
+    {
+      "instruction": "Repite los pasos analogos en R2 con sus propias direcciones.",
+      "expectedCommand": "configure terminal",
+      "hint": "En R2 usa IPs diferentes en la misma subred WAN (ej. 10.0.0.2) y una LAN distinta."
+    },
+    {
+      "instruction": "Verifica que el vecino OSPF se haya formado correctamente.",
+      "expectedCommand": "show ip ospf neighbor",
+      "hint": "El estado debe ser FULL o 2WAY. Si no aparece, revisa IPs, masks y areas."
+    },
+    {
+      "instruction": "Verifica que la ruta al otro lado aparezca en la tabla de routing.",
+      "expectedCommand": "show ip route ospf",
+      "hint": "Las rutas aprendidas por OSPF se marcan con 'O' en la tabla de ruteo."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "router",
+        "name": "R1",
+        "x": 100,
+        "y": 100
+      },
+      {
+        "type": "router",
+        "name": "R2",
+        "x": 300,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "PC1",
+        "x": 60,
+        "y": 220
+      },
+      {
+        "type": "pc",
+        "name": "PC2",
+        "x": 340,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "R1",
+        "to": "R2"
+      },
+      {
+        "from": "R1",
+        "to": "PC1"
+      },
+      {
+        "from": "R2",
+        "to": "PC2"
+      }
+    ]
+  },
+  "validation": "Al completar, ambos routers deben ser vecinos FULL, intercambiar rutas OSPF y hacer ping extremo a extremo por el mejor camino."
+}

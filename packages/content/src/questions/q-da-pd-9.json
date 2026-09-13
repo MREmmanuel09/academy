@@ -1,0 +1,31 @@
+{
+  "id": "q-da-pd-9",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que metodo une dos DataFrames por una columna clave estilo SQL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "df.join()"
+    },
+    {
+      "id": "1",
+      "text": "df.concat()"
+    },
+    {
+      "id": "2",
+      "text": "pd.merge()"
+    },
+    {
+      "id": "3",
+      "text": "df.append()"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "pd.merge(df1, df2, on=\"clave\", how=\"inner\") une como un JOIN SQL. concat apila; join une por indice.",
+  "irtA": 1.04,
+  "irtB": -1.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

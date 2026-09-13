@@ -1,0 +1,64 @@
+{
+  "id": "lab-sql-queries",
+  "title": "Consultas SQL avanzadas con DuckDB",
+  "steps": [
+    {
+      "instruction": "PASO 1 - Instalación: Instala DuckDB en tu entorno de Python.",
+      "expectedCommand": "pip install duckdb",
+      "hint": "Usa pip para instalar DuckDB. También puedes usar conda: conda install -c conda-forge duckdb."
+    },
+    {
+      "instruction": "PASO 2 - Crear tabla: Crea una tabla 'employees' con columnas id (INT), name (VARCHAR), department (VARCHAR), salary (INT), hire_date (DATE).",
+      "expectedCommand": "import duckdb\ncon = duckdb.connect(':memory:')\ncon.execute(\"CREATE TABLE employees (id INT, name VARCHAR, department VARCHAR, salary INT, hire_date DATE)\")",
+      "hint": "DuckDB permite crear tablas con SQL estándar. connect(':memory:') crea una base de datos en memoria."
+    },
+    {
+      "instruction": "PASO 3 - Insertar datos: Inserta al menos 10 registros en la tabla employees con datos variados.",
+      "expectedCommand": "con.execute(\"INSERT INTO employees VALUES (1, 'Ana García', 'Data', 55000, '2020-01-15'), (2, 'Carlos López', 'Engineering', 75000, '2019-03-22'), (3, 'María Rodríguez', 'Data', 60000, '2021-07-10'), (4, 'Juan Martínez', 'Engineering', 80000, '2018-11-05'), (5, 'Laura Sánchez', 'Marketing', 50000, '2022-02-28'), (6, 'Pedro Hernández', 'Engineering', 70000, '2020-06-15'), (7, 'Sofía Díaz', 'Data', 65000, '2021-09-20'), (8, 'Diego Morales', 'Marketing', 55000, '2019-08-12'), (9, 'Valentina Ruiz', 'Data', 70000, '2020-04-18'), (10, 'Andrés Torres', 'Engineering', 85000, '2017-12-01')\")",
+      "hint": "INSERT INTO table VALUES (val1, val2, ...), (val1, val2, ...); permite insertar múltiples filas."
+    },
+    {
+      "instruction": "PASO 4 - JOIN: Crea una tabla 'projects' y realiza un JOIN con employees para ver qué proyectos tiene cada empleado.",
+      "expectedCommand": "con.execute(\"CREATE TABLE projects (id INT, name VARCHAR, employee_id INT)\")\ncon.execute(\"INSERT INTO projects VALUES (1, 'Proyecto Alpha', 1), (2, 'Proyecto Beta', 2), (3, 'Proyecto Gamma', 3), (4, 'Proyecto Delta', 4), (5, 'Proyecto Epsilon', 5)\")\ncon.execute(\"SELECT e.name, e.department, p.name as project FROM employees e JOIN projects p ON e.id = p.employee_id\")",
+      "hint": "JOIN combina filas de dos tablas basándose en una condición (ON). LEFT JOIN incluiría todos los empleados."
+    },
+    {
+      "instruction": "PASO 5 - Funciones de ventana: Usa ROW_NUMBER() y RANK() para rankear empleados por salary dentro de cada department.",
+      "expectedCommand": "con.execute(\"SELECT name, department, salary, ROW_NUMBER() OVER (PARTITION BY department ORDER BY salary DESC) as row_num, RANK() OVER (PARTITION BY department ORDER BY salary DESC) as rank_num FROM employees\")",
+      "hint": "PARTITION BY divide los datos por department, ORDER BY salary DESC ordena de mayor a menor."
+    },
+    {
+      "instruction": "PASO 6 - Agregación: Calcula el salario promedio, máximo y mínimo por departamento, y el conteo de empleados.",
+      "expectedCommand": "con.execute(\"SELECT department, AVG(salary) as avg_salary, MAX(salary) as max_salary, MIN(salary) as min_salary, COUNT(*) as employee_count FROM employees GROUP BY department\")",
+      "hint": "GROUP BY agrupa por departamento, AVG/MAX/MIN/COUNT son funciones de agregación."
+    },
+    {
+      "instruction": "PASO 7 - Exportar: Exporta los resultados de la consulta de agregación a un archivo CSV.",
+      "expectedCommand": "con.execute(\"COPY (SELECT department, AVG(salary) as avg_salary, MAX(salary) as max_salary, MIN(salary) as min_salary, COUNT(*) as employee_count FROM employees GROUP BY department) TO 'department_stats.csv' (HEADER, DELIMITER ',')\")",
+      "hint": "COPY TO exporta el resultado de una consulta a un archivo CSV con HEADER para incluir nombres de columnas."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "DuckDB",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "Consultas",
+        "x": 200,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "DuckDB",
+        "to": "Consultas"
+      }
+    ]
+  },
+  "validation": "Al completar los pasos, deberías poder: crear tablas SQL, insertar datos, realizar JOINs, usar funciones de ventana (ROW_NUMBER, RANK), ejecutar agregaciones con GROUP BY, y exportar resultados a CSV."
+}

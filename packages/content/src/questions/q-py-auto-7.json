@@ -1,0 +1,14 @@
+{
+  "id": "q-py-auto-7",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "FastAPI genera documentación OpenAPI/Swagger automáticamente desde los type hints.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Una de las mayores ventajas de FastAPI: la documentación se genera automáticamente en /docs.",
+  "irtA": 0.9400000000000001,
+  "irtB": 0.96,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

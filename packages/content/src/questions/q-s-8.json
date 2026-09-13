@@ -1,0 +1,31 @@
+{
+  "id": "q-s-8",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Cuántos VLAN IDs están disponibles en 802.1Q (excluyendo reservados)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "1024"
+    },
+    {
+      "id": "1",
+      "text": "2048"
+    },
+    {
+      "id": "2",
+      "text": "4094"
+    },
+    {
+      "id": "3",
+      "text": "8192"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "El campo VID tiene 12 bits (4096 valores, 0-4095). Se reservan 0 y 4095, quedando 4094 utilizables.",
+  "irtA": 0.936,
+  "irtB": 1.52,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

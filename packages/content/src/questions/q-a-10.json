@@ -1,0 +1,31 @@
+{
+  "id": "q-a-10",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué header HTTP se usa para indicar la URL original al servidor cuando hay un proxy?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Host"
+    },
+    {
+      "id": "1",
+      "text": "X-Forwarded-For"
+    },
+    {
+      "id": "2",
+      "text": "User-Agent"
+    },
+    {
+      "id": "3",
+      "text": "Accept"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "X-Forwarded-For contiene la IP del cliente original. Host identifica el sitio virtual (necesario en hosting compartido).",
+  "irtA": 0.996,
+  "irtB": -1.34,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

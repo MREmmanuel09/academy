@@ -1,0 +1,25 @@
+{
+  "id": "proj-streaming-pipeline",
+  "deliverables": [
+    "Kafka cluster con 3 brokers y Schema Registry",
+    "Producers generando 100K eventos/seg de prueba",
+    "Pipeline Spark Structured Streaming con windowing",
+    "Motor de detección de fraude (reglas + scoring)",
+    "Dashboard Grafana con métricas en vivo",
+    "Docker Compose para todo el stack",
+    "Tests de carga con k6 o Locust",
+    "Runbook de operaciones y alertas"
+  ],
+  "tech": [
+    "Apache Kafka",
+    "Spark Structured Streaming",
+    "Python",
+    "Grafana",
+    "PostgreSQL",
+    "Redis",
+    "Docker",
+    "Prometheus",
+    "Schema Registry",
+    "GitHub Actions"
+  ]
+}

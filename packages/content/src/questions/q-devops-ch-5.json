@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ch-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es el \"blast radius\" en chaos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Tiempo de ejecución"
+    },
+    {
+      "id": "1",
+      "text": "Porcentaje del sistema afectado por el experimento"
+    },
+    {
+      "id": "2",
+      "text": "Número de pods matados"
+    },
+    {
+      "id": "3",
+      "text": "Tipo de falla"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Blast radius: alcance del daño. Empezar pequeño (1 pod, 1% de tráfico) y crecer gradualmente.",
+  "irtA": 1.028,
+  "irtB": 1.16,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

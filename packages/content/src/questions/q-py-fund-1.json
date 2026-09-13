@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-1",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Cuál es la salida de print(type([]) en Python?",
+  "options": [
+    {
+      "id": "0",
+      "text": "<class \"tuple\">"
+    },
+    {
+      "id": "1",
+      "text": "<class \"list\">"
+    },
+    {
+      "id": "2",
+      "text": "<class \"dict\">"
+    },
+    {
+      "id": "3",
+      "text": "<class \"set\">"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "[] es la sintaxis literal para crear una lista vacia. type() devuelve <class \"list\">.",
+  "irtA": 0.812,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

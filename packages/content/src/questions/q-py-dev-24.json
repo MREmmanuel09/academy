@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-24",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En paramiko, ¿qué método abre un canal SFTP para transferir archivos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "client.sftp()"
+    },
+    {
+      "id": "1",
+      "text": "client.open_sftp()"
+    },
+    {
+      "id": "2",
+      "text": "client.get_sftp()"
+    },
+    {
+      "id": "3",
+      "text": "client.create_sftp_channel()"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "client.open_sftp() retorna un objeto SFTPClient con put(), get(), listdir(), etc.",
+  "irtA": 0.8400000000000001,
+  "irtB": -1.18,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

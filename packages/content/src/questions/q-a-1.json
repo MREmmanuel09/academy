@@ -1,0 +1,31 @@
+{
+  "id": "q-a-1",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué puerto usa DNS por defecto?",
+  "options": [
+    {
+      "id": "0",
+      "text": "53"
+    },
+    {
+      "id": "1",
+      "text": "80"
+    },
+    {
+      "id": "2",
+      "text": "443"
+    },
+    {
+      "id": "3",
+      "text": "25"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "DNS usa el puerto 53, tanto en TCP como en UDP.",
+  "irtA": 0.916,
+  "irtB": -1.3,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

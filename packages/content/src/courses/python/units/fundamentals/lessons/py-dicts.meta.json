@@ -1,0 +1,15 @@
+{
+  "id": "py-dicts",
+  "title": "Diccionarios y sets",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 16,
+  "xp": 60,
+  "summary": "Hash maps clave-valor (dict) y conjuntos unicos (set) — esenciales para datos estructurados.",
+  "keyTakeaways": [
+    "dict: clave-valor, O(1) lookup, estructura #2 mas usada despues de listas.",
+    ".get(key, default) evita KeyError — usalo siempre que la key sea opcional.",
+    "set: deduplicar y membership tests rapidos. Ideal para listas de IPs/hosts unicos.",
+    "Iterar con .items() para obtener key y value simultaneamente."
+  ]
+}

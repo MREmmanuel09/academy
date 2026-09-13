@@ -1,0 +1,31 @@
+{
+  "id": "q-data-13",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es GDPR?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un nuevo formato de datos"
+    },
+    {
+      "id": "1",
+      "text": "Una ley europea de protección de datos personales"
+    },
+    {
+      "id": "2",
+      "text": "Un sistema de bases de datos"
+    },
+    {
+      "id": "3",
+      "text": "Un lenguaje de programación"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "GDPR (General Data Protection Regulation) es la ley europea (2018) que regula el manejo de datos personales. Aplica globalmente.",
+  "irtA": 0.996,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

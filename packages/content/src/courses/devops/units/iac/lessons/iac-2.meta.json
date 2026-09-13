@@ -1,0 +1,15 @@
+{
+  "id": "iac-2",
+  "title": "Ansible: configuration management",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 70,
+  "summary": "Automatizar configuración de servidores. Idempotente, agentless.",
+  "keyTakeaways": [
+    "Ansible automatiza config: agentless, idempotente, YAML, push-based.",
+    "Playbooks = lista de tasks. Tasks usan módulos (apt, copy, service).",
+    "Roles organizan código en estructura estándar. ansible-galaxy init crea el esqueleto.",
+    "ansible-vault cifra secretos. AWX/Tower añade UI, RBAC, schedules."
+  ]
+}

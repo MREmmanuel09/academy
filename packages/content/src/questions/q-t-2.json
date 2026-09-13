@@ -1,0 +1,31 @@
+{
+  "id": "q-t-2",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué protocolo es ideal para streaming de video en vivo?",
+  "options": [
+    {
+      "id": "0",
+      "text": "TCP"
+    },
+    {
+      "id": "1",
+      "text": "UDP"
+    },
+    {
+      "id": "2",
+      "text": "ICMP"
+    },
+    {
+      "id": "3",
+      "text": "SCTP"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "UDP ofrece baja latencia y tolera pérdida de paquetes, ideal para tiempo real. TCP retransmitiría paquetes viejos que ya no importan.",
+  "irtA": 1.1560000000000001,
+  "irtB": -1.9,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

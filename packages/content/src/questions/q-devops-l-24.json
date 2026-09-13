@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-24",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué hace `find / -perm -4000`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Busca archivos de root"
+    },
+    {
+      "id": "1",
+      "text": "Busca archivos con SUID"
+    },
+    {
+      "id": "2",
+      "text": "Busca archivos ejecutables"
+    },
+    {
+      "id": "3",
+      "text": "Busca archivos mayores a 4GB"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "perm -4000 busca archivos con bit SUID activado. Útil para auditorías de seguridad.",
+  "irtA": 0.924,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "k8s-2",
+  "title": "Storage, ConfigMaps y Secrets",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 13,
+  "xp": 65,
+  "summary": "Persistencia de datos, configuración externa, gestión de credenciales.",
+  "keyTakeaways": [
+    "ConfigMap: config no sensible, inyectable como env o volumen.",
+    "Secret: para credenciales. Cifrado at-rest en etcd es crítico.",
+    "PVC/PV: storage persistente. StorageClass provisiona dinámicamente.",
+    "StatefulSet: para apps con estado (databases) que necesitan identidad estable."
+  ]
+}

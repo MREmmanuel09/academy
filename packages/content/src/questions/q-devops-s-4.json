@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-4",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "Con un SLO de 99.9%, ¿cuánto downtime/año es aceptable?",
+  "options": [
+    {
+      "id": "0",
+      "text": "3.65 días"
+    },
+    {
+      "id": "1",
+      "text": "8.77 horas"
+    },
+    {
+      "id": "2",
+      "text": "52.6 minutos"
+    },
+    {
+      "id": "3",
+      "text": "5.26 minutos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "99.9% (3 nueves) = 8.77 horas/año de downtime permitido.",
+  "irtA": 1.08,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

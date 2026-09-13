@@ -1,0 +1,15 @@
+{
+  "id": "sql-3",
+  "title": "Aggregations: GROUP BY, HAVING, COUNT, SUM, AVG, MIN, MAX",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 13,
+  "xp": 65,
+  "summary": "Cómo resumir datos: contar, sumar, promediar. La base del análisis de datos.",
+  "keyTakeaways": [
+    "COUNT, SUM, AVG, MIN, MAX: las 5 funciones de agregación básicas.",
+    "GROUP BY divide la tabla en grupos; toda columna en SELECT sin agregación debe estar en GROUP BY.",
+    "WHERE filtra filas antes de agrupar; HAVING filtra grupos después.",
+    "COUNT(*) cuenta filas; COUNT(columna) cuenta no-NULLs; COUNT(DISTINCT col) cuenta únicos."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-va-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué hace External Secrets Operator (ESO) en K8s?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Borra secrets"
+    },
+    {
+      "id": "1",
+      "text": "Sincroniza secrets de Vault/AWS/etc a K8s Secrets"
+    },
+    {
+      "id": "2",
+      "text": "Encripta secrets"
+    },
+    {
+      "id": "3",
+      "text": "Crea namespaces"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ESO: ExternalSecret CRD que sincroniza secrets desde Vault/AWS Secrets Manager a K8s Secrets normales.",
+  "irtA": 1.032,
+  "irtB": -1.28,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

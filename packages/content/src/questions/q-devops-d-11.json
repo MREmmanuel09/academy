@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-11",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué es mejor práctica para usuario en un Dockerfile?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Siempre root"
+    },
+    {
+      "id": "1",
+      "text": "Crear usuario no-root con USER"
+    },
+    {
+      "id": "2",
+      "text": "Nadie, queda root"
+    },
+    {
+      "id": "3",
+      "text": "No importa"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "USER <user> cambia a usuario no-root. Principio de least privilege: si el container es comprometido, no afecta el host.",
+  "irtA": 1.076,
+  "irtB": 0.4,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

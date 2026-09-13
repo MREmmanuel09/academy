@@ -1,0 +1,64 @@
+{
+  "id": "lab-troubleshoot",
+  "title": "Diagnostico con ping y traceroute",
+  "steps": [
+    {
+      "instruction": "Haz ping a un destino IP publico conocido y observa la latencia.",
+      "expectedCommand": "ping 8.8.8.8 -c 4",
+      "hint": "8.8.8.8 es el DNS de Google. -c 4 limita a 4 paquetes para no colgar."
+    },
+    {
+      "instruction": "Haz ping a un nombre de dominio para validar resolucion DNS.",
+      "expectedCommand": "ping google.com -c 4",
+      "hint": "Si falla, prueba con nslookup google.com o dig google.com para diagnosticar DNS."
+    },
+    {
+      "instruction": "Ejecuta traceroute a una IP publica para ver la ruta de los paquetes.",
+      "expectedCommand": "traceroute 8.8.8.8",
+      "hint": "En Windows usa tracert. Muestra cada salto (hop) con su latencia."
+    },
+    {
+      "instruction": "Identifica en la lista el primer router que pertenece a tu ISP.",
+      "expectedCommand": "echo \"Busca el primer hop con IP de tu proveedor (ej: 10.x.x.x o IP del ISP)\"",
+      "hint": "Los primeros hops son tu red local (192.168.x.x o 10.x.x.x). El ISP empieza después."
+    },
+    {
+      "instruction": "Compara las rutas hacia dos destinos distintos.",
+      "expectedCommand": "traceroute 8.8.8.8 && traceroute 1.1.1.1",
+      "hint": "Rutas diferentes explican por qué un servicio puede fallar por un camino pero no por otro."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "pc",
+        "name": "PC-User",
+        "x": 100,
+        "y": 100
+      },
+      {
+        "type": "router",
+        "name": "Router",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "server",
+        "name": "www.google.com",
+        "x": 320,
+        "y": 100
+      }
+    ],
+    "links": [
+      {
+        "from": "PC-User",
+        "to": "Router"
+      },
+      {
+        "from": "Router",
+        "to": "www.google.com"
+      }
+    ]
+  },
+  "validation": "Al completar, debes localizar el salto que falla con ping y traceroute y explicar si es DNS, ruta o firewall."
+}

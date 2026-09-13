@@ -1,0 +1,14 @@
+{
+  "id": "q-f-9",
+  "quizId": "exam-basic",
+  "type": "truefalse",
+  "prompt": "Una SAN está orientada a客户提供 almacenamiento en red.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. SAN (Storage Area Network) es una red dedicada de alta velocidad para conectar servidores a sistemas de almacenamiento.",
+  "irtA": 0.9680000000000001,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

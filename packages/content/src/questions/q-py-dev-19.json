@@ -1,0 +1,14 @@
+{
+  "id": "q-py-dev-19",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "Click es una librería estándar de Python (incluida en la stdlib).",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Click es第三方. argparse es la opción de la stdlib. Click es mas concisa y pitonica.",
+  "irtA": 0.9440000000000001,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

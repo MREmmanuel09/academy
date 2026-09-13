@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ch-1",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es Chaos Engineering?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Destruir cosas al azar"
+    },
+    {
+      "id": "1",
+      "text": "Inyectar fallas controladas para encontrar debilidades"
+    },
+    {
+      "id": "2",
+      "text": "Penetration testing"
+    },
+    {
+      "id": "3",
+      "text": "Fuzzing"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Chaos engineering: inyectar fallas controladas (pods, latencia, red) para encontrar debilidades antes que los usuarios.",
+  "irtA": 1.012,
+  "irtB": 1.14,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

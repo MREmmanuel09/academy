@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-1",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Cuál es la librería estándar para parsear HTML en Python?",
+  "options": [
+    {
+      "id": "0",
+      "text": "html.parser"
+    },
+    {
+      "id": "1",
+      "text": "beautifulsoup4"
+    },
+    {
+      "id": "2",
+      "text": "lxml.html"
+    },
+    {
+      "id": "3",
+      "text": "html5lib"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "BeautifulSoup4 (bs4) es la librería mas usada para parsear HTML, con soporte para selectores CSS.",
+  "irtA": 0.9640000000000001,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

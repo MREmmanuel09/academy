@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-7",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que hace el Catalyst Optimizer?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cataliza reacciones quimicas"
+    },
+    {
+      "id": "1",
+      "text": "Optimiza queries SQL/DataFrame reescribiendolas para mejor performance"
+    },
+    {
+      "id": "2",
+      "text": "Comprime archivos Parquet"
+    },
+    {
+      "id": "3",
+      "text": "Administra memoria del executor"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Catalyst es el optimizador de queries de Spark. Hace predicate pushdown, projection pruning, constant folding, y elige estrategias de join.",
+  "irtA": 1.1360000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

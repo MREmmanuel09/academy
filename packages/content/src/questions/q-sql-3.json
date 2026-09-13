@@ -1,0 +1,14 @@
+{
+  "id": "q-sql-3",
+  "quizId": "exam-data-analyst",
+  "type": "truefalse",
+  "prompt": "SELECT * FROM users devuelve todas las columnas de la tabla users.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. El asterisco (*) significa \"todas las columnas\".",
+  "irtA": 0.896,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

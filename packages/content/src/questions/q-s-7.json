@@ -1,0 +1,31 @@
+{
+  "id": "q-s-7",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Cuál es el algoritmo de shortest-path de OSPF?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Bellman-Ford"
+    },
+    {
+      "id": "1",
+      "text": "Dijkstra"
+    },
+    {
+      "id": "2",
+      "text": "Floyd-Warshall"
+    },
+    {
+      "id": "3",
+      "text": "A*"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "OSPF usa el algoritmo de Dijkstra (SPF - Shortest Path First) sobre la base de datos link-state.",
+  "irtA": 0.932,
+  "irtB": 1.52,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

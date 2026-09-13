@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-13",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En pytest, ¿qué hace el decorador @pytest.fixture?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Marca un test como lento"
+    },
+    {
+      "id": "1",
+      "text": "Define una función de setup que se inyecta en los tests"
+    },
+    {
+      "id": "2",
+      "text": "Permite saltar tests condicionalmente"
+    },
+    {
+      "id": "3",
+      "text": "Es sinonimo de @pytest.mark.parametrize"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Fixture provee setup reutilizable que se inyecta como argumento en los tests. Se ejecuta antes del test.",
+  "irtA": 0.9680000000000001,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

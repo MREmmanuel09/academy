@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-4",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "En cron, ¿qué expresión ejecuta un script cada 5 minutos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "* * * * *"
+    },
+    {
+      "id": "1",
+      "text": "*/5 * * * *"
+    },
+    {
+      "id": "2",
+      "text": "5 * * * *"
+    },
+    {
+      "id": "3",
+      "text": "0/5 * * * *"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "*/5 en el campo de minutos significa \"cada 5 minutos\" (0, 5, 10, 15, ...).",
+  "irtA": 0.9520000000000001,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

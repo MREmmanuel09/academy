@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-4",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Cuál es la forma correcta de crear un f-string en Python 3.6+?",
+  "options": [
+    {
+      "id": "0",
+      "text": "\"Hola %s\" % nombre"
+    },
+    {
+      "id": "1",
+      "text": "\"Hola {nombre}\".format(nombre=nombre)"
+    },
+    {
+      "id": "2",
+      "text": "f\"Hola {nombre}\""
+    },
+    {
+      "id": "3",
+      "text": "\"Hola $\" + nombre"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "f-strings (f\"...\") son la forma moderna, legible y rapida preferida en Python 3.6+.",
+  "irtA": 0.8,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

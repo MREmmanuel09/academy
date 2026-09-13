@@ -1,0 +1,15 @@
+{
+  "id": "k8s-1",
+  "title": "Kubernetes: orquestación de containers",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 80,
+  "summary": "Pods, deployments, services. El estándar de facto para correr containers en producción.",
+  "keyTakeaways": [
+    "Kubernetes orquesta containers: auto-healing, scaling, rolling updates.",
+    "kubectl es el CLI. Comandos: get, describe, logs, exec, apply, delete.",
+    "Deployment define réplicas de pods. Service da IP estable.",
+    "Resources requests/limits controlan CPU y memoria de cada container."
+  ]
+}

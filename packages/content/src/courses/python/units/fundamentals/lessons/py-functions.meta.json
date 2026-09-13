@@ -1,0 +1,15 @@
+{
+  "id": "py-functions",
+  "title": "Funciones, *args, **kwargs, lambdas",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 16,
+  "xp": 60,
+  "summary": "Definir funciones, argumentos, valores por defecto, *args, **kwargs, lambdas.",
+  "keyTakeaways": [
+    "def define funciones. Docstring obligatorio en codigo profesional.",
+    "*args captura argumentos posicionales variables, **kwargs los nombrados.",
+    "Type hints (: str, -> bool) mejoran la claridad y permiten type checking.",
+    "Lambdas solo para callbacks de una linea. Para mas, usa def."
+  ]
+}

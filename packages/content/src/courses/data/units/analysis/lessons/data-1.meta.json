@@ -1,0 +1,15 @@
+{
+  "id": "data-1",
+  "title": "¿Qué es data? Tipos y características",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 50,
+  "summary": "Definición de dato, información y conocimiento. Tipos de datos: estructurados, semi y no estructurados.",
+  "keyTakeaways": [
+    "Dato es un hecho crudo; información es dato con contexto; conocimiento es información aplicada.",
+    "Los datos se clasifican en estructurados, semi-estructurados y no estructurados.",
+    "El modelo de las 5V (Volume, Velocity, Variety, Veracity, Value) define los requisitos del pipeline.",
+    "~80-90% de los datos son no estructurados. Transformarlos es el trabajo principal de un data engineer."
+  ]
+}

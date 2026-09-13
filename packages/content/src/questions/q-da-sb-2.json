@@ -1,0 +1,31 @@
+{
+  "id": "q-da-sb-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que hace sns.heatmap(df.corr(), annot=True, cmap=\"coolwarm\", center=0)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Imprime el DataFrame"
+    },
+    {
+      "id": "1",
+      "text": "Muestra un mapa de calor de la matriz de correlacion con valores anotados"
+    },
+    {
+      "id": "2",
+      "text": "Calcula la covarianza"
+    },
+    {
+      "id": "3",
+      "text": "Crea un histograma"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "sns.heatmap con df.corr() visualiza la matriz de correlacion. cmap=\"coolwarm\" es divergente y center=0 fija el blanco en \"sin correlacion\".",
+  "irtA": 0.8160000000000001,
+  "irtB": 1.06,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

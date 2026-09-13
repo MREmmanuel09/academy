@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-22",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué archivo de Linux se edita para configurar interfaces de red legacy?",
+  "options": [
+    {
+      "id": "0",
+      "text": "/etc/network/interfaces"
+    },
+    {
+      "id": "1",
+      "text": "/etc/netplan/"
+    },
+    {
+      "id": "2",
+      "text": "/etc/resolv.conf"
+    },
+    {
+      "id": "3",
+      "text": "/etc/hosts"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "/etc/network/interfaces es Debian/Ubuntu legacy. Hoy se usa netplan (/etc/netplan/*.yaml) o NetworkManager.",
+  "irtA": 0.916,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

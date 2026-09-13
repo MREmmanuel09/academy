@@ -1,0 +1,14 @@
+{
+  "id": "q-py-auto-5",
+  "quizId": "exam-python-devops",
+  "type": "truefalse",
+  "prompt": "Slack Incoming Webhooks requieren instalar una app desde el marketplace de Slack.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Incoming Webhooks se configuran desde \"Custom Integrations\" o apps自定义, no requieren marketplace.",
+  "irtA": 0.9480000000000001,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

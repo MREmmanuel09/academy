@@ -1,0 +1,15 @@
+{
+  "id": "history-1",
+  "title": "Historia de Internet y las redes: quien invento que",
+  "module": "fundamentos",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 60,
+  "summary": "De ARPANET a TCP/IP, de Cisco a Linux. El contexto historico que explica el presente.",
+  "keyTakeaways": [
+    "Internet nacio de ARPANET (1969, Licklider) y TCP/IP (1974, Cerf+Kahn). OSI (1984) es solo modelo de referencia, no se implemento.",
+    "Linux (1991, Torvalds) corre en 100% de supercomputadoras y 96% de servidores cloud. Git (2005, Torvalds) es el 95%+ de VCS.",
+    "DevOps nacio en 2009 con Patrick Debois. SRE nacio en Google 2003 con Ben Treynor. The Three Ways son de Gene Kim.",
+    "Docker (2013, Hykes) democratizo containers. Kubernetes (2014, Google) los oriento a produccion."
+  ]
+}

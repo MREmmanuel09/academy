@@ -1,0 +1,31 @@
+{
+  "id": "q-da-np-8",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que operacion cuenta cuantos elementos de un array son mayores que 0?",
+  "options": [
+    {
+      "id": "0",
+      "text": "np.count(a > 0)"
+    },
+    {
+      "id": "1",
+      "text": "np.sum(a > 0)"
+    },
+    {
+      "id": "2",
+      "text": "np.where(a > 0).count()"
+    },
+    {
+      "id": "3",
+      "text": "len(a[a > 0])"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "np.sum(a > 0) funciona porque (a > 0) produce un array booleano y True=1, False=0. Tambien len(a[a > 0]) es valido pero menos idiomatico.",
+  "irtA": 0.8360000000000001,
+  "irtB": 0.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

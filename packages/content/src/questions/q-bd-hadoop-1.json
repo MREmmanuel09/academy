@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-hadoop-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que es HDFS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un lenguaje de queries"
+    },
+    {
+      "id": "1",
+      "text": "Hadoop Distributed File System: almacena archivos grandes en bloques a traves de nodos"
+    },
+    {
+      "id": "2",
+      "text": "Un motor de streaming"
+    },
+    {
+      "id": "3",
+      "text": "Una libreria de Python"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "HDFS divide archivos en bloques (default 128MB) y los replica en N nodos. NameNode guarda metadata, DataNodes guardan bloques.",
+  "irtA": 0.88,
+  "irtB": 1.56,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

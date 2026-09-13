@@ -1,0 +1,31 @@
+{
+  "id": "q-data-19",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué problema resuelve un Data Lakehouse?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Es solo marketing, no resuelve nada"
+    },
+    {
+      "id": "1",
+      "text": "Combina la flexibilidad del Data Lake con la performance y ACID del Data Warehouse"
+    },
+    {
+      "id": "2",
+      "text": "Es un antivirus para datos"
+    },
+    {
+      "id": "3",
+      "text": "Reduce el espacio en disco"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Data Lakehouse combina lo mejor de ambos mundos: storage barato del lake con transacciones ACID y performance del warehouse. Usa formatos como Delta Lake o Iceberg.",
+  "irtA": 1.02,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

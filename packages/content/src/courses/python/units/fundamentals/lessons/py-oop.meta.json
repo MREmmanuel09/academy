@@ -1,0 +1,15 @@
+{
+  "id": "py-oop",
+  "title": "OOP basico: clases, self, metodos",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 16,
+  "xp": 60,
+  "summary": "Programacion orientada a objetos aplicada: modelar servidores, deployments, configs.",
+  "keyTakeaways": [
+    "Clase = plantilla, instancia = objeto. __init__ inicializa atributos.",
+    "@classmethod para constructores alternativos, @staticmethod para utilidades, @property para getters.",
+    "Composicion > herencia: prefiere \"tiene un\" sobre \"es un\".",
+    "self es obligatorio como primer parametro, aunque Python lo llena automaticamente."
+  ]
+}

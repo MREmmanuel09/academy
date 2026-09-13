@@ -1,0 +1,31 @@
+{
+  "id": "q-data-10",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿En qué se diferencia ELT de ETL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay diferencia"
+    },
+    {
+      "id": "1",
+      "text": "ELT carga primero y transforma después, dentro del warehouse"
+    },
+    {
+      "id": "2",
+      "text": "ELT no transforma los datos"
+    },
+    {
+      "id": "3",
+      "text": "ELT solo funciona con archivos CSV"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ELT = Extract, Load, Transform. Carga los datos crudos primero y transforma después, aprovechando el poder del warehouse.",
+  "irtA": 0.984,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

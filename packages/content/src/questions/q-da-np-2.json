@@ -1,0 +1,31 @@
+{
+  "id": "q-da-np-2",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "Que funcion crea un array de ceros con shape (3, 4)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "np.zeros(3, 4)"
+    },
+    {
+      "id": "1",
+      "text": "np.zeros((3, 4))"
+    },
+    {
+      "id": "2",
+      "text": "np.zero(3, 4)"
+    },
+    {
+      "id": "3",
+      "text": "np.array([3, 4])"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "np.zeros recibe una tupla con el shape: np.zeros((3, 4)). Sin las parentesis externos pasarias dos argumentos en vez de una tupla.",
+  "irtA": 0.812,
+  "irtB": 0.36,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-kafka-10",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que garantia ofrece un producer idempotente de Kafka?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Comprime los mensajes"
+    },
+    {
+      "id": "1",
+      "text": "El broker deduplica mensajes duplicados del mismo producer (gracias a producer id + sequence number)"
+    },
+    {
+      "id": "2",
+      "text": "Solo escribe a una particion"
+    },
+    {
+      "id": "3",
+      "text": "Es mas rapido"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Con enable.idempotence=true, cada mensaje tiene producer id + sequence number. Si el broker recibe un duplicado (por retry), lo descarta. Base de EOS.",
+  "irtA": 0.8360000000000001,
+  "irtB": 1.18,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-1",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Cuál es la librería estándar de facto para HTTP en Python?",
+  "options": [
+    {
+      "id": "0",
+      "text": "urllib"
+    },
+    {
+      "id": "1",
+      "text": "http.client"
+    },
+    {
+      "id": "2",
+      "text": "requests"
+    },
+    {
+      "id": "3",
+      "text": "aiohttp"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "requests es la librería mas usada por su simplicidad. aiohttp es para async, urllib es stdlib de bajo nivel.",
+  "irtA": 1.052,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

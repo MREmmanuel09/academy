@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-kafka-8",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre Kafka y RabbitMQ?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son identicos"
+    },
+    {
+      "id": "1",
+      "text": "Kafka es un log durable (re-playable), RabbitMQ es un message queue (mensajes se borran al consumir)"
+    },
+    {
+      "id": "2",
+      "text": "RabbitMQ es mas rapido siempre"
+    },
+    {
+      "id": "3",
+      "text": "Kafka no escala"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Kafka retiene mensajes (configurable) y permite releer el historico. RabbitMQ borra al consumir (ack). Kafka escala mejor para alto throughput.",
+  "irtA": 1.016,
+  "irtB": -0.78,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

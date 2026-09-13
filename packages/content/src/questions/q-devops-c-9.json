@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-9",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué es IAM?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un tipo de VM"
+    },
+    {
+      "id": "1",
+      "text": "Identity and Access Management"
+    },
+    {
+      "id": "2",
+      "text": "Un servicio de red"
+    },
+    {
+      "id": "3",
+      "text": "Un DB"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "IAM gestiona usuarios, grupos, roles y policies. Controla quién puede hacer qué en AWS. Least privilege siempre.",
+  "irtA": 1.1960000000000002,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

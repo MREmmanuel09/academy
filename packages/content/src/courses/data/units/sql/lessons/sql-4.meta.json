@@ -1,0 +1,15 @@
+{
+  "id": "sql-4",
+  "title": "Subqueries y CTEs (WITH)",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 70,
+  "summary": "Cómo escribir queries complejas. Subqueries vs CTEs y cuándo usar cada uno.",
+  "keyTakeaways": [
+    "Subqueries: en WHERE (filtro), FROM (tabla derivada), SELECT (escalar).",
+    "CTEs con WITH son como subqueries con nombre: más legibles y reutilizables.",
+    "CTEs recursivos resuelven problemas de jerarquías, grafos y árboles.",
+    "Prefiere CTEs sobre subqueries profundas en queries complejas."
+  ]
+}

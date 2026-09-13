@@ -1,0 +1,6 @@
+{
+  "slug": "seguridad",
+  "title": "Seguridad",
+  "order": 7,
+  "summary": "DevSecOps, OWASP, SAST/DAST, supply chain, y runtime security."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-7",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Cómo persistes datos en Docker?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Escribiendo en el container"
+    },
+    {
+      "id": "1",
+      "text": "Usando volumes o bind mounts"
+    },
+    {
+      "id": "2",
+      "text": "Reiniciando"
+    },
+    {
+      "id": "3",
+      "text": "No se puede"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Containers son efímeros. Usa -v volume_name:/path (named volume) o -v /host/path:/path (bind mount).",
+  "irtA": 1.032,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

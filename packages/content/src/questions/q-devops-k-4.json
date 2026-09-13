@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-4",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué hace un Deployment?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Solo crea pods"
+    },
+    {
+      "id": "1",
+      "text": "Gestiona réplicas y rolling updates de pods"
+    },
+    {
+      "id": "2",
+      "text": "Solo balancea carga"
+    },
+    {
+      "id": "3",
+      "text": "Crea namespaces"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Deployment gestiona un ReplicaSet que mantiene N réplicas de un pod. Soporta rolling updates, rollbacks, scaling.",
+  "irtA": 1.1280000000000001,
+  "irtB": -0.28,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

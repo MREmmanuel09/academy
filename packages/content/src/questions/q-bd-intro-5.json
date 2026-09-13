@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-intro-5",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cual sistema es tipicamente AP (Availability + Partition tolerance)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "HBase"
+    },
+    {
+      "id": "1",
+      "text": "etcd"
+    },
+    {
+      "id": "2",
+      "text": "Cassandra"
+    },
+    {
+      "id": "3",
+      "text": "PostgreSQL"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Cassandra es AP: siempre responde, aunque los datos no esten consistentes entre nodos. HBase y etcd son CP. PostgreSQL (single node) es CA.",
+  "irtA": 1.052,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

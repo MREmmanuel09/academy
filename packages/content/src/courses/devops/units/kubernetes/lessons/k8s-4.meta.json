@@ -1,0 +1,15 @@
+{
+  "id": "k8s-4",
+  "title": "Ingress, networking y service mesh",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 12,
+  "xp": 65,
+  "summary": "Exponer apps al exterior, Istio/Linkerd, network policies.",
+  "keyTakeaways": [
+    "Ingress expone servicios HTTP/HTTPS al exterior. Necesita un Controller (nginx, traefik).",
+    "cert-manager automatiza TLS con Let's Encrypt.",
+    "Service Mesh (Istio, Linkerd) añade mTLS, traffic management, observabilidad.",
+    "Para la mayoría, Ingress + cert-manager es suficiente. Service Mesh es para microservicios complejos."
+  ]
+}

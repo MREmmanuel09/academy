@@ -1,0 +1,15 @@
+{
+  "id": "py-variables",
+  "title": "Variables, tipos primitivos y operadores",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 55,
+  "summary": "Asignacion, tipos basicos (int, float, str, bool), operadores aritmeticos y de comparacion.",
+  "keyTakeaways": [
+    "Python infiere tipos dinamicamente pero respeta convenciones PEP 8.",
+    "Tipos primitivos: int, float, str, bool, None.",
+    "Usa // para division entera y % para modulo (util en scripts de monitoreo).",
+    "Operadores logicos and/or/not se evalúan con cortocircuito (evalúa lo minimo)."
+  ]
+}

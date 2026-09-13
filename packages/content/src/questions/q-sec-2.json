@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-2",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué es ARP spoofing?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cifrar ARP"
+    },
+    {
+      "id": "1",
+      "text": "Enviar ARP replies falsos"
+    },
+    {
+      "id": "2",
+      "text": "Filtrar ARP"
+    },
+    {
+      "id": "3",
+      "text": "Borrar ARP"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ARP spoofing envía respuestas ARP falsas asociando la MAC del atacante a la IP de otra máquina (gateway, etc.).",
+  "irtA": 1.064,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

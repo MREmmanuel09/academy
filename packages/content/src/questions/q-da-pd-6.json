@@ -1,0 +1,31 @@
+{
+  "id": "q-da-pd-6",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que hace df.groupby(\"categoria\")[\"valor\"].mean()?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cuenta los valores unicos"
+    },
+    {
+      "id": "1",
+      "text": "Calcula el promedio de \"valor\" agrupado por \"categoria\""
+    },
+    {
+      "id": "2",
+      "text": "Ordena por promedio"
+    },
+    {
+      "id": "3",
+      "text": "Elimina duplicados por categoria"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "groupby aplica split-apply-combine: divide por \"categoria\", calcula la media de \"valor\" en cada grupo y combina los resultados.",
+  "irtA": 1.028,
+  "irtB": -1.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

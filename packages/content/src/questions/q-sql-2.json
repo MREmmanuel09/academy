@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-2",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué cláusula de SQL se usa para filtrar filas?",
+  "options": [
+    {
+      "id": "0",
+      "text": "SELECT"
+    },
+    {
+      "id": "1",
+      "text": "FROM"
+    },
+    {
+      "id": "2",
+      "text": "WHERE"
+    },
+    {
+      "id": "3",
+      "text": "ORDER BY"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "WHERE filtra filas ANTES de cualquier agregación. HAVING filtra grupos DESPUÉS de GROUP BY.",
+  "irtA": 0.9,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

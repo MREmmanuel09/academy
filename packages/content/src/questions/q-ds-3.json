@@ -1,0 +1,31 @@
+{
+  "id": "q-ds-3",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que es un SBOM?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un tipo de ataque"
+    },
+    {
+      "id": "1",
+      "text": "Software Bill of Materials: lista de todos los componentes de tu software"
+    },
+    {
+      "id": "2",
+      "text": "Un certificado de seguridad"
+    },
+    {
+      "id": "3",
+      "text": "Un firewall"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "SBOM (Software Bill of Materials) lista TODOS los componentes. Requerido por regulaciones (NTIA, EO 14028). Formatos: SPDX, CycloneDX.",
+  "irtA": 0.908,
+  "irtB": 0.84,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-fi-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Por qué tagging es crítico para FinOps?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Es estético"
+    },
+    {
+      "id": "1",
+      "text": "Permite atribuir costos a equipos/proyectos y hacer showback/chargeback"
+    },
+    {
+      "id": "2",
+      "text": "Solo para audit"
+    },
+    {
+      "id": "3",
+      "text": "Para debugging"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Sin tags: no sabes qué equipo gasta qué. Con tags: puedes hacer showback (mostrar) o chargeback (cobrar).",
+  "irtA": 1.1640000000000001,
+  "irtB": 1.6,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

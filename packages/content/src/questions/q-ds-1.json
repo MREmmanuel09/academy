@@ -1,0 +1,31 @@
+{
+  "id": "q-ds-1",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que es OWASP Top 10?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Los 10 lenguajes de programacion mas vulnerables"
+    },
+    {
+      "id": "1",
+      "text": "Lista de las 10 vulnerabilidades web mas comunes, actualizada cada 3-4 anos"
+    },
+    {
+      "id": "2",
+      "text": "Los 10 frameworks de seguridad"
+    },
+    {
+      "id": "3",
+      "text": "Un ranking de antivirus"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "OWASP Top 10 es la lista mas citada de vulnerabilidades web. La version 2021 incluye Broken Access Control, Injection, Cryptographic Failures, etc.",
+  "irtA": 0.916,
+  "irtB": 0.84,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

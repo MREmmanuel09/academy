@@ -1,0 +1,14 @@
+{
+  "id": "bigdata-intro",
+  "title": "Que es Big Data? Las 5Vs",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 55,
+  "summary": "Volumen, velocidad, variedad, veracidad y valor: por que el dato dejo de caber en una sola maquina.",
+  "keyTakeaways": [
+    "Big Data resuelve volumenes que no caben en una sola maquina.",
+    "Las 5Vs: Volume, Velocity, Variety, Veracity, Value.",
+    "El stack tipico: Kafka + Spark + Airflow + storage distribuido."
+  ]
+}

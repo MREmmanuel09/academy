@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-14",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué tipo de índice es el más común y el default en PostgreSQL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Hash"
+    },
+    {
+      "id": "1",
+      "text": "Bitmap"
+    },
+    {
+      "id": "2",
+      "text": "B-tree"
+    },
+    {
+      "id": "3",
+      "text": "GIN"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "B-tree (Balanced Tree) es el default y cubre el 95% de los casos: igualdad, rangos, ORDER BY, prefijos LIKE.",
+  "irtA": 1.1760000000000002,
+  "irtB": 1.64,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

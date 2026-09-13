@@ -1,0 +1,14 @@
+{
+  "id": "q-h-9",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "`iperf` se usa para medir ancho de banda entre dos puntos.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. iperf3 mide TCP/UDP throughput entre un cliente y un servidor.",
+  "irtA": 1.056,
+  "irtB": -1.1,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

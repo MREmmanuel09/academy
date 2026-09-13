@@ -1,0 +1,18 @@
+{
+  "id": "proj-multicloud",
+  "deliverables": [
+    "Arquitectura documentada con cost analysis",
+    "Replicacion cross-region (DB + object storage)",
+    "Health checks y failover automatico",
+    "Runbook para failover manual y pruebas",
+    "Game day con simulacion de caida regional"
+  ],
+  "tech": [
+    "AWS (Route53, RDS, S3, CloudFront, Lambda)",
+    "Terraform",
+    "Docker",
+    "GitHub Actions",
+    "CloudWatch",
+    "Prometheus"
+  ]
+}

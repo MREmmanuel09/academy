@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-26",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué hace el comando `lsof -i :80`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Lista archivos abiertos"
+    },
+    {
+      "id": "1",
+      "text": "Lista procesos escuchando en puerto 80"
+    },
+    {
+      "id": "2",
+      "text": "Mata procesos"
+    },
+    {
+      "id": "3",
+      "text": "Cambia puerto"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "lsof lista archivos abiertos. Con -i filtra por red. Sirve para ver qué proceso usa un puerto.",
+  "irtA": 0.932,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

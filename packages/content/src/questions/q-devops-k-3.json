@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-3",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué comando lista los pods?",
+  "options": [
+    {
+      "id": "0",
+      "text": "kubectl get pods"
+    },
+    {
+      "id": "1",
+      "text": "kubectl list pods"
+    },
+    {
+      "id": "2",
+      "text": "kubectl pods"
+    },
+    {
+      "id": "3",
+      "text": "kubectl show pods"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "kubectl get pods (o abreviado: kubectl get po). -A para todos los namespaces, -n para uno específico.",
+  "irtA": 1.124,
+  "irtB": -0.28,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

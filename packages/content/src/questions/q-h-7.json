@@ -1,0 +1,31 @@
+{
+  "id": "q-h-7",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué comando configura una IP en una interfaz Linux moderna?",
+  "options": [
+    {
+      "id": "0",
+      "text": "ifconfig eth0 10.0.0.1"
+    },
+    {
+      "id": "1",
+      "text": "ip addr add 10.0.0.1/24 dev eth0"
+    },
+    {
+      "id": "2",
+      "text": "route add 10.0.0.1 eth0"
+    },
+    {
+      "id": "3",
+      "text": "netplan 10.0.0.1"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "`ip addr add` es la forma moderna (iproute2). ifconfig está deprecado.",
+  "irtA": 1.048,
+  "irtB": -1.1,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

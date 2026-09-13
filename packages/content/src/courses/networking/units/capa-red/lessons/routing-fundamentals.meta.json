@@ -1,0 +1,15 @@
+{
+  "id": "routing-fundamentals",
+  "title": "Enrutamiento basico: tablas de enrutamiento y protocolos",
+  "module": "capa-red",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 18,
+  "xp": 80,
+  "summary": "Como los paquetes llegan de un punto a otro, estatico vs dinamico, y los protocolos mas usados.",
+  "keyTakeaways": [
+    "El enrutamiento decide por donde enviar paquetes entre redes distintas. La tabla de enrutamiento es la guia del router.",
+    "Rutas estaticas son simples pero no escalan. OSPF es el IGP dinamico mas usado en empresas.",
+    "BGP conecta Internet. Cada AS es una organizacion. eBGP entre AS, iBGP dentro.",
+    "Prefijo mas largo gana sobre metrica. AD desempata entre protocolos distintos."
+  ]
+}

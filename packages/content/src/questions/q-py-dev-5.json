@@ -1,0 +1,14 @@
+{
+  "id": "q-py-dev-5",
+  "quizId": "exam-python-devops",
+  "type": "truefalse",
+  "prompt": "yaml.load() es seguro de usar con datos no confiables.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "yaml.load() puede ejecutar código arbitrario. SIEMPRE usa yaml.safe_load() con datos externos.",
+  "irtA": 1.036,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

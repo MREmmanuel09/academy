@@ -1,0 +1,37 @@
+{
+  "id": "exam-devsecops",
+  "course": "devops",
+  "unit": "advanced",
+  "title": "Certificacion DevSecOps Engineer",
+  "description": "Examen de seguridad en el ciclo de vida: OWASP, SAST/DAST/SCA, secrets, supply chain, SLSA, cosign.",
+  "level": "avanzado",
+  "totalQuestions": 20,
+  "durationMinutes": 30,
+  "passingScore": 75,
+  "xp": 450,
+  "prerequisites": [
+    "exam-k8s"
+  ],
+  "questionIds": [
+    "q-ds-1",
+    "q-ds-2",
+    "q-ds-3",
+    "q-ds-4",
+    "q-ds-5",
+    "q-ds-6",
+    "q-ds-7",
+    "q-ds-8",
+    "q-ds-9",
+    "q-ds-10",
+    "q-sec-11",
+    "q-sec-12",
+    "q-sec-13",
+    "q-sec-14",
+    "q-sec-15",
+    "q-sec-16",
+    "q-sec-17",
+    "q-sec-18",
+    "q-sec-19",
+    "q-sec-20"
+  ]
+}

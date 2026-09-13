@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-2",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Cuál es la herramienta más popular de GitOps para K8s?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Jenkins"
+    },
+    {
+      "id": "1",
+      "text": "ArgoCD"
+    },
+    {
+      "id": "2",
+      "text": "Terraform"
+    },
+    {
+      "id": "3",
+      "text": "Ansible"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ArgoCD es la más popular, parte de CNCF, tiene UI web, sync automático, multi-cluster.",
+  "irtA": 0.98,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

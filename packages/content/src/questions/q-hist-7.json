@@ -1,0 +1,31 @@
+{
+  "id": "q-hist-7",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Quien creo Git?",
+  "options": [
+    {
+      "id": "0",
+      "text": "GitHub (2010)"
+    },
+    {
+      "id": "1",
+      "text": "Linus Torvalds (2005, para el kernel Linux)"
+    },
+    {
+      "id": "2",
+      "text": "Microsoft (2018 al comprar GitHub)"
+    },
+    {
+      "id": "3",
+      "text": "Bitbucket"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Linus Torvalds creo Git en abril 2005, frustrado por las limitaciones de BitKeeper. En 2 semanas escribio la primera version.",
+  "irtA": 1.104,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

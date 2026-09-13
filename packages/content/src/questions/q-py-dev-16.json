@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-16",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En boto3, ¿qué son los \"waiters\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Funciones que esperan a que un recurso alcance un estado"
+    },
+    {
+      "id": "1",
+      "text": "Colas de mensajes SQS"
+    },
+    {
+      "id": "2",
+      "text": "Timers de timeout"
+    },
+    {
+      "id": "3",
+      "text": "Sistema de cache de AWS"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Waiters bloquean hasta que un recurso llega al estado deseado (ej: instance_running).",
+  "irtA": 0.9560000000000001,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

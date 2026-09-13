@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-3",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Qué librería de Python es la mas simple para tareas programadas en un script?",
+  "options": [
+    {
+      "id": "0",
+      "text": "celery"
+    },
+    {
+      "id": "1",
+      "text": "apscheduler"
+    },
+    {
+      "id": "2",
+      "text": "schedule"
+    },
+    {
+      "id": "3",
+      "text": "cron"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "schedule es simple y pitonica. apscheduler es mas robusta con persistencia. celery es para sistemas distribuidos.",
+  "irtA": 0.9560000000000001,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

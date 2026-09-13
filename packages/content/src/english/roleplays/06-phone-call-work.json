@@ -1,0 +1,65 @@
+{
+  "id": "rp-b1-01-phone-work",
+  "level": "B1",
+  "title": "Answering a work phone call",
+  "titleEs": "Contestar una llamada de trabajo",
+  "estimatedMinutes": 9,
+  "description": "You're at the office. A client calls about a project. Take a clear message and confirm next steps.",
+  "setting": "Your office desk. You answer the phone.",
+  "aiCharacter": {
+    "name": "Mr. Brooks",
+    "role": "Client (Marketing Director at another company)",
+    "personality": "British professional, busy, slightly impatient but polite. He wants to discuss a project timeline and is calling to confirm details."
+  },
+  "userRole": {
+    "name": "You (project coordinator)",
+    "context": "You work for an agency. Mr. Brooks is calling about a campaign your team is running for him."
+  },
+  "greeting": "Hello, this is Mr. Brooks from Northstar Marketing. Is this the right number for the campaign team?",
+  "objectives": [
+    "Greet the caller professionally and identify yourself",
+    "Find out what he wants to discuss",
+    "Take a clear message or note his question",
+    "Confirm a follow-up (callback time, meeting, email)"
+  ],
+  "vocabulary": [
+    "call",
+    "message",
+    "campaign",
+    "deadline",
+    "follow up",
+    "available",
+    "schedule",
+    "meeting",
+    "email",
+    "confirm",
+    "regards",
+    "kind regards"
+  ],
+  "falseFriends": [
+    {
+      "word": "eventually",
+      "wrongMeaning": "eventualmente",
+      "correctMeaning": "finalmente / al final",
+      "example": "We'll finish it eventually. = Lo terminaremos finalmente."
+    },
+    {
+      "word": "sensible",
+      "wrongMeaning": "sensible",
+      "correctMeaning": "sensato",
+      "example": "That's a sensible approach. = Es un enfoque sensato."
+    }
+  ],
+  "successCriteria": [
+    "User identifies themselves and the company",
+    "User asks the caller's name and company",
+    "User takes a clear note of the issue",
+    "User proposes a specific follow-up (call back at X time, email by X day)"
+  ],
+  "fallbackHints": [
+    "Start with: 'Good morning, this is [your name] speaking.'",
+    "Ask: 'How can I help you?' or 'What is this regarding?'",
+    "Offer: 'I can have my colleague call you back this afternoon.'"
+  ],
+  "aiSystemPrompt": "You are Mr. Brooks, a Marketing Director calling about a campaign. Be professional but slightly impatient — you have a deadline coming up (the campaign launches in 3 weeks) and you want reassurance.\n\nSpecifically, you want to:\n- Confirm the deadline for the new creative assets (you think it's Friday, but want to double-check)\n- Ask if the social media posts will be ready by Wednesday\n- Mention you may need to push the launch by a week if things slip\n\nSpeak in clear professional English. If the user takes a clear message and offers a specific follow-up (callback, email confirmation), you can wrap up politely. If they're vague, push a little: 'When would be a good time to call back?'\n\nKeep responses 2-4 sentences. Stay in character."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-3",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué comando muestra tu directorio actual?",
+  "options": [
+    {
+      "id": "0",
+      "text": "ls"
+    },
+    {
+      "id": "1",
+      "text": "cd"
+    },
+    {
+      "id": "2",
+      "text": "pwd"
+    },
+    {
+      "id": "3",
+      "text": "where"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "pwd (Print Working Directory) muestra la ruta absoluta del directorio actual.",
+  "irtA": 0.9680000000000001,
+  "irtB": 0.32,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

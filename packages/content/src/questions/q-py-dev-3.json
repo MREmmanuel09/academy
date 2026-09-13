@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-3",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Qué método de requests lanza una excepción si el status code es 4xx o 5xx?",
+  "options": [
+    {
+      "id": "0",
+      "text": ".check_status()"
+    },
+    {
+      "id": "1",
+      "text": ".raise_for_status()"
+    },
+    {
+      "id": "2",
+      "text": ".assert_ok()"
+    },
+    {
+      "id": "3",
+      "text": ".validate()"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "raise_for_status() lanza requests.HTTPError si el status code indica error.",
+  "irtA": 1.044,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "py-first-script",
+    "slug": "py-first-script",
+    "title": "Primer Script",
+    "description": "Crea tu primer script de Python",
+    "icon": "PY",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 50,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "py-ten-scripts",
+    "slug": "py-ten-scripts",
+    "title": "10 Scripts",
+    "description": "Completa 10 labs/ejercicios de Python",
+    "icon": "10",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 100,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "py-slack-bot",
+    "slug": "py-slack-bot",
+    "title": "Slack Bot Master",
+    "description": "Completa el lab de Slack bot",
+    "icon": "SB",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 200,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "py-boto3",
+    "slug": "py-boto3",
+    "title": "AWS Boto3 Wizard",
+    "description": "Completa el lab de AWS reporter",
+    "icon": "B3",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 200,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "py-pytest-pro",
+    "slug": "py-pytest-pro",
+    "title": "Pytest Pro",
+    "description": "Completa la leccion de pytest + escribe tests propios",
+    "icon": "PT",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 300,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  }
+]

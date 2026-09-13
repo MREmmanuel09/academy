@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-15",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre modo \"append\", \"update\" y \"complete\" en Structured Streaming?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay diferencia"
+    },
+    {
+      "id": "1",
+      "text": "Append: solo filas finales. Update: filas modificadas. Complete: reescribe todo el estado"
+    },
+    {
+      "id": "2",
+      "text": "Append: borra. Update: inserta. Complete: actualiza"
+    },
+    {
+      "id": "3",
+      "text": "Son sinonimos de \"overwrite\""
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Append: solo escribe filas nuevas cuando la ventana esta cerrada. Update: emite cada cambio. Complete: reescribe toda la tabla agregada (necesario con groupBy sin watermark).",
+  "irtA": 1.044,
+  "irtB": 1.54,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "py-loops",
+  "title": "Bucles: for, while, break, continue",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 55,
+  "summary": "Iteracion, enumerate, zip, range, control de flujo en loops.",
+  "keyTakeaways": [
+    "for itera cualquier iterable. enumerate() para indices, zip() para paralelos.",
+    "range(start, stop, step) genera secuencias numericas sin crear listas.",
+    "while solo cuando no sabes el numero de iteraciones (retry logic, polling).",
+    "for...else se ejecuta si no hubo break — util para busquedas."
+  ]
+}

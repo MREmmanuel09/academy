@@ -1,0 +1,31 @@
+{
+  "id": "q-s-10",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "En OSPF, ¿qué área debe existir obligatoriamente?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Área 1"
+    },
+    {
+      "id": "1",
+      "text": "Área 0 (backbone)"
+    },
+    {
+      "id": "2",
+      "text": "Área stub"
+    },
+    {
+      "id": "3",
+      "text": "Área NSSA"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El área 0 (backbone) es obligatoria en OSPF. Todas las demás áreas deben conectar al backbone vía ABR.",
+  "irtA": 0.8440000000000001,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

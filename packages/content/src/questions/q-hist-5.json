@@ -1,0 +1,31 @@
+{
+  "id": "q-hist-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cuales son \"The Three Ways\" de DevOps?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Speed, Quality, Cost"
+    },
+    {
+      "id": "1",
+      "text": "Flow, Feedback, Continuous Learning (Gene Kim)"
+    },
+    {
+      "id": "2",
+      "text": "Plan, Build, Run"
+    },
+    {
+      "id": "3",
+      "text": "Dev, Ops, QA"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "The Three Ways de Gene Kim (The DevOps Handbook): 1) Flow (optimizar trabajo), 2) Feedback (rapido en todas direcciones), 3) Continuous Learning (experimentar y mejorar).",
+  "irtA": 1.112,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-intro-1",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cuales son las 5Vs de Big Data?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Volume, Velocity, Variety, Veracity, Value"
+    },
+    {
+      "id": "1",
+      "text": "Volume, Virtual, Veracity, View, Vector"
+    },
+    {
+      "id": "2",
+      "text": "Varchar, Velocity, View, Veracity, Value"
+    },
+    {
+      "id": "3",
+      "text": "Volatile, Velocity, Variety, Veracity, Value"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Las 5Vs clasicas: Volume (tamano), Velocity (velocidad de llegada), Variety (tipos de datos), Veracity (calidad), Value (valor extraido).",
+  "irtA": 1.068,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

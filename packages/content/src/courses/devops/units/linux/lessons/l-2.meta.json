@@ -1,0 +1,15 @@
+{
+  "id": "l-2",
+  "title": "Terminal y comandos esenciales",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 15,
+  "xp": 60,
+  "summary": "Navegación, archivos, directorios, atajos. Los comandos que usarás todos los días.",
+  "keyTakeaways": [
+    "El prompt muestra usuario, hostname y directorio actual.",
+    "Tab autocompletar es tu mejor amigo. Úsalo SIEMPRE.",
+    "Ctrl+R busca en el historial. Ctrl+C mata el proceso actual.",
+    "`rm -rf` es destructivo. Nunca lo corras sobre `/`."
+  ]
+}

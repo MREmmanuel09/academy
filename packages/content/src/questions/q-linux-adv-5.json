@@ -1,0 +1,31 @@
+{
+  "id": "q-linux-adv-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la mejor forma de diagnosticar una query SQL lenta en produccion?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Reiniciar Postgres"
+    },
+    {
+      "id": "1",
+      "text": "Usar EXPLAIN ANALYZE para ver el plan de ejecucion"
+    },
+    {
+      "id": "2",
+      "text": "Aumentar shared_buffers"
+    },
+    {
+      "id": "3",
+      "text": "Esperar y rezar"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "EXPLAIN ANALYZE muestra el plan exacto que Postgres usa, incluyendo seq scan vs index scan, rows estimados vs reales, tiempo por nodo.",
+  "irtA": 1.1600000000000001,
+  "irtB": 0.06,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

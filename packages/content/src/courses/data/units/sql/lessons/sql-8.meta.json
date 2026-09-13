@@ -1,0 +1,15 @@
+{
+  "id": "sql-8",
+  "title": "SQL para Analytics: cohort, funnel, retention, LTV",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 18,
+  "xp": 95,
+  "summary": "Patrones SQL para análisis de producto. Cohort analysis, funnels, retención, LTV.",
+  "keyTakeaways": [
+    "Cohort analysis agrupa usuarios por fecha de signup; mide comportamiento a lo largo del tiempo.",
+    "Funnel mide conversión entre pasos. Identifica dónde los usuarios abandonan.",
+    "Retention = % que regresa. >40% en w1 es excelente para apps.",
+    "LTV debe ser al menos 3x CAC para un negocio SaaS saludable."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "lab-sql-detective",
+  "title": "SQL Detective: investigacion de e-commerce",
+  "steps": [
+    {
+      "instruction": "CASO 1 - Cliente VIP perdido: Encuentra al cliente que más ha gastado en toda la historia. Usa JOIN, GROUP BY y ORDER BY.",
+      "expectedCommand": "SELECT c.name, SUM(o.total) as spent FROM customers c JOIN orders o ON c.id = o.customer_id GROUP BY c.id, c.name ORDER BY spent DESC LIMIT 1;",
+      "hint": "JOIN customers con orders, agrupa por cliente, suma total, ordena descendente, limit 1."
+    },
+    {
+      "instruction": "CASO 2 - Productos sin salida: Lista los productos que NUNCA se han vendido. Usa LEFT JOIN con detección de NULL.",
+      "expectedCommand": "SELECT p.product_name FROM products p LEFT JOIN orders o ON p.id = o.product_id WHERE o.order_id IS NULL;",
+      "hint": "LEFT JOIN desde products hacia orders, filtra donde orders.order_id es NULL."
+    },
+    {
+      "instruction": "CASO 3 - Ticket promedio por categoría: Calcula el ticket promedio de orden por cada categoría de producto. Usa JOIN + AVG + GROUP BY.",
+      "expectedCommand": "SELECT p.category, AVG(o.total) as avg_ticket, COUNT(*) as num_orders FROM orders o JOIN products p ON o.product_id = p.id GROUP BY p.category ORDER BY avg_ticket DESC;",
+      "hint": "JOIN orders con products, AVG(total) y COUNT(*) agrupados por categoría."
+    },
+    {
+      "instruction": "CASO 4 - Top 3 clientes del último mes: Encuentra los 3 clientes que más compraron en los últimos 30 días. Usa window functions (RANK o ROW_NUMBER con PARTITION BY).",
+      "expectedCommand": "WITH ranked AS (SELECT c.name, SUM(o.total) as spent, ROW_NUMBER() OVER (ORDER BY SUM(o.total) DESC) as rn FROM customers c JOIN orders o ON c.id = o.customer_id WHERE o.order_date >= CURRENT_DATE - INTERVAL 30 DAY GROUP BY c.name) SELECT name, spent FROM ranked WHERE rn <= 3;",
+      "hint": "CTE con ROW_NUMBER() OVER (ORDER BY SUM(total) DESC), filtra rn <= 3, WHERE sobre order_date reciente."
+    },
+    {
+      "instruction": "CASO 5 - Funnel de conversión: Calcula cuántos clientes únicos han hecho al menos 1 orden, al menos 2, al menos 3.",
+      "expectedCommand": "SELECT num_orders, COUNT(*) as num_customers FROM (SELECT customer_id, COUNT(*) as num_orders FROM orders GROUP BY customer_id) GROUP BY num_orders ORDER BY num_orders;",
+      "hint": "Subquery: cuenta órdenes por cliente. Outer query: agrupa por número de órdenes, cuenta clientes."
+    },
+    {
+      "instruction": "CASO 6 - Retención simple: Para cada cohorte mensual de signup, ¿qué % volvió a comprar en los siguientes 30 días?",
+      "expectedCommand": "WITH cohorts AS (SELECT id, DATE_TRUNC('month', created_at) as cohort FROM customers), activity AS (SELECT c.cohort, c.id, MAX(CASE WHEN o.order_date > c.cohort + INTERVAL 30 DAY THEN 1 ELSE 0 END) as retained FROM cohorts c LEFT JOIN orders o ON c.id = o.customer_id GROUP BY c.cohort, c.id) SELECT cohort, AVG(retained) as retention_pct FROM activity GROUP BY cohort ORDER BY cohort;",
+      "hint": "CTE con cohorte mensual, segundo CTE con flag de retención, AVG del flag agrupado por cohorte."
+    },
+    {
+      "instruction": "CASO FINAL - LTV estimado: Calcula el LTV (lifetime value) promedio y mediano por cohorte. Usa PERCENTILE_CONT.",
+      "expectedCommand": "WITH user_ltv AS (SELECT DATE_TRUNC('month', u.created_at) as cohort, u.id, COALESCE(SUM(o.total), 0) as ltv FROM customers u LEFT JOIN orders o ON u.id = o.customer_id GROUP BY DATE_TRUNC('month', u.created_at), u.id) SELECT cohort, AVG(ltv) as avg_ltv, PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY ltv) as median_ltv FROM user_ltv GROUP BY cohort ORDER BY cohort;",
+      "hint": "CTE con LTV por usuario, luego AVG y PERCENTILE_CONT(0.5) WITHIN GROUP para mediana por cohorte."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "DB",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "Analyst",
+        "x": 200,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "DB",
+        "to": "Analyst"
+      }
+    ]
+  },
+  "validation": "Para validar el lab, intenta resolver cada caso en el SQL Playground con el dataset cargado. Las queries deben ejecutarse sin error y los resultados deben coincidir con el patrón esperado."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "py-strings",
+  "title": "Strings, f-strings y format",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 50,
+  "summary": "Manipulacion de cadenas: slicing, metodos, f-strings para logging, format avanzado.",
+  "keyTakeaways": [
+    "Usa f-strings siempre (no % o .format()). Son mas rapidas y legibles.",
+    "Slicing s[start:stop:step] permite extraer substrings sin metodos.",
+    "split() + join() son las herramientas #1 para parsear logs.",
+    "strip() es obligatorio despues de leer lineas de archivos (suelen tener \\\n)."
+  ]
+}

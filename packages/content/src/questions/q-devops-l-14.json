@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-l-14",
+  "quizId": "exam-linux",
+  "type": "truefalse",
+  "prompt": "systemctl es el comando para gestionar servicios en sistemas modernos con systemd.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "systemctl reemplaza al antiguo `service`. Comandos: start, stop, restart, enable, status.",
+  "irtA": 0.8,
+  "irtB": 1.36,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

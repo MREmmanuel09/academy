@@ -1,0 +1,42 @@
+{
+  "id": "exam-sre",
+  "course": "devops",
+  "unit": "monitoring",
+  "title": "SRE: Site Reliability Engineering",
+  "description": "Examen avanzado de SRE: SLOs, error budgets, on-call, postmortems, observability. Estilo Google SRE.",
+  "level": "avanzado",
+  "totalQuestions": 25,
+  "durationMinutes": 40,
+  "passingScore": 75,
+  "xp": 600,
+  "prerequisites": [
+    "exam-k8s"
+  ],
+  "questionIds": [
+    "q-devops-s-1",
+    "q-devops-s-2",
+    "q-devops-s-3",
+    "q-devops-s-4",
+    "q-devops-s-5",
+    "q-devops-s-6",
+    "q-devops-s-7",
+    "q-devops-s-8",
+    "q-devops-s-9",
+    "q-devops-s-10",
+    "q-devops-s-11",
+    "q-devops-s-12",
+    "q-devops-s-13",
+    "q-devops-s-14",
+    "q-devops-s-15",
+    "q-devops-ob-1",
+    "q-devops-ob-2",
+    "q-devops-ob-3",
+    "q-devops-ob-4",
+    "q-devops-ob-5",
+    "q-devops-ob-6",
+    "q-devops-ob-7",
+    "q-devops-ob-8",
+    "q-devops-ch-1",
+    "q-devops-ch-2"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-sql-15",
+  "quizId": "exam-data-analyst",
+  "type": "truefalse",
+  "prompt": "Sin índice, una query WHERE id = 5 hace un full table scan.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. Sin índice, el motor revisa fila por fila. Con índice en id, va directo al valor (5ms vs 2s en tablas grandes).",
+  "irtA": 1.1720000000000002,
+  "irtB": 1.64,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

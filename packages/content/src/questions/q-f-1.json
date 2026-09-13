@@ -1,0 +1,31 @@
+{
+  "id": "q-f-1",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Cuántas capas tiene el modelo OSI?",
+  "options": [
+    {
+      "id": "0",
+      "text": "4"
+    },
+    {
+      "id": "1",
+      "text": "5"
+    },
+    {
+      "id": "2",
+      "text": "6"
+    },
+    {
+      "id": "3",
+      "text": "7"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "El modelo OSI tiene exactamente 7 capas: Física, Enlace, Red, Transporte, Sesión, Presentación y Aplicación.",
+  "irtA": 0.936,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

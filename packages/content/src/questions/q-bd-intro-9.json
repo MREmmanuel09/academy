@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-intro-9",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre consistencia eventual y consistencia fuerte?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay diferencia"
+    },
+    {
+      "id": "1",
+      "text": "Fuerte: lectura siempre ve la ultima escritura. Eventual: lectura puede ver valor viejo por un tiempo."
+    },
+    {
+      "id": "2",
+      "text": "Eventual es mas rapida pero menos confiable siempre"
+    },
+    {
+      "id": "3",
+      "text": "Fuerte solo existe en teoria"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Consistencia fuerte: toda lectura ve el ultimo write committed. Consistencia eventual: las lecturas convergen al ultimo valor eventualmente, pero pueden ver versiones viejas por un tiempo.",
+  "irtA": 1.036,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

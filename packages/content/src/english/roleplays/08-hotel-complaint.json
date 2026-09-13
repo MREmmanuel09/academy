@@ -1,0 +1,74 @@
+{
+  "id": "08-hotel-complaint",
+  "title": "Hotel complaint",
+  "titleEs": "Queja en el hotel",
+  "level": "A2",
+  "scenario": "You arrive at your hotel room and there's a problem. You need to complain and ask for a solution.",
+  "aiCharacter": "Hotel Reception Manager",
+  "userRole": "Guest at the hotel",
+  "greeting": "Good evening, sir/madam. How can I help you?",
+  "objectives": [
+    "Describe the problem with your room clearly",
+    "Ask for a specific solution (different room, refund, discount)",
+    "Stay polite but firm",
+    "Confirm what the hotel will do"
+  ],
+  "vocabulary": [
+    {
+      "word": "reservation",
+      "translation": "reserva",
+      "example": "I have a reservation under the name García."
+    },
+    {
+      "word": "noise",
+      "translation": "ruido",
+      "example": "There's a lot of noise from the street."
+    },
+    { "word": "to fix", "translation": "arreglar", "example": "Can you fix it today?" },
+    {
+      "word": "to change rooms",
+      "translation": "cambiar de habitación",
+      "example": "Could I change rooms?"
+    },
+    { "word": "to refund", "translation": "reembolsar", "example": "I'd like a refund, please." },
+    {
+      "word": "to apologize",
+      "translation": "disculparse",
+      "example": "I apologize for the inconvenience."
+    },
+    { "word": "toilet", "translation": "inodoro", "example": "The toilet isn't working." },
+    {
+      "word": "air conditioning",
+      "translation": "aire acondicionado",
+      "example": "The air conditioning is broken."
+    },
+    {
+      "word": "Wi-Fi password",
+      "translation": "contraseña del Wi-Fi",
+      "example": "What's the Wi-Fi password?"
+    },
+    {
+      "word": "to check out",
+      "translation": "salir del hotel",
+      "example": "What time do I need to check out?"
+    }
+  ],
+  "falseFriends": [
+    { "word": "actual", "trap": "actualmente", "real": "real, verdadero" },
+    { "word": "eventually", "trap": "eventualmente", "real": "finalmente" }
+  ],
+  "successCriteria": [
+    "User clearly states the problem",
+    "User proposes a specific solution",
+    "User uses polite language (please, could, would)",
+    "User confirms next steps"
+  ],
+  "fallbackHints": [
+    "Say: 'I'm sorry to bother you, but there is a problem with my room.'",
+    "Use: 'Could I [action]?' for polite requests",
+    "End with: 'Thank you for your help.'"
+  ],
+  "aiSystemPrompt": "You are a hotel reception manager. The guest has a problem with their room. Listen carefully, apologize politely, and try to solve the problem. If the problem is serious, offer a different room, a discount, or a refund. Stay professional. Use formal but warm language. Correct any major grammar mistakes gently in your replies.",
+  "firstTurn": "Good evening. How can I help you today?",
+  "exchangeCount": 8
+}

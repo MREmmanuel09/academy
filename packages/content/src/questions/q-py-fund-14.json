@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-14",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es la diferencia entre una list y un generator expression?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay diferencia, son sinonimos"
+    },
+    {
+      "id": "1",
+      "text": "La list materializa los valores en memoria, el generator los produce bajo demanda"
+    },
+    {
+      "id": "2",
+      "text": "El generator solo funciona con numeros"
+    },
+    {
+      "id": "3",
+      "text": "La list es mas lenta pero ahorra memoria"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Generator expressions usan () en vez de [] y producen valores lazy (uno a la vez), ahorrando memoria en datasets grandes.",
+  "irtA": 1.1400000000000001,
+  "irtB": 0.68,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "data-7",
+  "title": "ETL vs ELT: extracción, transformación y carga",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 13,
+  "xp": 65,
+  "summary": "Los dos patrones para mover datos. Cuándo cada uno y por qué ELT ganó.",
+  "keyTakeaways": [
+    "ETL: transforma antes de cargar. ELT: carga crudo y transforma después dentro del warehouse.",
+    "ELT ganó porque los warehouses modernos son potentes, dbt democratizó SQL, y el storage es barato.",
+    "Mantén los datos crudos siempre accesibles: las transformaciones pueden cambiar.",
+    "Usa ETL solo para casos especiales: PII, compliance, sistemas legacy."
+  ]
+}

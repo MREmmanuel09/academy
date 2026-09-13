@@ -1,0 +1,15 @@
+{
+  "id": "l-1",
+  "title": "¿Qué es Linux y por qué DevOps lo usa?",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 50,
+  "summary": "Historia de Linux, distribuciones, y por qué es el sistema operativo dominante en servidores y DevOps.",
+  "keyTakeaways": [
+    "Linux es open source, creado por Linus Torvalds en 1991.",
+    "Una distribución combina kernel + herramientas + gestor de paquetes.",
+    "Linux domina servidores, cloud, contenedores, mobile y supercomputación.",
+    "DevOps se construye sobre Linux: dominar la terminal es fundamental."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-25",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "En bash, ¿cuál es la diferencia entre $@ y $*?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay diferencia"
+    },
+    {
+      "id": "1",
+      "text": "$@ preserva argumentos con comillas, $* los une"
+    },
+    {
+      "id": "2",
+      "text": "$* es más rápido"
+    },
+    {
+      "id": "3",
+      "text": "$@ no funciona"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "$@ trata cada argumento como separado, preservando espacios. $* une todos en un solo string.",
+  "irtA": 0.928,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-4",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué operador se usa para coincidencia de patrones en SQL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "MATCH"
+    },
+    {
+      "id": "1",
+      "text": "LIKE"
+    },
+    {
+      "id": "2",
+      "text": "EQUALS"
+    },
+    {
+      "id": "3",
+      "text": "PATTERN"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "LIKE usa % (cualquier cadena) y _ (un caracter). Ej: email LIKE '%@gmail.com'.",
+  "irtA": 0.892,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-4",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué servicio AWS es object storage?",
+  "options": [
+    {
+      "id": "0",
+      "text": "EBS"
+    },
+    {
+      "id": "1",
+      "text": "S3"
+    },
+    {
+      "id": "2",
+      "text": "EFS"
+    },
+    {
+      "id": "3",
+      "text": "FSx"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "S3 (Simple Storage Service) = object storage con 11 nueves de durabilidad. 5GB gratis. Para archivos, backups, data lakes.",
+  "irtA": 1.1760000000000002,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

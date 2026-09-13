@@ -1,0 +1,31 @@
+{
+  "id": "q-w-3",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué estándar Wi-Fi introdujo OFDMA?",
+  "options": [
+    {
+      "id": "0",
+      "text": "802.11n"
+    },
+    {
+      "id": "1",
+      "text": "802.11ac"
+    },
+    {
+      "id": "2",
+      "text": "802.11ax"
+    },
+    {
+      "id": "3",
+      "text": "802.11b"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "802.11ax (Wi-Fi 6) introduce OFDMA, que permite servir múltiples usuarios simultáneamente por subcanales.",
+  "irtA": 1.092,
+  "irtB": -0.08,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

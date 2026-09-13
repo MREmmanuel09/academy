@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-7",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué hace GROUP BY?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Filtra filas"
+    },
+    {
+      "id": "1",
+      "text": "Agrupa filas con valores iguales para aplicar funciones de agregación"
+    },
+    {
+      "id": "2",
+      "text": "Ordena los resultados"
+    },
+    {
+      "id": "3",
+      "text": "Une dos tablas"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "GROUP BY agrupa filas con valores iguales. Combinado con COUNT, SUM, AVG, etc. resume los datos por grupo.",
+  "irtA": 0.88,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

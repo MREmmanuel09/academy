@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-16",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Cómo editas /etc/sudoers de forma segura?",
+  "options": [
+    {
+      "id": "0",
+      "text": "vi /etc/sudoers"
+    },
+    {
+      "id": "1",
+      "text": "visudo"
+    },
+    {
+      "id": "2",
+      "text": "nano /etc/sudoers"
+    },
+    {
+      "id": "3",
+      "text": "sudo vim /etc/sudoers"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "visudo valida la sintaxis antes de guardar, evitando que rompas sudo con un error de sintaxis.",
+  "irtA": 0.808,
+  "irtB": 1.36,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

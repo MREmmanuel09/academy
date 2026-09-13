@@ -1,0 +1,31 @@
+{
+  "id": "q-data-7",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es un Data Warehouse?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un almacén de datos crudos en cualquier formato"
+    },
+    {
+      "id": "1",
+      "text": "Una bodega física donde se guardan servidores"
+    },
+    {
+      "id": "2",
+      "text": "Un sistema optimizado para queries analíticas con datos estructurados"
+    },
+    {
+      "id": "3",
+      "text": "Un tipo de base de datos NoSQL"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Un Data Warehouse es un sistema optimizado para queries analíticas, con datos estructurados y limpios. Ejemplos: Snowflake, BigQuery, Redshift.",
+  "irtA": 0.8640000000000001,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

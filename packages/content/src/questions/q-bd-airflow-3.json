@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre un Operator y un Sensor?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son sinonimos"
+    },
+    {
+      "id": "1",
+      "text": "Operator ejecuta una accion. Sensor espera una condicion antes de continuar"
+    },
+    {
+      "id": "2",
+      "text": "Sensor ejecuta, Operator espera"
+    },
+    {
+      "id": "3",
+      "text": "Operator es viejo, Sensor es nuevo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Operator ejecuta algo (run SQL, lanzar job). Sensor espera algo (que exista un archivo en S3, que una API responda 200). Un sensor exitosamente \"pasa\" cuando la condicion se cumple.",
+  "irtA": 1.012,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

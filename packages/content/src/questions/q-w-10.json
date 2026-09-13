@@ -1,0 +1,31 @@
+{
+  "id": "q-w-10",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "802.11ax (Wi-Fi 6) en 160 MHz alcanza hasta:",
+  "options": [
+    {
+      "id": "0",
+      "text": "1.2 Gbps"
+    },
+    {
+      "id": "1",
+      "text": "4.8 Gbps"
+    },
+    {
+      "id": "2",
+      "text": "9.6 Gbps"
+    },
+    {
+      "id": "3",
+      "text": "14 Gbps"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Con 8 spatial streams, 1024-QAM y 160 MHz, 802.11ax alcanza 9.6 Gbps teóricos.",
+  "irtA": 0.988,
+  "irtB": 1.04,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

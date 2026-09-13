@@ -1,0 +1,15 @@
+{
+  "id": "pandas-time",
+  "title": "Pandas time series: resample, rolling, shift y date_range",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 15,
+  "xp": 75,
+  "summary": "Series de tiempo son la mitad del trabajo real (finanzas, IoT, metricas). Domina las funciones clave.",
+  "keyTakeaways": [
+    "DatetimeIndex permite slicing tipo string: df.loc[\"2024-03\"].",
+    "resample cambia la frecuencia: downsample agrega, upsample rellena o interpola.",
+    "rolling(window) calcula estadisticas sobre los ultimos N puntos.",
+    "shift genera lags, diff y pct_change calculan cambios entre observaciones."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-9",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Dónde busca boto3 las credenciales de AWS por defecto? (orden de prioridad)",
+  "options": [
+    {
+      "id": "0",
+      "text": "Solo ~/.aws/credentials"
+    },
+    {
+      "id": "1",
+      "text": "Variables de entorno, ~/.aws/credentials, IAM role"
+    },
+    {
+      "id": "2",
+      "text": "Hardcoded en el código"
+    },
+    {
+      "id": "3",
+      "text": "Solo variables de entorno"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "boto3 busca en: 1) variables de entorno, 2) ~/.aws/credentials, 3) IAM role del EC2/Lambda.",
+  "irtA": 1.02,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

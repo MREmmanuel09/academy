@@ -1,0 +1,15 @@
+{
+  "id": "l-10",
+  "title": "Logs y troubleshooting",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 13,
+  "xp": 60,
+  "summary": "grep, awk, sed, journalctl, /var/log. Encontrar el problema en logs.",
+  "keyTakeaways": [
+    "/var/log contiene todos los logs del sistema. auth.log, syslog, kern.log.",
+    "grep encuentra patrones. -i case-insensitive, -v excluir, -E regex.",
+    "awk procesa texto por columnas ($1, $2, $NF). sed transforma en stream.",
+    "Pipe chain: awk | sort | uniq -c | sort -rn | head -10 es un clásico de DevOps."
+  ]
+}

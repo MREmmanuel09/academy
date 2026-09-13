@@ -1,0 +1,15 @@
+{
+  "id": "sql-1",
+  "title": "SQL básico: SELECT, WHERE, ORDER BY, LIMIT",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 60,
+  "summary": "Los fundamentos de SQL. Cómo consultar datos de una tabla: seleccionar, filtrar, ordenar y limitar resultados.",
+  "keyTakeaways": [
+    "SQL es declarativo: dices QUÉ quieres, no CÓMO obtenerlo.",
+    "SELECT columnas FROM tabla WHERE filtro ORDER BY col LIMIT n.",
+    "WHERE se evalúa antes que SELECT: no puedes usar alias de SELECT en WHERE.",
+    "Para paginación real, keyset pagination es mejor que LIMIT/OFFSET en tablas grandes."
+  ]
+}

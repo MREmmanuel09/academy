@@ -1,0 +1,31 @@
+{
+  "id": "q-linux-adv-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la principal ventaja de usar pgbouncer en modo transaction?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Es mas rapido que Postgres directamente"
+    },
+    {
+      "id": "1",
+      "text": "Multiplexa conexiones, permitiendo miles de clientes con pocos backends"
+    },
+    {
+      "id": "2",
+      "text": "Cifra las conexiones"
+    },
+    {
+      "id": "3",
+      "text": "Permite replicas automaticas"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "PgBouncer en transaction mode reusa conexiones entre transacciones, evitando que 1000 clientes = 1000 backends = ~10GB RAM.",
+  "irtA": 1.1680000000000001,
+  "irtB": 0.06,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

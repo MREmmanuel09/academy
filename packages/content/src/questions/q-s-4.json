@@ -1,0 +1,31 @@
+{
+  "id": "q-s-4",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "OSPF es un protocolo de routing:",
+  "options": [
+    {
+      "id": "0",
+      "text": "Distance-vector"
+    },
+    {
+      "id": "1",
+      "text": "Link-state"
+    },
+    {
+      "id": "2",
+      "text": "Path-vector"
+    },
+    {
+      "id": "3",
+      "text": "Hybrid"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "OSPF es link-state: cada router construye un mapa completo de la topología con Dijkstra/SPF.",
+  "irtA": 0.92,
+  "irtB": 1.5,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

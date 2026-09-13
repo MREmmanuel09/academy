@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-12",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que es CSRF (Cross-Site Request Forgery)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un tipo de malware"
+    },
+    {
+      "id": "1",
+      "text": "Atacar al usuario para que envie requests no autorizados a otra web donde esta autenticado"
+    },
+    {
+      "id": "2",
+      "text": "Un puerto de red"
+    },
+    {
+      "id": "3",
+      "text": "Un protocolo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "CSRF: induce al usuario a ejecutar acciones en una web donde esta logueado, sin su consentimiento. Mitigacion: tokens CSRF, SameSite cookies.",
+  "irtA": 1.068,
+  "irtB": -0.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

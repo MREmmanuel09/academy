@@ -1,0 +1,15 @@
+{
+  "id": "linux-adv-1",
+  "title": "Linux Avanzado: systemd, performance y tuning",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 25,
+  "xp": 110,
+  "summary": "systemd, journalctl, cgroups, namespaces, performance tuning con sysctl, strace, perf.",
+  "keyTakeaways": [
+    "systemd es el init moderno de Linux (Lennart Poettering, 2010), reemplaza a SysV.",
+    "cgroups limitan recursos (CPU, RAM, IO); namespaces aislan vistas del sistema (PID, network, etc).",
+    "sysctl permite tunear el kernel en vivo; somaxconn y swappiness son criticos para servidores.",
+    "strace y perf son las herramientas de oro para diagnosticar problemas de performance."
+  ]
+}

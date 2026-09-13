@@ -1,0 +1,43 @@
+{
+  "id": "lab-python-file-io",
+  "title": "Lectura y escritura de archivos",
+  "steps": [
+    {
+      "instruction": "Crea un archivo sample.txt con 3 lineas de texto usando open() y write().",
+      "expectedCommand": "sample.txt",
+      "hint": "Usa 'with open(\"sample.txt\", \"w\") as f:' para abrir en modo escritura."
+    },
+    {
+      "instruction": "Escribe un script que lea sample.txt y imprima cada linea.",
+      "expectedCommand": "read_file.py",
+      "hint": "Usa 'with open(\"sample.txt\", \"r\") as f:' y itera con f.readlines()."
+    },
+    {
+      "instruction": "Crea un archivo data.csv con headers (nombre,edad,ciudad) y 3 registros de datos.",
+      "expectedCommand": "data.csv",
+      "hint": "Puedes escribir directamente con f.write() o usar el modulo csv."
+    },
+    {
+      "instruction": "Lee data.csv usando el modulo csv y almacena los registros en una lista de diccionarios.",
+      "expectedCommand": "parse_csv.py",
+      "hint": "Usa csv.DictReader() para leer el CSV como diccionarios."
+    },
+    {
+      "instruction": "Escribe los registros leidos a un archivo resultados.txt en formato de texto formateado.",
+      "expectedCommand": "resultados.txt",
+      "hint": "Usa f-strings para formatear: f'{nombre} tiene {edad} anos'."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "pc",
+        "name": "dev-machine",
+        "x": 200,
+        "y": 150
+      }
+    ],
+    "links": []
+  },
+  "validation": null
+}

@@ -1,0 +1,5637 @@
+[
+ {
+  "lemma": "the",
+  "translation": "el, la, los, las",
+  "exampleEn": "The book is on the table.",
+  "exampleEs": "El libro está en la mesa.",
+  "tags": "other"
+ },
+ {
+  "lemma": "be",
+  "translation": "ser, estar",
+  "exampleEn": "I am happy.",
+  "exampleEs": "Soy feliz / Estoy feliz.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "to",
+  "translation": "a, hacia",
+  "exampleEn": "I go to school.",
+  "exampleEs": "Voy a la escuela.",
+  "tags": "other"
+ },
+ {
+  "lemma": "of",
+  "translation": "de",
+  "exampleEn": "A cup of coffee.",
+  "exampleEs": "Una taza de café.",
+  "tags": "other"
+ },
+ {
+  "lemma": "and",
+  "translation": "y",
+  "exampleEn": "Bread and butter.",
+  "exampleEs": "Pan y mantequilla.",
+  "tags": "other"
+ },
+ {
+  "lemma": "a",
+  "translation": "un, una",
+  "exampleEn": "I have a car.",
+  "exampleEs": "Tengo un coche.",
+  "tags": "other"
+ },
+ {
+  "lemma": "in",
+  "translation": "en, dentro de",
+  "exampleEn": "I am in the house.",
+  "exampleEs": "Estoy en la casa.",
+  "tags": "other"
+ },
+ {
+  "lemma": "that",
+  "translation": "que, ese, esa",
+  "exampleEn": "I know that.",
+  "exampleEs": "Lo sé.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "have",
+  "translation": "tener",
+  "exampleEn": "I have a question.",
+  "exampleEs": "Tengo una pregunta.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "I",
+  "translation": "yo",
+  "exampleEn": "I am here.",
+  "exampleEs": "Estoy aquí.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "it",
+  "translation": "eso, lo, la",
+  "exampleEn": "It is important.",
+  "exampleEs": "Es importante.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "for",
+  "translation": "para, por",
+  "exampleEn": "This is for you.",
+  "exampleEs": "Esto es para ti.",
+  "tags": "other"
+ },
+ {
+  "lemma": "not",
+  "translation": "no",
+  "exampleEn": "I do not know.",
+  "exampleEs": "No sé.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "on",
+  "translation": "en, sobre",
+  "exampleEn": "The book is on the table.",
+  "exampleEs": "El libro está sobre la mesa.",
+  "tags": "other"
+ },
+ {
+  "lemma": "with",
+  "translation": "con",
+  "exampleEn": "I go with him.",
+  "exampleEs": "Voy con él.",
+  "tags": "other"
+ },
+ {
+  "lemma": "he",
+  "translation": "él",
+  "exampleEn": "He is my friend.",
+  "exampleEs": "Él es mi amigo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "as",
+  "translation": "como, mientras",
+  "exampleEn": "As I said...",
+  "exampleEs": "Como dije...",
+  "tags": "other"
+ },
+ {
+  "lemma": "you",
+  "translation": "tú, vosotros, usted",
+  "exampleEn": "You are nice.",
+  "exampleEs": "Eres simpático.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "do",
+  "translation": "hacer",
+  "exampleEn": "What do you do?",
+  "exampleEs": "¿Qué haces?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "at",
+  "translation": "en, a",
+  "exampleEn": "At 5 o'clock.",
+  "exampleEs": "A las 5.",
+  "tags": "other"
+ },
+ {
+  "lemma": "this",
+  "translation": "este, esta, esto",
+  "exampleEn": "This is good.",
+  "exampleEs": "Esto es bueno.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "but",
+  "translation": "pero",
+  "exampleEn": "I like it but...",
+  "exampleEs": "Me gusta pero...",
+  "tags": "other"
+ },
+ {
+  "lemma": "his",
+  "translation": "su (de él)",
+  "exampleEn": "His car is red.",
+  "exampleEs": "Su coche es rojo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "by",
+  "translation": "por, junto a",
+  "exampleEn": "By the window.",
+  "exampleEs": "Junto a la ventana.",
+  "tags": "other"
+ },
+ {
+  "lemma": "from",
+  "translation": "de, desde",
+  "exampleEn": "I am from Spain.",
+  "exampleEs": "Soy de España.",
+  "tags": "other"
+ },
+ {
+  "lemma": "they",
+  "translation": "ellos, ellas",
+  "exampleEn": "They are students.",
+  "exampleEs": "Son estudiantes.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "we",
+  "translation": "nosotros, nosotras",
+  "exampleEn": "We are friends.",
+  "exampleEs": "Somos amigos.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "say",
+  "translation": "decir",
+  "exampleEn": "What did he say?",
+  "exampleEs": "¿Qué dijo?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "her",
+  "translation": "su (de ella), la",
+  "exampleEn": "Her name is Anna.",
+  "exampleEs": "Su nombre es Anna.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "she",
+  "translation": "ella",
+  "exampleEn": "She is here.",
+  "exampleEs": "Ella está aquí.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "or",
+  "translation": "o",
+  "exampleEn": "Tea or coffee?",
+  "exampleEs": "¿Té o café?",
+  "tags": "other"
+ },
+ {
+  "lemma": "an",
+  "translation": "un, una (ante vocal)",
+  "exampleEn": "An apple.",
+  "exampleEs": "Una manzana.",
+  "tags": "other"
+ },
+ {
+  "lemma": "will",
+  "translation": "will (futuro)",
+  "exampleEn": "I will go.",
+  "exampleEs": "Iré.",
+  "tags": "other"
+ },
+ {
+  "lemma": "my",
+  "translation": "mi",
+  "exampleEn": "My name is...",
+  "exampleEs": "Mi nombre es...",
+  "tags": "noun"
+ },
+ {
+  "lemma": "one",
+  "translation": "uno",
+  "exampleEn": "One book.",
+  "exampleEs": "Un libro.",
+  "tags": "other"
+ },
+ {
+  "lemma": "all",
+  "translation": "todo, todos",
+  "exampleEn": "All people.",
+  "exampleEs": "Todas las personas.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "would",
+  "translation": "would (condicional)",
+  "exampleEn": "I would go.",
+  "exampleEs": "Iría.",
+  "tags": "other"
+ },
+ {
+  "lemma": "there",
+  "translation": "allí, ahí",
+  "exampleEn": "There it is.",
+  "exampleEs": "Ahí está.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "their",
+  "translation": "su (de ellos)",
+  "exampleEn": "Their house.",
+  "exampleEs": "Su casa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "what",
+  "translation": "qué",
+  "exampleEn": "What is this?",
+  "exampleEs": "¿Qué es esto?",
+  "tags": "noun"
+ },
+ {
+  "lemma": "so",
+  "translation": "tan, así que",
+  "exampleEn": "So good.",
+  "exampleEs": "Tan bueno.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "up",
+  "translation": "arriba",
+  "exampleEn": "Stand up.",
+  "exampleEs": "Ponte de pie.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "out",
+  "translation": "fuera, afuera",
+  "exampleEn": "Go out.",
+  "exampleEs": "Sal.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "if",
+  "translation": "si",
+  "exampleEn": "If you go...",
+  "exampleEs": "Si vas...",
+  "tags": "other"
+ },
+ {
+  "lemma": "about",
+  "translation": "sobre, acerca de",
+  "exampleEn": "About the project.",
+  "exampleEs": "Sobre el proyecto.",
+  "tags": "other"
+ },
+ {
+  "lemma": "who",
+  "translation": "quien, quién",
+  "exampleEn": "Who is he?",
+  "exampleEs": "¿Quién es?",
+  "tags": "noun"
+ },
+ {
+  "lemma": "get",
+  "translation": "obtener, conseguir",
+  "exampleEn": "Get me water.",
+  "exampleEs": "Tráeme agua.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "which",
+  "translation": "cuál, que",
+  "exampleEn": "Which one?",
+  "exampleEs": "¿Cuál?",
+  "tags": "noun"
+ },
+ {
+  "lemma": "when",
+  "translation": "cuándo, cuando",
+  "exampleEn": "When did you go?",
+  "exampleEs": "¿Cuándo fuiste?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "make",
+  "translation": "hacer, fabricar",
+  "exampleEn": "Make a cake.",
+  "exampleEs": "Haz un pastel.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "can",
+  "translation": "poder",
+  "exampleEn": "I can swim.",
+  "exampleEs": "Puedo nadar.",
+  "tags": "other"
+ },
+ {
+  "lemma": "like",
+  "translation": "como, gustar",
+  "exampleEn": "Like a bird.",
+  "exampleEs": "Como un pájaro.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "time",
+  "translation": "tiempo, hora",
+  "exampleEn": "What time is it?",
+  "exampleEs": "¿Qué hora es?",
+  "tags": "noun"
+ },
+ {
+  "lemma": "no",
+  "translation": "no",
+  "exampleEn": "No, thanks.",
+  "exampleEs": "No, gracias.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "just",
+  "translation": "solo, solamente",
+  "exampleEn": "Just one.",
+  "exampleEs": "Solo uno.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "him",
+  "translation": "lo, le (a él)",
+  "exampleEn": "I saw him.",
+  "exampleEs": "Lo vi.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "know",
+  "translation": "saber, conocer",
+  "exampleEn": "I know.",
+  "exampleEs": "Sé / Conozco.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "take",
+  "translation": "tomar, llevar",
+  "exampleEn": "Take a seat.",
+  "exampleEs": "Toma asiento.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "people",
+  "translation": "gente, personas",
+  "exampleEn": "Many people.",
+  "exampleEs": "Mucha gente.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "into",
+  "translation": "en, dentro de, hacia dentro",
+  "exampleEn": "Go into the room.",
+  "exampleEs": "Entra en la habitación.",
+  "tags": "other"
+ },
+ {
+  "lemma": "year",
+  "translation": "año",
+  "exampleEn": "This year.",
+  "exampleEs": "Este año.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "your",
+  "translation": "tu, tus",
+  "exampleEn": "Your book.",
+  "exampleEs": "Tu libro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "good",
+  "translation": "bueno",
+  "exampleEn": "Good morning.",
+  "exampleEs": "Buenos días.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "some",
+  "translation": "algo, algunos",
+  "exampleEn": "Some water.",
+  "exampleEs": "Algo de agua.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "could",
+  "translation": "poder (condicional)",
+  "exampleEn": "Could you help?",
+  "exampleEs": "¿Podrías ayudar?",
+  "tags": "other"
+ },
+ {
+  "lemma": "them",
+  "translation": "los, les (a ellos)",
+  "exampleEn": "I saw them.",
+  "exampleEs": "Los vi.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "see",
+  "translation": "ver",
+  "exampleEn": "I can see.",
+  "exampleEs": "Puedo ver.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "other",
+  "translation": "otro",
+  "exampleEn": "The other one.",
+  "exampleEs": "El otro.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "than",
+  "translation": "que (en comparaciones)",
+  "exampleEn": "Bigger than.",
+  "exampleEs": "Más grande que.",
+  "tags": "other"
+ },
+ {
+  "lemma": "then",
+  "translation": "entonces, luego",
+  "exampleEn": "Then I left.",
+  "exampleEs": "Entonces me fui.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "now",
+  "translation": "ahora",
+  "exampleEn": "Right now.",
+  "exampleEs": "Ahora mismo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "look",
+  "translation": "mirar",
+  "exampleEn": "Look at me.",
+  "exampleEs": "Mírame.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "only",
+  "translation": "solo, solamente",
+  "exampleEn": "Only one.",
+  "exampleEs": "Solo uno.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "come",
+  "translation": "venir",
+  "exampleEn": "Come here.",
+  "exampleEs": "Ven aquí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "its",
+  "translation": "su (de cosa)",
+  "exampleEn": "The dog wagged its tail.",
+  "exampleEs": "El perro movió su cola.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "over",
+  "translation": "sobre, encima de",
+  "exampleEn": "Over the wall.",
+  "exampleEs": "Sobre el muro.",
+  "tags": "other"
+ },
+ {
+  "lemma": "think",
+  "translation": "pensar",
+  "exampleEn": "I think so.",
+  "exampleEs": "Creo que sí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "also",
+  "translation": "también",
+  "exampleEn": "Me too, also.",
+  "exampleEs": "Yo también.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "back",
+  "translation": "espalda, atrás",
+  "exampleEn": "Come back.",
+  "exampleEs": "Vuelve.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "after",
+  "translation": "después de",
+  "exampleEn": "After lunch.",
+  "exampleEs": "Después del almuerzo.",
+  "tags": "other"
+ },
+ {
+  "lemma": "use",
+  "translation": "usar",
+  "exampleEn": "Use it well.",
+  "exampleEs": "Úsalo bien.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "two",
+  "translation": "dos",
+  "exampleEn": "Two people.",
+  "exampleEs": "Dos personas.",
+  "tags": "other"
+ },
+ {
+  "lemma": "how",
+  "translation": "cómo",
+  "exampleEn": "How are you?",
+  "exampleEs": "¿Cómo estás?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "our",
+  "translation": "nuestro",
+  "exampleEn": "Our house.",
+  "exampleEs": "Nuestra casa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "work",
+  "translation": "trabajo, trabajar",
+  "exampleEn": "I work here.",
+  "exampleEs": "Trabajo aquí.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "first",
+  "translation": "primero",
+  "exampleEn": "The first time.",
+  "exampleEs": "La primera vez.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "well",
+  "translation": "bien",
+  "exampleEn": "Very well.",
+  "exampleEs": "Muy bien.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "way",
+  "translation": "camino, manera",
+  "exampleEn": "This way.",
+  "exampleEs": "Por aquí.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "even",
+  "translation": "incluso, aun",
+  "exampleEn": "Even now.",
+  "exampleEs": "Incluso ahora.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "new",
+  "translation": "nuevo",
+  "exampleEn": "A new car.",
+  "exampleEs": "Un coche nuevo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "because",
+  "translation": "porque",
+  "exampleEn": "Because I said so.",
+  "exampleEs": "Porque lo dije.",
+  "tags": "other"
+ },
+ {
+  "lemma": "day",
+  "translation": "día",
+  "exampleEn": "Every day.",
+  "exampleEs": "Cada día.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "more",
+  "translation": "más",
+  "exampleEn": "More water.",
+  "exampleEs": "Más agua.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "man",
+  "translation": "hombre",
+  "exampleEn": "A young man.",
+  "exampleEs": "Un hombre joven.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "find",
+  "translation": "encontrar",
+  "exampleEn": "I can't find it.",
+  "exampleEs": "No lo encuentro.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "here",
+  "translation": "aquí",
+  "exampleEn": "Come here.",
+  "exampleEs": "Ven aquí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "thing",
+  "translation": "cosa",
+  "exampleEn": "What thing?",
+  "exampleEs": "¿Qué cosa?",
+  "tags": "noun"
+ },
+ {
+  "lemma": "many",
+  "translation": "muchos",
+  "exampleEn": "Many people.",
+  "exampleEs": "Mucha gente.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "tell",
+  "translation": "decir, contar",
+  "exampleEn": "Tell me a story.",
+  "exampleEs": "Cuéntame un cuento.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "give",
+  "translation": "dar",
+  "exampleEn": "Give me a hand.",
+  "exampleEs": "Échame una mano.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "most",
+  "translation": "la mayoría, más",
+  "exampleEn": "Most people.",
+  "exampleEs": "La mayoría.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "us",
+  "translation": "nosotros, nos",
+  "exampleEn": "Give us a call.",
+  "exampleEs": "Llámanos.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "water",
+  "translation": "agua",
+  "exampleEn": "A glass of water.",
+  "exampleEs": "Un vaso de agua.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "long",
+  "translation": "largo",
+  "exampleEn": "A long time.",
+  "exampleEs": "Mucho tiempo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "little",
+  "translation": "pequeño, poco",
+  "exampleEn": "A little bit.",
+  "exampleEs": "Un poquito.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "very",
+  "translation": "muy",
+  "exampleEn": "Very good.",
+  "exampleEs": "Muy bueno.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "any",
+  "translation": "algún, ninguno",
+  "exampleEn": "Any questions?",
+  "exampleEs": "¿Alguna pregunta?",
+  "tags": "other"
+ },
+ {
+  "lemma": "woman",
+  "translation": "mujer",
+  "exampleEn": "A young woman.",
+  "exampleEs": "Una mujer joven.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "child",
+  "translation": "niño, niña",
+  "exampleEn": "A child.",
+  "exampleEs": "Un niño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "through",
+  "translation": "a través de, por",
+  "exampleEn": "Through the window.",
+  "exampleEs": "Por la ventana.",
+  "tags": "other"
+ },
+ {
+  "lemma": "life",
+  "translation": "vida",
+  "exampleEn": "My life.",
+  "exampleEs": "Mi vida.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "need",
+  "translation": "necesitar",
+  "exampleEn": "I need help.",
+  "exampleEs": "Necesito ayuda.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "feel",
+  "translation": "sentir",
+  "exampleEn": "I feel good.",
+  "exampleEs": "Me siento bien.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "high",
+  "translation": "alto",
+  "exampleEn": "A high mountain.",
+  "exampleEs": "Una montaña alta.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "right",
+  "translation": "correcto, derecho",
+  "exampleEn": "You are right.",
+  "exampleEs": "Tienes razón.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "might",
+  "translation": "podría (modal)",
+  "exampleEn": "It might rain.",
+  "exampleEs": "Podría llover.",
+  "tags": "other"
+ },
+ {
+  "lemma": "old",
+  "translation": "viejo, antiguo",
+  "exampleEn": "An old man.",
+  "exampleEs": "Un hombre viejo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "same",
+  "translation": "mismo, igual",
+  "exampleEn": "The same thing.",
+  "exampleEs": "Lo mismo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "big",
+  "translation": "grande",
+  "exampleEn": "A big house.",
+  "exampleEs": "Una casa grande.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "group",
+  "translation": "grupo",
+  "exampleEn": "A group of people.",
+  "exampleEs": "Un grupo de personas.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "start",
+  "translation": "empezar, comenzar",
+  "exampleEn": "Let's start.",
+  "exampleEs": "Empecemos.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "hand",
+  "translation": "mano",
+  "exampleEn": "A left hand.",
+  "exampleEs": "Una mano izquierda.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "place",
+  "translation": "lugar",
+  "exampleEn": "A nice place.",
+  "exampleEs": "Un lugar bonito.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "case",
+  "translation": "caso",
+  "exampleEn": "In that case.",
+  "exampleEs": "En ese caso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "week",
+  "translation": "semana",
+  "exampleEn": "Next week.",
+  "exampleEs": "La próxima semana.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "company",
+  "translation": "empresa, compañía",
+  "exampleEn": "A big company.",
+  "exampleEs": "Una empresa grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "system",
+  "translation": "sistema",
+  "exampleEn": "A new system.",
+  "exampleEs": "Un sistema nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "program",
+  "translation": "programa",
+  "exampleEn": "A computer program.",
+  "exampleEs": "Un programa de computadora.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "question",
+  "translation": "pregunta",
+  "exampleEn": "A good question.",
+  "exampleEs": "Una buena pregunta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "government",
+  "translation": "gobierno",
+  "exampleEn": "The government.",
+  "exampleEs": "El gobierno.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "number",
+  "translation": "número",
+  "exampleEn": "A number.",
+  "exampleEs": "Un número.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "point",
+  "translation": "punto",
+  "exampleEn": "A good point.",
+  "exampleEs": "Buen punto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "home",
+  "translation": "casa, hogar",
+  "exampleEn": "At home.",
+  "exampleEs": "En casa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "room",
+  "translation": "habitación",
+  "exampleEn": "My room.",
+  "exampleEs": "Mi habitación.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "mother",
+  "translation": "madre",
+  "exampleEn": "My mother.",
+  "exampleEs": "Mi madre.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "father",
+  "translation": "padre",
+  "exampleEn": "My father.",
+  "exampleEs": "Mi padre.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "area",
+  "translation": "área, zona",
+  "exampleEn": "A large area.",
+  "exampleEs": "Un área grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "money",
+  "translation": "dinero",
+  "exampleEn": "A lot of money.",
+  "exampleEs": "Mucho dinero.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fact",
+  "translation": "hecho",
+  "exampleEn": "A known fact.",
+  "exampleEs": "Un hecho conocido.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "story",
+  "translation": "historia, cuento",
+  "exampleEn": "A short story.",
+  "exampleEs": "Un cuento corto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "example",
+  "translation": "ejemplo",
+  "exampleEn": "For example.",
+  "exampleEs": "Por ejemplo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "while",
+  "translation": "mientras",
+  "exampleEn": "While I was...",
+  "exampleEs": "Mientras estaba...",
+  "tags": "other"
+ },
+ {
+  "lemma": "help",
+  "translation": "ayuda, ayudar",
+  "exampleEn": "Can you help me?",
+  "exampleEs": "¿Puedes ayudarme?",
+  "tags": "noun"
+ },
+ {
+  "lemma": "walk",
+  "translation": "caminar, andar",
+  "exampleEn": "I walk to school.",
+  "exampleEs": "Camino a la escuela.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "run",
+  "translation": "correr",
+  "exampleEn": "I run every morning.",
+  "exampleEs": "Corro cada mañana.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "sit",
+  "translation": "sentarse",
+  "exampleEn": "Please sit down.",
+  "exampleEs": "Por favor siéntate.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "stand",
+  "translation": "estar de pie",
+  "exampleEn": "Stand up.",
+  "exampleEs": "Ponte de pie.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "speak",
+  "translation": "hablar",
+  "exampleEn": "I speak Spanish.",
+  "exampleEs": "Hablo español.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "talk",
+  "translation": "hablar, conversar",
+  "exampleEn": "Let's talk.",
+  "exampleEs": "Hablemos.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "eat",
+  "translation": "comer",
+  "exampleEn": "I eat breakfast.",
+  "exampleEs": "Desayuno.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "drink",
+  "translation": "beber",
+  "exampleEn": "I drink coffee.",
+  "exampleEs": "Bebo café.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "sleep",
+  "translation": "dormir",
+  "exampleEn": "I sleep 8 hours.",
+  "exampleEs": "Duermo 8 horas.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "wake",
+  "translation": "despertar",
+  "exampleEn": "I wake up early.",
+  "exampleEs": "Me despierto temprano.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "buy",
+  "translation": "comprar",
+  "exampleEn": "I want to buy it.",
+  "exampleEs": "Quiero comprarlo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "sell",
+  "translation": "vender",
+  "exampleEn": "I sell books.",
+  "exampleEs": "Vendo libros.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "open",
+  "translation": "abrir",
+  "exampleEn": "Open the door.",
+  "exampleEs": "Abre la puerta.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "close",
+  "translation": "cerrar",
+  "exampleEn": "Close the window.",
+  "exampleEs": "Cierra la ventana.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "read",
+  "translation": "leer",
+  "exampleEn": "I read every day.",
+  "exampleEs": "Leo todos los días.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "write",
+  "translation": "escribir",
+  "exampleEn": "I write a letter.",
+  "exampleEs": "Escribo una carta.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "listen",
+  "translation": "escuchar",
+  "exampleEn": "Listen to me.",
+  "exampleEs": "Escúchame.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "watch",
+  "translation": "mirar, ver",
+  "exampleEn": "I watch TV.",
+  "exampleEs": "Veo tele.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "play",
+  "translation": "jugar, tocar",
+  "exampleEn": "I play football.",
+  "exampleEs": "Juego al fútbol.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "study",
+  "translation": "estudiar",
+  "exampleEn": "I study English.",
+  "exampleEs": "Estudio inglés.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "learn",
+  "translation": "aprender",
+  "exampleEn": "I want to learn.",
+  "exampleEs": "Quiero aprender.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "teach",
+  "translation": "enseñar",
+  "exampleEn": "She teaches math.",
+  "exampleEs": "Enseña matemáticas.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "cook",
+  "translation": "cocinar",
+  "exampleEn": "I cook dinner.",
+  "exampleEs": "Cocino la cena.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "clean",
+  "translation": "limpiar",
+  "exampleEn": "Clean your room.",
+  "exampleEs": "Limpia tu cuarto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "wash",
+  "translation": "lavar",
+  "exampleEn": "Wash your hands.",
+  "exampleEs": "Lávate las manos.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "drive",
+  "translation": "conducir",
+  "exampleEn": "I drive to work.",
+  "exampleEs": "Conduzco al trabajo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "fly",
+  "translation": "volar",
+  "exampleEn": "Birds fly south.",
+  "exampleEs": "Los pájaros vuelan al sur.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "swim",
+  "translation": "nadar",
+  "exampleEn": "I can swim.",
+  "exampleEs": "Sé nadar.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "sing",
+  "translation": "cantar",
+  "exampleEn": "She sings well.",
+  "exampleEs": "Canta bien.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "dance",
+  "translation": "bailar",
+  "exampleEn": "We dance at parties.",
+  "exampleEs": "Bailamos en fiestas.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "paint",
+  "translation": "pintar",
+  "exampleEn": "I paint pictures.",
+  "exampleEs": "Pinto cuadros.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "draw",
+  "translation": "dibujar",
+  "exampleEn": "She draws well.",
+  "exampleEs": "Dibuja bien.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "build",
+  "translation": "construir",
+  "exampleEn": "They build houses.",
+  "exampleEs": "Construyen casas.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "break",
+  "translation": "romper",
+  "exampleEn": "Be careful not to break it.",
+  "exampleEs": "Cuidado de no romperlo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "fix",
+  "translation": "arreglar, reparar",
+  "exampleEn": "Can you fix this?",
+  "exampleEs": "¿Puedes arreglar esto?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "call",
+  "translation": "llamar",
+  "exampleEn": "Call me tomorrow.",
+  "exampleEs": "Llámame mañana.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "ask",
+  "translation": "preguntar, pedir",
+  "exampleEn": "Ask the teacher.",
+  "exampleEs": "Pregúntale al profesor.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "answer",
+  "translation": "responder, contestar",
+  "exampleEn": "Answer the question.",
+  "exampleEs": "Responde la pregunta.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "try",
+  "translation": "intentar, probar",
+  "exampleEn": "Try again.",
+  "exampleEs": "Inténtalo de nuevo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "stop",
+  "translation": "parar, detener",
+  "exampleEn": "Stop!",
+  "exampleEs": "¡Para!",
+  "tags": "verb"
+ },
+ {
+  "lemma": "continue",
+  "translation": "continuar",
+  "exampleEn": "Please continue.",
+  "exampleEs": "Por favor continúa.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "finish",
+  "translation": "terminar",
+  "exampleEn": "I finish at 5.",
+  "exampleEs": "Termino a las 5.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "enjoy",
+  "translation": "disfrutar",
+  "exampleEn": "I enjoy reading.",
+  "exampleEs": "Disfruto leyendo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "remember",
+  "translation": "recordar",
+  "exampleEn": "Remember me?",
+  "exampleEs": "¿Te acuerdas de mí?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "forget",
+  "translation": "olvidar",
+  "exampleEn": "Don't forget.",
+  "exampleEs": "No olvides.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "understand",
+  "translation": "entender, comprender",
+  "exampleEn": "I understand.",
+  "exampleEs": "Entiendo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "explain",
+  "translation": "explicar",
+  "exampleEn": "Explain it to me.",
+  "exampleEs": "Explícamelo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "describe",
+  "translation": "describir",
+  "exampleEn": "Describe your house.",
+  "exampleEs": "Describe tu casa.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "decide",
+  "translation": "decidir",
+  "exampleEn": "I can't decide.",
+  "exampleEs": "No puedo decidir.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "agree",
+  "translation": "estar de acuerdo",
+  "exampleEn": "I agree.",
+  "exampleEs": "Estoy de acuerdo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "refuse",
+  "translation": "rechazar",
+  "exampleEn": "He refused.",
+  "exampleEs": "Rechazó.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "allow",
+  "translation": "permitir",
+  "exampleEn": "Allow me.",
+  "exampleEs": "Permíteme.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "prevent",
+  "translation": "prevenir, evitar",
+  "exampleEn": "To prevent fires.",
+  "exampleEs": "Para prevenir incendios.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "include",
+  "translation": "incluir",
+  "exampleEn": "Tax included.",
+  "exampleEs": "Impuesto incluido.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "exclude",
+  "translation": "excluir",
+  "exampleEn": "Tax excluded.",
+  "exampleEs": "Impuesto excluido.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "produce",
+  "translation": "producir",
+  "exampleEn": "We produce cars.",
+  "exampleEs": "Producimos coches.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "provide",
+  "translation": "proporcionar",
+  "exampleEn": "We provide services.",
+  "exampleEs": "Proporcionamos servicios.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "offer",
+  "translation": "ofrecer",
+  "exampleEn": "Can I offer you a drink?",
+  "exampleEs": "¿Te ofrezco algo?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "suggest",
+  "translation": "sugerir",
+  "exampleEn": "I suggest...",
+  "exampleEs": "Sugiero...",
+  "tags": "verb"
+ },
+ {
+  "lemma": "recommend",
+  "translation": "recomendar",
+  "exampleEn": "I recommend it.",
+  "exampleEs": "Lo recomiendo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "expect",
+  "translation": "esperar",
+  "exampleEn": "I expect so.",
+  "exampleEs": "Eso espero.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "hope",
+  "translation": "esperar (con deseo)",
+  "exampleEn": "I hope so.",
+  "exampleEs": "Eso espero.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "wish",
+  "translation": "desear",
+  "exampleEn": "I wish I could.",
+  "exampleEs": "Desearía poder.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "imagine",
+  "translation": "imaginar",
+  "exampleEn": "Imagine that.",
+  "exampleEs": "Imagina eso.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "realize",
+  "translation": "darse cuenta",
+  "exampleEn": "I realized.",
+  "exampleEs": "Me di cuenta.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "consider",
+  "translation": "considerar",
+  "exampleEn": "Consider this option.",
+  "exampleEs": "Considera esta opción.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "compare",
+  "translation": "comparar",
+  "exampleEn": "Compare the two.",
+  "exampleEs": "Compara los dos.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "depend",
+  "translation": "depender",
+  "exampleEn": "It depends.",
+  "exampleEs": "Depende.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "belong",
+  "translation": "pertenecer",
+  "exampleEn": "It belongs to me.",
+  "exampleEs": "Me pertenece.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "appear",
+  "translation": "aparecer",
+  "exampleEn": "He appeared.",
+  "exampleEs": "Apareció.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "disappear",
+  "translation": "desaparecer",
+  "exampleEn": "It disappeared.",
+  "exampleEs": "Desapareció.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "arrive",
+  "translation": "llegar",
+  "exampleEn": "I arrived late.",
+  "exampleEs": "Llegué tarde.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "leave",
+  "translation": "salir, irse, dejar",
+  "exampleEn": "I leave at 8.",
+  "exampleEs": "Me voy a las 8.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "return",
+  "translation": "volver, regresar",
+  "exampleEn": "I will return.",
+  "exampleEs": "Volveré.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "visit",
+  "translation": "visitar",
+  "exampleEn": "I will visit you.",
+  "exampleEs": "Te visitaré.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "meet",
+  "translation": "conocer, encontrar",
+  "exampleEn": "Nice to meet you.",
+  "exampleEs": "Encantado de conocerte.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "invite",
+  "translation": "invitar",
+  "exampleEn": "I invite you.",
+  "exampleEs": "Te invito.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "thank",
+  "translation": "agradecer",
+  "exampleEn": "Thank you.",
+  "exampleEs": "Gracias.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "apologize",
+  "translation": "disculparse",
+  "exampleEn": "I apologize.",
+  "exampleEs": "Me disculpo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "promise",
+  "translation": "prometer",
+  "exampleEn": "I promise.",
+  "exampleEs": "Lo prometo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "share",
+  "translation": "compartir",
+  "exampleEn": "Share with me.",
+  "exampleEs": "Compártelo conmigo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "borrow",
+  "translation": "pedir prestado",
+  "exampleEn": "Can I borrow this?",
+  "exampleEs": "¿Puedo pedir esto prestado?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "lend",
+  "translation": "prestar",
+  "exampleEn": "Can you lend me...?",
+  "exampleEs": "¿Me prestas...?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "owe",
+  "translation": "deber",
+  "exampleEn": "I owe you 10.",
+  "exampleEs": "Te debo 10.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "pay",
+  "translation": "pagar",
+  "exampleEn": "I will pay.",
+  "exampleEs": "Pagaré.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "cost",
+  "translation": "costar",
+  "exampleEn": "It costs $5.",
+  "exampleEs": "Cuesta 5 dólares.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "spend",
+  "translation": "gastar, pasar tiempo",
+  "exampleEn": "I spent $50.",
+  "exampleEs": "Gasté 50 dólares.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "save",
+  "translation": "ahorrar, guardar",
+  "exampleEn": "Save money.",
+  "exampleEs": "Ahorra dinero.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "earn",
+  "translation": "ganar",
+  "exampleEn": "I earn $1000.",
+  "exampleEs": "Gano 1000 dólares.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "lose",
+  "translation": "perder",
+  "exampleEn": "I lost my keys.",
+  "exampleEs": "Perdí mis llaves.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "win",
+  "translation": "ganar",
+  "exampleEn": "We won!",
+  "exampleEs": "¡Ganamos!",
+  "tags": "verb"
+ },
+ {
+  "lemma": "beat",
+  "translation": "golpear, vencer",
+  "exampleEn": "Don't beat the dog.",
+  "exampleEs": "No golpees al perro.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "catch",
+  "translation": "atrapar, coger",
+  "exampleEn": "Catch the ball.",
+  "exampleEs": "Atrapa la pelota.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "throw",
+  "translation": "lanzar, tirar",
+  "exampleEn": "Throw the ball.",
+  "exampleEs": "Lanza la pelota.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "kick",
+  "translation": "patear",
+  "exampleEn": "Kick the ball.",
+  "exampleEs": "Patea la pelota.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "hit",
+  "translation": "golpear",
+  "exampleEn": "Hit the target.",
+  "exampleEs": "Golpea el objetivo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "cut",
+  "translation": "cortar",
+  "exampleEn": "Cut the cake.",
+  "exampleEs": "Corta el pastel.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "push",
+  "translation": "empujar",
+  "exampleEn": "Push the door.",
+  "exampleEs": "Empuja la puerta.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "pull",
+  "translation": "tirar (de)",
+  "exampleEn": "Pull the door.",
+  "exampleEs": "Tira de la puerta.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "carry",
+  "translation": "llevar (en brazos)",
+  "exampleEn": "Carry the bag.",
+  "exampleEs": "Lleva la bolsa.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "hold",
+  "translation": "sostener, sujetar",
+  "exampleEn": "Hold this.",
+  "exampleEs": "Sostén esto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "drop",
+  "translation": "soltar, dejar caer",
+  "exampleEn": "Don't drop it.",
+  "exampleEs": "No lo sueltes.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "pick",
+  "translation": "recoger, elegir",
+  "exampleEn": "Pick it up.",
+  "exampleEs": "Recógelo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "put",
+  "translation": "poner",
+  "exampleEn": "Put it on the table.",
+  "exampleEs": "Ponlo en la mesa.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "set",
+  "translation": "establecer, poner",
+  "exampleEn": "Set the table.",
+  "exampleEs": "Pon la mesa.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "turn",
+  "translation": "girar, voltear",
+  "exampleEn": "Turn left.",
+  "exampleEs": "Gira a la izquierda.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "move",
+  "translation": "mover, mudarse",
+  "exampleEn": "Move the chair.",
+  "exampleEs": "Mueve la silla.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "pass",
+  "translation": "pasar",
+  "exampleEn": "Pass the salt.",
+  "exampleEs": "Pásame la sal.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "send",
+  "translation": "enviar, mandar",
+  "exampleEn": "Send me a message.",
+  "exampleEs": "Envíame un mensaje.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "receive",
+  "translation": "recibir",
+  "exampleEn": "I received it.",
+  "exampleEs": "Lo recibí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "bring",
+  "translation": "traer",
+  "exampleEn": "Bring me coffee.",
+  "exampleEs": "Tráeme café.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "fetch",
+  "translation": "ir a buscar",
+  "exampleEn": "Fetch the ball.",
+  "exampleEs": "Ve a buscar la pelota.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "go",
+  "translation": "ir",
+  "exampleEn": "Let's go.",
+  "exampleEs": "Vamos.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "stay",
+  "translation": "quedarse",
+  "exampleEn": "Stay here.",
+  "exampleEs": "Quédate aquí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "wait",
+  "translation": "esperar",
+  "exampleEn": "Wait for me.",
+  "exampleEs": "Espérame.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "hurry",
+  "translation": "apurarse",
+  "exampleEn": "Hurry up.",
+  "exampleEs": "Date prisa.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "worry",
+  "translation": "preocuparse",
+  "exampleEn": "Don't worry.",
+  "exampleEs": "No te preocupes.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "happy",
+  "translation": "feliz, contento",
+  "exampleEn": "I am happy.",
+  "exampleEs": "Estoy feliz.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "sad",
+  "translation": "triste",
+  "exampleEn": "I feel sad.",
+  "exampleEs": "Me siento triste.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "angry",
+  "translation": "enojado, enfadado",
+  "exampleEn": "Don't be angry.",
+  "exampleEs": "No te enfades.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "tired",
+  "translation": "cansado",
+  "exampleEn": "I am tired.",
+  "exampleEs": "Estoy cansado.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "hungry",
+  "translation": "hambriento",
+  "exampleEn": "I am hungry.",
+  "exampleEs": "Tengo hambre.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "thirsty",
+  "translation": "sediento",
+  "exampleEn": "I am thirsty.",
+  "exampleEs": "Tengo sed.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "sleepy",
+  "translation": "soñoliento",
+  "exampleEn": "I am sleepy.",
+  "exampleEs": "Tengo sueño.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "bored",
+  "translation": "aburrido",
+  "exampleEn": "I am bored.",
+  "exampleEs": "Estoy aburrido.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "excited",
+  "translation": "emocionado, emocionado",
+  "exampleEn": "I am excited.",
+  "exampleEs": "Estoy emocionado.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "worried",
+  "translation": "preocupado",
+  "exampleEn": "I am worried.",
+  "exampleEs": "Estoy preocupado.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "surprised",
+  "translation": "sorprendido",
+  "exampleEn": "I am surprised.",
+  "exampleEs": "Estoy sorprendido.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "afraid",
+  "translation": "asustado, temeroso",
+  "exampleEn": "I am afraid.",
+  "exampleEs": "Tengo miedo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "proud",
+  "translation": "orgulloso",
+  "exampleEn": "I am proud of you.",
+  "exampleEs": "Estoy orgulloso de ti.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "ashamed",
+  "translation": "avergonzado",
+  "exampleEn": "I am ashamed.",
+  "exampleEs": "Me avergüenzo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "jealous",
+  "translation": "celoso, envidioso",
+  "exampleEn": "I am jealous.",
+  "exampleEs": "Estoy celoso.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "polite",
+  "translation": "educado, cortés",
+  "exampleEn": "Be polite.",
+  "exampleEs": "Sé educado.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "rude",
+  "translation": "grosero, maleducado",
+  "exampleEn": "Don't be rude.",
+  "exampleEs": "No seas grosero.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "kind",
+  "translation": "amable",
+  "exampleEn": "She is kind.",
+  "exampleEs": "Es amable.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "mean",
+  "translation": "malo, mezquino",
+  "exampleEn": "Don't be mean.",
+  "exampleEs": "No seas malo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "generous",
+  "translation": "generoso",
+  "exampleEn": "He is generous.",
+  "exampleEs": "Es generoso.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "selfish",
+  "translation": "egoísta",
+  "exampleEn": "Don't be selfish.",
+  "exampleEs": "No seas egoísta.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "patient",
+  "translation": "paciente",
+  "exampleEn": "Be patient.",
+  "exampleEs": "Ten paciencia.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "honest",
+  "translation": "honesto",
+  "exampleEn": "Be honest.",
+  "exampleEs": "Sé honesto.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "brave",
+  "translation": "valiente",
+  "exampleEn": "Be brave.",
+  "exampleEs": "Sé valiente.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "shy",
+  "translation": "tímido",
+  "exampleEn": "He is shy.",
+  "exampleEs": "Es tímido.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "quiet",
+  "translation": "callado, silencioso",
+  "exampleEn": "Be quiet.",
+  "exampleEs": "Cállate.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "loud",
+  "translation": "ruidoso, fuerte",
+  "exampleEn": "Too loud.",
+  "exampleEs": "Demasiado fuerte.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "fast",
+  "translation": "rápido, veloz",
+  "exampleEn": "A fast car.",
+  "exampleEs": "Un coche rápido.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "slow",
+  "translation": "lento",
+  "exampleEn": "A slow turtle.",
+  "exampleEs": "Una tortuga lenta.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "early",
+  "translation": "temprano",
+  "exampleEn": "Early morning.",
+  "exampleEs": "Madrugada.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "late",
+  "translation": "tarde",
+  "exampleEn": "Don't be late.",
+  "exampleEs": "No llegues tarde.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "easy",
+  "translation": "fácil",
+  "exampleEn": "Easy peasy.",
+  "exampleEs": "Muy fácil.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "hard",
+  "translation": "difícil, duro",
+  "exampleEn": "A hard problem.",
+  "exampleEs": "Un problema difícil.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "simple",
+  "translation": "simple, sencillo",
+  "exampleEn": "A simple answer.",
+  "exampleEs": "Una respuesta simple.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "complex",
+  "translation": "complejo",
+  "exampleEn": "A complex problem.",
+  "exampleEs": "Un problema complejo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "important",
+  "translation": "importante",
+  "exampleEn": "Very important.",
+  "exampleEs": "Muy importante.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "necessary",
+  "translation": "necesario",
+  "exampleEn": "Is it necessary?",
+  "exampleEs": "¿Es necesario?",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "possible",
+  "translation": "posible",
+  "exampleEn": "Is it possible?",
+  "exampleEs": "¿Es posible?",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "impossible",
+  "translation": "imposible",
+  "exampleEn": "Nothing is impossible.",
+  "exampleEs": "Nada es imposible.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "difficult",
+  "translation": "difícil",
+  "exampleEn": "A difficult exam.",
+  "exampleEs": "Un examen difícil.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "expensive",
+  "translation": "caro",
+  "exampleEn": "Too expensive.",
+  "exampleEs": "Demasiado caro.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "cheap",
+  "translation": "barato",
+  "exampleEn": "Very cheap.",
+  "exampleEs": "Muy barato.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "free",
+  "translation": "gratis, libre",
+  "exampleEn": "Free of charge.",
+  "exampleEs": "Gratis.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "rich",
+  "translation": "rico",
+  "exampleEn": "A rich man.",
+  "exampleEs": "Un hombre rico.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "poor",
+  "translation": "pobre",
+  "exampleEn": "A poor country.",
+  "exampleEs": "Un país pobre.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "strong",
+  "translation": "fuerte",
+  "exampleEn": "A strong man.",
+  "exampleEs": "Un hombre fuerte.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "weak",
+  "translation": "débil",
+  "exampleEn": "I feel weak.",
+  "exampleEs": "Me siento débil.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "healthy",
+  "translation": "saludable, sano",
+  "exampleEn": "A healthy lifestyle.",
+  "exampleEs": "Un estilo de vida saludable.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "sick",
+  "translation": "enfermo",
+  "exampleEn": "I am sick.",
+  "exampleEs": "Estoy enfermo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "hot",
+  "translation": "caliente",
+  "exampleEn": "Hot water.",
+  "exampleEs": "Agua caliente.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "cold",
+  "translation": "frío",
+  "exampleEn": "Cold water.",
+  "exampleEs": "Agua fría.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "warm",
+  "translation": "cálido, tibio",
+  "exampleEn": "Warm soup.",
+  "exampleEs": "Sopa tibia.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "cool",
+  "translation": "fresco",
+  "exampleEn": "Cool breeze.",
+  "exampleEs": "Brisa fresca.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "dirty",
+  "translation": "sucio",
+  "exampleEn": "Dirty clothes.",
+  "exampleEs": "Ropa sucia.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "full",
+  "translation": "lleno",
+  "exampleEn": "I am full.",
+  "exampleEs": "Estoy lleno.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "empty",
+  "translation": "vacío",
+  "exampleEn": "An empty box.",
+  "exampleEs": "Una caja vacía.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "closed",
+  "translation": "cerrado",
+  "exampleEn": "The shop is closed.",
+  "exampleEs": "La tienda está cerrada.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "wet",
+  "translation": "mojado",
+  "exampleEn": "Wet clothes.",
+  "exampleEs": "Ropa mojada.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "dry",
+  "translation": "seco",
+  "exampleEn": "Dry clothes.",
+  "exampleEs": "Ropa seca.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "heavy",
+  "translation": "pesado",
+  "exampleEn": "A heavy box.",
+  "exampleEs": "Una caja pesada.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "light",
+  "translation": "ligero, claro",
+  "exampleEn": "A light color.",
+  "exampleEs": "Un color claro.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "thick",
+  "translation": "grueso, espeso",
+  "exampleEn": "A thick book.",
+  "exampleEs": "Un libro grueso.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "thin",
+  "translation": "delgado, fino",
+  "exampleEn": "A thin book.",
+  "exampleEs": "Un libro fino.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "tall",
+  "translation": "alto",
+  "exampleEn": "A tall building.",
+  "exampleEs": "Un edificio alto.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "short",
+  "translation": "bajo, corto",
+  "exampleEn": "A short story.",
+  "exampleEs": "Un cuento corto.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "wide",
+  "translation": "ancho",
+  "exampleEn": "A wide street.",
+  "exampleEs": "Una calle ancha.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "narrow",
+  "translation": "estrecho",
+  "exampleEn": "A narrow street.",
+  "exampleEs": "Una calle estrecha.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "deep",
+  "translation": "profundo",
+  "exampleEn": "A deep lake.",
+  "exampleEs": "Un lago profundo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "shallow",
+  "translation": "poco profundo",
+  "exampleEn": "Shallow water.",
+  "exampleEs": "Agua poco profunda.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "round",
+  "translation": "redondo",
+  "exampleEn": "A round table.",
+  "exampleEs": "Una mesa redonda.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "square",
+  "translation": "cuadrado",
+  "exampleEn": "A square box.",
+  "exampleEs": "Una caja cuadrada.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "sharp",
+  "translation": "afilado, agudo",
+  "exampleEn": "A sharp knife.",
+  "exampleEs": "Un cuchillo afilado.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "dull",
+  "translation": "romo, aburrido",
+  "exampleEn": "A dull knife.",
+  "exampleEs": "Un cuchillo romo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "soft",
+  "translation": "suave, blando",
+  "exampleEn": "A soft pillow.",
+  "exampleEs": "Una almohada suave.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "smooth",
+  "translation": "liso, suave",
+  "exampleEn": "Smooth skin.",
+  "exampleEs": "Piel suave.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "rough",
+  "translation": "áspero, rugoso",
+  "exampleEn": "Rough surface.",
+  "exampleEs": "Superficie rugosa.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "sweet",
+  "translation": "dulce",
+  "exampleEn": "Sweet tea.",
+  "exampleEs": "Té dulce.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "sour",
+  "translation": "agrio, ácido",
+  "exampleEn": "Sour lemon.",
+  "exampleEs": "Limón agrio.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "bitter",
+  "translation": "amargo",
+  "exampleEn": "Bitter coffee.",
+  "exampleEs": "Café amargo.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "salty",
+  "translation": "salado",
+  "exampleEn": "Salty soup.",
+  "exampleEs": "Sopa salada.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "spicy",
+  "translation": "picante",
+  "exampleEn": "Spicy food.",
+  "exampleEs": "Comida picante.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "delicious",
+  "translation": "delicioso",
+  "exampleEn": "Delicious food.",
+  "exampleEs": "Comida deliciosa.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "tasty",
+  "translation": "sabroso",
+  "exampleEn": "Tasty meal.",
+  "exampleEs": "Comida sabrosa.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "house",
+  "translation": "casa",
+  "exampleEn": "My house is big.",
+  "exampleEs": "Mi casa es grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "car",
+  "translation": "coche, auto",
+  "exampleEn": "A red car.",
+  "exampleEs": "Un coche rojo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bus",
+  "translation": "autobús",
+  "exampleEn": "The bus is late.",
+  "exampleEs": "El autobús llega tarde.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "train",
+  "translation": "tren",
+  "exampleEn": "I take the train.",
+  "exampleEs": "Tomo el tren.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "airplane",
+  "translation": "avión",
+  "exampleEn": "An airplane flies.",
+  "exampleEs": "Un avión vuela.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "airport",
+  "translation": "aeropuerto",
+  "exampleEn": "At the airport.",
+  "exampleEs": "En el aeropuerto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "station",
+  "translation": "estación",
+  "exampleEn": "The train station.",
+  "exampleEs": "La estación de tren.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "street",
+  "translation": "calle",
+  "exampleEn": "A busy street.",
+  "exampleEs": "Una calle concurrida.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "road",
+  "translation": "carretera, camino",
+  "exampleEn": "A long road.",
+  "exampleEs": "Una carretera larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bridge",
+  "translation": "puente",
+  "exampleEn": "Across the bridge.",
+  "exampleEs": "A través del puente.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "building",
+  "translation": "edificio",
+  "exampleEn": "A tall building.",
+  "exampleEs": "Un edificio alto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "city",
+  "translation": "ciudad",
+  "exampleEn": "A big city.",
+  "exampleEs": "Una ciudad grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "town",
+  "translation": "pueblo, ciudad",
+  "exampleEn": "A small town.",
+  "exampleEs": "Un pueblo pequeño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "country",
+  "translation": "país",
+  "exampleEn": "My country.",
+  "exampleEs": "Mi país.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "state",
+  "translation": "estado",
+  "exampleEn": "The state of Texas.",
+  "exampleEs": "El estado de Texas.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "world",
+  "translation": "mundo",
+  "exampleEn": "Around the world.",
+  "exampleEs": "Por el mundo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "earth",
+  "translation": "tierra",
+  "exampleEn": "Planet earth.",
+  "exampleEs": "El planeta tierra.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sun",
+  "translation": "sol",
+  "exampleEn": "The sun is bright.",
+  "exampleEs": "El sol brilla.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "moon",
+  "translation": "luna",
+  "exampleEn": "The moon is full.",
+  "exampleEs": "La luna está llena.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "star",
+  "translation": "estrella",
+  "exampleEn": "A bright star.",
+  "exampleEs": "Una estrella brillante.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sky",
+  "translation": "cielo",
+  "exampleEn": "Blue sky.",
+  "exampleEs": "Cielo azul.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "cloud",
+  "translation": "nube",
+  "exampleEn": "A white cloud.",
+  "exampleEs": "Una nube blanca.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "rain",
+  "translation": "lluvia",
+  "exampleEn": "Heavy rain.",
+  "exampleEs": "Lluvia fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "snow",
+  "translation": "nieve",
+  "exampleEn": "White snow.",
+  "exampleEs": "Nieve blanca.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "wind",
+  "translation": "viento",
+  "exampleEn": "Strong wind.",
+  "exampleEs": "Viento fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "storm",
+  "translation": "tormenta",
+  "exampleEn": "A big storm.",
+  "exampleEs": "Una tormenta grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fire",
+  "translation": "fuego, incendio",
+  "exampleEn": "A house fire.",
+  "exampleEs": "Un incendio.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "tree",
+  "translation": "árbol",
+  "exampleEn": "A tall tree.",
+  "exampleEs": "Un árbol alto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "flower",
+  "translation": "flor",
+  "exampleEn": "A red flower.",
+  "exampleEs": "Una flor roja.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "grass",
+  "translation": "hierba, césped",
+  "exampleEn": "Green grass.",
+  "exampleEs": "Hierba verde.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "river",
+  "translation": "río",
+  "exampleEn": "A wide river.",
+  "exampleEs": "Un río ancho.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "lake",
+  "translation": "lago",
+  "exampleEn": "A deep lake.",
+  "exampleEs": "Un lago profundo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sea",
+  "translation": "mar",
+  "exampleEn": "The sea is calm.",
+  "exampleEs": "El mar está tranquilo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "ocean",
+  "translation": "océano",
+  "exampleEn": "The Pacific Ocean.",
+  "exampleEs": "El Océano Pacífico.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "mountain",
+  "translation": "montaña",
+  "exampleEn": "A high mountain.",
+  "exampleEs": "Una montaña alta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "forest",
+  "translation": "bosque",
+  "exampleEn": "A dense forest.",
+  "exampleEs": "Un bosque denso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "park",
+  "translation": "parque",
+  "exampleEn": "In the park.",
+  "exampleEs": "En el parque.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "garden",
+  "translation": "jardín",
+  "exampleEn": "A beautiful garden.",
+  "exampleEs": "Un jardín hermoso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "farm",
+  "translation": "granja",
+  "exampleEn": "On the farm.",
+  "exampleEs": "En la granja.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "shop",
+  "translation": "tienda",
+  "exampleEn": "A small shop.",
+  "exampleEs": "Una tienda pequeña.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "store",
+  "translation": "tienda",
+  "exampleEn": "At the store.",
+  "exampleEs": "En la tienda.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "market",
+  "translation": "mercado",
+  "exampleEn": "At the market.",
+  "exampleEs": "En el mercado.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "mall",
+  "translation": "centro comercial",
+  "exampleEn": "A big mall.",
+  "exampleEs": "Un centro comercial grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "school",
+  "translation": "escuela",
+  "exampleEn": "At school.",
+  "exampleEs": "En la escuela.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "university",
+  "translation": "universidad",
+  "exampleEn": "A good university.",
+  "exampleEs": "Una buena universidad.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "library",
+  "translation": "biblioteca",
+  "exampleEn": "At the library.",
+  "exampleEs": "En la biblioteca.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "hospital",
+  "translation": "hospital",
+  "exampleEn": "In the hospital.",
+  "exampleEs": "En el hospital.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "church",
+  "translation": "iglesia",
+  "exampleEn": "At the church.",
+  "exampleEs": "En la iglesia.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "restaurant",
+  "translation": "restaurante",
+  "exampleEn": "A French restaurant.",
+  "exampleEs": "Un restaurante francés.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "hotel",
+  "translation": "hotel",
+  "exampleEn": "A nice hotel.",
+  "exampleEs": "Un buen hotel.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bank",
+  "translation": "banco",
+  "exampleEn": "At the bank.",
+  "exampleEs": "En el banco.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "office",
+  "translation": "oficina",
+  "exampleEn": "At the office.",
+  "exampleEs": "En la oficina.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "factory",
+  "translation": "fábrica",
+  "exampleEn": "A car factory.",
+  "exampleEs": "Una fábrica de coches.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "book",
+  "translation": "libro",
+  "exampleEn": "A good book.",
+  "exampleEs": "Un buen libro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "page",
+  "translation": "página",
+  "exampleEn": "Page 5.",
+  "exampleEs": "Página 5.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "letter",
+  "translation": "carta",
+  "exampleEn": "A letter from my friend.",
+  "exampleEs": "Una carta de mi amigo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "email",
+  "translation": "correo electrónico",
+  "exampleEn": "Send an email.",
+  "exampleEs": "Envía un correo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "message",
+  "translation": "mensaje",
+  "exampleEn": "A text message.",
+  "exampleEs": "Un mensaje de texto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "phone",
+  "translation": "teléfono",
+  "exampleEn": "On the phone.",
+  "exampleEs": "Por teléfono.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "computer",
+  "translation": "computadora, ordenador",
+  "exampleEn": "A new computer.",
+  "exampleEs": "Una computadora nueva.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "screen",
+  "translation": "pantalla",
+  "exampleEn": "A big screen.",
+  "exampleEs": "Una pantalla grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "keyboard",
+  "translation": "teclado",
+  "exampleEn": "A wireless keyboard.",
+  "exampleEs": "Un teclado inalámbrico.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "mouse",
+  "translation": "ratón (de computadora)",
+  "exampleEn": "Click the mouse.",
+  "exampleEs": "Haz clic con el ratón.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "camera",
+  "translation": "cámara",
+  "exampleEn": "A digital camera.",
+  "exampleEs": "Una cámara digital.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "television",
+  "translation": "televisión",
+  "exampleEn": "On television.",
+  "exampleEs": "En la televisión.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "radio",
+  "translation": "radio",
+  "exampleEn": "On the radio.",
+  "exampleEs": "En la radio.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "clock",
+  "translation": "reloj",
+  "exampleEn": "A wall clock.",
+  "exampleEs": "Un reloj de pared.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pen",
+  "translation": "bolígrafo, pluma",
+  "exampleEn": "Write with a pen.",
+  "exampleEs": "Escribe con un bolígrafo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pencil",
+  "translation": "lápiz",
+  "exampleEn": "A sharp pencil.",
+  "exampleEs": "Un lápiz afilado.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "paper",
+  "translation": "papel",
+  "exampleEn": "A piece of paper.",
+  "exampleEs": "Un papel.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "ruler",
+  "translation": "regla",
+  "exampleEn": "A 30cm ruler.",
+  "exampleEs": "Una regla de 30cm.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "table",
+  "translation": "mesa",
+  "exampleEn": "On the table.",
+  "exampleEs": "En la mesa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "chair",
+  "translation": "silla",
+  "exampleEn": "Sit on the chair.",
+  "exampleEs": "Siéntate en la silla.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bed",
+  "translation": "cama",
+  "exampleEn": "In bed.",
+  "exampleEs": "En la cama.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "door",
+  "translation": "puerta",
+  "exampleEn": "Open the door.",
+  "exampleEs": "Abre la puerta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "window",
+  "translation": "ventana",
+  "exampleEn": "Close the window.",
+  "exampleEs": "Cierra la ventana.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "wall",
+  "translation": "pared, muro",
+  "exampleEn": "A white wall.",
+  "exampleEs": "Una pared blanca.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "floor",
+  "translation": "suelo, piso",
+  "exampleEn": "On the floor.",
+  "exampleEs": "En el suelo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "roof",
+  "translation": "techo",
+  "exampleEn": "On the roof.",
+  "exampleEs": "En el techo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "key",
+  "translation": "llave",
+  "exampleEn": "The key to the door.",
+  "exampleEs": "La llave de la puerta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "lock",
+  "translation": "cerradura, candado",
+  "exampleEn": "The lock is broken.",
+  "exampleEs": "La cerradura está rota.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bag",
+  "translation": "bolsa, bolso",
+  "exampleEn": "A school bag.",
+  "exampleEs": "Una mochila.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "box",
+  "translation": "caja",
+  "exampleEn": "An empty box.",
+  "exampleEs": "Una caja vacía.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bottle",
+  "translation": "botella",
+  "exampleEn": "A water bottle.",
+  "exampleEs": "Una botella de agua.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "glass",
+  "translation": "vaso, copa",
+  "exampleEn": "A glass of wine.",
+  "exampleEs": "Una copa de vino.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "cup",
+  "translation": "taza",
+  "exampleEn": "A cup of coffee.",
+  "exampleEs": "Una taza de café.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "plate",
+  "translation": "plato",
+  "exampleEn": "A clean plate.",
+  "exampleEs": "Un plato limpio.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fork",
+  "translation": "tenedor",
+  "exampleEn": "A fork and knife.",
+  "exampleEs": "Un tenedor y un cuchillo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "knife",
+  "translation": "cuchillo",
+  "exampleEn": "A sharp knife.",
+  "exampleEs": "Un cuchillo afilado.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "spoon",
+  "translation": "cuchara",
+  "exampleEn": "A soup spoon.",
+  "exampleEs": "Una cuchara de sopa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "food",
+  "translation": "comida",
+  "exampleEn": "I love Italian food.",
+  "exampleEs": "Me encanta la comida italiana.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bread",
+  "translation": "pan",
+  "exampleEn": "A loaf of bread.",
+  "exampleEs": "Una hogaza de pan.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "meat",
+  "translation": "carne",
+  "exampleEn": "Red meat.",
+  "exampleEs": "Carne roja.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fish",
+  "translation": "pescado, pez",
+  "exampleEn": "Fresh fish.",
+  "exampleEs": "Pescado fresco.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "chicken",
+  "translation": "pollo",
+  "exampleEn": "Roast chicken.",
+  "exampleEs": "Pollo asado.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "beef",
+  "translation": "carne de res",
+  "exampleEn": "I don't eat beef.",
+  "exampleEs": "No como carne de res.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pork",
+  "translation": "cerdo",
+  "exampleEn": "Pork is delicious.",
+  "exampleEs": "El cerdo es delicioso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "rice",
+  "translation": "arroz",
+  "exampleEn": "White rice.",
+  "exampleEs": "Arroz blanco.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pasta",
+  "translation": "pasta",
+  "exampleEn": "Italian pasta.",
+  "exampleEs": "Pasta italiana.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "cheese",
+  "translation": "queso",
+  "exampleEn": "I love cheese.",
+  "exampleEs": "Me encanta el queso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "egg",
+  "translation": "huevo",
+  "exampleEn": "A boiled egg.",
+  "exampleEs": "Un huevo cocido.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "milk",
+  "translation": "leche",
+  "exampleEn": "A glass of milk.",
+  "exampleEs": "Un vaso de leche.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "juice",
+  "translation": "jugo, zumo",
+  "exampleEn": "Orange juice.",
+  "exampleEs": "Jugo de naranja.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "tea",
+  "translation": "té",
+  "exampleEn": "A cup of tea.",
+  "exampleEs": "Una taza de té.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "coffee",
+  "translation": "café",
+  "exampleEn": "Black coffee.",
+  "exampleEs": "Café negro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "wine",
+  "translation": "vino",
+  "exampleEn": "Red wine.",
+  "exampleEs": "Vino tinto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "beer",
+  "translation": "cerveza",
+  "exampleEn": "A cold beer.",
+  "exampleEs": "Una cerveza fría.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sugar",
+  "translation": "azúcar",
+  "exampleEn": "A spoonful of sugar.",
+  "exampleEs": "Una cucharada de azúcar.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "salt",
+  "translation": "sal",
+  "exampleEn": "Add salt.",
+  "exampleEs": "Añade sal.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pepper",
+  "translation": "pimienta",
+  "exampleEn": "Black pepper.",
+  "exampleEs": "Pimienta negra.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "oil",
+  "translation": "aceite",
+  "exampleEn": "Olive oil.",
+  "exampleEs": "Aceite de oliva.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fruit",
+  "translation": "fruta",
+  "exampleEn": "Eat more fruit.",
+  "exampleEs": "Come más fruta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "vegetable",
+  "translation": "verdura, vegetal",
+  "exampleEn": "Fresh vegetables.",
+  "exampleEs": "Verduras frescas.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "apple",
+  "translation": "manzana",
+  "exampleEn": "A red apple.",
+  "exampleEs": "Una manzana roja.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "banana",
+  "translation": "plátano, banana",
+  "exampleEn": "A ripe banana.",
+  "exampleEs": "Un plátano maduro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "orange",
+  "translation": "naranja",
+  "exampleEn": "An orange.",
+  "exampleEs": "Una naranja.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "lemon",
+  "translation": "limón",
+  "exampleEn": "A slice of lemon.",
+  "exampleEs": "Una rodaja de limón.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "tomato",
+  "translation": "tomate",
+  "exampleEn": "A red tomato.",
+  "exampleEs": "Un tomate rojo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "potato",
+  "translation": "patata, papa",
+  "exampleEn": "Mashed potato.",
+  "exampleEs": "Patata aplastada.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "carrot",
+  "translation": "zanahoria",
+  "exampleEn": "A fresh carrot.",
+  "exampleEs": "Una zanahoria fresca.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "onion",
+  "translation": "cebolla",
+  "exampleEn": "I don't like onion.",
+  "exampleEs": "No me gusta la cebolla.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "garlic",
+  "translation": "ajo",
+  "exampleEn": "A clove of garlic.",
+  "exampleEs": "Un diente de ajo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "animal",
+  "translation": "animal",
+  "exampleEn": "A wild animal.",
+  "exampleEs": "Un animal salvaje.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "dog",
+  "translation": "perro",
+  "exampleEn": "A friendly dog.",
+  "exampleEs": "Un perro amigable.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "cat",
+  "translation": "gato",
+  "exampleEn": "A black cat.",
+  "exampleEs": "Un gato negro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bird",
+  "translation": "pájaro",
+  "exampleEn": "A small bird.",
+  "exampleEs": "Un pájaro pequeño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "horse",
+  "translation": "caballo",
+  "exampleEn": "A black horse.",
+  "exampleEs": "Un caballo negro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "cow",
+  "translation": "vaca",
+  "exampleEn": "A brown cow.",
+  "exampleEs": "Una vaca marrón.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pig",
+  "translation": "cerdo",
+  "exampleEn": "A pink pig.",
+  "exampleEs": "Un cerdo rosa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sheep",
+  "translation": "oveja",
+  "exampleEn": "A white sheep.",
+  "exampleEs": "Una oveja blanca.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "rabbit",
+  "translation": "conejo",
+  "exampleEn": "A fast rabbit.",
+  "exampleEs": "Un conejo rápido.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "lion",
+  "translation": "león",
+  "exampleEn": "A big lion.",
+  "exampleEs": "Un león grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "tiger",
+  "translation": "tigre",
+  "exampleEn": "A wild tiger.",
+  "exampleEs": "Un tigre salvaje.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "bear",
+  "translation": "oso",
+  "exampleEn": "A brown bear.",
+  "exampleEs": "Un oso marrón.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "elephant",
+  "translation": "elefante",
+  "exampleEn": "A large elephant.",
+  "exampleEs": "Un elefante grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "monkey",
+  "translation": "mono",
+  "exampleEn": "A small monkey.",
+  "exampleEs": "Un mono pequeño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "family",
+  "translation": "familia",
+  "exampleEn": "My family is big.",
+  "exampleEs": "Mi familia es grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "parent",
+  "translation": "padre o madre",
+  "exampleEn": "My parents are nice.",
+  "exampleEs": "Mis padres son amables.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "son",
+  "translation": "hijo",
+  "exampleEn": "Their son is 5.",
+  "exampleEs": "Su hijo tiene 5 años.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "daughter",
+  "translation": "hija",
+  "exampleEn": "Their daughter is 8.",
+  "exampleEs": "Su hija tiene 8 años.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "brother",
+  "translation": "hermano",
+  "exampleEn": "My older brother.",
+  "exampleEs": "Mi hermano mayor.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sister",
+  "translation": "hermana",
+  "exampleEn": "My younger sister.",
+  "exampleEs": "Mi hermana menor.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "uncle",
+  "translation": "tío",
+  "exampleEn": "My uncle lives in Madrid.",
+  "exampleEs": "Mi tío vive en Madrid.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "aunt",
+  "translation": "tía",
+  "exampleEn": "My aunt is a doctor.",
+  "exampleEs": "Mi tía es doctora.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "cousin",
+  "translation": "primo, prima",
+  "exampleEn": "My cousin Ana.",
+  "exampleEs": "Mi prima Ana.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "nephew",
+  "translation": "sobrino",
+  "exampleEn": "My nephew is 3.",
+  "exampleEs": "Mi sobrino tiene 3 años.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "niece",
+  "translation": "sobrina",
+  "exampleEn": "My niece is cute.",
+  "exampleEs": "Mi sobrina es linda.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "grandfather",
+  "translation": "abuelo",
+  "exampleEn": "My grandfather is old.",
+  "exampleEs": "Mi abuelo es viejo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "grandmother",
+  "translation": "abuela",
+  "exampleEn": "My grandmother bakes cookies.",
+  "exampleEs": "Mi abuela hace galletas.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "husband",
+  "translation": "esposo, marido",
+  "exampleEn": "Her husband is nice.",
+  "exampleEs": "Su esposo es amable.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "wife",
+  "translation": "esposa",
+  "exampleEn": "His wife is a doctor.",
+  "exampleEs": "Su esposa es doctora.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "friend",
+  "translation": "amigo, amiga",
+  "exampleEn": "My best friend.",
+  "exampleEs": "Mi mejor amigo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "enemy",
+  "translation": "enemigo",
+  "exampleEn": "His worst enemy.",
+  "exampleEs": "Su peor enemigo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "neighbor",
+  "translation": "vecino",
+  "exampleEn": "My neighbor is friendly.",
+  "exampleEs": "Mi vecino es amable.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "guest",
+  "translation": "invitado, huésped",
+  "exampleEn": "A welcome guest.",
+  "exampleEs": "Un invitado bienvenido.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "stranger",
+  "translation": "desconocido, extraño",
+  "exampleEn": "A stranger asked me.",
+  "exampleEs": "Un desconocido me preguntó.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "baby",
+  "translation": "bebé",
+  "exampleEn": "A cute baby.",
+  "exampleEs": "Un bebé lindo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "kid",
+  "translation": "niño, chico",
+  "exampleEn": "A smart kid.",
+  "exampleEs": "Un niño listo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "boy",
+  "translation": "niño, chico",
+  "exampleEn": "A little boy.",
+  "exampleEs": "Un niño pequeño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "girl",
+  "translation": "niña",
+  "exampleEn": "A little girl.",
+  "exampleEs": "Una niña pequeña.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "person",
+  "translation": "persona",
+  "exampleEn": "A nice person.",
+  "exampleEs": "Una persona agradable.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "body",
+  "translation": "cuerpo",
+  "exampleEn": "My body is tired.",
+  "exampleEs": "Mi cuerpo está cansado.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "head",
+  "translation": "cabeza",
+  "exampleEn": "My head hurts.",
+  "exampleEs": "Me duele la cabeza.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "face",
+  "translation": "cara",
+  "exampleEn": "A friendly face.",
+  "exampleEs": "Una cara amigable.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "hair",
+  "translation": "cabello, pelo",
+  "exampleEn": "Long hair.",
+  "exampleEs": "Pelo largo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "eye",
+  "translation": "ojo",
+  "exampleEn": "Blue eyes.",
+  "exampleEs": "Ojos azules.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "ear",
+  "translation": "oído, oreja",
+  "exampleEn": "Big ears.",
+  "exampleEs": "Orejas grandes.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "nose",
+  "translation": "nariz",
+  "exampleEn": "A small nose.",
+  "exampleEs": "Una nariz pequeña.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "mouth",
+  "translation": "boca",
+  "exampleEn": "Open your mouth.",
+  "exampleEs": "Abre la boca.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "tooth",
+  "translation": "diente",
+  "exampleEn": "A loose tooth.",
+  "exampleEs": "Un diente flojo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "tongue",
+  "translation": "lengua",
+  "exampleEn": "A long tongue.",
+  "exampleEs": "Una lengua larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "neck",
+  "translation": "cuello",
+  "exampleEn": "A long neck.",
+  "exampleEs": "Un cuello largo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "chest",
+  "translation": "pecho",
+  "exampleEn": "A wide chest.",
+  "exampleEs": "Un pecho ancho.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "arm",
+  "translation": "brazo",
+  "exampleEn": "A strong arm.",
+  "exampleEs": "Un brazo fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "finger",
+  "translation": "dedo",
+  "exampleEn": "A long finger.",
+  "exampleEs": "Un dedo largo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "leg",
+  "translation": "pierna",
+  "exampleEn": "A long leg.",
+  "exampleEs": "Una pierna larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "knee",
+  "translation": "rodilla",
+  "exampleEn": "A bad knee.",
+  "exampleEs": "Una rodilla mala.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "foot",
+  "translation": "pie",
+  "exampleEn": "A big foot.",
+  "exampleEs": "Un pie grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "toe",
+  "translation": "dedo del pie",
+  "exampleEn": "A small toe.",
+  "exampleEs": "Un dedo del pie pequeño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "skin",
+  "translation": "piel",
+  "exampleEn": "Soft skin.",
+  "exampleEs": "Piel suave.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "heart",
+  "translation": "corazón",
+  "exampleEn": "A strong heart.",
+  "exampleEs": "Un corazón fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "mind",
+  "translation": "mente",
+  "exampleEn": "A sharp mind.",
+  "exampleEs": "Una mente afilada.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "hour",
+  "translation": "hora",
+  "exampleEn": "One hour.",
+  "exampleEs": "Una hora.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "minute",
+  "translation": "minuto",
+  "exampleEn": "Five minutes.",
+  "exampleEs": "Cinco minutos.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "second",
+  "translation": "segundo",
+  "exampleEn": "One second.",
+  "exampleEs": "Un segundo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "month",
+  "translation": "mes",
+  "exampleEn": "This month.",
+  "exampleEs": "Este mes.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "morning",
+  "translation": "mañana",
+  "exampleEn": "In the morning.",
+  "exampleEs": "Por la mañana.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "afternoon",
+  "translation": "tarde",
+  "exampleEn": "In the afternoon.",
+  "exampleEs": "Por la tarde.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "evening",
+  "translation": "noche (temprana)",
+  "exampleEn": "In the evening.",
+  "exampleEs": "Por la noche.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "night",
+  "translation": "noche",
+  "exampleEn": "At night.",
+  "exampleEs": "Por la noche.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "today",
+  "translation": "hoy",
+  "exampleEn": "Today is Monday.",
+  "exampleEs": "Hoy es lunes.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "yesterday",
+  "translation": "ayer",
+  "exampleEn": "Yesterday was Sunday.",
+  "exampleEs": "Ayer fue domingo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "tomorrow",
+  "translation": "mañana (el día)",
+  "exampleEn": "See you tomorrow.",
+  "exampleEs": "Nos vemos mañana.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "weekend",
+  "translation": "fin de semana",
+  "exampleEn": "On the weekend.",
+  "exampleEs": "El fin de semana.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "century",
+  "translation": "siglo",
+  "exampleEn": "A century ago.",
+  "exampleEs": "Hace un siglo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "moment",
+  "translation": "momento",
+  "exampleEn": "Wait a moment.",
+  "exampleEs": "Espera un momento.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "season",
+  "translation": "estación (del año)",
+  "exampleEn": "My favorite season.",
+  "exampleEs": "Mi estación favorita.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "spring",
+  "translation": "primavera",
+  "exampleEn": "In spring.",
+  "exampleEs": "En primavera.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "summer",
+  "translation": "verano",
+  "exampleEn": "In summer.",
+  "exampleEs": "En verano.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "autumn",
+  "translation": "otoño",
+  "exampleEn": "In autumn.",
+  "exampleEs": "En otoño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fall",
+  "translation": "otoño",
+  "exampleEn": "In fall.",
+  "exampleEs": "En otoño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "winter",
+  "translation": "invierno",
+  "exampleEn": "In winter.",
+  "exampleEs": "En invierno.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "date",
+  "translation": "fecha",
+  "exampleEn": "What's the date?",
+  "exampleEs": "¿Cuál es la fecha?",
+  "tags": "noun"
+ },
+ {
+  "lemma": "job",
+  "translation": "trabajo, empleo",
+  "exampleEn": "A good job.",
+  "exampleEs": "Un buen trabajo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "boss",
+  "translation": "jefe",
+  "exampleEn": "My boss is fair.",
+  "exampleEs": "Mi jefe es justo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "manager",
+  "translation": "gerente, administrador",
+  "exampleEn": "A good manager.",
+  "exampleEs": "Un buen gerente.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "employee",
+  "translation": "empleado",
+  "exampleEn": "A new employee.",
+  "exampleEs": "Un empleado nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "worker",
+  "translation": "trabajador",
+  "exampleEn": "A hard worker.",
+  "exampleEs": "Un trabajador duro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "team",
+  "translation": "equipo",
+  "exampleEn": "Our team is great.",
+  "exampleEs": "Nuestro equipo es genial.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "business",
+  "translation": "negocio",
+  "exampleEn": "A new business.",
+  "exampleEs": "Un negocio nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "meeting",
+  "translation": "reunión",
+  "exampleEn": "A long meeting.",
+  "exampleEs": "Una reunión larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "project",
+  "translation": "proyecto",
+  "exampleEn": "A new project.",
+  "exampleEs": "Un proyecto nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "plan",
+  "translation": "plan",
+  "exampleEn": "A good plan.",
+  "exampleEs": "Un buen plan.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "report",
+  "translation": "informe",
+  "exampleEn": "A long report.",
+  "exampleEs": "Un informe largo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "idea",
+  "translation": "idea",
+  "exampleEn": "A good idea.",
+  "exampleEs": "Una buena idea.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "problem",
+  "translation": "problema",
+  "exampleEn": "A big problem.",
+  "exampleEs": "Un gran problema.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "solution",
+  "translation": "solución",
+  "exampleEn": "A simple solution.",
+  "exampleEs": "Una solución simple.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "reason",
+  "translation": "razón",
+  "exampleEn": "A good reason.",
+  "exampleEs": "Una buena razón.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "result",
+  "translation": "resultado",
+  "exampleEn": "A positive result.",
+  "exampleEs": "Un resultado positivo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "information",
+  "translation": "información",
+  "exampleEn": "More information.",
+  "exampleEs": "Más información.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "news",
+  "translation": "noticias",
+  "exampleEn": "Good news.",
+  "exampleEs": "Buenas noticias.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "history",
+  "translation": "historia",
+  "exampleEn": "A long history.",
+  "exampleEs": "Una larga historia.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "science",
+  "translation": "ciencia",
+  "exampleEn": "Modern science.",
+  "exampleEs": "Ciencia moderna.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "art",
+  "translation": "arte",
+  "exampleEn": "Modern art.",
+  "exampleEs": "Arte moderno.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "music",
+  "translation": "música",
+  "exampleEn": "Loud music.",
+  "exampleEs": "Música alta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "movie",
+  "translation": "película",
+  "exampleEn": "A good movie.",
+  "exampleEs": "Una buena película.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "film",
+  "translation": "película",
+  "exampleEn": "A short film.",
+  "exampleEs": "Un cortometraje.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "song",
+  "translation": "canción",
+  "exampleEn": "A popular song.",
+  "exampleEs": "Una canción popular.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "game",
+  "translation": "juego",
+  "exampleEn": "A fun game.",
+  "exampleEs": "Un juego divertido.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sport",
+  "translation": "deporte",
+  "exampleEn": "A popular sport.",
+  "exampleEs": "Un deporte popular.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "ball",
+  "translation": "pelota, balón",
+  "exampleEn": "A big ball.",
+  "exampleEs": "Una pelota grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "player",
+  "translation": "jugador",
+  "exampleEn": "A good player.",
+  "exampleEs": "Un buen jugador.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "race",
+  "translation": "carrera",
+  "exampleEn": "A long race.",
+  "exampleEs": "Una carrera larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "test",
+  "translation": "examen, prueba",
+  "exampleEn": "A difficult test.",
+  "exampleEs": "Un examen difícil.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "exam",
+  "translation": "examen",
+  "exampleEn": "A final exam.",
+  "exampleEs": "Un examen final.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "class",
+  "translation": "clase",
+  "exampleEn": "A Spanish class.",
+  "exampleEs": "Una clase de español.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "lesson",
+  "translation": "lección",
+  "exampleEn": "A long lesson.",
+  "exampleEs": "Una lección larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "course",
+  "translation": "curso",
+  "exampleEn": "An English course.",
+  "exampleEs": "Un curso de inglés.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "teacher",
+  "translation": "profesor, maestro",
+  "exampleEn": "A good teacher.",
+  "exampleEs": "Un buen profesor.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "student",
+  "translation": "estudiante",
+  "exampleEn": "A good student.",
+  "exampleEs": "Un buen estudiante.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "doctor",
+  "translation": "doctor, médico",
+  "exampleEn": "A good doctor.",
+  "exampleEs": "Un buen doctor.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "nurse",
+  "translation": "enfermero, enfermera",
+  "exampleEn": "A kind nurse.",
+  "exampleEs": "Un enfermero amable.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "medicine",
+  "translation": "medicina, medicamento",
+  "exampleEn": "Take this medicine.",
+  "exampleEs": "Toma esta medicina.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "health",
+  "translation": "salud",
+  "exampleEn": "Good health.",
+  "exampleEs": "Buena salud.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pain",
+  "translation": "dolor",
+  "exampleEn": "A sharp pain.",
+  "exampleEs": "Un dolor agudo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fever",
+  "translation": "fiebre",
+  "exampleEn": "A high fever.",
+  "exampleEs": "Fiebre alta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "cough",
+  "translation": "tos",
+  "exampleEn": "A bad cough.",
+  "exampleEs": "Una tos fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "headache",
+  "translation": "dolor de cabeza",
+  "exampleEn": "A bad headache.",
+  "exampleEs": "Un fuerte dolor de cabeza.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pill",
+  "translation": "pastilla",
+  "exampleEn": "Take a pill.",
+  "exampleEs": "Toma una pastilla.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "love",
+  "translation": "amor",
+  "exampleEn": "True love.",
+  "exampleEs": "Amor verdadero.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "hate",
+  "translation": "odio",
+  "exampleEn": "Pure hate.",
+  "exampleEs": "Odio puro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fear",
+  "translation": "miedo",
+  "exampleEn": "A big fear.",
+  "exampleEs": "Un gran miedo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "joy",
+  "translation": "alegría",
+  "exampleEn": "A feeling of joy.",
+  "exampleEs": "Un sentimiento de alegría.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sadness",
+  "translation": "tristeza",
+  "exampleEn": "Deep sadness.",
+  "exampleEs": "Tristeza profunda.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "anger",
+  "translation": "ira, enojo",
+  "exampleEn": "Pure anger.",
+  "exampleEs": "Ira pura.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "surprise",
+  "translation": "sorpresa",
+  "exampleEn": "A big surprise.",
+  "exampleEs": "Una gran sorpresa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "dream",
+  "translation": "sueño",
+  "exampleEn": "A strange dream.",
+  "exampleEs": "Un sueño extraño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "memory",
+  "translation": "memoria, recuerdo",
+  "exampleEn": "A good memory.",
+  "exampleEs": "Un buen recuerdo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "thought",
+  "translation": "pensamiento",
+  "exampleEn": "A deep thought.",
+  "exampleEs": "Un pensamiento profundo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "feeling",
+  "translation": "sentimiento",
+  "exampleEn": "A strange feeling.",
+  "exampleEs": "Un sentimiento extraño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "really",
+  "translation": "realmente",
+  "exampleEn": "Really good.",
+  "exampleEs": "Realmente bueno.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "always",
+  "translation": "siempre",
+  "exampleEn": "Always true.",
+  "exampleEs": "Siempre verdad.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "never",
+  "translation": "nunca",
+  "exampleEn": "Never again.",
+  "exampleEs": "Nunca más.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "often",
+  "translation": "a menudo",
+  "exampleEn": "Often true.",
+  "exampleEs": "A menudo cierto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "sometimes",
+  "translation": "a veces",
+  "exampleEn": "Sometimes yes.",
+  "exampleEs": "A veces sí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "usually",
+  "translation": "normalmente",
+  "exampleEn": "Usually right.",
+  "exampleEs": "Normalmente correcto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "rarely",
+  "translation": "rara vez",
+  "exampleEn": "Rarely seen.",
+  "exampleEs": "Rara vez visto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "already",
+  "translation": "ya",
+  "exampleEn": "Already done.",
+  "exampleEs": "Ya hecho.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "yet",
+  "translation": "todavía, aún",
+  "exampleEn": "Not yet.",
+  "exampleEs": "Todavía no.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "still",
+  "translation": "todavía",
+  "exampleEn": "Still here.",
+  "exampleEs": "Todavía aquí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "soon",
+  "translation": "pronto",
+  "exampleEn": "See you soon.",
+  "exampleEs": "Hasta pronto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "later",
+  "translation": "más tarde",
+  "exampleEn": "See you later.",
+  "exampleEs": "Hasta luego.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "recently",
+  "translation": "recientemente",
+  "exampleEn": "Recently arrived.",
+  "exampleEs": "Llegó recientemente.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "finally",
+  "translation": "finalmente",
+  "exampleEn": "Finally done.",
+  "exampleEs": "Finalmente hecho.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "suddenly",
+  "translation": "de repente",
+  "exampleEn": "Suddenly stopped.",
+  "exampleEs": "Se detuvo de repente.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "quickly",
+  "translation": "rápidamente",
+  "exampleEn": "Do it quickly.",
+  "exampleEs": "Hazlo rápidamente.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "slowly",
+  "translation": "lentamente",
+  "exampleEn": "Walk slowly.",
+  "exampleEs": "Camina lentamente.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "carefully",
+  "translation": "cuidadosamente",
+  "exampleEn": "Drive carefully.",
+  "exampleEs": "Conduce cuidadosamente.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "easily",
+  "translation": "fácilmente",
+  "exampleEn": "Easily done.",
+  "exampleEs": "Hecho fácilmente.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "hardly",
+  "translation": "apenas, casi no",
+  "exampleEn": "I hardly know.",
+  "exampleEs": "Apenas lo conozco.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "almost",
+  "translation": "casi",
+  "exampleEn": "Almost done.",
+  "exampleEs": "Casi listo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "completely",
+  "translation": "completamente",
+  "exampleEn": "Completely wrong.",
+  "exampleEs": "Completamente equivocado.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "totally",
+  "translation": "totalmente",
+  "exampleEn": "Totally agree.",
+  "exampleEs": "Totalmente de acuerdo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "especially",
+  "translation": "especialmente",
+  "exampleEn": "Especially for you.",
+  "exampleEs": "Especialmente para ti.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "probably",
+  "translation": "probablemente",
+  "exampleEn": "Probably yes.",
+  "exampleEs": "Probablemente sí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "maybe",
+  "translation": "tal vez, quizás",
+  "exampleEn": "Maybe tomorrow.",
+  "exampleEs": "Tal vez mañana.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "perhaps",
+  "translation": "quizás, tal vez",
+  "exampleEn": "Perhaps later.",
+  "exampleEs": "Quizás más tarde.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "actually",
+  "translation": "en realidad",
+  "exampleEn": "Actually no.",
+  "exampleEs": "En realidad no.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "basically",
+  "translation": "básicamente",
+  "exampleEn": "Basically yes.",
+  "exampleEs": "Básicamente sí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "seriously",
+  "translation": "en serio",
+  "exampleEn": "Seriously?",
+  "exampleEs": "¿En serio?",
+  "tags": "verb"
+ },
+ {
+  "lemma": "honestly",
+  "translation": "sinceramente",
+  "exampleEn": "Honestly true.",
+  "exampleEs": "Sinceramente cierto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "obviously",
+  "translation": "obviamente",
+  "exampleEn": "Obviously correct.",
+  "exampleEs": "Obviamente correcto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "clearly",
+  "translation": "claramente",
+  "exampleEn": "Clearly stated.",
+  "exampleEs": "Claramente dicho.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "exactly",
+  "translation": "exactamente",
+  "exampleEn": "Exactly right.",
+  "exampleEs": "Exactamente correcto.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "nearly",
+  "translation": "casi",
+  "exampleEn": "Nearly done.",
+  "exampleEs": "Casi listo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "quite",
+  "translation": "bastante",
+  "exampleEn": "Quite good.",
+  "exampleEs": "Bastante bueno.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "rather",
+  "translation": "más bien, bastante",
+  "exampleEn": "Rather cold.",
+  "exampleEs": "Más bien frío.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "fairly",
+  "translation": "bastante, justamente",
+  "exampleEn": "Fairly good.",
+  "exampleEs": "Bastante bueno.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "together",
+  "translation": "juntos",
+  "exampleEn": "Together forever.",
+  "exampleEs": "Juntos para siempre.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "apart",
+  "translation": "separado, aparte",
+  "exampleEn": "Apart from that.",
+  "exampleEs": "Aparte de eso.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "away",
+  "translation": "lejos",
+  "exampleEn": "Far away.",
+  "exampleEs": "Muy lejos.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "near",
+  "translation": "cerca",
+  "exampleEn": "Near here.",
+  "exampleEs": "Cerca de aquí.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "far",
+  "translation": "lejos",
+  "exampleEn": "So far.",
+  "exampleEs": "Hasta ahora.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "around",
+  "translation": "alrededor",
+  "exampleEn": "Around the world.",
+  "exampleEs": "Por el mundo.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "inside",
+  "translation": "adentro",
+  "exampleEn": "Inside the box.",
+  "exampleEs": "Adentro de la caja.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "outside",
+  "translation": "afuera",
+  "exampleEn": "Outside the house.",
+  "exampleEs": "Afuera de la casa.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "above",
+  "translation": "arriba, encima",
+  "exampleEn": "Above the clouds.",
+  "exampleEs": "Por encima de las nubes.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "below",
+  "translation": "abajo, debajo",
+  "exampleEn": "Below the surface.",
+  "exampleEs": "Debajo de la superficie.",
+  "tags": "verb"
+ },
+ {
+  "lemma": "under",
+  "translation": "bajo, debajo de",
+  "exampleEn": "Under the table.",
+  "exampleEs": "Debajo de la mesa.",
+  "tags": "other"
+ },
+ {
+  "lemma": "between",
+  "translation": "entre",
+  "exampleEn": "Between you and me.",
+  "exampleEs": "Entre tú y yo.",
+  "tags": "other"
+ },
+ {
+  "lemma": "among",
+  "translation": "entre (varios)",
+  "exampleEn": "Among friends.",
+  "exampleEs": "Entre amigos.",
+  "tags": "other"
+ },
+ {
+  "lemma": "during",
+  "translation": "durante",
+  "exampleEn": "During the day.",
+  "exampleEs": "Durante el día.",
+  "tags": "other"
+ },
+ {
+  "lemma": "before",
+  "translation": "antes",
+  "exampleEn": "Before lunch.",
+  "exampleEs": "Antes del almuerzo.",
+  "tags": "other"
+ },
+ {
+  "lemma": "since",
+  "translation": "desde",
+  "exampleEn": "Since 2010.",
+  "exampleEs": "Desde 2010.",
+  "tags": "other"
+ },
+ {
+  "lemma": "until",
+  "translation": "hasta",
+  "exampleEn": "Until tomorrow.",
+  "exampleEs": "Hasta mañana.",
+  "tags": "other"
+ },
+ {
+  "lemma": "within",
+  "translation": "dentro de",
+  "exampleEn": "Within an hour.",
+  "exampleEs": "Dentro de una hora.",
+  "tags": "other"
+ },
+ {
+  "lemma": "without",
+  "translation": "sin",
+  "exampleEn": "Without water.",
+  "exampleEs": "Sin agua.",
+  "tags": "other"
+ },
+ {
+  "lemma": "against",
+  "translation": "contra",
+  "exampleEn": "Against the wall.",
+  "exampleEs": "Contra la pared.",
+  "tags": "other"
+ },
+ {
+  "lemma": "toward",
+  "translation": "hacia",
+  "exampleEn": "Toward the door.",
+  "exampleEs": "Hacia la puerta.",
+  "tags": "other"
+ },
+ {
+  "lemma": "along",
+  "translation": "a lo largo de",
+  "exampleEn": "Along the river.",
+  "exampleEs": "A lo largo del río.",
+  "tags": "other"
+ },
+ {
+  "lemma": "amount",
+  "translation": "cantidad",
+  "exampleEn": "A large amount.",
+  "exampleEs": "Una gran cantidad.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "price",
+  "translation": "precio",
+  "exampleEn": "A good price.",
+  "exampleEs": "Un buen precio.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "value",
+  "translation": "valor",
+  "exampleEn": "High value.",
+  "exampleEs": "Alto valor.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "quality",
+  "translation": "calidad",
+  "exampleEn": "High quality.",
+  "exampleEs": "Alta calidad.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "quantity",
+  "translation": "cantidad",
+  "exampleEn": "A small quantity.",
+  "exampleEs": "Una cantidad pequeña.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "size",
+  "translation": "tamaño",
+  "exampleEn": "A small size.",
+  "exampleEs": "Un tamaño pequeño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "length",
+  "translation": "largo, longitud",
+  "exampleEn": "The length of the road.",
+  "exampleEs": "El largo de la carretera.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "width",
+  "translation": "ancho",
+  "exampleEn": "The width of the table.",
+  "exampleEs": "El ancho de la mesa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "height",
+  "translation": "altura",
+  "exampleEn": "A tall height.",
+  "exampleEs": "Una altura grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "weight",
+  "translation": "peso",
+  "exampleEn": "A heavy weight.",
+  "exampleEs": "Un peso grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "shape",
+  "translation": "forma",
+  "exampleEn": "A round shape.",
+  "exampleEs": "Una forma redonda.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "color",
+  "translation": "color",
+  "exampleEn": "My favorite color.",
+  "exampleEs": "Mi color favorito.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "age",
+  "translation": "edad",
+  "exampleEn": "What age?",
+  "exampleEs": "¿Qué edad?",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sense",
+  "translation": "sentido",
+  "exampleEn": "A sixth sense.",
+  "exampleEs": "Un sexto sentido.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "truth",
+  "translation": "verdad",
+  "exampleEn": "The whole truth.",
+  "exampleEs": "Toda la verdad.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "lie",
+  "translation": "mentira",
+  "exampleEn": "A big lie.",
+  "exampleEs": "Una gran mentira.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "secret",
+  "translation": "secreto",
+  "exampleEn": "A deep secret.",
+  "exampleEs": "Un secreto profundo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "rule",
+  "translation": "regla",
+  "exampleEn": "A strict rule.",
+  "exampleEs": "Una regla estricta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "law",
+  "translation": "ley",
+  "exampleEn": "A new law.",
+  "exampleEs": "Una nueva ley.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "duty",
+  "translation": "deber",
+  "exampleEn": "A moral duty.",
+  "exampleEs": "Un deber moral.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "freedom",
+  "translation": "libertad",
+  "exampleEn": "Personal freedom.",
+  "exampleEs": "Libertad personal.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "peace",
+  "translation": "paz",
+  "exampleEn": "World peace.",
+  "exampleEs": "Paz mundial.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "war",
+  "translation": "guerra",
+  "exampleEn": "A long war.",
+  "exampleEs": "Una guerra larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "power",
+  "translation": "poder, energía",
+  "exampleEn": "Electric power.",
+  "exampleEs": "Energía eléctrica.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "energy",
+  "translation": "energía",
+  "exampleEn": "Solar energy.",
+  "exampleEs": "Energía solar.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "force",
+  "translation": "fuerza",
+  "exampleEn": "A strong force.",
+  "exampleEs": "Una fuerza fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "speed",
+  "translation": "velocidad",
+  "exampleEn": "A high speed.",
+  "exampleEs": "Una velocidad alta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "rate",
+  "translation": "tasa, ritmo",
+  "exampleEn": "A high rate.",
+  "exampleEs": "Una tasa alta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "level",
+  "translation": "nivel",
+  "exampleEn": "A high level.",
+  "exampleEs": "Un nivel alto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "stage",
+  "translation": "etapa",
+  "exampleEn": "A new stage.",
+  "exampleEs": "Una nueva etapa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "step",
+  "translation": "paso",
+  "exampleEn": "A big step.",
+  "exampleEs": "Un gran paso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "goal",
+  "translation": "meta, objetivo",
+  "exampleEn": "A clear goal.",
+  "exampleEs": "Una meta clara.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "aim",
+  "translation": "objetivo, pretender",
+  "exampleEn": "My main aim.",
+  "exampleEs": "Mi objetivo principal.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "purpose",
+  "translation": "propósito",
+  "exampleEn": "A clear purpose.",
+  "exampleEs": "Un propósito claro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "cause",
+  "translation": "causa",
+  "exampleEn": "A common cause.",
+  "exampleEs": "Una causa común.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "effect",
+  "translation": "efecto",
+  "exampleEn": "A strange effect.",
+  "exampleEs": "Un efecto extraño.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "change",
+  "translation": "cambio",
+  "exampleEn": "A big change.",
+  "exampleEs": "Un gran cambio.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "difference",
+  "translation": "diferencia",
+  "exampleEn": "A big difference.",
+  "exampleEs": "Una gran diferencia.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "chance",
+  "translation": "oportunidad, posibilidad",
+  "exampleEn": "A good chance.",
+  "exampleEs": "Una buena oportunidad.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "opportunity",
+  "translation": "oportunidad",
+  "exampleEn": "A great opportunity.",
+  "exampleEs": "Una gran oportunidad.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "risk",
+  "translation": "riesgo",
+  "exampleEn": "A high risk.",
+  "exampleEs": "Un riesgo alto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "success",
+  "translation": "éxito",
+  "exampleEn": "A great success.",
+  "exampleEs": "Un gran éxito.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "failure",
+  "translation": "fracaso",
+  "exampleEn": "A total failure.",
+  "exampleEs": "Un fracaso total.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "progress",
+  "translation": "progreso",
+  "exampleEn": "Good progress.",
+  "exampleEs": "Buen progreso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "growth",
+  "translation": "crecimiento",
+  "exampleEn": "Economic growth.",
+  "exampleEs": "Crecimiento económico.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "development",
+  "translation": "desarrollo",
+  "exampleEn": "Personal development.",
+  "exampleEs": "Desarrollo personal.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "improvement",
+  "translation": "mejora",
+  "exampleEn": "A clear improvement.",
+  "exampleEs": "Una mejora clara.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "effort",
+  "translation": "esfuerzo",
+  "exampleEn": "A great effort.",
+  "exampleEs": "Un gran esfuerzo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "attention",
+  "translation": "atención",
+  "exampleEn": "Pay attention.",
+  "exampleEs": "Presta atención.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "interest",
+  "translation": "interés",
+  "exampleEn": "A new interest.",
+  "exampleEs": "Un nuevo interés.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "respect",
+  "translation": "respeto",
+  "exampleEn": "A sign of respect.",
+  "exampleEs": "Una señal de respeto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "trust",
+  "translation": "confianza",
+  "exampleEn": "Mutual trust.",
+  "exampleEs": "Confianza mutua.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "support",
+  "translation": "apoyo",
+  "exampleEn": "A strong support.",
+  "exampleEs": "Un apoyo fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "service",
+  "translation": "servicio",
+  "exampleEn": "Good service.",
+  "exampleEs": "Buen servicio.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "product",
+  "translation": "producto",
+  "exampleEn": "A new product.",
+  "exampleEs": "Un producto nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "customer",
+  "translation": "cliente",
+  "exampleEn": "A new customer.",
+  "exampleEs": "Un cliente nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "client",
+  "translation": "cliente",
+  "exampleEn": "A new client.",
+  "exampleEs": "Un cliente nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "partner",
+  "translation": "socio, pareja",
+  "exampleEn": "A business partner.",
+  "exampleEs": "Un socio comercial.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "competition",
+  "translation": "competencia",
+  "exampleEn": "Strong competition.",
+  "exampleEs": "Competencia fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "industry",
+  "translation": "industria",
+  "exampleEn": "A growing industry.",
+  "exampleEs": "Una industria creciente.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "technology",
+  "translation": "tecnología",
+  "exampleEn": "Modern technology.",
+  "exampleEs": "Tecnología moderna.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "design",
+  "translation": "diseño",
+  "exampleEn": "A new design.",
+  "exampleEs": "Un diseño nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "style",
+  "translation": "estilo",
+  "exampleEn": "A new style.",
+  "exampleEs": "Un estilo nuevo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fashion",
+  "translation": "moda",
+  "exampleEn": "Modern fashion.",
+  "exampleEs": "Moda moderna.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "dark",
+  "translation": "oscuridad",
+  "exampleEn": "In the dark.",
+  "exampleEs": "En la oscuridad.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sound",
+  "translation": "sonido",
+  "exampleEn": "A loud sound.",
+  "exampleEs": "Un sonido fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "noise",
+  "translation": "ruido",
+  "exampleEn": "A loud noise.",
+  "exampleEs": "Un ruido fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "voice",
+  "translation": "voz",
+  "exampleEn": "A loud voice.",
+  "exampleEs": "Una voz alta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "word",
+  "translation": "palabra",
+  "exampleEn": "A new word.",
+  "exampleEs": "Una palabra nueva.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "sentence",
+  "translation": "oración",
+  "exampleEn": "A long sentence.",
+  "exampleEs": "Una oración larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "language",
+  "translation": "idioma, lengua",
+  "exampleEn": "A foreign language.",
+  "exampleEs": "Un idioma extranjero.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "name",
+  "translation": "nombre",
+  "exampleEn": "My full name.",
+  "exampleEs": "Mi nombre completo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "title",
+  "translation": "título",
+  "exampleEn": "A book title.",
+  "exampleEs": "El título de un libro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "character",
+  "translation": "personaje, carácter",
+  "exampleEn": "A strong character.",
+  "exampleEs": "Un carácter fuerte.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "poem",
+  "translation": "poema",
+  "exampleEn": "A long poem.",
+  "exampleEs": "Un poema largo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "novel",
+  "translation": "novela",
+  "exampleEn": "A famous novel.",
+  "exampleEs": "Una novela famosa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "line",
+  "translation": "línea",
+  "exampleEn": "A long line.",
+  "exampleEs": "Una línea larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "picture",
+  "translation": "imagen, cuadro",
+  "exampleEn": "A beautiful picture.",
+  "exampleEs": "Un cuadro hermoso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "photo",
+  "translation": "foto",
+  "exampleEn": "A nice photo.",
+  "exampleEs": "Una buena foto.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "video",
+  "translation": "video",
+  "exampleEn": "A long video.",
+  "exampleEs": "Un video largo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "toy",
+  "translation": "juguete",
+  "exampleEn": "A wooden toy.",
+  "exampleEs": "Un juguete de madera.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fan",
+  "translation": "fan, aficionado",
+  "exampleEn": "A big fan.",
+  "exampleEs": "Un gran fan.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "club",
+  "translation": "club",
+  "exampleEn": "A sports club.",
+  "exampleEs": "Un club deportivo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "match",
+  "translation": "partido, partido",
+  "exampleEn": "A football match.",
+  "exampleEs": "Un partido de fútbol.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "score",
+  "translation": "puntuación, marcar",
+  "exampleEn": "A high score.",
+  "exampleEs": "Una puntuación alta.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "exercise",
+  "translation": "ejercicio",
+  "exampleEn": "Daily exercise.",
+  "exampleEs": "Ejercicio diario.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "diet",
+  "translation": "dieta",
+  "exampleEn": "A healthy diet.",
+  "exampleEs": "Una dieta saludable.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "rest",
+  "translation": "descanso, descansar",
+  "exampleEn": "A good rest.",
+  "exampleEs": "Un buen descanso.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "stress",
+  "translation": "estrés",
+  "exampleEn": "Too much stress.",
+  "exampleEs": "Demasiado estrés.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "calm",
+  "translation": "calma, calmar",
+  "exampleEn": "A feeling of calm.",
+  "exampleEs": "Un sentimiento de calma.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "trouble",
+  "translation": "problema, problema",
+  "exampleEn": "A big trouble.",
+  "exampleEs": "Un gran problema.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "mistake",
+  "translation": "error",
+  "exampleEn": "A common mistake.",
+  "exampleEs": "Un error común.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "fault",
+  "translation": "culpa, defecto",
+  "exampleEn": "It's not your fault.",
+  "exampleEs": "No es tu culpa.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "crime",
+  "translation": "crimen",
+  "exampleEn": "A serious crime.",
+  "exampleEs": "Un crimen grave.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "accident",
+  "translation": "accidente",
+  "exampleEn": "A car accident.",
+  "exampleEs": "Un accidente de coche.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "danger",
+  "translation": "peligro",
+  "exampleEn": "A real danger.",
+  "exampleEs": "Un peligro real.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "safety",
+  "translation": "seguridad",
+  "exampleEn": "Personal safety.",
+  "exampleEs": "Seguridad personal.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "disaster",
+  "translation": "desastre",
+  "exampleEn": "A natural disaster.",
+  "exampleEs": "Un desastre natural.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "emergency",
+  "translation": "emergencia",
+  "exampleEn": "In an emergency.",
+  "exampleEs": "En una emergencia.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "situation",
+  "translation": "situación",
+  "exampleEn": "A difficult situation.",
+  "exampleEs": "Una situación difícil.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "condition",
+  "translation": "condición",
+  "exampleEn": "A medical condition.",
+  "exampleEs": "Una condición médica.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "event",
+  "translation": "evento, acontecimiento",
+  "exampleEn": "A social event.",
+  "exampleEs": "Un evento social.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "experience",
+  "translation": "experiencia",
+  "exampleEn": "A great experience.",
+  "exampleEs": "Una gran experiencia.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "myth",
+  "translation": "mito",
+  "exampleEn": "An old myth.",
+  "exampleEs": "Un mito antiguo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "legend",
+  "translation": "leyenda",
+  "exampleEn": "An old legend.",
+  "exampleEs": "Una leyenda antigua.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "tradition",
+  "translation": "tradición",
+  "exampleEn": "A family tradition.",
+  "exampleEs": "Una tradición familiar.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "custom",
+  "translation": "costumbre",
+  "exampleEn": "A strange custom.",
+  "exampleEs": "Una costumbre extraña.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "culture",
+  "translation": "cultura",
+  "exampleEn": "Modern culture.",
+  "exampleEs": "Cultura moderna.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "society",
+  "translation": "sociedad",
+  "exampleEn": "Modern society.",
+  "exampleEs": "Sociedad moderna.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "community",
+  "translation": "comunidad",
+  "exampleEn": "A small community.",
+  "exampleEs": "Una comunidad pequeña.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "public",
+  "translation": "público",
+  "exampleEn": "In public.",
+  "exampleEs": "En público.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "private",
+  "translation": "privado",
+  "exampleEn": "A private matter.",
+  "exampleEs": "Un asunto privado.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "nation",
+  "translation": "nación",
+  "exampleEn": "A young nation.",
+  "exampleEs": "Una nación joven.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "capital",
+  "translation": "capital",
+  "exampleEn": "The state capital.",
+  "exampleEs": "La capital del estado.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "region",
+  "translation": "región",
+  "exampleEn": "A cold region.",
+  "exampleEs": "Una región fría.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "population",
+  "translation": "población",
+  "exampleEn": "A large population.",
+  "exampleEs": "Una población grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "decade",
+  "translation": "década",
+  "exampleEn": "A long decade.",
+  "exampleEs": "Una década larga.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "period",
+  "translation": "período",
+  "exampleEn": "A long period.",
+  "exampleEs": "Un período largo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "future",
+  "translation": "futuro",
+  "exampleEn": "In the future.",
+  "exampleEs": "En el futuro.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "past",
+  "translation": "pasado",
+  "exampleEn": "In the past.",
+  "exampleEs": "En el pasado.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "present",
+  "translation": "presente",
+  "exampleEn": "At present.",
+  "exampleEs": "En el presente.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "era",
+  "translation": "era, época",
+  "exampleEn": "A new era.",
+  "exampleEs": "Una nueva era.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "degree",
+  "translation": "grado",
+  "exampleEn": "A high degree.",
+  "exampleEs": "Un alto grado.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "total",
+  "translation": "total",
+  "exampleEn": "The grand total.",
+  "exampleEs": "El total general.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "average",
+  "translation": "promedio, medio",
+  "exampleEn": "Above average.",
+  "exampleEs": "Por encima del promedio.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "maximum",
+  "translation": "máximo",
+  "exampleEn": "The maximum.",
+  "exampleEs": "El máximo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "minimum",
+  "translation": "mínimo",
+  "exampleEn": "The minimum.",
+  "exampleEs": "El mínimo.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "percent",
+  "translation": "porcentaje",
+  "exampleEn": "Fifty percent.",
+  "exampleEs": "Cincuenta por ciento.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "hundred",
+  "translation": "cien, ciento",
+  "exampleEn": "A hundred.",
+  "exampleEs": "Cien.",
+  "tags": "other"
+ },
+ {
+  "lemma": "thousand",
+  "translation": "mil",
+  "exampleEn": "A thousand.",
+  "exampleEs": "Mil.",
+  "tags": "other"
+ },
+ {
+  "lemma": "million",
+  "translation": "millón",
+  "exampleEn": "A million.",
+  "exampleEs": "Un millón.",
+  "tags": "other"
+ },
+ {
+  "lemma": "billion",
+  "translation": "billón",
+  "exampleEn": "A billion.",
+  "exampleEs": "Un billón.",
+  "tags": "other"
+ },
+ {
+  "lemma": "half",
+  "translation": "mitad",
+  "exampleEn": "Half of the cake.",
+  "exampleEs": "La mitad del pastel.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "quarter",
+  "translation": "cuarto",
+  "exampleEn": "A quarter of the cake.",
+  "exampleEs": "Un cuarto del pastel.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "third",
+  "translation": "tercio, tercero",
+  "exampleEn": "A third of the total.",
+  "exampleEs": "Un tercio del total.",
+  "tags": "other"
+ },
+ {
+  "lemma": "double",
+  "translation": "doble",
+  "exampleEn": "A double portion.",
+  "exampleEs": "Una porción doble.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "single",
+  "translation": "soltero, único",
+  "exampleEn": "A single person.",
+  "exampleEs": "Una persona soltera.",
+  "tags": "adjective"
+ },
+ {
+  "lemma": "couple",
+  "translation": "pareja, par",
+  "exampleEn": "A couple of days.",
+  "exampleEs": "Un par de días.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "pair",
+  "translation": "par",
+  "exampleEn": "A pair of shoes.",
+  "exampleEs": "Un par de zapatos.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "crowd",
+  "translation": "multitud",
+  "exampleEn": "A big crowd.",
+  "exampleEs": "Una gran multitud.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "audience",
+  "translation": "audiencia, público",
+  "exampleEn": "A large audience.",
+  "exampleEs": "Una audiencia grande.",
+  "tags": "noun"
+ },
+ {
+  "lemma": "generation",
+  "translation": "generación",
+  "exampleEn": "A new generation.",
+  "exampleEs": "Una nueva generación.",
+  "tags": "noun"
+ }
+]

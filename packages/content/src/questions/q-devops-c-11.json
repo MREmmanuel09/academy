@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-11",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué servicio usarías para CDN?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Route 53"
+    },
+    {
+      "id": "1",
+      "text": "CloudFront"
+    },
+    {
+      "id": "2",
+      "text": "API Gateway"
+    },
+    {
+      "id": "3",
+      "text": "Direct Connect"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "CloudFront es el CDN de AWS. Cachea contenido en edge locations globales para baja latencia.",
+  "irtA": 1.112,
+  "irtB": 1.78,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

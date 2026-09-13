@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-12",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué módulo de la stdlib se usa para manejar JSON?",
+  "options": [
+    {
+      "id": "0",
+      "text": "pickle"
+    },
+    {
+      "id": "1",
+      "text": "json"
+    },
+    {
+      "id": "2",
+      "text": "csv"
+    },
+    {
+      "id": "3",
+      "text": "xml"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El modulo json (json.dumps, json.loads, json.dump, json.load) es parte de la stdlib.",
+  "irtA": 1.1480000000000001,
+  "irtB": 0.68,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

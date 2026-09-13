@@ -1,0 +1,37 @@
+{
+  "id": "exam-mesh",
+  "course": "devops",
+  "unit": "advanced",
+  "title": "Service Mesh Architect (Istio/Linkerd)",
+  "description": "Examen avanzado de Service Mesh: mTLS, traffic management, observability, security.",
+  "level": "avanzado",
+  "totalQuestions": 20,
+  "durationMinutes": 30,
+  "passingScore": 80,
+  "xp": 500,
+  "prerequisites": [
+    "exam-k8s"
+  ],
+  "questionIds": [
+    "q-devops-sm-1",
+    "q-devops-sm-2",
+    "q-devops-sm-3",
+    "q-devops-sm-4",
+    "q-devops-sm-5",
+    "q-devops-sm-6",
+    "q-devops-sm-7",
+    "q-devops-sm-8",
+    "q-devops-sm-9",
+    "q-devops-sm-10",
+    "q-devops-k-13",
+    "q-devops-k-14",
+    "q-devops-k-15",
+    "q-devops-k-20",
+    "q-devops-k-22",
+    "q-devops-ob-1",
+    "q-devops-ob-2",
+    "q-devops-ob-3",
+    "q-devops-ob-4",
+    "q-devops-ob-7"
+  ]
+}

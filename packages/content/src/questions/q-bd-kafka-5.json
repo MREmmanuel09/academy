@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-kafka-5",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es un consumer group?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un grupo de Slack"
+    },
+    {
+      "id": "1",
+      "text": "Un conjunto de consumers que se reparten las particiones de un topic"
+    },
+    {
+      "id": "2",
+      "text": "Una coleccion de topics"
+    },
+    {
+      "id": "3",
+      "text": "Un tipo de broker"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Un consumer group reparte las particiones entre sus consumers. Si hay 3 particiones y 3 consumers, cada uno lee 1. Si hay mas consumers, algunos quedan idle.",
+  "irtA": 1.004,
+  "irtB": -0.8,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "py-pytest",
+  "title": "Testing con pytest: unit + integration",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 22,
+  "xp": 90,
+  "summary": "Escribir tests profesionales: fixtures, parametrize, mocking, coverage, integration tests.",
+  "keyTakeaways": [
+    "pytest descubra test_*.py automaticamente. assert es magico (no self.assertEqual).",
+    "Fixtures para setup reutilizable, parametrize para el mismo test con varios inputs.",
+    "unittest.mock para mockear requests, boto3, subprocess, etc.",
+    "Markers (-m) separan unit/integration/slow. Coverage report con pytest-cov."
+  ]
+}

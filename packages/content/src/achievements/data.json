@@ -1,0 +1,114 @@
+[
+  {
+    "id": "data-first-query",
+    "slug": "data-first-query",
+    "title": "First Query",
+    "description": "Ejecuta tu primera query SQL",
+    "icon": "SQL",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 50,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "data-pandas-master",
+    "slug": "data-pandas-master",
+    "title": "Pandas Master",
+    "description": "Completa las lecciones de Pandas",
+    "icon": "PD",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 200,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "data-window-pro",
+    "slug": "data-window-pro",
+    "title": "Window Functions Pro",
+    "description": "Aprueba el examen con window functions perfectas",
+    "icon": "WF",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 200,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "data-explorer",
+    "slug": "data-explorer",
+    "title": "Data Explorer",
+    "description": "Completa los 2 labs de data",
+    "icon": "EX",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 300,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "data-viz-pro",
+    "slug": "data-viz-pro",
+    "title": "Viz Pro",
+    "description": "Completa las lecciones de Matplotlib y Seaborn",
+    "icon": "VZ",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 200,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "bd-first-spark",
+    "slug": "bd-first-spark",
+    "title": "First Spark Job",
+    "description": "Ejecuta tu primer job de Spark",
+    "icon": "SP",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 100,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "bd-kafka-pipeline",
+    "slug": "bd-kafka-pipeline",
+    "title": "Kafka Pipeline Master",
+    "description": "Completa el lab de Kafka pipeline",
+    "icon": "KP",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 250,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "bd-streaming-architect",
+    "slug": "bd-streaming-architect",
+    "title": "Streaming Architect",
+    "description": "Completa el proyecto de streaming pipeline",
+    "icon": "SA",
+    "category": "mastery",
+    "rarity": "legendary",
+    "xp": 1000,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "id": "q-linux-adv-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Para que sirve sysctl -w vm.swappiness=10?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Reduce el tamano de la swap a 10MB"
+    },
+    {
+      "id": "1",
+      "text": "Hace que el kernel prefiera RAM sobre swap (solo cuando sea muy necesario)"
+    },
+    {
+      "id": "2",
+      "text": "Desactiva la swap"
+    },
+    {
+      "id": "3",
+      "text": "Aumenta la velocidad de la swap 10x"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "vm.swappiness (0-100) controla que tanto el kernel prefiere RAM vs swap. 10 = muy poca swap, ideal para DBs.",
+  "irtA": 1.1640000000000001,
+  "irtB": 0.06,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

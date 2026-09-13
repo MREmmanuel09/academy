@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-15",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es la ventaja principal de usar logging en vez de print()?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Es mas rapido"
+    },
+    {
+      "id": "1",
+      "text": "Soporta niveles, handlers, formato y filtrado"
+    },
+    {
+      "id": "2",
+      "text": "Es obligatorio por el lenguaje"
+    },
+    {
+      "id": "3",
+      "text": "Funciona solo en servidores"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "logging provee niveles (DEBUG/INFO/WARN/ERROR), handlers (archivo/Slack), formato configurable y rotación.",
+  "irtA": 0.9600000000000001,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

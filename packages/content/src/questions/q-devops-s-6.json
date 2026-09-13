@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-s-6",
+  "quizId": "exam-sre",
+  "type": "truefalse",
+  "prompt": "El objetivo de SRE es 100% de uptime.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Falso. 100% no es realista ni deseable (cuesta 10x cada nueve). El objetivo es el SLO correcto para tu servicio.",
+  "irtA": 1.088,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-16",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué comando muestra el plan de ejecución de una query?",
+  "options": [
+    {
+      "id": "0",
+      "text": "ANALYZE"
+    },
+    {
+      "id": "1",
+      "text": "EXPLAIN"
+    },
+    {
+      "id": "2",
+      "text": "DESCRIBE"
+    },
+    {
+      "id": "3",
+      "text": "SHOW"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "EXPLAIN (o EXPLAIN ANALYZE) muestra cómo la base de datos va a ejecutar la query. Si ves Seq Scan en tabla grande, falta índice.",
+  "irtA": 1.1680000000000001,
+  "irtB": 1.62,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

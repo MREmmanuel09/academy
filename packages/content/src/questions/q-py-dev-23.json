@@ -1,0 +1,14 @@
+{
+  "id": "q-py-dev-23",
+  "quizId": "practice-general",
+  "type": "short",
+  "prompt": "En un script con retry exponencial (1s, 2s, 4s, 8s), ¿cuántos segundos esperas antes del 4to intento?",
+  "options": null,
+  "correctAnswer": "8",
+  "explanation": "Backoff exponencial: 2^0=1, 2^1=2, 2^2=4, 2^3=8. El 4to intento espera 8 segundos.",
+  "irtA": 0.8440000000000001,
+  "irtB": -1.18,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

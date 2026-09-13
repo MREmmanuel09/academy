@@ -1,0 +1,15 @@
+{
+  "id": "l-9",
+  "title": "Gestión de paquetes",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 10,
+  "xp": 45,
+  "summary": "apt, yum/dnf, compilar desde fuente. Instalar y mantener software.",
+  "keyTakeaways": [
+    "apt (Debian/Ubuntu), dnf (RHEL/Fedora), apk (Alpine). Patrón: update + install.",
+    "apt purge elimina todo, apt remove mantiene la config.",
+    "Para DevOps: contenedores usan Alpine (apk) o Debian (apt).",
+    "Repositorios personalizados permiten software de fuera del oficial."
+  ]
+}

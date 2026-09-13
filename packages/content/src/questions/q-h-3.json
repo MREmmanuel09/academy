@@ -1,0 +1,31 @@
+{
+  "id": "q-h-3",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué herramienta captura paquetes para análisis?",
+  "options": [
+    {
+      "id": "0",
+      "text": "nmap"
+    },
+    {
+      "id": "1",
+      "text": "Wireshark"
+    },
+    {
+      "id": "2",
+      "text": "iperf"
+    },
+    {
+      "id": "3",
+      "text": "netcat"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Wireshark (y tshark) captura paquetes en una interfaz y permite analizarlos en detalle.",
+  "irtA": 1.032,
+  "irtB": -1.1,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

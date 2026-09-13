@@ -1,0 +1,6 @@
+{
+  "slug": "capa-red",
+  "title": "Capa de Red",
+  "order": 2,
+  "summary": "Direccion IP, subredes, CIDR, enrutamiento estatico y dinamico."
+}

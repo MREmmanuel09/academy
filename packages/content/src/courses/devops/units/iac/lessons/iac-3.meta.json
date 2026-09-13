@@ -1,0 +1,15 @@
+{
+  "id": "iac-3",
+  "title": "Cloud: AWS fundamentals",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 18,
+  "xp": 90,
+  "summary": "EC2, S3, VPC, IAM, RDS. Los servicios core de la nube más usada.",
+  "keyTakeaways": [
+    "Cloud = IaaS/PaaS/SaaS/FaaS. AWS domina con ~32% market share.",
+    "EC2 = VMs. S3 = object storage. VPC = red privada. RDS = DB managed.",
+    "IAM: usuarios + roles + policies. Least privilege siempre.",
+    "CloudWatch para métricas, logs, alarms. Free tier generoso para aprender."
+  ]
+}

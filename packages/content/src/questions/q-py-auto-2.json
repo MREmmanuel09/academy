@@ -1,0 +1,14 @@
+{
+  "id": "q-py-auto-2",
+  "quizId": "exam-python-devops",
+  "type": "truefalse",
+  "prompt": "Para hacer scraping de una página con mucho JavaScript, requests + BeautifulSoup es suficiente.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "requests + BS4 solo parsea HTML estático. Para JS necesitas Playwright, Selenium o similar.",
+  "irtA": 0.9600000000000001,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

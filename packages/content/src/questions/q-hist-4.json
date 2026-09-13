@@ -1,0 +1,31 @@
+{
+  "id": "q-hist-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Quien fundo el equipo de SRE en Google?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Larry Page"
+    },
+    {
+      "id": "1",
+      "text": "Ben Treynor (2003)"
+    },
+    {
+      "id": "2",
+      "text": "Sundar Pichai"
+    },
+    {
+      "id": "3",
+      "text": "Jeff Dean"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Ben Treynor fundo el equipo de SRE en Google en 2003. El libro \"Site Reliability Engineering\" se publico en 2016.",
+  "irtA": 1.116,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

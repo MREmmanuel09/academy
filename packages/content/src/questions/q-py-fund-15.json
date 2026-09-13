@@ -1,0 +1,14 @@
+{
+  "id": "q-py-fund-15",
+  "quizId": "practice-general",
+  "type": "short",
+  "prompt": "¿Cuántos elementos tiene el set {1, 2, 2, 3, 3, 3, 4}?",
+  "options": null,
+  "correctAnswer": "4",
+  "explanation": "Los sets eliminan duplicados automaticamente. {1, 2, 3, 4} tiene 4 elementos unicos.",
+  "irtA": 1.1360000000000001,
+  "irtB": 0.68,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

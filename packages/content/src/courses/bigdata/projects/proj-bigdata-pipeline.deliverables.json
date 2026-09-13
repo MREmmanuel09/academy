@@ -1,0 +1,25 @@
+{
+  "id": "proj-bigdata-pipeline",
+  "title": "Pipeline ETL de Big Data con Spark y Kafka",
+  "scenario": "Una empresa de e-commerce genera 10GB de logs diarios de transacciones. Necesitas construir un pipeline que ingiera, transforme y analice estos datos en tiempo real.",
+  "goal": "Construir un pipeline completo de Big Data que procese streams de transacciones, aplique transformaciones, y genere reportes agregados para el equipo de BI.",
+  "deliverables": [
+    "Pipeline Kafka que ingiere transacciones JSON con schema validado",
+    "Spark Streaming job que procesa los datos en ventanas de 5 minutos",
+    "Transformaciones: limpieza, deduplicacion, enriquecimiento con datos de referencia",
+    "Almacenamiento en Parquet particionado por fecha",
+    "Dashboard de metricas en tiempo real (transacciones/segundo, alertas de fraude)",
+    "Tests de integran para el pipeline completo",
+    "Docker Compose con Kafka, Zookeeper, Spark y PostgreSQL",
+    "Runbook de operaciones y documentacion de arquitectura"
+  ],
+  "tech": [
+    "Apache Kafka",
+    "Apache Spark (Structured Streaming)",
+    "Python 3.11+",
+    "Docker & Docker Compose",
+    "PostgreSQL (metadata store)",
+    "Grafana (dashboard)",
+    "PySpark"
+  ]
+}

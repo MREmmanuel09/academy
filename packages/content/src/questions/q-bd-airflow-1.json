@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que es Apache Airflow?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un lenguaje de programacion"
+    },
+    {
+      "id": "1",
+      "text": "Un orquestador de workflows que ejecuta tareas como DAGs en Python"
+    },
+    {
+      "id": "2",
+      "text": "Una base de datos"
+    },
+    {
+      "id": "3",
+      "text": "Un sistema de archivos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Airflow programa y monitorea workflows. Los defines como DAGs en Python y el scheduler los ejecuta segun su schedule_interval.",
+  "irtA": 1.02,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

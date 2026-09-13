@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-va-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Para qué sirve HashiCorp Vault?",
+  "options": [
+    {
+      "id": "0",
+      "text": "CI/CD"
+    },
+    {
+      "id": "1",
+      "text": "Secret management con dynamic secrets y audit"
+    },
+    {
+      "id": "2",
+      "text": "Monitoring"
+    },
+    {
+      "id": "3",
+      "text": "Logging"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Vault: secret management. Dynamic secrets, rotación automática, audit logs, policies, encryption.",
+  "irtA": 1.02,
+  "irtB": -1.28,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

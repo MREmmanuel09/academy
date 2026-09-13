@@ -1,0 +1,15 @@
+{
+  "id": "py-intro",
+  "title": "Introduccion a Python para DevOps",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 50,
+  "summary": "Por que Python, instalacion, REPL y tu primer script \"Hello DevOps\".",
+  "keyTakeaways": [
+    "Python domina DevOps: scripting, IaC, SDKs, automation, monitoring.",
+    "Usa python3 (no python). Verifica con --version.",
+    "El REPL sirve para experimentar; los scripts para tareas reales.",
+    "Estructura con main() y \"if __name__ == __main__\" como convencion profesional."
+  ]
+}

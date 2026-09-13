@@ -1,0 +1,14 @@
+{
+  "id": "q-da-mp-3",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "plt.subplots(2, 2) crea una grilla de 2x2 subplots y devuelve (fig, axes) donde axes es 2D.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. plt.subplots(nrows, ncols) devuelve una tupla (fig, axes). Si nrows o ncols es 1, axes es 1D; si ambos son >1, axes es 2D.",
+  "irtA": 0.8520000000000001,
+  "irtB": 1.74,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

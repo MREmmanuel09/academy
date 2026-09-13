@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ob-3",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es un span?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un tiempo"
+    },
+    {
+      "id": "1",
+      "text": "Una unidad individual de trabajo dentro de un trace"
+    },
+    {
+      "id": "2",
+      "text": "Un log"
+    },
+    {
+      "id": "3",
+      "text": "Una métrica"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Span: una operación individual dentro de un trace. Tiene nombre, duración, atributos, parent_span_id.",
+  "irtA": 1.124,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

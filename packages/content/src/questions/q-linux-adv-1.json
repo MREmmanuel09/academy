@@ -1,0 +1,31 @@
+{
+  "id": "q-linux-adv-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre cgroups y namespaces en Linux?",
+  "options": [
+    {
+      "id": "0",
+      "text": "cgroups = aislamiento, namespaces = limites"
+    },
+    {
+      "id": "1",
+      "text": "cgroups = limites de recursos, namespaces = aislamiento"
+    },
+    {
+      "id": "2",
+      "text": "Son sinonimos"
+    },
+    {
+      "id": "3",
+      "text": "cgroups es para Docker, namespaces para K8s"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "cgroups limitan recursos (CPU, RAM, IO). Namespaces aíslan vistas (PIDs, network, mount). Docker usa ambos.",
+  "irtA": 1.1760000000000002,
+  "irtB": 0.06,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

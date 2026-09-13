@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-7",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Qué es Flux?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un motor de búsqueda"
+    },
+    {
+      "id": "1",
+      "text": "Un toolkit GitOps para K8s, alternativa a ArgoCD"
+    },
+    {
+      "id": "2",
+      "text": "Un servicio de AWS"
+    },
+    {
+      "id": "3",
+      "text": "Un monitor"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Flux: GitOps Toolkit de CNCF. Más modular que ArgoCD, syncs via controller, no tiene UI (usa CLI).",
+  "irtA": 1,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

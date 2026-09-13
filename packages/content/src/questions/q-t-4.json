@@ -1,0 +1,31 @@
+{
+  "id": "q-t-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es el three-way handshake de TCP?",
+  "options": [
+    {
+      "id": "0",
+      "text": "SYN, ACK, FIN"
+    },
+    {
+      "id": "1",
+      "text": "SYN, SYN-ACK, ACK"
+    },
+    {
+      "id": "2",
+      "text": "HELLO, WELCOME, GO"
+    },
+    {
+      "id": "3",
+      "text": "REQ, RES, ACK"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El handshake es SYN, SYN-ACK, ACK. Sincroniza números de secuencia y establece la conexión.",
+  "irtA": 1.1640000000000001,
+  "irtB": -1.9,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

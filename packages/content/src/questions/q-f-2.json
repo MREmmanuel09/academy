@@ -1,0 +1,31 @@
+{
+  "id": "q-f-2",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿En qué capa del modelo OSI opera un switch?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Capa 1 (Física)"
+    },
+    {
+      "id": "1",
+      "text": "Capa 2 (Enlace)"
+    },
+    {
+      "id": "2",
+      "text": "Capa 3 (Red)"
+    },
+    {
+      "id": "3",
+      "text": "Capa 4 (Transporte)"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Los switches operan en la capa 2 (Enlace) reenviando tramas según direcciones MAC.",
+  "irtA": 0.9400000000000001,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-k-6",
+  "quizId": "exam-k8s",
+  "type": "truefalse",
+  "prompt": "kubectl apply -f deployment.yaml crea o actualiza el recurso.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "apply es declarativo: lee el YAML, calcula diff con el estado actual, aplica cambios. Idempotente.",
+  "irtA": 1.1360000000000001,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

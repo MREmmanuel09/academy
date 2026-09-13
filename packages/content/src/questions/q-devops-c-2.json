@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-2",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué proveedor cloud tiene ~32% del market share?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Microsoft Azure"
+    },
+    {
+      "id": "1",
+      "text": "Google Cloud"
+    },
+    {
+      "id": "2",
+      "text": "AWS"
+    },
+    {
+      "id": "3",
+      "text": "Alibaba"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "AWS (Amazon Web Services) es el más grande. Le siguen Azure (~22%) y GCP (~10%).",
+  "irtA": 1.1680000000000001,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

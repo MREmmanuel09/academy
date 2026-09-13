@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-22",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué es un volumen named vs bind mount?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son iguales"
+    },
+    {
+      "id": "1",
+      "text": "Named es gestionado por Docker, bind mount es path del host"
+    },
+    {
+      "id": "2",
+      "text": "Bind mount es seguro"
+    },
+    {
+      "id": "3",
+      "text": "Named es inseguro"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Named volume (`-v mi-vol:/data`): Docker lo gestiona en /var/lib/docker/. Bind mount (`-v /host:/data`): acceso directo a path del host, útil en dev.",
+  "irtA": 0.804,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-2",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace `docker run -d nginx`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Borra nginx"
+    },
+    {
+      "id": "1",
+      "text": "Corre nginx detached (background)"
+    },
+    {
+      "id": "2",
+      "text": "Descarga imagen"
+    },
+    {
+      "id": "3",
+      "text": "Lista containers"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "-d = detached mode, corre en background y libera la terminal.",
+  "irtA": 1.012,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

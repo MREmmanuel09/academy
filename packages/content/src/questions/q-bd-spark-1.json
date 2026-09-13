@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-1",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cual es la principal ventaja de Spark sobre MapReduce?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Usa menos memoria"
+    },
+    {
+      "id": "1",
+      "text": "Procesamiento in-memory que evita escribir a disco entre etapas"
+    },
+    {
+      "id": "2",
+      "text": "Solo funciona con Python"
+    },
+    {
+      "id": "3",
+      "text": "Es mas viejo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Spark mantiene datos en RAM entre operaciones, lo que lo hace 100x mas rapido que MapReduce para cargas iterativas. Aun asi, hace spill a disco si no cabe en RAM.",
+  "irtA": 1.1600000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

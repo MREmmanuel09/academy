@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-1",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué es una imagen Docker?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un container corriendo"
+    },
+    {
+      "id": "1",
+      "text": "Un template read-only para crear containers"
+    },
+    {
+      "id": "2",
+      "text": "Un archivo YAML"
+    },
+    {
+      "id": "3",
+      "text": "Una red"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Una imagen es un template inmutable con tu app + dependencias. Un container es una instancia corriendo de la imagen.",
+  "irtA": 1.008,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

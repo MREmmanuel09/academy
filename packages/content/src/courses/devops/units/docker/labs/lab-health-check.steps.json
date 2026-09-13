@@ -1,0 +1,74 @@
+{
+  "id": "lab-health-check",
+  "title": "System Health Checker con alertas Slack",
+  "steps": [
+    {
+      "instruction": "Crea el proyecto health-check con venv y estructura src/health_check/ con __init__.py.",
+      "expectedCommand": "mkdir -p src/health_check && touch src/health_check/__init__.py",
+      "hint": "Estructura profesional: src/health_check/ con modulos separados."
+    },
+    {
+      "instruction": "Implementa check_cpu() y check_memory() usando psutil. Retornan (status, value) donde status es \"ok\"/\"warning\"/\"critical\".",
+      "expectedCommand": "pip install psutil",
+      "hint": "psutil.cpu_percent(interval=1) y psutil.virtual_memory().percent"
+    },
+    {
+      "instruction": "Implementa check_disk(path, threshold) que use shutil.disk_usage para validar espacio libre.",
+      "expectedCommand": "echo \"def check_disk(path, threshold):\" >> src/health_check/checks.py",
+      "hint": "shutil.disk_usage(path) retorna namedtuple con total, used, free."
+    },
+    {
+      "instruction": "Implementa check_service(name) que use subprocess.run([\"systemctl\", \"is-active\", name]) y retorne si esta activo.",
+      "expectedCommand": "echo \"def check_service(name):\" >> src/health_check/checks.py",
+      "hint": "subprocess.run con capture_output=True y check el returncode."
+    },
+    {
+      "instruction": "Crea el modulo notifier.py con notify_slack(alert: dict) que envie un mensaje a un webhook con bloques de Slack y color segun severity.",
+      "expectedCommand": "touch src/health_check/notifier.py",
+      "hint": "Usa httpx.post al webhook URL con json=payload."
+    },
+    {
+      "instruction": "Implementa el orquestador run_checks(config) que ejecuta todos los checks y envia alertas solo si hay problemas (no spam).",
+      "expectedCommand": "echo \"def run_checks(config):\" >> src/health_check/runner.py",
+      "hint": "Build una lista de alerts y solo notifica si len > 0."
+    },
+    {
+      "instruction": "Anade config.yaml con los thresholds (cpu, memory, disk) y la lista de servicios a verificar.",
+      "expectedCommand": "touch config.yaml",
+      "hint": "Usa yaml.safe_load para parsear."
+    },
+    {
+      "instruction": "Crea health_check/cli.py con argparse y un bucle principal con schedule.every(N).minutes.do(run_checks, config).",
+      "expectedCommand": "touch src/health_check/cli.py",
+      "hint": "while True: schedule.run_pending(); time.sleep(1)"
+    },
+    {
+      "instruction": "Testea localmente: ejecuta el script y verifica que envie el alert a Slack cuando un threshold se exceda.",
+      "expectedCommand": "python3 -m health_check.cli config.yaml --once",
+      "hint": "Agrega flag --once para ejecutar una vez y salir (testing)."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "target-server",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "server",
+        "name": "slack",
+        "x": 350,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "target-server",
+        "to": "slack"
+      }
+    ]
+  },
+  "validation": "Al completar, el checker debe evaluar CPU, RAM y disco, y enviar alerta a Slack cuando un umbral se supere."
+}

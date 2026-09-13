@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-9",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Cuál es la regla 50% en SRE?",
+  "options": [
+    {
+      "id": "0",
+      "text": "50% de los servicios son críticos"
+    },
+    {
+      "id": "1",
+      "text": "50% del tiempo del SRE debe ser en proyectos, no toil"
+    },
+    {
+      "id": "2",
+      "text": "50% de los deploys fallan"
+    },
+    {
+      "id": "3",
+      "text": "50% de los SLOs se cumplen"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Regla 50%: max 50% del tiempo en toil, el resto en proyectos de ingeniería que reduzcan toil futuro.",
+  "irtA": 1.1,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

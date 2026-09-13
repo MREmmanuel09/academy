@@ -1,0 +1,15 @@
+{
+  "id": "matplotlib-basics",
+  "title": "Matplotlib: plots basicos, customizacion y subplots",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 70,
+  "summary": "La libreria base de visualizacion en Python. Aprende a hacer line, bar, scatter e hist con estilo.",
+  "keyTakeaways": [
+    "Matplotlib tiene dos APIs: pyplot (rapido) y OO (robusto, recomendado para figuras complejas).",
+    "Tipos principales: plot (line), bar, scatter, hist. Cada uno tiene parametros clave.",
+    "subplots crea grillas; tight_layout() evita solapamiento de labels.",
+    "Exporta con savefig: PDF/SVG para publicacion, PNG para web con dpi >= 150."
+  ]
+}

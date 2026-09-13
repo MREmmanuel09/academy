@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-20",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué es kubectl rollout?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Crea pods"
+    },
+    {
+      "id": "1",
+      "text": "Gestiona rollouts de deployments (status, history, undo)"
+    },
+    {
+      "id": "2",
+      "text": "Borra todo"
+    },
+    {
+      "id": "3",
+      "text": "Crea namespace"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "kubectl rollout status/history/undo. Para deployments, gestiona el progreso de los rolling updates.",
+  "irtA": 0.9440000000000001,
+  "irtB": -1.24,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

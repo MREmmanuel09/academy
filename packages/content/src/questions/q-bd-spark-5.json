@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-5",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es un shuffle en Spark?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un algoritmo de compresion"
+    },
+    {
+      "id": "1",
+      "text": "Movimiento de datos entre executors, tipicamente costoso en red y disco"
+    },
+    {
+      "id": "2",
+      "text": "Una operacion de map"
+    },
+    {
+      "id": "3",
+      "text": "Un tipo de archivo Parquet"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Shuffle = cuando los datos tienen que moverse entre nodos (ej. groupByKey, join). Es la operacion mas cara en Spark. Marca los limites entre stages.",
+  "irtA": 1.1440000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ob-8",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es \"sampling\" en tracing?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Análisis estadístico"
+    },
+    {
+      "id": "1",
+      "text": "Decidir qué traces guardar (no se guardan todos)"
+    },
+    {
+      "id": "2",
+      "text": "Backup"
+    },
+    {
+      "id": "3",
+      "text": "Compresión"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Sampling: guardar un % de traces (ej: 1%, 10%, 100% para errores). No es viable guardar TODOS los traces a escala.",
+  "irtA": 1.1440000000000001,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

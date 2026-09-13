@@ -1,0 +1,14 @@
+{
+  "id": "q-sec-6",
+  "quizId": "exam-ccna",
+  "type": "truefalse",
+  "prompt": "DNSSEC añade firma criptográfica a las respuestas DNS.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. DNSSEC firma criptográficamente los registros para evitar envenenamiento de caché DNS.",
+  "irtA": 1.048,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

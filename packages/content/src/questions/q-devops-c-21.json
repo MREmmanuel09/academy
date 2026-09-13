@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-21",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué servicio AWS usarías para CI/CD nativo?",
+  "options": [
+    {
+      "id": "0",
+      "text": "CodePipeline + CodeBuild + CodeDeploy"
+    },
+    {
+      "id": "1",
+      "text": "Jenkins en EC2"
+    },
+    {
+      "id": "2",
+      "text": "GitHub Actions externo"
+    },
+    {
+      "id": "3",
+      "text": "Todas son válidas"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "CodePipeline (orquestador) + CodeBuild (build/test) + CodeDeploy (deploy) = CI/CD nativo AWS. O Jenkins on EC2, o GitHub Actions.",
+  "irtA": 0.8360000000000001,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

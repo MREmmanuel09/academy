@@ -1,0 +1,37 @@
+{
+  "id": "exam-gitops",
+  "course": "devops",
+  "unit": "advanced",
+  "title": "GitOps Engineer (ArgoCD/Flux)",
+  "description": "Examen de GitOps: principios, ArgoCD, Flux, drift detection, sync waves, security.",
+  "level": "intermedio",
+  "totalQuestions": 20,
+  "durationMinutes": 30,
+  "passingScore": 75,
+  "xp": 450,
+  "prerequisites": [
+    "exam-k8s"
+  ],
+  "questionIds": [
+    "q-devops-go-1",
+    "q-devops-go-2",
+    "q-devops-go-3",
+    "q-devops-go-4",
+    "q-devops-go-5",
+    "q-devops-go-6",
+    "q-devops-go-7",
+    "q-devops-go-8",
+    "q-devops-go-9",
+    "q-devops-go-10",
+    "q-devops-k-1",
+    "q-devops-k-2",
+    "q-devops-k-3",
+    "q-devops-k-4",
+    "q-devops-k-5",
+    "q-devops-d-1",
+    "q-devops-d-2",
+    "q-devops-d-3",
+    "q-devops-d-4",
+    "q-devops-d-5"
+  ]
+}

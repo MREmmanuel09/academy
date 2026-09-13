@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-14",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué servidor ASGI se usa típicamente para correr FastAPI en producción?",
+  "options": [
+    {
+      "id": "0",
+      "text": "gunicorn"
+    },
+    {
+      "id": "1",
+      "text": "uvicorn"
+    },
+    {
+      "id": "2",
+      "text": "waitress"
+    },
+    {
+      "id": "3",
+      "text": "mod_wsgi"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Uvicorn es el servidor ASGI estándar para FastAPI. gunicorn puede correr uvicorn workers.",
+  "irtA": 1.068,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

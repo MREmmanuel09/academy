@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-13",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que se requiere para exactly-once en Structured Streaming?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Solo tener un broker Kafka"
+    },
+    {
+      "id": "1",
+      "text": "Source idempotente + sink idempotente + checkpointing"
+    },
+    {
+      "id": "2",
+      "text": "Desactivar el shuffle"
+    },
+    {
+      "id": "3",
+      "text": "Usar solo RDDs"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Exactly-once requiere: source que soporta replay (Kafka con offsets), sink que deduplica (Delta Lake, DB con UPSERT), y checkpointing para recovery.",
+  "irtA": 1.052,
+  "irtB": 1.54,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

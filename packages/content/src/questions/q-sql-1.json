@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-1",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué significa SQL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Simple Query Language"
+    },
+    {
+      "id": "1",
+      "text": "Structured Query Language"
+    },
+    {
+      "id": "2",
+      "text": "Standard Quality Language"
+    },
+    {
+      "id": "3",
+      "text": "Sequential Query Logic"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "SQL = Structured Query Language. El lenguaje estándar para bases de datos relacionales.",
+  "irtA": 0.904,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

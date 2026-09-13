@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ch-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué herramienta es K8s-native para chaos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Gremlin"
+    },
+    {
+      "id": "1",
+      "text": "Litmus"
+    },
+    {
+      "id": "2",
+      "text": "ChaosBlade"
+    },
+    {
+      "id": "3",
+      "text": "Todas son válidas"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "Litmus (CNCF), ChaosBlade (Alibaba), Gremlin (SaaS). Las tres sirven, con diferentes enfoques.",
+  "irtA": 1.02,
+  "irtB": 1.14,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

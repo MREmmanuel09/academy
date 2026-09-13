@@ -1,0 +1,163 @@
+{
+  "source": "sprint-l2",
+  "schemaVersion": 1,
+  "exportedAt": "2026-08-20T14:22:00.000Z",
+  "user": {
+    "id": "sprint-l2-user-uuid-001",
+    "createdAt": "2025-09-01T08:00:00.000Z",
+    "l1": "es",
+    "targetLevel": "B2",
+    "currentLevelReading": 3.5,
+    "currentLevelListening": 3.0,
+    "currentLevelSpeaking": 2.5,
+    "currentLevelWriting": 2.5,
+    "interests": "viajes, tecnologia",
+    "preferredAccent": "american",
+    "planMinutesPerDay": 45
+  },
+  "progress": {
+    "userId": "sprint-l2-user-uuid-001",
+    "currentArc": 3,
+    "currentEpisode": 2,
+    "episodesCompleted": [
+      "ep-aterrizaje-01",
+      "ep-aterrizaje-02",
+      "ep-aterrizaje-03",
+      "ep-aterrizaje-04",
+      "ep-aterrizaje-05",
+      "ep-sobrevivir-01",
+      "ep-sobrevivir-02",
+      "ep-sobrevivir-03",
+      "ep-trabajo-01",
+      "ep-trabajo-02"
+    ],
+    "vocabularySizeReceptive": 145,
+    "vocabularySizeProductive": 80,
+    "lastVltDate": "2026-08-19",
+    "lastCefrTestDate": "2026-08-10"
+  },
+  "userCards": [
+    {
+      "id": "uc-001",
+      "userId": "sprint-l2-user-uuid-001",
+      "cardId": "vocab-airport",
+      "fsrsState": "review",
+      "fsrsDue": "2026-08-22T10:00:00.000Z",
+      "fsrsStability": 8.4,
+      "fsrsDifficulty": 4.1,
+      "fsrsElapsedDays": 3,
+      "fsrsScheduledDays": 5,
+      "fsrsReps": 6,
+      "fsrsLapses": 0,
+      "fsrsLastReview": "2026-08-17T10:00:00.000Z",
+      "createdAt": "2025-09-15T08:00:00.000Z",
+      "updatedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "id": "uc-002",
+      "userId": "sprint-l2-user-uuid-001",
+      "cardId": "vocab-passport",
+      "fsrsState": "review",
+      "fsrsDue": "2026-08-25T10:00:00.000Z",
+      "fsrsStability": 14.2,
+      "fsrsDifficulty": 3.2,
+      "fsrsElapsedDays": 7,
+      "fsrsScheduledDays": 10,
+      "fsrsReps": 8,
+      "fsrsLapses": 1,
+      "fsrsLastReview": "2026-08-15T10:00:00.000Z",
+      "createdAt": "2025-09-15T08:00:00.000Z",
+      "updatedAt": "2026-08-15T10:00:00.000Z"
+    },
+    {
+      "id": "uc-003",
+      "userId": "sprint-l2-user-uuid-001",
+      "cardId": "vocab-baggage",
+      "fsrsState": "learning",
+      "fsrsDue": "2026-08-20T18:00:00.000Z",
+      "fsrsStability": 1.2,
+      "fsrsDifficulty": 6.5,
+      "fsrsElapsedDays": 0,
+      "fsrsScheduledDays": 1,
+      "fsrsReps": 2,
+      "fsrsLapses": 0,
+      "fsrsLastReview": "2026-08-20T10:00:00.000Z",
+      "createdAt": "2026-08-18T08:00:00.000Z",
+      "updatedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "id": "uc-004",
+      "userId": "sprint-l2-user-uuid-001",
+      "cardId": "vocab-gate",
+      "fsrsState": "new",
+      "fsrsDue": "2026-08-20T10:00:00.000Z",
+      "fsrsStability": 0,
+      "fsrsDifficulty": 5,
+      "fsrsElapsedDays": 0,
+      "fsrsScheduledDays": 0,
+      "fsrsReps": 0,
+      "fsrsLapses": 0,
+      "fsrsLastReview": null,
+      "createdAt": "2026-08-20T10:00:00.000Z",
+      "updatedAt": "2026-08-20T10:00:00.000Z"
+    }
+  ],
+  "roleplaySessions": [
+    {
+      "id": "rp-001",
+      "userId": "sprint-l2-user-uuid-001",
+      "scenarioId": "01-cafe-order",
+      "startedAt": "2026-08-18T19:00:00.000Z",
+      "endedAt": "2026-08-18T19:08:00.000Z",
+      "transcript": "User: Hi, can I get a coffee?\nNPC: Sure, what size?\nUser: Medium, please.",
+      "feedbackJson": "{\"score\":0.78,\"grammarOk\":true,\"vocabularyOk\":true}"
+    },
+    {
+      "id": "rp-002",
+      "userId": "sprint-l2-user-uuid-001",
+      "scenarioId": "03-asking-directions",
+      "startedAt": "2026-08-19T08:30:00.000Z",
+      "endedAt": "2026-08-19T08:35:00.000Z",
+      "transcript": "User: Excuse me, where is the train station?\nNPC: Go straight for two blocks.",
+      "feedbackJson": "{\"score\":0.65,\"grammarOk\":true,\"vocabularyOk\":false}"
+    }
+  ],
+  "learningEvents": [
+    {
+      "id": "ev-001",
+      "userId": "sprint-l2-user-uuid-001",
+      "timestamp": "2026-08-19T08:00:00.000Z",
+      "type": "vocab_review",
+      "subtype": "vocab-airport",
+      "durationSeconds": 12,
+      "resultJson": "{\"correct\":true}"
+    },
+    {
+      "id": "ev-002",
+      "userId": "sprint-l2-user-uuid-001",
+      "timestamp": "2026-08-19T08:05:00.000Z",
+      "type": "episode_complete",
+      "subtype": "ep-sobrevivir-03",
+      "durationSeconds": 720,
+      "resultJson": "{\"score\":0.85}"
+    },
+    {
+      "id": "ev-003",
+      "userId": "sprint-l2-user-uuid-001",
+      "timestamp": "2026-08-19T08:18:00.000Z",
+      "type": "roleplay_complete",
+      "subtype": "03-asking-directions",
+      "durationSeconds": 300,
+      "resultJson": "{\"score\":0.65}"
+    },
+    {
+      "id": "ev-004",
+      "userId": "sprint-l2-user-uuid-001",
+      "timestamp": "2026-08-20T10:00:00.000Z",
+      "type": "vocab_review",
+      "subtype": "vocab-gate",
+      "durationSeconds": 8,
+      "resultJson": "{\"correct\":false}"
+    }
+  ]
+}

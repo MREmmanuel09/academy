@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-8",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cual es el formato de archivo recomendado para data lakes con Spark?",
+  "options": [
+    {
+      "id": "0",
+      "text": "CSV"
+    },
+    {
+      "id": "1",
+      "text": "JSON plano"
+    },
+    {
+      "id": "2",
+      "text": "Parquet"
+    },
+    {
+      "id": "3",
+      "text": "XML"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Parquet es columnar, comprimido, soporta predicate pushdown y column pruning. Es el estandar para data lakes modernos (junto con Delta/Iceberg/Hudi).",
+  "irtA": 1.1320000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

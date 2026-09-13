@@ -1,0 +1,31 @@
+{
+  "id": "q-s-5",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "BGP usa como transporte:",
+  "options": [
+    {
+      "id": "0",
+      "text": "UDP puerto 179"
+    },
+    {
+      "id": "1",
+      "text": "TCP puerto 179"
+    },
+    {
+      "id": "2",
+      "text": "ICMP"
+    },
+    {
+      "id": "3",
+      "text": "SCTP puerto 179"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "BGP corre sobre TCP puerto 179 para garantizar entrega confiable de sus mensajes UPDATE.",
+  "irtA": 0.924,
+  "irtB": 1.5,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

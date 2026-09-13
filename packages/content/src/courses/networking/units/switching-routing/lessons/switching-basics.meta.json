@@ -1,0 +1,15 @@
+{
+  "id": "switching-basics",
+  "title": "Switching basico: MAC tables, forwarding y spanning tree",
+  "module": "switching-routing",
+  "difficulty": "principiante",
+  "estimatedMinutes": 15,
+  "xp": 70,
+  "summary": "Como un switch decide hacia donde enviar un frame, el proceso de aprendizaje, y por que STP evita loops.",
+  "keyTakeaways": [
+    "Un switch aprende MACs por el puerto donde llega el frame. La tabla MAC (CAM) es la base del forwarding.",
+    "Unicast conocido se envia solo al puerto correcto. Desconocido se floodea. Broadcast a todos.",
+    "STP previene loops bloqueando enlaces redundantes. Electe un Root Bridge y calcula caminos optimos.",
+    "Port security limita MACs por puerto. Violacion puede apagar el puerto (shutdown)."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-11",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué hace un CTE (Common Table Expression) en SQL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Borra una tabla"
+    },
+    {
+      "id": "1",
+      "text": "Crea una \"tabla virtual\" temporal con WITH para simplificar queries complejas"
+    },
+    {
+      "id": "2",
+      "text": "Convierte texto a mayúsculas"
+    },
+    {
+      "id": "3",
+      "text": "Cuenta filas"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "CTE usa WITH para definir una \"tabla virtual\" temporal. Es más legible que subqueries profundas.",
+  "irtA": 1.1880000000000002,
+  "irtB": 1.64,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

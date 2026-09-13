@@ -1,0 +1,64 @@
+{
+  "id": "lab-pandas-eda",
+  "title": "Análisis Exploratorio de Datos con Pandas",
+  "steps": [
+    {
+      "instruction": "PASO 1 - Carga de datos: Importa pandas y carga el dataset 'sales_data.csv' en un DataFrame. Muestra las primeras 5 filas.",
+      "expectedCommand": "import pandas as pd\ndf = pd.read_csv('sales_data.csv')\ndf.head()",
+      "hint": "Usa pd.read_csv() para cargar el archivo CSV. df.head() muestra las primeras filas."
+    },
+    {
+      "instruction": "PASO 2 - Descripción general: Obtén estadísticas descriptivas del DataFrame (count, mean, std, min, max, etc.).",
+      "expectedCommand": "df.describe()",
+      "hint": "El método describe() genera estadísticas resumidas para columnas numéricas."
+    },
+    {
+      "instruction": "PASO 3 - Valores nulos: Verifica la existencia de valores nulos en el dataset y cuenta cuántos hay por columna.",
+      "expectedCommand": "df.isnull().sum()",
+      "hint": "isnull() detecta nulos, sum() los cuenta por columna."
+    },
+    {
+      "instruction": "PASO 4 - Filtrado: Filtra el DataFrame para mostrar solo las filas donde la columna 'category' sea igual a 'Electronics' y el 'amount' sea mayor a 100.",
+      "expectedCommand": "df[(df['category'] == 'Electronics') & (df['amount'] > 100)]",
+      "hint": "Usa condicionales booleanas con & para combinar filtros."
+    },
+    {
+      "instruction": "PASO 5 - Agrupación: Agrupa los datos por 'category' y calcula el promedio de 'amount' para cada categoría.",
+      "expectedCommand": "df.groupby('category')['amount'].mean()",
+      "hint": "groupby() agrupa, luego selecciona la columna y aplica mean()."
+    },
+    {
+      "instruction": "PASO 6 - Visualización: Crea un histograma de la columna 'amount' para ver la distribución de los montos.",
+      "expectedCommand": "import matplotlib.pyplot as plt\ndf['amount'].hist(bins=20)\nplt.xlabel('Amount')\nplt.ylabel('Frequency')\nplt.title('Distribution of Amount')\nplt.show()",
+      "hint": "Usa matplotlib para graficar. hist() crea el histograma, bins controla el número de barras."
+    },
+    {
+      "instruction": "PASO 7 - Exportar resumen: Guarda un resumen del EDA en un archivo CSV con las estadísticas principales y el conteo de nulos.",
+      "expectedCommand": "summary = df.describe()\nsummary.to_csv('eda_summary.csv')",
+      "hint": "Crea un DataFrame con las estadísticas y usa to_csv() para exportar."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "Dataset CSV",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "Analista",
+        "x": 200,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "Dataset CSV",
+        "to": "Analista"
+      }
+    ]
+  },
+  "validation": "Al completar los pasos, deberías poder: cargar datos con Pandas, generar estadísticas descriptivas, detectar nulos, filtrar por condiciones, agrupar y calcular métricas, crear visualizaciones básicas, y exportar resultados."
+}

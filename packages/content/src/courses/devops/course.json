@@ -1,0 +1,8 @@
+{
+  "slug": "devops",
+  "track": "devops",
+  "title": "DevOps & Cloud",
+  "description": "Linux, Git, Docker, Kubernetes, CI/CD, IaC, monitoring, SRE.",
+  "difficulty": "intermediate",
+  "estimatedHours": 50
+}

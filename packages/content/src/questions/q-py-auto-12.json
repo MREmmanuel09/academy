@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-12",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En un Slack bot, ¿por qué debes llamar ack() al inicio de cada handler?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Para autenticar al usuario"
+    },
+    {
+      "id": "1",
+      "text": "Slack requiere confirmación en menos de 3 segundos"
+    },
+    {
+      "id": "2",
+      "text": "Para activar el bot"
+    },
+    {
+      "id": "3",
+      "text": "Es opcional"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Si no respondes en 3 segundos, Slack marca la entrega como fallida y reintenta. SIEMPRE llama ack() primero.",
+  "irtA": 1.076,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

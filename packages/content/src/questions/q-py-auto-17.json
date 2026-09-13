@@ -1,0 +1,14 @@
+{
+  "id": "q-py-auto-17",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "async/await en Python es útil tanto para I/O-bound como para CPU-bound.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "async/await solo ayuda con I/O-bound. Para CPU-bound usa multiprocessing o procesos separados.",
+  "irtA": 1.056,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

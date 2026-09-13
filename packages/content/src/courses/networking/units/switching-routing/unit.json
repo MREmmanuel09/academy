@@ -1,0 +1,6 @@
+{
+  "slug": "switching-routing",
+  "title": "Switching & Routing",
+  "order": 5,
+  "summary": "VLANs, MAC tables, STP, inter-VLAN routing, y conceptos de switching."
+}

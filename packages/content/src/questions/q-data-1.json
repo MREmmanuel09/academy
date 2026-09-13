@@ -1,0 +1,31 @@
+{
+  "id": "q-data-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuáles son los 3 tipos principales de datos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Pequeños, medianos y grandes"
+    },
+    {
+      "id": "1",
+      "text": "Estructurados, semi-estructurados y no estructurados"
+    },
+    {
+      "id": "2",
+      "text": "Privados, públicos y mixtos"
+    },
+    {
+      "id": "3",
+      "text": "Numéricos, de texto y binarios"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Los datos se clasifican en estructurados (tablas), semi-estructurados (JSON, XML) y no estructurados (texto, imágenes, video).",
+  "irtA": 0.888,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

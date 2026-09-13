@@ -1,0 +1,31 @@
+{
+  "id": "q-a-5",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué protocolo de email se usa para ENVIAR correo?",
+  "options": [
+    {
+      "id": "0",
+      "text": "POP3"
+    },
+    {
+      "id": "1",
+      "text": "IMAP"
+    },
+    {
+      "id": "2",
+      "text": "SMTP"
+    },
+    {
+      "id": "3",
+      "text": "FTP"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "SMTP se usa para enviar correo. POP3/IMAP para recibir.",
+  "irtA": 0.932,
+  "irtB": -1.3,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

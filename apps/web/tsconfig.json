@@ -1,0 +1,26 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "allowJs": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@academy/db": ["../../packages/db/src/index.ts"],
+      "@academy/db/*": ["../../packages/db/src/*"],
+      "@academy/i18n": ["../../packages/i18n/src/index.ts"],
+      "@academy/i18n/*": ["../../packages/i18n/src/*"],
+      "@academy/ui": ["../../packages/ui/src/index.ts"],
+      "@academy/ui/*": ["../../packages/ui/src/*"],
+      "@academy/content": ["../../packages/content/src/index.ts"],
+      "@academy/content/*": ["../../packages/content/src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules", ".next", "playwright-report", "test-results", "tests/e2e/**"]
+}

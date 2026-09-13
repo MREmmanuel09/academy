@@ -1,0 +1,15 @@
+{
+  "id": "py-slackbot",
+  "title": "Slack bot completo: comandos, eventos, modals",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 24,
+  "xp": 100,
+  "summary": "Construir un Slack bot funcional: Bolt SDK, slash commands, eventos, interactive modals.",
+  "keyTakeaways": [
+    "Slack Bolt: SDK oficial, maneja auth, eventos, comandos, modals.",
+    "SIEMPRE llama ack() en <3s. Para tareas largas, ack + respond.",
+    "Modals son ideales para forms: incident creation, deploy approval, etc.",
+    "Socket Mode simplifica el dev (no necesitas ngrok ni public endpoint)."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "l-3",
+  "title": "Sistema de archivos y rutas",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 55,
+  "summary": "Jerarquía FHS, rutas absolutas vs relativas, examinar el filesystem.",
+  "keyTakeaways": [
+    "Linux sigue el FHS: /etc para config, /var/log para logs, /home para usuarios.",
+    "Rutas absolutas empiezan con /, relativas con ./ o ../.",
+    "`find` es la herramienta definitiva para buscar archivos por nombre, tamaño, fecha.",
+    "Tab autocompleta rutas; wildcards (*, ?, []) ahorran tecleo."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-14",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Para que sirve el checkpoint location en Structured Streaming?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Para acelerar el shuffle"
+    },
+    {
+      "id": "1",
+      "text": "Para guardar el estado del query (offsets, agregaciones) y poder reiniciar"
+    },
+    {
+      "id": "2",
+      "text": "Para comprimir el output"
+    },
+    {
+      "id": "3",
+      "text": "Para validar el schema"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "checkpointLocation guarda offsets consumidos y estado intermedio. Sin esto, en un restart pierdes progreso y puedes reprocesar o perder datos.",
+  "irtA": 1.048,
+  "irtB": 1.54,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

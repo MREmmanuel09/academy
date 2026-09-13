@@ -1,0 +1,31 @@
+{
+  "id": "q-ds-10",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que hace HTTPS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Encripta datos en transito"
+    },
+    {
+      "id": "1",
+      "text": "Encripta datos en disco"
+    },
+    {
+      "id": "2",
+      "text": "Hace la web mas rapida"
+    },
+    {
+      "id": "3",
+      "text": "Comprime imagenes"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "HTTPS = HTTP + TLS/SSL. Cifra la comunicacion cliente-servidor. No protege datos en disco (eso es encryption at rest).",
+  "irtA": 1.116,
+  "irtB": -0.2,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

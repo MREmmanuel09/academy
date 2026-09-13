@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-6",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué servicio AWS es una base de datos relacional managed?",
+  "options": [
+    {
+      "id": "0",
+      "text": "DynamoDB"
+    },
+    {
+      "id": "1",
+      "text": "RDS"
+    },
+    {
+      "id": "2",
+      "text": "Redshift"
+    },
+    {
+      "id": "3",
+      "text": "ElastiCache"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "RDS = managed relational (Postgres, MySQL, Aurora, etc). DynamoDB = NoSQL. Redshift = data warehouse.",
+  "irtA": 1.1840000000000002,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

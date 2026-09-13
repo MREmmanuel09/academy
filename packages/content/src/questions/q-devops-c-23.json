@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-23",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué es AWS Lambda@Edge?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Lambda en edge locations"
+    },
+    {
+      "id": "1",
+      "text": "Lambda con red acelerada"
+    },
+    {
+      "id": "2",
+      "text": "Lambda gratis"
+    },
+    {
+      "id": "3",
+      "text": "Lambda para móviles"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Lambda@Edge ejecuta funciones en CloudFront edge locations para personalización, auth, A/B testing con latencia ultra baja.",
+  "irtA": 0.8440000000000001,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

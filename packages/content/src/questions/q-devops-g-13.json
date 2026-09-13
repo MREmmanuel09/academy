@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-13",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cómo creas y te mueves a una nueva rama en un solo comando?",
+  "options": [
+    {
+      "id": "0",
+      "text": "git branch nueva"
+    },
+    {
+      "id": "1",
+      "text": "git checkout nueva"
+    },
+    {
+      "id": "2",
+      "text": "git checkout -b nueva"
+    },
+    {
+      "id": "3",
+      "text": "git switch nueva"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "git checkout -b crea la rama y se mueve. Equivalente moderno: git switch -c nueva.",
+  "irtA": 0.976,
+  "irtB": 0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-mq-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Kafka NO es ideal para:",
+  "options": [
+    {
+      "id": "0",
+      "text": "Event sourcing"
+    },
+    {
+      "id": "1",
+      "text": "Log aggregation"
+    },
+    {
+      "id": "2",
+      "text": "OLAP queries ad-hoc (mejor ClickHouse)"
+    },
+    {
+      "id": "3",
+      "text": "Stream processing"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Kafka es event store persistente. Para OLAP queries, usa ClickHouse, Druid, BigQuery, o Spark sobre los datos de Kafka.",
+  "irtA": 0.924,
+  "irtB": -1.54,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

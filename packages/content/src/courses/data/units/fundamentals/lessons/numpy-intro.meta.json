@@ -1,0 +1,15 @@
+{
+  "id": "numpy-intro",
+  "title": "NumPy: arrays, dtype, shape y creacion basica",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 55,
+  "summary": "La libreria base de computacion numerica en Python. Aprende ndarray, tipos, formas y como construir arrays.",
+  "keyTakeaways": [
+    "NumPy provee ndarray: bloque contiguo, homogeneo y vectorizado.",
+    "Usa `np.array`, `np.zeros`, `np.arange`, `np.linspace` para crear arrays.",
+    "`dtype` define el tipo y tamano en memoria. `shape` define las dimensiones.",
+    "Indexing soporta slicing, indices negativos, fancy indexing y mascaras booleanas."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-da-mp-6",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre plt.plot y ax.plot?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay diferencia"
+    },
+    {
+      "id": "1",
+      "text": "plt.plot usa el estado global (pyplot), ax.plot usa la API orientada a objetos"
+    },
+    {
+      "id": "2",
+      "text": "ax.plot es solo para scatter"
+    },
+    {
+      "id": "3",
+      "text": "plt.plot es deprecated"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "plt.plot usa la interfaz pyplot (estado global); ax.plot es la API OO donde ax es el Axes especifico. La OO es mas robusta para figuras complejas.",
+  "irtA": 0.8640000000000001,
+  "irtB": 1.76,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

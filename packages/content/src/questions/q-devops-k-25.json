@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-25",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Cómo ves recursos consumidos por pods?",
+  "options": [
+    {
+      "id": "0",
+      "text": "kubectl top pods"
+    },
+    {
+      "id": "1",
+      "text": "kubectl describe pod"
+    },
+    {
+      "id": "2",
+      "text": "kubectl logs pod"
+    },
+    {
+      "id": "3",
+      "text": "kubectl get pods"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "kubectl top pods muestra CPU y memoria. Requiere metrics-server instalado en el cluster.",
+  "irtA": 0.9640000000000001,
+  "irtB": -1.24,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

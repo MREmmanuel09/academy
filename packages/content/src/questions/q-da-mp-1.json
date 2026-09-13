@@ -1,0 +1,31 @@
+{
+  "id": "q-da-mp-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la importacion canonica de Matplotlib?",
+  "options": [
+    {
+      "id": "0",
+      "text": "import matplotlib as mpl"
+    },
+    {
+      "id": "1",
+      "text": "import matplotlib.pyplot as plt"
+    },
+    {
+      "id": "2",
+      "text": "from matplotlib import *"
+    },
+    {
+      "id": "3",
+      "text": "import plot as plt"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "import matplotlib.pyplot as plt es la convencion universal. plt es la interfaz estilo MATLAB.",
+  "irtA": 0.8440000000000001,
+  "irtB": 1.74,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

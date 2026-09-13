@@ -1,0 +1,31 @@
+{
+  "id": "q-data-14",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es PII?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Public Internet Information"
+    },
+    {
+      "id": "1",
+      "text": "Personally Identifiable Information"
+    },
+    {
+      "id": "2",
+      "text": "Private Internal Index"
+    },
+    {
+      "id": "3",
+      "text": "Protocol for Internet Integration"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "PII = Personally Identifiable Information. Cualquier dato que pueda identificar a una persona (nombre, email, DNI, etc.).",
+  "irtA": 1,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

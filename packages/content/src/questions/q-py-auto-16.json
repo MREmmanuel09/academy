@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-16",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En asyncio, ¿qué estructura usarías para implementar un patrón producer/consumer?",
+  "options": [
+    {
+      "id": "0",
+      "text": "asyncio.Queue"
+    },
+    {
+      "id": "1",
+      "text": "asyncio.Semaphore"
+    },
+    {
+      "id": "2",
+      "text": "asyncio.Event"
+    },
+    {
+      "id": "3",
+      "text": "asyncio.Lock"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "asyncio.Queue es la primitiva canónica para producer/consumer patterns en asyncio.",
+  "irtA": 1.06,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

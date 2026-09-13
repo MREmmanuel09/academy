@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-10",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Qué pasa si borras un recurso de K8s a mano con selfHeal=true?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Queda borrado"
+    },
+    {
+      "id": "1",
+      "text": "ArgoCD lo recrea automáticamente"
+    },
+    {
+      "id": "2",
+      "text": "Falla el cluster"
+    },
+    {
+      "id": "3",
+      "text": "Envía alerta"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Con selfHeal=true, ArgoCD reconcilia: detecta que falta el recurso, lo recrea desde Git.",
+  "irtA": 0.912,
+  "irtB": -0.66,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

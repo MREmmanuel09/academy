@@ -1,0 +1,14 @@
+{
+  "id": "q-py-auto-13",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "WebSockets permiten comunicación bidireccional full-duplex sobre una conexión TCP persistente.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "WebSocket mantiene la conexión abierta y permite que ambos lados envíen datos en cualquier momento.",
+  "irtA": 1.072,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

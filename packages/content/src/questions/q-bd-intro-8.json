@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-intro-8",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es split-brain en sistemas distribuidos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una tecnica de compresion"
+    },
+    {
+      "id": "1",
+      "text": "Una falla de red en una sola maquina"
+    },
+    {
+      "id": "2",
+      "text": "Dos nodos que creen ser el lider y aceptan escrituras simultaneamente"
+    },
+    {
+      "id": "3",
+      "text": "Un tipo de ataque DDoS"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Split-brain ocurre cuando una particion de red hace que dos nodos se crean lideres, generando inconsistencia. Soluciones: quorum, fencing.",
+  "irtA": 1.04,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

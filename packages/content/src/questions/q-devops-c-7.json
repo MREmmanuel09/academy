@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-7",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué es una VPC en AWS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una VM"
+    },
+    {
+      "id": "1",
+      "text": "Una red privada aislada en AWS"
+    },
+    {
+      "id": "2",
+      "text": "Un bucket S3"
+    },
+    {
+      "id": "3",
+      "text": "Una DB"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "VPC (Virtual Private Cloud) = red privada lógica donde lanzas recursos. Tienes control de subnets, route tables, gateways.",
+  "irtA": 1.1880000000000002,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

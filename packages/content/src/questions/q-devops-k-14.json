@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-14",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué es Helm?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un orchestrator"
+    },
+    {
+      "id": "1",
+      "text": "El package manager de Kubernetes"
+    },
+    {
+      "id": "2",
+      "text": "Una red"
+    },
+    {
+      "id": "3",
+      "text": "Un registry"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Helm: package manager de K8s. Charts = templates parametrizables. helm install/upgrade/rollback.",
+  "irtA": 0.8360000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

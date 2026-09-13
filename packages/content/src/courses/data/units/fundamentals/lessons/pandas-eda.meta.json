@@ -1,0 +1,15 @@
+{
+  "id": "pandas-eda",
+  "title": "Pandas EDA: describe, value_counts, groupby y pivot",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 70,
+  "summary": "Analisis exploratorio de datos. Las funciones que usas el 80% del tiempo en un EDA real.",
+  "keyTakeaways": [
+    "EDA: describe, value_counts, groupby, pivot. Ese es el 80% del trabajo.",
+    "groupby aplica split-apply-combine: split por clave, apply funcion, combine resultados.",
+    "pivot_table reorganiza datos: index=filas, columns=columnas, aggfunc=agregacion.",
+    "crosstab y value_counts son los atajos para tablas de frecuencia."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-11",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué hace un SRE cuando se quema el error budget?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Despide gente"
+    },
+    {
+      "id": "1",
+      "text": "Solicita más presupuesto"
+    },
+    {
+      "id": "2",
+      "text": "Feature freeze y focus en reliability"
+    },
+    {
+      "id": "3",
+      "text": "Cambia el SLO"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Quemado el budget = feature freeze, todo el equipo trabaja en reliability hasta recuperarlo.",
+  "irtA": 0.936,
+  "irtB": -0.3,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

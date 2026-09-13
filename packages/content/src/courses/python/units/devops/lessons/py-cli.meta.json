@@ -1,0 +1,15 @@
+{
+  "id": "py-cli",
+  "title": "CLI tools con argparse y Click",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 65,
+  "summary": "Construir herramientas de linea de comandos profesionales: argparse (stdlib) y Click (third-party).",
+  "keyTakeaways": [
+    "argparse esta en stdlib — buena opcion para scripts simples sin dependencias.",
+    "add_subparsers para CLIs tipo git/kubectl con multiples comandos.",
+    "Click es mas conciso y pitonico. Usado por herramientas profesionales.",
+    "SIEMPRE incluye --help, --dry-run y validacion de choices para CLIs production-ready."
+  ]
+}

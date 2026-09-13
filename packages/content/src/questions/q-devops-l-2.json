@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-2",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué distribución es más usada en contenedores Docker por su pequeño tamaño?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Ubuntu"
+    },
+    {
+      "id": "1",
+      "text": "Debian"
+    },
+    {
+      "id": "2",
+      "text": "Alpine"
+    },
+    {
+      "id": "3",
+      "text": "CentOS"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Alpine Linux es una distribución minimalista (~5MB) muy popular como base de imágenes Docker.",
+  "irtA": 0.9640000000000001,
+  "irtB": 0.32,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

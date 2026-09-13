@@ -1,0 +1,14 @@
+{
+  "id": "q-r-10",
+  "quizId": "exam-ccna",
+  "type": "short",
+  "prompt": "¿Cuántas subredes /27 se pueden sacar de una /24? (introduce el número)",
+  "options": null,
+  "correctAnswer": "8",
+  "explanation": "Una /27 usa 3 bits más que /24. 2^3 = 8 subredes de 30 hosts cada una.",
+  "irtA": 0.808,
+  "irtB": -1.86,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

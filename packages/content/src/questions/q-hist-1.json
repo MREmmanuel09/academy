@@ -1,0 +1,31 @@
+{
+  "id": "q-hist-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Quien invento la World Wide Web?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Bill Gates (Microsoft)"
+    },
+    {
+      "id": "1",
+      "text": "Vint Cerf (TCP/IP)"
+    },
+    {
+      "id": "2",
+      "text": "Tim Berners-Lee (CERN, 1989)"
+    },
+    {
+      "id": "3",
+      "text": "Linus Torvalds (Linux)"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Tim Berners-Lee, cientifico del CERN, invento la WWW en 1989. La primera pagina web se puso online en agosto 1991.",
+  "irtA": 1.1280000000000001,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

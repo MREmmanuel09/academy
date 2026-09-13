@@ -1,0 +1,14 @@
+{
+  "id": "q-s-9",
+  "quizId": "exam-ccna",
+  "type": "truefalse",
+  "prompt": "RSTP (802.1w) es más rápido en converger que STP (802.1D).",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. RSTP converge en menos de 6 segundos frente a los 50 segundos típicos de STP clásico.",
+  "irtA": 0.9400000000000001,
+  "irtB": 1.52,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-w-7",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué frecuencia es típica del Wi-Fi 6E?",
+  "options": [
+    {
+      "id": "0",
+      "text": "2.4 GHz"
+    },
+    {
+      "id": "1",
+      "text": "5 GHz"
+    },
+    {
+      "id": "2",
+      "text": "6 GHz"
+    },
+    {
+      "id": "3",
+      "text": "60 GHz"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Wi-Fi 6E (Extended) añade la banda de 6 GHz (5.925–7.125 GHz) con 59 canales adicionales de 20 MHz.",
+  "irtA": 1.108,
+  "irtB": -0.08,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

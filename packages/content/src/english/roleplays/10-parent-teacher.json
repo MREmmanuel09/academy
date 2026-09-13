@@ -1,0 +1,64 @@
+{
+  "id": "10-parent-teacher",
+  "title": "Parent-teacher meeting",
+  "titleEs": "Reunión de padres y maestros",
+  "level": "B1",
+  "scenario": "You are a parent meeting your child's teacher to discuss progress. The teacher has some concerns about your child's behavior.",
+  "aiCharacter": "Ms. Thompson (your child's teacher)",
+  "userRole": "Parent of a 10-year-old child",
+  "greeting": "Hello, thank you for coming in today. Please, have a seat.",
+  "objectives": [
+    "Listen to the teacher's concerns",
+    "Ask for specific examples",
+    "Discuss what you can do at home",
+    "Agree on a follow-up plan"
+  ],
+  "vocabulary": [
+    {
+      "word": "to be concerned about",
+      "translation": "estar preocupado por",
+      "example": "I'm concerned about his progress."
+    },
+    {
+      "word": "behavior",
+      "translation": "comportamiento",
+      "example": "His behavior in class has been challenging."
+    },
+    {
+      "word": "to fall behind",
+      "translation": "quedarse atrás",
+      "example": "She's falling behind in reading."
+    },
+    {
+      "word": "to catch up",
+      "translation": "ponerse al día",
+      "example": "How can we help her catch up?"
+    },
+    { "word": "homework", "translation": "tarea", "example": "Is he doing his homework?" },
+    { "word": "to focus", "translation": "concentrarse", "example": "She has trouble focusing." },
+    {
+      "word": "to follow up",
+      "translation": "hacer seguimiento",
+      "example": "Let's follow up next month."
+    },
+    { "word": "to support", "translation": "apoyar", "example": "How can I support him at home?" }
+  ],
+  "falseFriends": [
+    { "word": "eventually", "trap": "eventualmente", "real": "finalmente" },
+    { "word": "actual", "trap": "actualmente", "real": "real" }
+  ],
+  "successCriteria": [
+    "User listens and acknowledges the concerns",
+    "User asks for specific examples",
+    "User proposes something to do at home",
+    "User agrees on follow-up"
+  ],
+  "fallbackHints": [
+    "Start with: 'Thank you for meeting with me. Tell me about [child]'s progress.'",
+    "Use: 'Could you give me an example?'",
+    "End with: 'Thank you for your time. I'll talk to him tonight.'"
+  ],
+  "aiSystemPrompt": "You are Ms. Thompson, a primary school teacher. The parent is here because you have concerns about their child's behavior or progress. Be warm but honest. Use specific examples. Avoid jargon. Show that you care about the child and want to work together with the parent. Correct major mistakes gently.",
+  "firstTurn": "Hello, thank you for coming in. I wanted to talk to you about your child's progress this term.",
+  "exchangeCount": 10
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-c-10",
+  "quizId": "exam-aws",
+  "type": "truefalse",
+  "prompt": "S3 cuesta por GB almacenado y por request/transferencia.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "S3 cobra por almacenamiento + requests (GET, PUT) + transferencia de datos. Clases diferentes (Standard, IA, Glacier) según acceso.",
+  "irtA": 1.108,
+  "irtB": 1.78,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

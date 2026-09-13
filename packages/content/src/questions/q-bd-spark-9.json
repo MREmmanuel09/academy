@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-9",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es predicate pushdown?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Empujar el WHERE cerca de la fuente de datos para leer menos"
+    },
+    {
+      "id": "1",
+      "text": "Una tecnica de shuffle"
+    },
+    {
+      "id": "2",
+      "text": "Comprimir particiones"
+    },
+    {
+      "id": "3",
+      "text": "Un tipo de UDF"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Predicate pushdown aplica filtros (WHERE) lo mas cerca posible de la fuente. Si el archivo es Parquet y filtras por una columna, Spark solo lee esa columna y descarta filas antes de subirlas a memoria.",
+  "irtA": 1.1280000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

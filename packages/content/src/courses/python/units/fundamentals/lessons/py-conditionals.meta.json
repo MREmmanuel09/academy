@@ -1,0 +1,15 @@
+{
+  "id": "py-conditionals",
+  "title": "if/elif/else y match/case",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 10,
+  "xp": 45,
+  "summary": "Control de flujo condicional, expresiones ternarias y pattern matching (Python 3.10+).",
+  "keyTakeaways": [
+    "Indentacion define bloques (4 espacios, PEP 8).",
+    "Valores falsy: 0, \"\", [], {}, None, False. Usalos para checks idiomáticos.",
+    "Expresion ternaria: X if cond else Y — para asignaciones simples.",
+    "match/case (3.10+) es ideal para HTTP status, exit codes, dispatch por tipo."
+  ]
+}

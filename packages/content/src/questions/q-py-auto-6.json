@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-6",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es el framework moderno recomendado para construir APIs HTTP en Python?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Flask"
+    },
+    {
+      "id": "1",
+      "text": "Django"
+    },
+    {
+      "id": "2",
+      "text": "FastAPI"
+    },
+    {
+      "id": "3",
+      "text": "Bottle"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "FastAPI es moderno (2018+), usa type hints, genera OpenAPI automático, y soporta async nativo.",
+  "irtA": 0.9440000000000001,
+  "irtB": 0.96,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

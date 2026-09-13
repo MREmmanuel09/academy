@@ -1,0 +1,43 @@
+{
+  "id": "lab-python-setup",
+  "title": "Setup de entorno Python con venv y pip",
+  "steps": [
+    {
+      "instruction": "Crea un entorno virtual Python en un directorio llamado venv.",
+      "expectedCommand": "python -m venv venv",
+      "hint": "Usa 'python -m venv' para crear el entorno virtual. En Linux/Mac usa 'python3'."
+    },
+    {
+      "instruction": "Activa el entorno virtual.",
+      "expectedCommand": "venv\\Scripts\\activate",
+      "hint": "En Windows usa 'venv\\Scripts\\activate', en Linux/Mac usa 'source venv/bin/activate'."
+    },
+    {
+      "instruction": "Instala la libreria requests usando pip.",
+      "expectedCommand": "pip install requests",
+      "hint": "Asegurate de que el entorno virtual este activado antes de instalar."
+    },
+    {
+      "instruction": "Crea un archivo main.py que importe requests y haga un GET a https://httpbin.org/get.",
+      "expectedCommand": "main.py",
+      "hint": "Usa requests.get() y imprime el status code con print(response.status_code)."
+    },
+    {
+      "instruction": "Ejecuta el script main.py.",
+      "expectedCommand": "python main.py",
+      "hint": "Verifica que el entorno virtual este activado y que requests este instalado."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "pc",
+        "name": "dev-machine",
+        "x": 200,
+        "y": 150
+      }
+    ],
+    "links": []
+  },
+  "validation": null
+}

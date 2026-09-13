@@ -1,0 +1,14 @@
+{
+  "id": "q-sql-8",
+  "quizId": "exam-data-analyst",
+  "type": "truefalse",
+  "prompt": "HAVING se evalúa ANTES de WHERE.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Falso. WHERE se evalúa antes de GROUP BY; HAVING se evalúa después. WHERE no puede usar funciones de agregación; HAVING sí.",
+  "irtA": 0.876,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-g-6",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "NUNCA debes hacer rebase de commits que ya están en una rama compartida.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Rebase reescribe SHA, así que si otros ya tienen esos commits, cause conflictos serios. Solo rebase en ramas locales.",
+  "irtA": 0.9600000000000001,
+  "irtB": 1.32,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

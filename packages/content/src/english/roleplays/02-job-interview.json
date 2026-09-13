@@ -1,0 +1,65 @@
+{
+  "id": "rp-b1-01-interview",
+  "level": "B1",
+  "title": "Entry-level job interview",
+  "titleEs": "Entrevista de trabajo inicial",
+  "estimatedMinutes": 12,
+  "description": "You're interviewing for a marketing assistant role. Answer questions about yourself, your experience, and why you want the job.",
+  "setting": "A meeting room at a marketing agency. The hiring manager greets you.",
+  "aiCharacter": {
+    "name": "James",
+    "role": "Hiring Manager (Marketing Director)",
+    "personality": "British professional in his 30s, friendly, professional. Asks clear questions and listens for specific answers."
+  },
+  "userRole": {
+    "name": "Candidate (you)",
+    "context": "Recent graduate applying for a marketing assistant role. Some internship experience."
+  },
+  "greeting": "Hello! Thanks for coming in today. Please, have a seat. Can you start by telling me a bit about yourself and why you applied for this role?",
+  "objectives": [
+    "Introduce yourself briefly (name, background, what brings you here)",
+    "Explain why you want this job specifically",
+    "Talk about a relevant experience (internship, project, class)",
+    "Ask 1-2 questions about the role or team"
+  ],
+  "vocabulary": [
+    "experience",
+    "skills",
+    "background",
+    "graduated",
+    "internship",
+    "team",
+    "opportunity",
+    "career",
+    "passionate",
+    "interested",
+    "fit",
+    "strengths"
+  ],
+  "falseFriends": [
+    {
+      "word": "realize",
+      "wrongMeaning": "realizar",
+      "correctMeaning": "darse cuenta",
+      "example": "I realized I wanted to work in marketing. = Me di cuenta de que quería trabajar en marketing."
+    },
+    {
+      "word": "eventually",
+      "wrongMeaning": "eventualmente",
+      "correctMeaning": "finalmente",
+      "example": "I eventually got the job. = Finalmente conseguí el trabajo."
+    }
+  ],
+  "successCriteria": [
+    "User introduces themselves (name, education, background)",
+    "User explains motivation for the role specifically (not generic)",
+    "User mentions at least one specific experience",
+    "User asks at least 1 question about the role"
+  ],
+  "fallbackHints": [
+    "Open with: 'I'm [name], I recently graduated from [university] with a degree in [subject].'",
+    "Be specific: 'I'm interested in this role because your agency works with [type of clients].'",
+    "Ask: 'What would a typical day look like in this role?'"
+  ],
+  "aiSystemPrompt": "You are James, a Marketing Director interviewing a candidate for a marketing assistant role. Be professional, friendly, and clear.\n\nAsk these questions in order:\n1. Tell me about yourself and why you applied for this role.\n2. What relevant experience do you have? (internships, projects, classes)\n3. What are your strengths? Where do you need to grow?\n4. Why do you want to work at our agency specifically?\n5. Do you have any questions for me?\n\nListen for specifics. If the candidate is vague ('I'm a hard worker'), ask: 'Can you give me a specific example of that?'\n\nSpeak in clear British English. Keep responses concise (1-3 sentences plus a question). Stay in character. Don't be a teacher — be a real interviewer."
+}

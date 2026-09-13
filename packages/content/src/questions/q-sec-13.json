@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-13",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que es \"least privilege\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Tener muchos privilegios"
+    },
+    {
+      "id": "1",
+      "text": "Cada usuario/proceso solo tiene los privilegios minimos necesarios"
+    },
+    {
+      "id": "2",
+      "text": "Eliminar todos los usuarios"
+    },
+    {
+      "id": "3",
+      "text": "Tener una sola cuenta admin"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Least privilege: cada identidad (user, service account, container) tiene SOLO los permisos que necesita. Reduce el blast radius de un compromiso.",
+  "irtA": 1.064,
+  "irtB": -0.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

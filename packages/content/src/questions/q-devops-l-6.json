@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-6",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué hace el comando `sudo`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cambia de usuario"
+    },
+    {
+      "id": "1",
+      "text": "Eleva privilegios a root temporalmente"
+    },
+    {
+      "id": "2",
+      "text": "Instala software"
+    },
+    {
+      "id": "3",
+      "text": "Edita archivos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "sudo (superuser do) permite ejecutar comandos con privilegios de otro usuario (típicamente root) sin cambiar de sesión.",
+  "irtA": 0.98,
+  "irtB": 0.34,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

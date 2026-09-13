@@ -1,0 +1,14 @@
+{
+  "id": "q-py-dev-25",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "En boto3, los \"paginators\" son necesarios para iterar respuestas con mas de 1000 items.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Las APIs de AWS limitan respuestas a ~1000 items. Los paginators iteran automáticamente todas las páginas.",
+  "irtA": 0.8360000000000001,
+  "irtB": -1.18,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

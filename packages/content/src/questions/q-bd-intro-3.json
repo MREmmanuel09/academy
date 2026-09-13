@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-intro-3",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es un sistema distribuido?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un sistema con un solo servidor potente"
+    },
+    {
+      "id": "1",
+      "text": "Un sistema con varios nodos que cooperan para resolver un problema"
+    },
+    {
+      "id": "2",
+      "text": "Un sistema operativo para bases de datos"
+    },
+    {
+      "id": "3",
+      "text": "Una red de area local"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Un sistema distribuido coordina multiples nodos (maquinas) para resolver un problema. En Big Data es la base de todo.",
+  "irtA": 1.06,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

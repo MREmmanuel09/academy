@@ -1,0 +1,15 @@
+{
+  "id": "mon-2",
+  "title": "Logging con ELK y Loki",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 12,
+  "xp": 65,
+  "summary": "Centralizar logs. Elasticsearch, Fluentd, Kibana vs Grafana Loki.",
+  "keyTakeaways": [
+    "ELK (Elasticsearch + Logstash + Kibana) es el stack clásico. Loki es más simple/barato.",
+    "Structured logging (JSON) es crítico para querying. Incluye trace_id en cada log.",
+    "DaemonSet de Fluentd/Promtail recolecta logs de todos los nodos.",
+    "LogQL (Loki) o KQL (Kibana) permiten queries poderosas sobre logs."
+  ]
+}

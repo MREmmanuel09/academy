@@ -1,0 +1,31 @@
+{
+  "id": "q-da-np-4",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "Cual es el shape de np.array([[1, 2, 3], [4, 5, 6]])?",
+  "options": [
+    {
+      "id": "0",
+      "text": "(3,)"
+    },
+    {
+      "id": "1",
+      "text": "(2, 3)"
+    },
+    {
+      "id": "2",
+      "text": "(3, 2)"
+    },
+    {
+      "id": "3",
+      "text": "(6,)"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Es una matriz con 2 filas y 3 columnas: shape (2, 3). .ndim = 2, .size = 6.",
+  "irtA": 0.8200000000000001,
+  "irtB": 0.36,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "l-8",
+  "title": "SSH y acceso remoto",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 13,
+  "xp": 60,
+  "summary": "Conectar a servidores, claves SSH, tunneling, configuración.",
+  "keyTakeaways": [
+    "ssh usuario@host es la base. ~/.ssh/config te permite alias y atajos.",
+    "Genera claves con ssh-keygen -t ed25519. NUNCA compartas la clave privada.",
+    "ssh-copy-id instala tu clave pública. Ed25519 > RSA 4096 > ECDSA > DSA.",
+    "Tunneling: -L local forward, -R remote, -D SOCKS proxy. rsync -avz para sincronizar."
+  ]
+}

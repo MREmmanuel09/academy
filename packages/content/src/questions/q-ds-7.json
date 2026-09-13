@@ -1,0 +1,31 @@
+{
+  "id": "q-ds-7",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Cual es la primera vulnerabilidad del OWASP Top 10 2021?",
+  "options": [
+    {
+      "id": "0",
+      "text": "SQL Injection"
+    },
+    {
+      "id": "1",
+      "text": "Broken Access Control"
+    },
+    {
+      "id": "2",
+      "text": "XSS"
+    },
+    {
+      "id": "3",
+      "text": "CSRF"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "A01 Broken Access Control es #1 en 2021. Incluye IDOR (Insecure Direct Object Reference), missing authorization, y privilege escalation.",
+  "irtA": 0.892,
+  "irtB": 0.84,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

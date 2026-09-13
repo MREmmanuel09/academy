@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ob-7",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es p99 latency?",
+  "options": [
+    {
+      "id": "0",
+      "text": "99ms exactos"
+    },
+    {
+      "id": "1",
+      "text": "El 99% de las requests son más rápidas que este valor"
+    },
+    {
+      "id": "2",
+      "text": "El request más rápido fue 99ms"
+    },
+    {
+      "id": "3",
+      "text": "Solo requests lentas"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "p99 = percentil 99. El 99% de las requests son más rápidas que este valor. El 1% son más lentas.",
+  "irtA": 1.1400000000000001,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

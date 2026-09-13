@@ -1,0 +1,79 @@
+{
+  "id": "lab-subnet",
+  "title": "Subnetear una red /24 en 4 subredes",
+  "steps": [
+    {
+      "instruction": "Calcula cuantos bits adicionales necesitas para 4 subredes.",
+      "expectedCommand": "show ip subnet zero",
+      "hint": "Necesitas 2 bits extra (2^2 = 4 subredes). Cisco IOS permite subredes zero por defecto."
+    },
+    {
+      "instruction": "Determina la nueva mascara de subred (/24 + ?).",
+      "expectedCommand": "ip subnet-zero",
+      "hint": "La nueva mascara es /26 (255.255.255.192), lo que da 4 subredes con 62 hosts cada una."
+    },
+    {
+      "instruction": "Subred 1: identifica direccion de red, rango de hosts y broadcast.",
+      "expectedCommand": "ip address 192.168.1.1 255.255.255.192",
+      "hint": "Subred 1: red 192.168.1.0/26, hosts .1 a .62, broadcast .63."
+    },
+    {
+      "instruction": "Subred 2: identifica direccion de red, rango de hosts y broadcast.",
+      "expectedCommand": "ip address 192.168.1.65 255.255.255.192",
+      "hint": "Subred 2: red 192.168.1.64/26, hosts .65 a .126, broadcast .127."
+    },
+    {
+      "instruction": "Subred 3: identifica direccion de red, rango de hosts y broadcast.",
+      "expectedCommand": "ip address 192.168.1.129 255.255.255.192",
+      "hint": "Subred 3: red 192.168.1.128/26, hosts .129 a .190, broadcast .191."
+    },
+    {
+      "instruction": "Subred 4: identifica direccion de red, rango de hosts y broadcast.",
+      "expectedCommand": "ip address 192.168.1.193 255.255.255.192",
+      "hint": "Subred 4: red 192.168.1.192/26, hosts .193 a .254, broadcast .255."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "pc",
+        "name": "A",
+        "x": 80,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "B",
+        "x": 220,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "C",
+        "x": 80,
+        "y": 220
+      },
+      {
+        "type": "pc",
+        "name": "D",
+        "x": 220,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "A",
+        "to": "B"
+      },
+      {
+        "from": "A",
+        "to": "C"
+      },
+      {
+        "from": "B",
+        "to": "D"
+      }
+    ]
+  },
+  "validation": "Al completar, debes poder dividir cualquier /24 en 4 subredes calculando red, broadcast y rango util de cada una sin calculadora."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-a-8",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Cuántos servidores raíz DNS hay lógicamente?",
+  "options": [
+    {
+      "id": "0",
+      "text": "1"
+    },
+    {
+      "id": "1",
+      "text": "3"
+    },
+    {
+      "id": "2",
+      "text": "13"
+    },
+    {
+      "id": "3",
+      "text": "100"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Hay 13 servidores raíz lógicos (A–M), aunque operados físicamente por cientos de instancias anycast.",
+  "irtA": 0.9440000000000001,
+  "irtB": -1.3,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "chaos-1",
+  "title": "Chaos Engineering: probar que falla",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 12,
+  "xp": 70,
+  "summary": "Chaos Monkey, Litmus, Gremlin. Inyectar fallas para encontrar debilidades.",
+  "keyTakeaways": [
+    "Chaos engineering: inyectar fallas controladas para encontrar debilidades.",
+    "Empezar pequeño, minimizar blast radius, automatizar experimentos.",
+    "Chaos Monkey (Netflix) pioneros, Litmus para K8s, Gremlin para SaaS.",
+    "Solo hacer chaos con monitoring, runbooks y SLOs definidos."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-bd-airflow-9",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "Airflow es adecuado para procesar streams en tiempo real (latencia <1s).",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Airflow es un orquestador de workflows batch/minutely. Para tiempo real (ms-segundos) usa Kafka + Flink/Spark Streaming o Step Functions.",
+  "irtA": 0.988,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-6",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Cómo encuentras clientes que NO han hecho ninguna orden?",
+  "options": [
+    {
+      "id": "0",
+      "text": "INNER JOIN"
+    },
+    {
+      "id": "1",
+      "text": "LEFT JOIN + WHERE orders.id IS NULL"
+    },
+    {
+      "id": "2",
+      "text": "RIGHT JOIN"
+    },
+    {
+      "id": "3",
+      "text": "CROSS JOIN"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "LEFT JOIN + WHERE right_table.id IS NULL es el patrón clásico de anti-join.",
+  "irtA": 0.884,
+  "irtB": 1.28,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

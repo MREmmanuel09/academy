@@ -1,0 +1,31 @@
+{
+  "id": "q-mq-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Quien creo Apache Kafka?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Google (para YouTube)"
+    },
+    {
+      "id": "1",
+      "text": "LinkedIn (Jay Kreps, Neha Narkhede, Jun Rao) en 2011"
+    },
+    {
+      "id": "2",
+      "text": "Amazon (para AWS)"
+    },
+    {
+      "id": "3",
+      "text": "Microsoft (para Azure)"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Kafka fue creado en LinkedIn por Jay Kreps, Neha Narkhede, y Jun Rao en 2011, donado a Apache en 2012.",
+  "irtA": 0.92,
+  "irtB": -1.54,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

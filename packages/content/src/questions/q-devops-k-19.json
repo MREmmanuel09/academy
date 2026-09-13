@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-19",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Cómo expones un servicio al exterior en AWS EKS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Service tipo LoadBalancer (crea ELB)"
+    },
+    {
+      "id": "1",
+      "text": "Service tipo ClusterIP + Ingress"
+    },
+    {
+      "id": "2",
+      "text": "Ambas son válidas"
+    },
+    {
+      "id": "3",
+      "text": "No se puede"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Service LoadBalancer provisiona un ELB clásico. Para HTTP/HTTPS mejor usar ClusterIP + Ingress con AWS Load Balancer Controller.",
+  "irtA": 0.8560000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tcp-udp",
+  "title": "TCP vs UDP: confiabilidad vs velocidad",
+  "module": "capa-transporte",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 65,
+  "summary": "Los dos protocolos de transporte dominantes, cuando usar cada uno, y como funciona el control de flujo.",
+  "keyTakeaways": [
+    "TCP es orientado a conexion, confiable, ordenado. UDP es sin conexion, rapido, best-effort.",
+    "TCP usa three-way handshake (SYN, SYN-ACK, ACK) antes de enviar datos.",
+    "UDP tiene header de solo 8 bytes vs 20+ de TCP. Menos overhead = mas velocidad.",
+    "HTTP/3 usa QUIC sobre UDP. DNS usa UDP (consultas) y TCP (transferencias de zona grandes)."
+  ]
+}

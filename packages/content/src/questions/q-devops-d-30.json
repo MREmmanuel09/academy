@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-30",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Cómo inyectas un secret en Docker sin dejarlo en la imagen?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Variables de entorno"
+    },
+    {
+      "id": "1",
+      "text": "Docker secrets (Swarm)"
+    },
+    {
+      "id": "2",
+      "text": "Escribiendo en Dockerfile"
+    },
+    {
+      "id": "3",
+      "text": "No se puede"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Docker secrets (Swarm) o mount tmpfs /run/secrets. Nunca en ENV (queda en docker inspect y logs).",
+  "irtA": 0.92,
+  "irtB": 0.44,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

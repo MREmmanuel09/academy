@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-c-5",
+  "quizId": "exam-aws",
+  "type": "truefalse",
+  "prompt": "AWS Lambda ejecuta funciones sin provisionar servidores.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Lambda = serverless (FaaS). Pagas solo por el tiempo de ejecución. 1M requests/mes gratis.",
+  "irtA": 1.1800000000000002,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

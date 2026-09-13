@@ -1,0 +1,14 @@
+{
+  "id": "q-da-mi-1",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "Pyodide permite ejecutar Python (incluyendo NumPy, Pandas y Matplotlib) directamente en el navegador sin un servidor backend.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. Pyodide compila CPython a WebAssembly y empaqueta paquetes cientificos clave. La primera carga pesa ~10MB pero queda cacheado en el navegador.",
+  "irtA": 1.1360000000000001,
+  "irtB": 1.54,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

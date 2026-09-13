@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-1",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Qué es GitOps?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Git para empresas"
+    },
+    {
+      "id": "1",
+      "text": "Git como única fuente de verdad para infraestructura"
+    },
+    {
+      "id": "2",
+      "text": "Una nueva versión de Git"
+    },
+    {
+      "id": "3",
+      "text": "Git para CI/CD"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "GitOps: usar un repo Git como única fuente de verdad para infra y apps. Los cambios van via PR.",
+  "irtA": 0.976,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

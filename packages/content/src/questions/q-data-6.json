@@ -1,0 +1,31 @@
+{
+  "id": "q-data-6",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es la diferencia entre OLTP y OLAP?",
+  "options": [
+    {
+      "id": "0",
+      "text": "OLTP son las siglas en inglés y OLAP en español"
+    },
+    {
+      "id": "1",
+      "text": "OLTP es para transacciones, OLAP para análisis"
+    },
+    {
+      "id": "2",
+      "text": "OLTP es offline y OLAP online"
+    },
+    {
+      "id": "3",
+      "text": "No hay diferencia, son sinónimos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "OLTP (Online Transaction Processing) maneja transacciones del día a día. OLAP (Online Analytical Processing) es para análisis de datos.",
+  "irtA": 0.8680000000000001,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

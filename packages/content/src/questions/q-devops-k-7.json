@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-7",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Cómo ves los logs de un pod?",
+  "options": [
+    {
+      "id": "0",
+      "text": "kubectl logs pod"
+    },
+    {
+      "id": "1",
+      "text": "kubectl show pod"
+    },
+    {
+      "id": "2",
+      "text": "kubectl log pod"
+    },
+    {
+      "id": "3",
+      "text": "pod logs pod"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "kubectl logs <pod>. -f para follow, --previous para la instancia anterior (si crasheó), -c para container específico.",
+  "irtA": 1.1400000000000001,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

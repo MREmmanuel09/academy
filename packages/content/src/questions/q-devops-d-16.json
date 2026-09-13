@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-16",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué registry es privado y común en empresas?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Docker Hub"
+    },
+    {
+      "id": "1",
+      "text": "AWS ECR"
+    },
+    {
+      "id": "2",
+      "text": "GitHub Container Registry"
+    },
+    {
+      "id": "3",
+      "text": "Todos los anteriores"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "Hay muchos registries: Docker Hub (público), AWS ECR, GCR, GHCR, GitLab Registry, Harbor self-hosted.",
+  "irtA": 1.096,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

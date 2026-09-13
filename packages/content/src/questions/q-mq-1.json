@@ -1,0 +1,31 @@
+{
+  "id": "q-mq-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre at-most-once y at-least-once?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay diferencia"
+    },
+    {
+      "id": "1",
+      "text": "at-most-once puede perder mensajes, at-least-once puede duplicarlos"
+    },
+    {
+      "id": "2",
+      "text": "at-least-once es mas rapido"
+    },
+    {
+      "id": "3",
+      "text": "at-most-once requiere acknowledgement"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "at-most-once: 0 o 1 veces (puede perder). at-least-once: >=1 vez (puede duplicar, consumer debe ser idempotente). exactly-once requiere coordinacion.",
+  "irtA": 0.928,
+  "irtB": -1.54,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

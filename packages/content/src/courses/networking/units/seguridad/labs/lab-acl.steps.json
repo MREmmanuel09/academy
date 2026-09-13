@@ -1,0 +1,64 @@
+{
+  "id": "lab-acl",
+  "title": "Configurar ACL para bloquear trafico",
+  "steps": [
+    {
+      "instruction": "Crea una ACL extendida con numero 100 que deniegue trafico TCP desde 192.168.1.0/24 hacia 10.0.0.0/8 al puerto 80.",
+      "expectedCommand": "access-list 100 deny tcp 192.168.1.0 0.0.0.255 10.0.0.0 0.255.255.255 eq 80",
+      "hint": "Las ACL extendidas (100-199) permiten filtrar por protocolo, puertos y rangos de IP."
+    },
+    {
+      "instruction": "Agrega una regla que permita el resto del trafico IP.",
+      "expectedCommand": "access-list 100 permit ip any any",
+      "hint": "Sin esta regla implicitamente todo lo demas seria denegado por la ACL."
+    },
+    {
+      "instruction": "Entra a la interfaz G0/1 (donde esta la LAN).",
+      "expectedCommand": "interface GigabitEthernet 0/1",
+      "hint": "La ACL se aplica en la interfaz hacia donde entra el trafico que quieres filtrar."
+    },
+    {
+      "instruction": "Aplica la ACL en sentido de entrada (in) a esa interfaz.",
+      "expectedCommand": "ip access-group 100 in",
+      "hint": "'in' significa que se evaluan los paquetes que llegan a la interfaz desde la LAN."
+    },
+    {
+      "instruction": "Verifica que la ACL este activa y contando matches.",
+      "expectedCommand": "show access-lists",
+      "hint": "Los contadores de matches confirman que la ACL esta filtrando trafico. Resetéalos con 'clear access-list counters'."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "router",
+        "name": "R1",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "PC-Admin",
+        "x": 100,
+        "y": 220
+      },
+      {
+        "type": "server",
+        "name": "Server",
+        "x": 300,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "R1",
+        "to": "PC-Admin"
+      },
+      {
+        "from": "R1",
+        "to": "Server"
+      }
+    ]
+  },
+  "validation": "Al completar, debes poder escribir una ACL extendida que bloquee el trafico indicado sin cortar el legitimo, y verificarla con contadores."
+}

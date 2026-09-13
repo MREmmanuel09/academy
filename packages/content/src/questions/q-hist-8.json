@@ -1,0 +1,31 @@
+{
+  "id": "q-hist-8",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es la diferencia entre CALMS y CAMS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son lo mismo"
+    },
+    {
+      "id": "1",
+      "text": "CAMS es 4 letras, CALMS es 5 (anade Lean)"
+    },
+    {
+      "id": "2",
+      "text": "CALMS es de Google, CAMS es de Amazon"
+    },
+    {
+      "id": "3",
+      "text": "CALMS es viejo, CAMS es nuevo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "CAMS = Culture, Automation, Measurement, Sharing. CALMS = CAMS + Lean (a veces Feedback). Ambos popularizados por Damon Edwards.",
+  "irtA": 1.1,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-13",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Cómo haces una subnet privada en AWS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Sin Internet Gateway"
+    },
+    {
+      "id": "1",
+      "text": "Con NAT Gateway para salir a Internet"
+    },
+    {
+      "id": "2",
+      "text": "Con VPN"
+    },
+    {
+      "id": "3",
+      "text": "Con Direct Connect"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Subnet privada: sin route a Internet Gateway. Para salida a Internet (updates, etc) usa NAT Gateway en subnet pública.",
+  "irtA": 1.12,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

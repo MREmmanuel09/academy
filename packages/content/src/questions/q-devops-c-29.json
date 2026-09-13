@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-29",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué es AWS Fargate?",
+  "options": [
+    {
+      "id": "0",
+      "text": "VM con Docker"
+    },
+    {
+      "id": "1",
+      "text": "Serverless containers (sin gestionar nodos)"
+    },
+    {
+      "id": "2",
+      "text": "Un orchestrator"
+    },
+    {
+      "id": "3",
+      "text": "Un registry"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Fargate: ejecuta containers en ECS/EKS sin provisionar EC2. Serverless. Pagas por task/pod. Lo opuesto a EC2 launch type.",
+  "irtA": 0.8680000000000001,
+  "irtB": 1.82,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

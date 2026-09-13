@@ -1,0 +1,31 @@
+{
+  "id": "q-data-15",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál es la multa máxima de GDPR?",
+  "options": [
+    {
+      "id": "0",
+      "text": "1% de la facturación anual"
+    },
+    {
+      "id": "1",
+      "text": "4% de la facturación anual o 20M EUR"
+    },
+    {
+      "id": "2",
+      "text": "100K EUR fijo"
+    },
+    {
+      "id": "3",
+      "text": "No hay multa, solo advertencias"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Hasta 4% de la facturación anual global o 20 millones de euros (lo que sea mayor). Es una multa enorme.",
+  "irtA": 1.004,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

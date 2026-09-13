@@ -1,0 +1,31 @@
+{
+  "id": "q-w-8",
+  "quizId": "exam-security",
+  "type": "multiple",
+  "prompt": "¿Qué técnica de modulación usa Wi-Fi 6 con 1024-QAM?",
+  "options": [
+    {
+      "id": "0",
+      "text": "OFDM"
+    },
+    {
+      "id": "1",
+      "text": "OFDMA"
+    },
+    {
+      "id": "2",
+      "text": "MIMO"
+    },
+    {
+      "id": "3",
+      "text": "MU-MIMO"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "OFDMA con 1024-QAM sube la densidad espectral: más bits por símbolo (10 vs 8 con 256-QAM).",
+  "irtA": 1.112,
+  "irtB": -0.08,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

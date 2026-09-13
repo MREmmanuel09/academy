@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-8",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace CMD en un Dockerfile?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Comando al hacer build"
+    },
+    {
+      "id": "1",
+      "text": "Comando por defecto al correr container"
+    },
+    {
+      "id": "2",
+      "text": "Variable de entorno"
+    },
+    {
+      "id": "3",
+      "text": "Etiqueta"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "CMD define el comando por defecto. Se puede override con `docker run img comando`. Mejor usar JSON exec form: CMD [\"node\", \"server.js\"]",
+  "irtA": 1.036,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

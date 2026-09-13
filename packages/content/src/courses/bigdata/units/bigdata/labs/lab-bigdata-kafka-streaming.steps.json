@@ -1,0 +1,49 @@
+{
+  "id": "lab-bigdata-kafka-streaming",
+  "title": "Pipeline de Streaming con Kafka y Spark",
+  "steps": [
+    {
+      "instruction": "Instala las dependencias: kafka-python y pyspark. Verifica que Docker esta corriendo para Kafka.",
+      "expectedCommand": "pip install kafka-python pyspark",
+      "hint": "kafka-python es el cliente puro de Python. Para produccion usa confluent-kafka."
+    },
+    {
+      "instruction": "Crea un productor Kafka que envie mensajes JSON con datos de sensores (temperatura, humedad, timestamp) al topic 'sensor-data'.",
+      "expectedCommand": "from kafka import KafkaProducer\nimport json\nproducer = KafkaProducer(bootstrap_servers='localhost:9092', value_serializer=lambda v: json.dumps(v).encode('utf-8'))",
+      "hint": "value_serializer convierte cada mensaje a JSON antes de enviarlo."
+    },
+    {
+      "instruction": "Envia 10 mensajes de prueba con diferentes valores de temperatura (20-35C) y humedad (40-80%).",
+      "expectedCommand": "for i in range(10):\n    producer.send('sensor-data', {'temp': 20 + i*1.5, 'humidity': 40 + i*4, 'ts': i})",
+      "hint": "Usa producer.flush() despues del loop para asegurar que todos los mensajes se envian."
+    },
+    {
+      "instruction": "Crea un consumidor Kafka que lea mensajes del topic 'sensor-data' y los imprima formateados.",
+      "expectedCommand": "from kafka import KafkaConsumer\nimport json\nconsumer = KafkaConsumer('sensor-data', bootstrap_servers='localhost:9092', value_deserializer=lambda m: json.loads(m.decode('utf-8')))",
+      "hint": "value_deserializer convierte el bytes de vuelta a un diccionario Python."
+    },
+    {
+      "instruction": "Crea un Spark StreamingContext (StreamingContext de pyspark.streaming) con batch interval de 5 segundos.",
+      "expectedCommand": "from pyspark.streaming import StreamingContext\nssc = StreamingContext(spark.sparkContext, 5)",
+      "hint": "El batch interval define cada cuanto tiempo Spark procesa un lote de datos."
+    },
+    {
+      "instruction": "Crea un DStream conectando al socket de Kafka y aplica una transformacion para contar mensajes por ventana de 10 segundos.",
+      "expectedCommand": "stream = ssc.socketTextStream('localhost', 9999)\nwindowed = stream.window(10, 5).countByValue()",
+      "hint": "window(windowLength, slideInterval) define la ventana de tiempo."
+    },
+    {
+      "instruction": "Inicia el streaming con ssc.start() y detenlo con ssc.stop() despues de 30 segundos.",
+      "expectedCommand": "ssc.start()\nimport time\ntime.sleep(30)\nssc.stop()",
+      "hint": "En produccion, el streaming corre indefinidamente hasta que se detiene manualmente."
+    }
+  ],
+  "topology": {
+    "devices": [
+      { "type": "server", "name": "Kafka-Broker", "x": 100, "y": 100 },
+      { "type": "server", "name": "Spark-Streaming", "x": 300, "y": 100 }
+    ],
+    "links": [{ "from": "Spark-Streaming", "to": "Kafka-Broker" }]
+  },
+  "validation": null
+}

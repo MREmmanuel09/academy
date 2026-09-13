@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-kafka-2",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es una particion en Kafka?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un archivo CSV"
+    },
+    {
+      "id": "1",
+      "text": "Una subdivision de un topic con orden garantizado y unidad de paralelismo"
+    },
+    {
+      "id": "2",
+      "text": "Un tipo de broker"
+    },
+    {
+      "id": "3",
+      "text": "Un usuario de Kafka"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Una particion es un log ordenado inmutable. Kafka garantiza orden solo DENTRO de una particion, no entre particiones. Mas particiones = mas paralelismo.",
+  "irtA": 0.992,
+  "irtB": -0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

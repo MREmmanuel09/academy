@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-17",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué es un DaemonSet?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Corre un pod por nodo"
+    },
+    {
+      "id": "1",
+      "text": "Corre un pod por cluster"
+    },
+    {
+      "id": "2",
+      "text": "Crea un pod aleatorio"
+    },
+    {
+      "id": "3",
+      "text": "Solo para monitoring"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "DaemonSet garantiza que un pod corre en cada nodo (o subset). Útil para: logs (fluentd), monitoring (node-exporter), CNI.",
+  "irtA": 0.8480000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-9",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué tipo de recurso usarías para una base de datos con identidad estable?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Deployment"
+    },
+    {
+      "id": "1",
+      "text": "StatefulSet"
+    },
+    {
+      "id": "2",
+      "text": "DaemonSet"
+    },
+    {
+      "id": "3",
+      "text": "Job"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "StatefulSet: para stateful apps. Da identidad estable (pod-0, pod-1), PVCs persistentes, scaling ordenado.",
+  "irtA": 1.1480000000000001,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

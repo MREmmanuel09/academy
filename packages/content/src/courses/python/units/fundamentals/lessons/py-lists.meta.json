@@ -1,0 +1,15 @@
+{
+  "id": "py-lists",
+  "title": "Listas y tuplas",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 55,
+  "summary": "Secuencias ordenadas: listas mutables, tuplas inmutables, metodos principales.",
+  "keyTakeaways": [
+    "Listas: mutables, ordenadas, con duplicados. La estructura #1 de Python.",
+    "Tuplas: inmutables, hashable, mas rapidas. Para retornos multiples y constantes.",
+    "Listas por comprension son mas rapidas y legibles que loops tradicionales.",
+    "append/extend/insert/pop/remove son los metodos que usaras 90% del tiempo."
+  ]
+}

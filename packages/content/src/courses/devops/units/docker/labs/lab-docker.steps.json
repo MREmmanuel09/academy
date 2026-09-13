@@ -1,0 +1,69 @@
+{
+  "id": "lab-docker",
+  "title": "Deploy de app con Docker Compose",
+  "steps": [
+    {
+      "instruction": "Crea un directorio para el proyecto y entra a el.",
+      "expectedCommand": "mkdir docker-lab",
+      "hint": "Puedes crear y entrar en un solo paso: mkdir docker-lab && cd docker-lab"
+    },
+    {
+      "instruction": "Crea el archivo docker-compose.yml definiendo los servicios web, api y db.",
+      "expectedCommand": "touch docker-compose.yml",
+      "hint": "El archivo debe contener una sección 'services:' con web (nginx), api (python/node) y db (postgres/mysql)."
+    },
+    {
+      "instruction": "Crea una red Docker llamada \"appnet\" para que los servicios se comuniquen.",
+      "expectedCommand": "docker network create appnet",
+      "hint": "Si defines la red en docker-compose.yml bajo 'networks:', Docker Compose la crea automáticamente con 'up'."
+    },
+    {
+      "instruction": "Levanta los servicios en modo detached (background).",
+      "expectedCommand": "docker compose up -d",
+      "hint": "El flag -d (detached) ejecuta los contenedores en background. Sin -d, verías los logs en tiempo real."
+    },
+    {
+      "instruction": "Verifica el estado de los 3 contenedores.",
+      "expectedCommand": "docker compose ps",
+      "hint": "También puedes usar 'docker ps' para ver todos los contenedores, o 'docker compose ps -a' para incluir los detenidos."
+    },
+    {
+      "instruction": "Consulta los logs del servicio web.",
+      "expectedCommand": "docker compose logs web",
+      "hint": "Agrega '-f' para seguir los logs en vivo (como tail -f). Usa '--tail 50' para ver solo las últimas 50 líneas."
+    },
+    {
+      "instruction": "Desde el cliente, prueba conectividad con curl al nginx.",
+      "expectedCommand": "curl http://localhost",
+      "hint": "Verifica que el puerto esté mapeado correctamente en docker-compose.yml bajo 'ports:'."
+    },
+    {
+      "instruction": "Deten todos los servicios limpiamente.",
+      "expectedCommand": "docker compose down",
+      "hint": "Agrega '-v' si también quieres borrar los volúmenes de datos, o '--rmi all' para eliminar las imágenes."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "docker-host",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "client",
+        "x": 200,
+        "y": 250
+      }
+    ],
+    "links": [
+      {
+        "from": "client",
+        "to": "docker-host"
+      }
+    ]
+  },
+  "validation": "Al completar, la app debe correr con docker compose up -d, persistir datos en volumen y responder en el puerto publicado."
+}

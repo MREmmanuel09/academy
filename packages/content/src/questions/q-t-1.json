@@ -1,0 +1,31 @@
+{
+  "id": "q-t-1",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué protocolo es orientado a conexión?",
+  "options": [
+    {
+      "id": "0",
+      "text": "UDP"
+    },
+    {
+      "id": "1",
+      "text": "TCP"
+    },
+    {
+      "id": "2",
+      "text": "ICMP"
+    },
+    {
+      "id": "3",
+      "text": "IP"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "TCP es orientado a conexión (three-way handshake). UDP es sin conexión.",
+  "irtA": 1.1520000000000001,
+  "irtB": -1.9,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

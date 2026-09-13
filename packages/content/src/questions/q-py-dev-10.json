@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-10",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "En el Docker SDK de Python, ¿cómo listas TODOS los containers (incluyendo los detenidos)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "client.containers.list()"
+    },
+    {
+      "id": "1",
+      "text": "client.containers.list(all=True)"
+    },
+    {
+      "id": "2",
+      "text": "client.containers.get_all()"
+    },
+    {
+      "id": "3",
+      "text": "client.list_containers()"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "containers.list(all=True) incluye exited, paused, etc. Sin all=True solo muestra los running.",
+  "irtA": 0.98,
+  "irtB": -1.14,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

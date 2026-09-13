@@ -1,0 +1,54 @@
+{
+  "id": "lab-python-automation",
+  "title": "Automatizar tareas con scripts",
+  "steps": [
+    {
+      "instruction": "Crea un script backup.py que copie un directorio a un destino usando shutil.",
+      "expectedCommand": "shutil.copytree(src, dst)",
+      "hint": "Importa shutil y usa copytree() para copiar directorios completos."
+    },
+    {
+      "instruction": "Agrega la funcion shutil.make_archive para comprimir el backup en formato .zip.",
+      "expectedCommand": "shutil.make_archive(output, 'zip', dst)",
+      "hint": "make_archive crea un archivo comprimido del directorio destino."
+    },
+    {
+      "instruction": "Implementa argparse para recibir parametros de origen y destino por CLI.",
+      "expectedCommand": "argparse.ArgumentParser()",
+      "hint": "Usa parser.add_argument('--source') y parser.add_argument('--dest') para los paths."
+    },
+    {
+      "instruction": "Agrega modulo logging para registrar inicio, exito y errores del backup.",
+      "expectedCommand": "logging.basicConfig(level=logging.INFO)",
+      "hint": "Usa logging.info() para eventos normales y logging.error() para excepciones."
+    },
+    {
+      "instruction": "Ejecuta el script con argumentos de prueba y verifica el log generado.",
+      "expectedCommand": "python backup.py --source ./data --dest ./backups",
+      "hint": "Revisa que se cree el archivo de log y el backup comprimido."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "pc",
+        "name": "dev-machine",
+        "x": 100,
+        "y": 150
+      },
+      {
+        "type": "server",
+        "name": "backup-server",
+        "x": 300,
+        "y": 150
+      }
+    ],
+    "links": [
+      {
+        "from": "dev-machine",
+        "to": "backup-server"
+      }
+    ]
+  },
+  "validation": null
+}

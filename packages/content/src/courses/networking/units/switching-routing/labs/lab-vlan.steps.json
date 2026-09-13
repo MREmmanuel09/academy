@@ -1,0 +1,114 @@
+{
+  "id": "lab-vlan",
+  "title": "Configurar VLANs en un switch",
+  "steps": [
+    {
+      "instruction": "Ingresa al modo EXEC privilegiado.",
+      "expectedCommand": "enable",
+      "hint": "Desde el prompt del switch (Switch>), usa 'enable' para subir a nivel privilegiado."
+    },
+    {
+      "instruction": "Entra a modo de configuracion global.",
+      "expectedCommand": "configure terminal",
+      "hint": "El prompt cambiara a Switch(config)# indicando modo configuracion global."
+    },
+    {
+      "instruction": "Crea la VLAN 10.",
+      "expectedCommand": "vlan 10",
+      "hint": "Esto crea la VLAN y entra al sub-modo de configuracion de VLAN."
+    },
+    {
+      "instruction": "Asignale un nombre descriptivo (ej. Ventas).",
+      "expectedCommand": "name Ventas",
+      "hint": "El nombre ayuda a identificar el proposito de la VLAN en 'show vlan brief'."
+    },
+    {
+      "instruction": "Crea la VLAN 20.",
+      "expectedCommand": "vlan 20",
+      "hint": "Similar al paso anterior, crea una segunda VLAN para segmentar la red."
+    },
+    {
+      "instruction": "Asignale un nombre descriptivo (ej. Marketing).",
+      "expectedCommand": "name Marketing",
+      "hint": "Cada VLAN debe tener un nombre descriptivo para facilitar la administracion."
+    },
+    {
+      "instruction": "Entra a la interfaz FastEthernet 0/1.",
+      "expectedCommand": "interface FastEthernet 0/1",
+      "hint": "Puedes usar la abreviatura 'int fa0/1' para ir mas rapido."
+    },
+    {
+      "instruction": "Configura el puerto como access.",
+      "expectedCommand": "switchport mode access",
+      "hint": "En modo access, el puerto pertenece a una sola VLAN y no envia tags."
+    },
+    {
+      "instruction": "Asigna ese puerto a la VLAN 10.",
+      "expectedCommand": "switchport access vlan 10",
+      "hint": "El puerto ahora transportara trafico exclusivamente de la VLAN 10."
+    },
+    {
+      "instruction": "Repite para los puertos 0/2, 0/3 y 0/4 segun la distribucion que prefieras.",
+      "expectedCommand": "interface FastEthernet 0/2",
+      "hint": "Repite los comandos 'switchport mode access' y 'switchport access vlan' en cada puerto."
+    },
+    {
+      "instruction": "Sal de configuracion y verifica el estado de las VLANs.",
+      "expectedCommand": "show vlan brief",
+      "hint": "Usa 'end' para salir y luego 'show vlan brief' para ver todas las VLANs y sus puertos asignados."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "switch",
+        "name": "SW1",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "PC1",
+        "x": 80,
+        "y": 220
+      },
+      {
+        "type": "pc",
+        "name": "PC2",
+        "x": 320,
+        "y": 220
+      },
+      {
+        "type": "pc",
+        "name": "PC3",
+        "x": 80,
+        "y": 320
+      },
+      {
+        "type": "pc",
+        "name": "PC4",
+        "x": 320,
+        "y": 320
+      }
+    ],
+    "links": [
+      {
+        "from": "SW1",
+        "to": "PC1"
+      },
+      {
+        "from": "SW1",
+        "to": "PC2"
+      },
+      {
+        "from": "SW1",
+        "to": "PC3"
+      },
+      {
+        "from": "SW1",
+        "to": "PC4"
+      }
+    ]
+  },
+  "validation": "Al completar, PCs de la misma VLAN deben comunicarse y PCs de distintas VLANs deben estar aislados salvo paso por L3."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-data-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuál de estos es un ejemplo de dato NO estructurado?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una tabla de Excel"
+    },
+    {
+      "id": "1",
+      "text": "Un archivo CSV"
+    },
+    {
+      "id": "2",
+      "text": "Una foto"
+    },
+    {
+      "id": "3",
+      "text": "Una fila de una base de datos"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Una foto (o video, audio, texto libre) es dato no estructurado: no tiene un esquema predefinido.",
+  "irtA": 0.88,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pandas-io",
+  "title": "Pandas I/O: CSV, Excel, Parquet, JSON y SQL",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 60,
+  "summary": "Lee y escribe datos en los formatos mas usados. Trucos para performance, encoding y tipos.",
+  "keyTakeaways": [
+    "`read_csv` y `to_csv` son la base; cuida `sep`, `encoding`, `parse_dates`.",
+    "Parquet es columnar, comprimido y preserva tipos: ideal para big data.",
+    "Para Excel necesitas `openpyxl`; usa `sheet_name` para hojas especificas.",
+    "`read_sql` y `to_sql` integran con cualquier BD via SQLAlchemy."
+  ]
+}

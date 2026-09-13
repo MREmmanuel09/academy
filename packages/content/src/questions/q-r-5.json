@@ -1,0 +1,31 @@
+{
+  "id": "q-r-5",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Cuál es el broadcast de 192.168.1.0/26?",
+  "options": [
+    {
+      "id": "0",
+      "text": "192.168.1.63"
+    },
+    {
+      "id": "1",
+      "text": "192.168.1.127"
+    },
+    {
+      "id": "2",
+      "text": "192.168.1.255"
+    },
+    {
+      "id": "3",
+      "text": "192.168.1.31"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Una /26 tiene 64 direcciones (salto 64). La primera subred va de .0 a .63, siendo .63 el broadcast.",
+  "irtA": 1.08,
+  "irtB": 0.9,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

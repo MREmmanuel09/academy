@@ -1,0 +1,31 @@
+{
+  "id": "q-da-sb-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Sobre que libreria esta construida Seaborn?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Plotly"
+    },
+    {
+      "id": "1",
+      "text": "Bokeh"
+    },
+    {
+      "id": "2",
+      "text": "Matplotlib"
+    },
+    {
+      "id": "3",
+      "text": "D3.js"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Seaborn es una capa de alto nivel sobre Matplotlib. Hereda su motor de renderizado y se integra con el ecosistema Matplotlib.",
+  "irtA": 0.812,
+  "irtB": 1.06,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

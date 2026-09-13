@@ -1,0 +1,15 @@
+{
+  "id": "sre-1",
+  "title": "SRE: Site Reliability Engineering",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 18,
+  "xp": 90,
+  "summary": "Google SRE, SLOs, error budgets, toil, on-call. Ingeniería para confiabilidad.",
+  "keyTakeaways": [
+    "SRE aplica ingeniería a operaciones: SLOs, error budgets, automatización de toil.",
+    "SLI = métrica, SLO = objetivo, SLA = contrato legal (SLO > SLA).",
+    "Error budget enfrentan devs con ops: si se quema, feature freeze.",
+    "Blameless postmortems aprenden del sistema, no castigan personas."
+  ]
+}

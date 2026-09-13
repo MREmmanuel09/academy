@@ -1,0 +1,84 @@
+{
+  "id": "lab-kafka-pipeline",
+  "title": "Pipeline Kafka end-to-end: producer, broker, consumer",
+  "steps": [
+    {
+      "instruction": "Inicia el broker Kafka en modo KRaft (sin Zookeeper). Desde el directorio de Kafka, ejecuta: bin/kafka-storage.sh format -t $(bin/kafka-storage.sh random-uuid) -c config/kraft/server.properties",
+      "expectedCommand": "bin/kafka-storage.sh format -t $(bin/kafka-storage.sh random-uuid) -c config/kraft/server.properties",
+      "hint": "KRaft es el modo nuevo de Kafka (sin Zookeeper). Solo se formatea una vez por cluster."
+    },
+    {
+      "instruction": "Arranca el broker con bin/kafka-server-start.sh config/kraft/server.properties. Deja corriendo en una terminal aparte.",
+      "expectedCommand": "bin/kafka-server-start.sh -daemon config/kraft/server.properties",
+      "hint": "El flag -daemon lo corre en background. Para ver logs: tail -f logs/kafkaServer.out."
+    },
+    {
+      "instruction": "Crea un topic llamado \"user-clicks\" con 3 particiones y replication factor 1 (un solo broker en local).",
+      "expectedCommand": "bin/kafka-topics.sh --create --topic user-clicks --partitions 3 --replication-factor 1 --bootstrap-server localhost:9092",
+      "hint": "En produccion usa replication-factor 3. En local con 1 broker basta con 1."
+    },
+    {
+      "instruction": "Verifica que el topic existe con --list y --describe para ver las 3 particiones.",
+      "expectedCommand": "bin/kafka-topics.sh --list --bootstrap-server localhost:9092\nbin/kafka-topics.sh --describe --topic user-clicks --bootstrap-server localhost:9092",
+      "hint": "--describe muestra particiones, leader y replicas. Si dice \"Leader: 0\" la particion 0 esta sana."
+    },
+    {
+      "instruction": "Crea un script producer.py que envie 20 mensajes JSON al topic. Cada mensaje es {\"user_id\": \"u-X\", \"url\": \"/page\", \"ts\": epoch}. Usa key=user_id para que vaya siempre a la misma particion.",
+      "expectedCommand": "producer.send(\"user-clicks\", key=b\"u-1\", value=b'{\"user_id\":\"u-1\",\"url\":\"/home\"}')",
+      "hint": "Usa la libreria kafka-python (pip install kafka-python). Recuerda producer.flush() al final."
+    },
+    {
+      "instruction": "Ejecuta el producer y verifica con kafka-console-consumer.sh --topic user-clicks --from-beginning --max-messages 3 que los mensajes llegan en otra terminal.",
+      "expectedCommand": "bin/kafka-console-consumer.sh --topic user-clicks --from-beginning --max-messages 3 --bootstrap-server localhost:9092",
+      "hint": "Si no ves mensajes, revisa que el topic name este exacto y que el broker este corriendo."
+    },
+    {
+      "instruction": "Crea un consumer.py que se una al consumer-group \"click-processor\" y lea los 20 mensajes, contando cuantos clicks hizo cada user_id.",
+      "expectedCommand": "consumer = KafkaConsumer(\"user-clicks\", group_id=\"click-processor\", bootstrap_servers=\"localhost:9092\", auto_offset_reset=\"earliest\")",
+      "hint": "auto_offset_reset=\"earliest\" le dice al consumer que arranque desde el principio si el grupo es nuevo."
+    },
+    {
+      "instruction": "Procesa los mensajes: parsea el JSON, acumula el contador por user_id en un dict, y al final escribe el resultado a clicks-summary.json con json.dump().",
+      "expectedCommand": "for msg in consumer: data = json.loads(msg.value); user = data[\"user_id\"]; counts[user] = counts.get(user, 0) + 1",
+      "hint": "Para que el consumer no se quede esperando para siempre, break cuando recibas 20 mensajes."
+    },
+    {
+      "instruction": "Deten el consumer y el broker limpiamente: Ctrl+C en cada proceso, o usa kafka-server-stop.sh si lo iniciaste sin -daemon.",
+      "expectedCommand": "bin/kafka-server-stop.sh",
+      "hint": "Si iniciaste con -daemon, usa --stop. Si no, Ctrl+C. Siempre limpia para no dejar procesos colgados."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "pc",
+        "name": "Producer",
+        "x": 80,
+        "y": 100
+      },
+      {
+        "type": "server",
+        "name": "Kafka-Broker",
+        "x": 220,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "Consumer",
+        "x": 360,
+        "y": 100
+      }
+    ],
+    "links": [
+      {
+        "from": "Producer",
+        "to": "Kafka-Broker"
+      },
+      {
+        "from": "Kafka-Broker",
+        "to": "Consumer"
+      }
+    ]
+  },
+  "validation": "Al completar, un mensaje del producer debe llegar al consumer a traves del broker sin perdidas y en orden por particion."
+}

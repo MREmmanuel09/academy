@@ -1,0 +1,31 @@
+{
+  "id": "q-data-9",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué significa ETL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Extract, Transform, Load"
+    },
+    {
+      "id": "1",
+      "text": "Encode, Transfer, Link"
+    },
+    {
+      "id": "2",
+      "text": "Encrypt, Transmit, Log"
+    },
+    {
+      "id": "3",
+      "text": "Export, Type, List"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "ETL = Extract (extraer), Transform (transformar), Load (cargar). El patrón clásico de data pipelines.",
+  "irtA": 0.8560000000000001,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

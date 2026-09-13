@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-5",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Qué operador se usa para division entera (sin decimales)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "/"
+    },
+    {
+      "id": "1",
+      "text": "//"
+    },
+    {
+      "id": "2",
+      "text": "%"
+    },
+    {
+      "id": "3",
+      "text": "**"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "// realiza division entera (descarta decimales). / hace division real. % es modulo. ** es potencia.",
+  "irtA": 1.1960000000000002,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

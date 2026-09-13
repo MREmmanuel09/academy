@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ob-1",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es OpenTelemetry?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una empresa"
+    },
+    {
+      "id": "1",
+      "text": "Un framework estándar CNCF para instrumentar apps"
+    },
+    {
+      "id": "2",
+      "text": "Un lenguaje"
+    },
+    {
+      "id": "3",
+      "text": "Una base de datos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "OpenTelemetry (OTel): estándar CNCF que unifica metrics, logs y traces bajo un solo SDK.",
+  "irtA": 1.116,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

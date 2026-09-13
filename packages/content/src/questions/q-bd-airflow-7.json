@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-7",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es una mejor practica clave al disenar tasks de Airflow?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Meter toda la logica en un solo task gigante"
+    },
+    {
+      "id": "1",
+      "text": "Idempotencia: que el task se pueda re-ejecutar sin efectos raros (UPSERT, overwrite partition)"
+    },
+    {
+      "id": "2",
+      "text": "Usar credenciales en el codigo"
+    },
+    {
+      "id": "3",
+      "text": "Pasar dataframes completos por XCom"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Idempotencia es crucial. Airflow re-ejecuta tasks en retry. Si tu task no es idempotente, los reintentos corrompen datos.",
+  "irtA": 0.996,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

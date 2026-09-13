@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-7",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "WireGuard es:",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un protocolo de routing"
+    },
+    {
+      "id": "1",
+      "text": "Una VPN moderna y minimalista"
+    },
+    {
+      "id": "2",
+      "text": "Un firewall"
+    },
+    {
+      "id": "3",
+      "text": "Un IDS"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "WireGuard es una VPN moderna (~4k líneas de código) que usa criptografía state-of-the-art (Noise, ChaCha20).",
+  "irtA": 1.044,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

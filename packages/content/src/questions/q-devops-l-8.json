@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-8",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué archivo contiene la configuración DNS en Linux?",
+  "options": [
+    {
+      "id": "0",
+      "text": "/etc/hosts"
+    },
+    {
+      "id": "1",
+      "text": "/etc/resolv.conf"
+    },
+    {
+      "id": "2",
+      "text": "/etc/dns.conf"
+    },
+    {
+      "id": "3",
+      "text": "/var/named.conf"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "/etc/resolv.conf contiene nameservers. /etc/hosts tiene precedencia sobre DNS para entradas locales.",
+  "irtA": 0.988,
+  "irtB": 0.34,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

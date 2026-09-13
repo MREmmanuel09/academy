@@ -1,0 +1,15 @@
+{
+  "id": "py-notifications",
+  "title": "Notificaciones: email, Slack webhooks, PagerDuty",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 18,
+  "xp": 75,
+  "summary": "Enviar alertas via email, Slack, PagerDuty desde scripts de monitoreo y automation.",
+  "keyTakeaways": [
+    "Email: smtplib + MIMEText. Mejor usa SendGrid/SES que SMTP directo.",
+    "Slack webhooks: simple, sin librerias. Solo httpx.post a la URL del webhook.",
+    "PagerDuty: integracion oficial con pdpyras, dedup keys automaticas.",
+    "Implementa deduplicacion y silencing para evitar spam en incidentes reales."
+  ]
+}

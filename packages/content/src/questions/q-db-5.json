@@ -1,0 +1,31 @@
+{
+  "id": "q-db-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que es el \"tail latency\" (p99) y por que importa?",
+  "options": [
+    {
+      "id": "0",
+      "text": "La latencia promedio de los ultimos 100 requests"
+    },
+    {
+      "id": "1",
+      "text": "El 1% de requests mas lentos, que define la experiencia del usuario en el peor caso"
+    },
+    {
+      "id": "2",
+      "text": "La latencia maxima absoluta"
+    },
+    {
+      "id": "3",
+      "text": "Solo importa en streaming"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "p99 = percentil 99. El 1% de requests mas lentos. Amazon descubrio que cada 100ms de latencia = 1% menos ventas.",
+  "irtA": 1.048,
+  "irtB": -0.96,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

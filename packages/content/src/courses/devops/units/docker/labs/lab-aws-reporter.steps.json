@@ -1,0 +1,79 @@
+{
+  "id": "lab-aws-reporter",
+  "title": "AWS Resource Reporter: cost optimization",
+  "steps": [
+    {
+      "instruction": "Instala boto3 y configura credenciales AWS (aws configure o variables de entorno).",
+      "expectedCommand": "pip install boto3",
+      "hint": "boto3 respeta AWS_PROFILE, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY."
+    },
+    {
+      "instruction": "Crea un script que liste todas las instancias EC2 y muestre su ID, tipo, state, y tags.",
+      "expectedCommand": "python3 -c \"import boto3; ec2 = boto3.client(\\\"ec2\\\"); print(ec2.describe_instances())\"",
+      "hint": "ec2.describe_instances() retorna Reservations[].Instances[]."
+    },
+    {
+      "instruction": "Filtra las instancias que NO tengan los tags requeridos: Environment, Owner, Project.",
+      "expectedCommand": "echo \"REQUIRED_TAGS = [\\\"Environment\\\", \\\"Owner\\\", \\\"Project\\\"]\" >> reporter.py",
+      "hint": "Instance.get(\"Tags\", []) — verifica cada tag con .get(\"Key\")"
+    },
+    {
+      "instruction": "Agrega listado de buckets S3 sin tags (configuracion de bucket).",
+      "expectedCommand": "echo \"s3 = boto3.client(\\\"s3\\\")\" >> reporter.py",
+      "hint": "s3.list_buckets() y s3.get_bucket_tagging(Bucket=name)."
+    },
+    {
+      "instruction": "Agrega listado de volumes EBS unattached (costo sin uso).",
+      "expectedCommand": "echo \"volumes = ec2.describe_volumes(Filters=[{\\\"Name\\\": \\\"status\\\", \\\"Values\\\": [\\\"available\\\"]}])\" >> reporter.py",
+      "hint": "Filter por \"available\" retorna volumes no attached a ninguna instancia."
+    },
+    {
+      "instruction": "Implementa un paginator para S3 (puede haber mas de 1000 buckets).",
+      "expectedCommand": "echo \"paginator = s3.get_paginator(\\\"list_buckets\\\")\" >> reporter.py",
+      "hint": "paginator.paginate() retorna un iterador de páginas."
+    },
+    {
+      "instruction": "Exporta los hallazgos a CSV con campos: resource_type, resource_id, issue, region, estimated_monthly_cost.",
+      "expectedCommand": "echo \"import csv\" >> reporter.py",
+      "hint": "csv.DictWriter es la forma idiomática de escribir CSV."
+    },
+    {
+      "instruction": "Anade argparse con flags: --region, --output-format (csv|json), --required-tags.",
+      "expectedCommand": "echo \"parser.add_argument(\\\"--region\\\", default=\\\"us-east-1\\\")\" >> reporter.py",
+      "hint": "nargs=\"+\" para tags permite --required-tags Env Owner Project"
+    },
+    {
+      "instruction": "Maneja excepciones: AccessDenied para servicios no habilitados, ClientError generico con logging.",
+      "expectedCommand": "echo \"from botocore.exceptions import ClientError\" >> reporter.py",
+      "hint": "Captura ClientError y revisa e.response[\"Error\"][\"Code\"]."
+    },
+    {
+      "instruction": "Testea el script con tus credenciales AWS y verifica que genere un CSV con los recursos sin tag.",
+      "expectedCommand": "python3 reporter.py --region us-east-1 --output-format csv --output report.csv",
+      "hint": "Abre el CSV en Excel o pandaso para revisar."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "aws-account",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "finops-team",
+        "x": 200,
+        "y": 250
+      }
+    ],
+    "links": [
+      {
+        "from": "finops-team",
+        "to": "aws-account"
+      }
+    ]
+  },
+  "validation": "Al completar, el reporter debe listar recursos con su costo estimado y senalar al menos 3 optimizaciones (right-sizing, spot, storage)."
+}

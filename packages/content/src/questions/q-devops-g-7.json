@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-7",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué comando deshace el último commit manteniendo los cambios staged?",
+  "options": [
+    {
+      "id": "0",
+      "text": "git reset HEAD~1"
+    },
+    {
+      "id": "1",
+      "text": "git reset --soft HEAD~1"
+    },
+    {
+      "id": "2",
+      "text": "git revert HEAD"
+    },
+    {
+      "id": "3",
+      "text": "git rm HEAD"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "git reset --soft HEAD~1 deshace el commit pero deja los cambios en staging. --mixed los deja unstaged, --hard los borra.",
+  "irtA": 0.9640000000000001,
+  "irtB": 1.32,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

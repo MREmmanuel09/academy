@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ob-2",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es un trace?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un log"
+    },
+    {
+      "id": "1",
+      "text": "El recorrido de un request a través de múltiples servicios"
+    },
+    {
+      "id": "2",
+      "text": "Una métrica"
+    },
+    {
+      "id": "3",
+      "text": "Un test"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Trace: el camino completo de un request a través de servicios. Compuesto de spans.",
+  "irtA": 1.12,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

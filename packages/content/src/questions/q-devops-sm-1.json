@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-1",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Qué es un Service Mesh?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una VPN"
+    },
+    {
+      "id": "1",
+      "text": "Una capa de infraestructura que gestiona service-to-service"
+    },
+    {
+      "id": "2",
+      "text": "Un monitor"
+    },
+    {
+      "id": "3",
+      "text": "Una red física"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Service mesh: capa de infraestructura con sidecars que gestiona service-to-service (mTLS, traffic, observability).",
+  "irtA": 0.8560000000000001,
+  "irtB": -1.94,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

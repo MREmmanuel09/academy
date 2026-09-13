@@ -1,0 +1,14 @@
+{
+  "id": "bigdata-distributed",
+  "title": "Computacion distribuida: CAP, particiones y consenso",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 15,
+  "xp": 75,
+  "summary": "Por que disenar sistemas distribuidos es dificil. Teorema CAP, particiones de red, consenso distribuido.",
+  "keyTakeaways": [
+    "CAP: en particion de red, solo puedes garantizar 2 de 3 (C, A, P).",
+    "Paxos y Raft son algoritmos de consenso para eleccion de lider y replicacion.",
+    "En Big Data los fallos son normales: disena para N-1 siempre funcionando."
+  ]
+}

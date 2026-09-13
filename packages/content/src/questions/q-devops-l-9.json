@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-9",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué comando muestra las conexiones TCP establecidas?",
+  "options": [
+    {
+      "id": "0",
+      "text": "netstat -a"
+    },
+    {
+      "id": "1",
+      "text": "ss -t state established"
+    },
+    {
+      "id": "2",
+      "text": "ifconfig"
+    },
+    {
+      "id": "3",
+      "text": "route"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ss es el comando moderno (reemplaza netstat). ss -t state established filtra conexiones TCP activas.",
+  "irtA": 0.992,
+  "irtB": 0.34,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

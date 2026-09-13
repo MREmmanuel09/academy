@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-8",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es un blameless postmortem?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Postmortem sin supervisor"
+    },
+    {
+      "id": "1",
+      "text": "Postmortem que no culpa personas, enfoca en el sistema"
+    },
+    {
+      "id": "2",
+      "text": "Postmortem público"
+    },
+    {
+      "id": "3",
+      "text": "Postmortem sin evidencia"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Blameless postmortem: aprende del sistema, no castiga personas. Errores humanos son síntomas sistémicos.",
+  "irtA": 1.096,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

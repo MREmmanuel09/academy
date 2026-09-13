@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-hadoop-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Por que Spark reemplazo a MapReduce en la mayoria de casos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Spark es mas viejo"
+    },
+    {
+      "id": "1",
+      "text": "Spark mantiene datos en memoria entre etapas, evitando escribir a disco repetidamente"
+    },
+    {
+      "id": "2",
+      "text": "MapReduce fue descontinuado"
+    },
+    {
+      "id": "3",
+      "text": "Spark usa CPU en vez de GPU"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "MapReduce escribe a disco entre cada Map y Reduce. Spark mantiene datos en RAM, lo que es 100x mas rapido para cargas iterativas (ML, queries interactivas).",
+  "irtA": 0.892,
+  "irtB": 1.56,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

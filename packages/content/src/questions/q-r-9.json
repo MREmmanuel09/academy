@@ -1,0 +1,14 @@
+{
+  "id": "q-r-9",
+  "quizId": "exam-basic",
+  "type": "truefalse",
+  "prompt": "IPv6 elimina la necesidad de NAT.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. IPv6 tiene direcciones suficientes (128 bits) para que cada dispositivo tenga una dirección pública única, sin necesidad de NAT.",
+  "irtA": 1.096,
+  "irtB": 0.92,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

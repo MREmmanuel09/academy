@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-15",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En BeautifulSoup, ¿qué método seleccionas elementos con un selector CSS?",
+  "options": [
+    {
+      "id": "0",
+      "text": ".find()"
+    },
+    {
+      "id": "1",
+      "text": ".find_all()"
+    },
+    {
+      "id": "2",
+      "text": ".select()"
+    },
+    {
+      "id": "3",
+      "text": ".css()"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "soup.select(\"div.article\") usa selectores CSS. find/find_all usan kwargs o filtros de tag/atributo.",
+  "irtA": 1.064,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

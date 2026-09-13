@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-20",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué comando apt actualiza la lista de paquetes?",
+  "options": [
+    {
+      "id": "0",
+      "text": "apt upgrade"
+    },
+    {
+      "id": "1",
+      "text": "apt update"
+    },
+    {
+      "id": "2",
+      "text": "apt install"
+    },
+    {
+      "id": "3",
+      "text": "apt list"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "apt update descarga la lista actualizada de paquetes disponibles. apt upgrade luego instala las nuevas versiones.",
+  "irtA": 0.908,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

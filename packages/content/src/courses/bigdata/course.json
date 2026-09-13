@@ -1,0 +1,8 @@
+{
+  "slug": "bigdata",
+  "track": "data",
+  "title": "Big Data",
+  "description": "Spark, Hadoop, Kafka, pipelines distribuidos y streaming en tiempo real.",
+  "difficulty": "advanced",
+  "estimatedHours": 25
+}

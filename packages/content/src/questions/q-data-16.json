@@ -1,0 +1,31 @@
+{
+  "id": "q-data-16",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es data lineage?",
+  "options": [
+    {
+      "id": "0",
+      "text": "El apellido del autor del dataset"
+    },
+    {
+      "id": "1",
+      "text": "La trazabilidad del dato: de dónde viene, qué transformaciones sufre, dónde termina"
+    },
+    {
+      "id": "2",
+      "text": "Un tipo de join en SQL"
+    },
+    {
+      "id": "3",
+      "text": "El idioma del dataset"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Data lineage es la trazabilidad: el mapa de viaje del dato desde su origen hasta su destino, pasando por todas las transformaciones.",
+  "irtA": 1.008,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "data-6",
+  "title": "OLTP vs OLAP: transaccional vs analítico",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 55,
+  "summary": "Las dos caras del procesamiento de datos. Por qué no usas Excel para tu banco.",
+  "keyTakeaways": [
+    "OLTP = transacciones rápidas y actuales (PostgreSQL, MySQL).",
+    "OLAP = análisis pesado sobre datos históricos (Snowflake, BigQuery).",
+    "Nunca corras queries analíticas pesadas en la DB de la aplicación.",
+    "HTAP existe pero es caso especial. La separación clásica sigue siendo el estándar."
+  ]
+}

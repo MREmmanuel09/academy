@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-27",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué pasa si haces `docker rm` en un container corriendo?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Se borra inmediatamente"
+    },
+    {
+      "id": "1",
+      "text": "No se puede borrar"
+    },
+    {
+      "id": "2",
+      "text": "Falla con error"
+    },
+    {
+      "id": "3",
+      "text": "Necesitas --force"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "docker rm solo borra containers parados. Para correr, usa -f (force) que hace SIGKILL y luego borra.",
+  "irtA": 0.8240000000000001,
+  "irtB": 0.44,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

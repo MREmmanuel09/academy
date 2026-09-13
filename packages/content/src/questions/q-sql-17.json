@@ -1,0 +1,14 @@
+{
+  "id": "q-sql-17",
+  "quizId": "exam-data-analyst",
+  "type": "truefalse",
+  "prompt": "CREATE INDEX idx_users_email ON users(email) crea un índice B-tree en la columna email.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. CREATE INDEX sin especificar USING usa B-tree por default. Acelera WHERE email = ?, rangos, ORDER BY email.",
+  "irtA": 1.1640000000000001,
+  "irtB": 1.62,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

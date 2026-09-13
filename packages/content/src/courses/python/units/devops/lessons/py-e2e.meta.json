@@ -1,0 +1,15 @@
+{
+  "id": "py-e2e",
+  "title": "End-to-end: script que se deploya a si mismo",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 26,
+  "xp": 110,
+  "summary": "Proyecto integrador: pipeline completo con GitHub Actions, testing, deploy y monitoring.",
+  "keyTakeaways": [
+    "Trata tu script de automation como un producto: testing, packaging, deploy.",
+    "Estructura: src/ con modulos separados (cli, checker, reporter), tests/, Dockerfile.",
+    "CI con lint + test + coverage, deploy automatizado via SSH o Kubernetes.",
+    "systemd con Restart=always es la forma mas simple de mantener un script vivo."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-5",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Cuál es la diferencia principal entre Istio y Linkerd?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Istio es más simple"
+    },
+    {
+      "id": "1",
+      "text": "Linkerd es más ligero, Istio más features"
+    },
+    {
+      "id": "2",
+      "text": "Linkerd solo para AWS"
+    },
+    {
+      "id": "3",
+      "text": "Son iguales"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Linkerd: más ligero, sidecar en Rust, menos features. Istio: full-featured, sidecar Envoy, más complejo.",
+  "irtA": 0.872,
+  "irtB": -1.94,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

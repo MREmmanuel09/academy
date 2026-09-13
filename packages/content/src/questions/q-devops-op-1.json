@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-op-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es un CRD en K8s?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una base de datos"
+    },
+    {
+      "id": "1",
+      "text": "Custom Resource Definition: defines un nuevo tipo de recurso"
+    },
+    {
+      "id": "2",
+      "text": "Un ingress"
+    },
+    {
+      "id": "3",
+      "text": "Una red"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "CRD (Custom Resource Definition): defines un nuevo tipo de recurso en K8s. Ej: Postgres, RedisCluster.",
+  "irtA": 0.932,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

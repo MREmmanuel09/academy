@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-8",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Cómo se autentica ArgoCD al cluster?",
+  "options": [
+    {
+      "id": "0",
+      "text": "ServiceAccount con RBAC"
+    },
+    {
+      "id": "1",
+      "text": "Token de admin"
+    },
+    {
+      "id": "2",
+      "text": "Password"
+    },
+    {
+      "id": "3",
+      "text": "No necesita"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "ArgoCD usa un ServiceAccount con ClusterRole/Role específicos (principio de least privilege).",
+  "irtA": 1.004,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

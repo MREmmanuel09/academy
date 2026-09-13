@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-4",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Qué es selfHeal en ArgoCD?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Auto-reparación de bugs"
+    },
+    {
+      "id": "1",
+      "text": "Sincronización automática del cluster con Git"
+    },
+    {
+      "id": "2",
+      "text": "Backup automático"
+    },
+    {
+      "id": "3",
+      "text": "Auto-scaling"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "selfHeal: si alguien cambió el cluster a mano, ArgoCD revierte al estado de Git automáticamente.",
+  "irtA": 0.988,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

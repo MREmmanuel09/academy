@@ -1,0 +1,31 @@
+{
+  "id": "q-hist-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Quien creo Linux?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Bill Gates"
+    },
+    {
+      "id": "1",
+      "text": "Steve Jobs"
+    },
+    {
+      "id": "2",
+      "text": "Linus Torvalds (1991, Finlandia, 21 anos)"
+    },
+    {
+      "id": "3",
+      "text": "Richard Stallman"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Linus Torvalds, estudiante finlandes de 21 anos, anuncio Linux en agosto 1991. Hoy corre en 100% de los supercomputadores TOP500.",
+  "irtA": 1.124,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

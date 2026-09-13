@@ -1,0 +1,15 @@
+{
+  "id": "py-subprocess",
+  "title": "Subprocess: ejecutar comandos del sistema",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 65,
+  "summary": "Lanzar procesos externos, capturar output, timeouts, pipes, async.",
+  "keyTakeaways": [
+    "subprocess.run con lista de args (NO shell=True con user input).",
+    "SIEMPRE timeout. check=True para raise automatico en error.",
+    "capture_output=True + text=True para capturar stdout/stderr como str.",
+    "Popen para streaming en tiempo real, asyncio para paralelismo."
+  ]
+}

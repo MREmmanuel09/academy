@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué comando añade un archivo al staging area?",
+  "options": [
+    {
+      "id": "0",
+      "text": "git commit archivo"
+    },
+    {
+      "id": "1",
+      "text": "git add archivo"
+    },
+    {
+      "id": "2",
+      "text": "git push archivo"
+    },
+    {
+      "id": "3",
+      "text": "git stage archivo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "git add añade archivos al staging area. git commit luego los confirma al repository.",
+  "irtA": 0.9440000000000001,
+  "irtB": 1.32,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

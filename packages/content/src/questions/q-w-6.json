@@ -1,0 +1,14 @@
+{
+  "id": "q-w-6",
+  "quizId": "exam-security",
+  "type": "truefalse",
+  "prompt": "WEP es seguro si usas una clave larga.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Falso. WEP es inseguro por su diseño (IV corto, RC4 mal usado). Longitud de clave no lo arregla.",
+  "irtA": 1.104,
+  "irtB": -0.08,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

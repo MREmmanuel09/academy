@@ -1,0 +1,14 @@
+{
+  "id": "q-sql-20",
+  "quizId": "exam-data-analyst",
+  "type": "short",
+  "prompt": "En un índice compuesto (a, b), ¿la query WHERE b = ? usa el índice?",
+  "options": null,
+  "correctAnswer": "0",
+  "explanation": "0 = No. En un índice compuesto (a, b), la query debe filtrar por la primera columna (a) para usar el índice. WHERE b = ? no lo aprovecha.",
+  "irtA": 1.068,
+  "irtB": 1.62,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

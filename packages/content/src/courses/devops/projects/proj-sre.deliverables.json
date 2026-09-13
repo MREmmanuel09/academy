@@ -1,0 +1,18 @@
+{
+  "id": "proj-sre",
+  "deliverables": [
+    "Documento de SLOs con SLIs definidos",
+    "Error budget policy aprobada por stakeholders",
+    "Runbook para los 5 incidentes mas comunes",
+    "Automatizacion del toil identificado (scripts, self-service)",
+    "Postmortem de 1 incidente real con blameless culture"
+  ],
+  "tech": [
+    "Prometheus",
+    "Grafana",
+    "PagerDuty o similar",
+    "GitHub Actions",
+    "Python o Bash scripting",
+    "Datadog o New Relic"
+  ]
+}

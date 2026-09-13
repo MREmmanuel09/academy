@@ -1,0 +1,14 @@
+{
+  "id": "q-bd-spark-3",
+  "quizId": "exam-bigdata",
+  "type": "truefalse",
+  "prompt": "En Spark, las transformations se ejecutan de forma lazy (perezoza).",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Las transformations (map, filter, groupBy) solo construyen el DAG. No ejecutan hasta que llamas una action (collect, count, write). Esto permite optimizacion global.",
+  "irtA": 1.1520000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

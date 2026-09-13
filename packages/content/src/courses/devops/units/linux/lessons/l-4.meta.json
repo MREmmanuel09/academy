@@ -1,0 +1,15 @@
+{
+  "id": "l-4",
+  "title": "Usuarios, grupos y permisos",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 65,
+  "summary": "El modelo de seguridad fundamental de Linux. chmod, chown, sudo.",
+  "keyTakeaways": [
+    "Linux es multi-usuario. root (UID 0) puede todo, usuarios normales tienen poderes limitados.",
+    "Permisos son rwx para owner, group, others. chmod en octal (755, 644, 600).",
+    "sudo permite elevación controlada. /etc/sudoers define las reglas.",
+    "SUID, SGID y sticky bit son permisos especiales para casos específicos."
+  ]
+}

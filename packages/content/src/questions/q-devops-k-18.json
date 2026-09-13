@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-18",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué hace el HorizontalPodAutoscaler?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Crea pods manualmente"
+    },
+    {
+      "id": "1",
+      "text": "Escala pods según métricas (CPU, memoria, custom)"
+    },
+    {
+      "id": "2",
+      "text": "Balancea carga"
+    },
+    {
+      "id": "3",
+      "text": "Reinicia pods"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "HPA escala el número de réplicas basándose en métricas (CPU, memoria, custom metrics de Prometheus, etc).",
+  "irtA": 0.8520000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

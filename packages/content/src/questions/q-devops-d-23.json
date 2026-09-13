@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-d-23",
+  "quizId": "exam-docker",
+  "type": "truefalse",
+  "prompt": "docker compose down -v borra también los volúmenes.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Por defecto down no borra volúmenes. Con -v los borra. Útil para resetear stack pero peligroso en producción.",
+  "irtA": 0.808,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

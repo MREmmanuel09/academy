@@ -1,0 +1,15 @@
+{
+  "id": "cicd-2",
+  "title": "Pipeline patterns: blue-green, canary, rolling",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 12,
+  "xp": 65,
+  "summary": "Estrategias de deploy sin downtime. Cómo reducir el riesgo de releases.",
+  "keyTakeaways": [
+    "Recreate: downtime. Rolling: default K8s, sin downtime pero mezcla versiones.",
+    "Blue-Green: switch instantáneo, doble costo. Canary: gradual, menor riesgo.",
+    "Feature flags: activar features sin redeploy.",
+    "Argo Rollouts y Flagger automatizan canary en K8s con análisis de métricas."
+  ]
+}

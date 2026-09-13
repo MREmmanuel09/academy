@@ -1,0 +1,14 @@
+{
+  "id": "q-bd-intro-2",
+  "quizId": "exam-bigdata",
+  "type": "truefalse",
+  "prompt": "Big Data se refiere unicamente a tener muchos datos.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Big Data no es solo volumen. Incluye velocidad, variedad, veracidad y la capacidad de extraer valor. 1 PB de basura sigue siendo basura.",
+  "irtA": 1.064,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

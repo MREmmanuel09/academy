@@ -1,0 +1,14 @@
+{
+  "id": "q-a-6",
+  "quizId": "exam-ccna",
+  "type": "truefalse",
+  "prompt": "FTP cifra las credenciales en la red.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Falso. FTP envía todo en claro, incluidas contraseñas. Usa SFTP (sobre SSH) o FTPS (FTP+TLS) para cifrar.",
+  "irtA": 0.936,
+  "irtB": -1.3,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,79 @@
+{
+  "id": "lab-docker-monitor",
+  "title": "Docker Container Monitor: detecta unhealthy y reinicia",
+  "steps": [
+    {
+      "instruction": "Instala docker SDK y verifica que puedes conectarte al socket de Docker.",
+      "expectedCommand": "pip install docker",
+      "hint": "docker.from_env() usa DOCKER_HOST o /var/run/docker.sock por default."
+    },
+    {
+      "instruction": "Crea docker_monitor.py y lista todos los containers (incluyendo stopped) usando client.containers.list(all=True).",
+      "expectedCommand": "python3 -c \"import docker; print(docker.from_env().containers.list(all=True))\"",
+      "hint": "all=True incluye exited, dead, paused. Sin all=True solo running."
+    },
+    {
+      "instruction": "Para cada container, extrae c.attrs[\"State\"][\"Health\"][\"Status\"] y detecta \"unhealthy\".",
+      "expectedCommand": "echo \"status = c.attrs[\\\"State\\\"].get(\\\"Health\\\", {}).get(\\\"Status\\\")\" >> docker_monitor.py",
+      "hint": "Algunos containers no tienen healthcheck configurado. Usa .get() con default."
+    },
+    {
+      "instruction": "Crea una funcion restart_container(container) que logee el evento y llame a container.restart() con timeout=30.",
+      "expectedCommand": "echo \"def restart_container(c):\" >> docker_monitor.py",
+      "hint": "container.restart(timeout=30) espera hasta 30s a que el container este running."
+    },
+    {
+      "instruction": "Crea una funcion notify_slack(container, action) que envie a un webhook con nombre, imagen, estado, accion tomada.",
+      "expectedCommand": "echo \"def notify_slack(c, action):\" >> docker_monitor.py",
+      "hint": "Incluye c.name, c.image.tags[0], c.status, accion y timestamp."
+    },
+    {
+      "instruction": "Implementa el loop principal que itera containers cada N segundos usando time.sleep.",
+      "expectedCommand": "echo \"while True:\" >> docker_monitor.py",
+      "hint": "try/except por cada container para que un fallo no tumbe el monitor."
+    },
+    {
+      "instruction": "Anade deduplicacion: no reinicies un container que ya fue reiniciado en los ultimos 5 minutos.",
+      "expectedCommand": "echo \"last_restart = {}\" >> docker_monitor.py",
+      "hint": "Usa un dict {container_id: timestamp} y verifica time.time() - last_restart.get(id, 0) > 300."
+    },
+    {
+      "instruction": "Configura el monitor como servicio systemd con Restart=always y RestartSec=10.",
+      "expectedCommand": "sudo tee /etc/systemd/system/docker-monitor.service",
+      "hint": "[Service] ExecStart=/path/to/.venv/bin/python /path/to/docker_monitor.py"
+    },
+    {
+      "instruction": "Habilita e inicia el servicio, y verifica en journalctl que esta corriendo.",
+      "expectedCommand": "sudo systemctl enable --now docker-monitor.service && sudo journalctl -u docker-monitor -f",
+      "hint": "systemctl status docker-monitor para ver el estado."
+    },
+    {
+      "instruction": "Crea un container de prueba con healthcheck que falle, y verifica que el monitor lo detecta, reinicia y alerta.",
+      "expectedCommand": "docker run -d --name test-unhealthy --health-cmd \"exit 1\" nginx",
+      "hint": "docker inspect test-unhealthy para ver el health status."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "docker-host",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "server",
+        "name": "slack",
+        "x": 350,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "docker-host",
+        "to": "slack"
+      }
+    ]
+  },
+  "validation": "Al completar, el monitor debe detectar un contenedor unhealthy y reiniciarlo solo, registrando el evento."
+}

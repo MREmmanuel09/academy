@@ -1,0 +1,31 @@
+{
+  "id": "q-t-8",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué algoritmo moderno de control de congestión usa Linux por defecto?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Reno"
+    },
+    {
+      "id": "1",
+      "text": "Tahoe"
+    },
+    {
+      "id": "2",
+      "text": "CUBIC"
+    },
+    {
+      "id": "3",
+      "text": "Vegas"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "CUBIC es el algoritmo por defecto en Linux. BBR es una alternativa popular de Google.",
+  "irtA": 1.1800000000000002,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

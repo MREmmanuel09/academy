@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-10",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cuantas particiones crea por default un shuffle en Spark SQL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "10"
+    },
+    {
+      "id": "1",
+      "text": "50"
+    },
+    {
+      "id": "2",
+      "text": "200"
+    },
+    {
+      "id": "3",
+      "text": "1000"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "spark.sql.shuffle.partitions = 200 por default. Para datasets pequenos bajalo a 10-50, para grandes subelo a 1000+.",
+  "irtA": 1.064,
+  "irtB": 1.56,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

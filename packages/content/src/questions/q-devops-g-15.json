@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-15",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué estrategia de branching es mejor para releases de versión?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Trunk-based"
+    },
+    {
+      "id": "1",
+      "text": "Git Flow"
+    },
+    {
+      "id": "2",
+      "text": "GitHub Flow"
+    },
+    {
+      "id": "3",
+      "text": "Ninguna"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Git Flow está diseñado para software con versiones (main + develop + release/* + feature/* + hotfix/*).",
+  "irtA": 0.984,
+  "irtB": 0.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

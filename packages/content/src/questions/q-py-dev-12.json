@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-12",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué función de subprocess es la recomendada para uso simple en scripts?",
+  "options": [
+    {
+      "id": "0",
+      "text": "subprocess.call()"
+    },
+    {
+      "id": "1",
+      "text": "subprocess.run()"
+    },
+    {
+      "id": "2",
+      "text": "os.system()"
+    },
+    {
+      "id": "3",
+      "text": "os.popen()"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "subprocess.run() es la API moderna y recomendada. call() y os.system() son legacy.",
+  "irtA": 0.972,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

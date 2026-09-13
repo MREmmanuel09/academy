@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-21",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué hace argparse.add_argument(\"--dry-run\", action=\"store_true\")?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Hace que el script sea de solo lectura"
+    },
+    {
+      "id": "1",
+      "text": "Define un flag booleano que es False por defecto y True si se pasa --dry-run"
+    },
+    {
+      "id": "2",
+      "text": "Requiere que --dry-run tenga un valor"
+    },
+    {
+      "id": "3",
+      "text": "Deshabilita el script en producción"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "action=\"store_true\" define un flag booleano. Sin --dry-run es False, con --dry-run es True.",
+  "irtA": 0.8520000000000001,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

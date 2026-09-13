@@ -1,0 +1,15 @@
+{
+  "id": "git-1",
+  "title": "Git fundamentals",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 60,
+  "summary": "Sistema de control de versiones distribuido. init, add, commit, status, log.",
+  "keyTakeaways": [
+    "Git es un VCS distribuido. Tres áreas: working dir, staging, repository.",
+    "Ciclo: edit → add → commit. Usa `git status` constantemente.",
+    "`.gitignore` evita trackear archivos generados o sensibles.",
+    "Mensajes de commit claros son documentación para el futuro."
+  ]
+}

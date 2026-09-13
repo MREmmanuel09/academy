@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-4",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cual de estas es una ACTION (no transformation) en Spark RDD?",
+  "options": [
+    {
+      "id": "0",
+      "text": "map"
+    },
+    {
+      "id": "1",
+      "text": "filter"
+    },
+    {
+      "id": "2",
+      "text": "groupByKey"
+    },
+    {
+      "id": "3",
+      "text": "collect"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "collect es una action: dispara la ejecucion y trae TODOS los datos al driver. map, filter y groupByKey son transformations (lazy).",
+  "irtA": 1.1480000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

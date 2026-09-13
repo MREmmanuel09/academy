@@ -1,0 +1,15 @@
+{
+  "id": "py-fastapi",
+  "title": "FastAPI: APIs modernas en minutos",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 22,
+  "xp": 90,
+  "summary": "Construir APIs HTTP con FastAPI: type hints, validacion automatica, OpenAPI docs.",
+  "keyTakeaways": [
+    "FastAPI: type hints como fuente de verdad. Documentacion OpenAPI automatica.",
+    "Pydantic valida input automaticamente. Define schemas como clases.",
+    "async def para endpoints no bloqueantes (ideal para I/O).",
+    "uvicorn en dev, gunicorn + uvicorn workers en prod."
+  ]
+}

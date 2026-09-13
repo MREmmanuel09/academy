@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-17",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué servicio AWS usarías para orquestar containers?",
+  "options": [
+    {
+      "id": "0",
+      "text": "EC2 + Docker manual"
+    },
+    {
+      "id": "1",
+      "text": "ECS o EKS"
+    },
+    {
+      "id": "2",
+      "text": "Lambda"
+    },
+    {
+      "id": "3",
+      "text": "Beanstalk"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ECS es el orchestrator propio de AWS. EKS = managed Kubernetes. Lambda es serverless. Beanstalk es PaaS legacy.",
+  "irtA": 1.1360000000000001,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

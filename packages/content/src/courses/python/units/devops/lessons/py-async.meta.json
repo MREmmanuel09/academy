@@ -1,0 +1,15 @@
+{
+  "id": "py-async",
+  "title": "Async I/O: asyncio, aiohttp, concurrencia real",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 24,
+  "xp": 100,
+  "summary": "Programacion asincrona para paralelizar I/O: event loop, coroutines, aiohttp, gather.",
+  "keyTakeaways": [
+    "async/await para I/O concurrente. No para CPU-bound (usa multiprocessing).",
+    "asyncio.gather() corre multiples coroutines en paralelo.",
+    "asyncio.Semaphore limita concurrencia (rate limiting natural).",
+    "asyncio.Queue para producer/consumer patterns."
+  ]
+}

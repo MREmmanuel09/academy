@@ -1,0 +1,14 @@
+{
+  "id": "q-t-9",
+  "quizId": "exam-ccna",
+  "type": "truefalse",
+  "prompt": "TCP usa SYN cookies para defenderse de SYN flood attacks.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. SYN cookies evitan asignar recursos del servidor hasta completar el handshake, mitigando SYN flood.",
+  "irtA": 1.1840000000000002,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

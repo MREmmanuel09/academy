@@ -1,0 +1,14 @@
+{
+  "id": "q-da-np-7",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "Un slice de un ndarray es una copia independiente del original.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Falso. Por defecto un slice es una VISTA que comparte memoria. Para copia independiente usa .copy().",
+  "irtA": 0.8320000000000001,
+  "irtB": 0.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

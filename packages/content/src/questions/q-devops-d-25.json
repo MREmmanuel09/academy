@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-25",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Cómo se comunican containers en la misma red custom?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Por IP"
+    },
+    {
+      "id": "1",
+      "text": "Por nombre de container (DNS interno)"
+    },
+    {
+      "id": "2",
+      "text": "Por puerto"
+    },
+    {
+      "id": "3",
+      "text": "No se puede"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Docker tiene un DNS server integrado en redes custom. `http://mi-app:80` resuelve al container \"mi-app\".",
+  "irtA": 0.8160000000000001,
+  "irtB": 0.44,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-h-6",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "`tcpdump` es la versión CLI de Wireshark.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. tcpdump y tshark (Wireshark CLI) comparten libpcap/WinPcap para captura de paquetes.",
+  "irtA": 1.044,
+  "irtB": -1.1,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

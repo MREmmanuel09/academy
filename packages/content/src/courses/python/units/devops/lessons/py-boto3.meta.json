@@ -1,0 +1,15 @@
+{
+  "id": "py-boto3",
+  "title": "AWS SDK boto3: EC2, S3, IAM",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 22,
+  "xp": 90,
+  "summary": "Automatizar AWS con boto3: clientes, recursos, waiters, paginators, IAM.",
+  "keyTakeaways": [
+    "boto3 tiene dos APIs: client (bajo nivel) y resource (alto nivel).",
+    "Credenciales: env vars > ~/.aws/credentials > IAM role. NUNCA hardcodear.",
+    "Waiters para esperar estados. Paginators para listas grandes.",
+    "Captura ClientError y revisa e.response[\"Error\"][\"Code\"]."
+  ]
+}

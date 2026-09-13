@@ -1,0 +1,69 @@
+{
+  "id": "lab-log-analyzer",
+  "title": "Log Analyzer CLI: parsea logs nginx/apache",
+  "steps": [
+    {
+      "instruction": "Crea el directorio del proyecto y un entorno virtual.",
+      "expectedCommand": "mkdir log-analyzer && cd log-analyzer && python3 -m venv .venv && source .venv/bin/activate",
+      "hint": "Usa python3 -m venv .venv para crear el entorno aislado."
+    },
+    {
+      "instruction": "Crea un archivo sample_access.log con al menos 20 lineas de logs nginx realistas (incluye 2xx, 4xx, 5xx, varias IPs, varios paths).",
+      "expectedCommand": "touch sample_access.log",
+      "hint": "Formato: 192.168.1.1 - - [15/Jan/2024:10:30:45 +0000] \"GET /api HTTP/1.1\" 200 1234"
+    },
+    {
+      "instruction": "Crea analyzer.py con un patron regex compilado (re.compile) que extraiga IP, timestamp, method, path, status y size del log de nginx.",
+      "expectedCommand": "touch analyzer.py",
+      "hint": "Usa named groups (?P<ip>...) para mayor claridad."
+    },
+    {
+      "instruction": "Implementa una funcion parse_log_line(line: str) -> dict que use el patron compilado y retorne None si no matchea.",
+      "expectedCommand": "echo \"def parse_log_line(line: str) -> dict | None:\" >> analyzer.py",
+      "hint": "Validar con if m := pattern.search(line): ... (walrus operator)"
+    },
+    {
+      "instruction": "Implementa la funcion analyze(path: str) -> dict que lea el archivo, parsee cada linea, y retorne estadisticas: total_requests, status_counts, top_ips, top_paths, error_rate.",
+      "expectedCommand": "echo \"def analyze(path: str) -> dict:\" >> analyzer.py",
+      "hint": "Usa collections.Counter para contar status codes e IPs."
+    },
+    {
+      "instruction": "Anade argparse con argumento posicional logfile, opcion --output para guardar el reporte, y --top N para el top de IPs/paths.",
+      "expectedCommand": "echo \"parser.add_argument(\\\"logfile\\\")\" >> analyzer.py",
+      "hint": "argparse con ArgumentDefaultsHelpFormatter para ayuda profesional."
+    },
+    {
+      "instruction": "Anade if __name__ == \"__main__\" para ejecutar el entrypoint. Maneja FileNotFoundError y JSON decode errors.",
+      "expectedCommand": "echo \"if __name__ == \\\"__main__\\\":\" >> analyzer.py",
+      "hint": "Captura FileNotFoundError y exit(1) con mensaje claro."
+    },
+    {
+      "instruction": "Ejecuta el script contra el sample y verifica que genera el reporte JSON con las estadisticas correctas.",
+      "expectedCommand": "python3 analyzer.py sample_access.log --output report.json",
+      "hint": "cat report.json | python3 -m json.tool para validar."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "dev-machine",
+        "x": 200,
+        "y": 100
+      },
+      {
+        "type": "pc",
+        "name": "analyst",
+        "x": 200,
+        "y": 250
+      }
+    ],
+    "links": [
+      {
+        "from": "analyst",
+        "to": "dev-machine"
+      }
+    ]
+  },
+  "validation": "Al completar, el CLI debe reportar top IPs, codigos de estado y las 10 URLs mas pedidas de un access log real."
+}

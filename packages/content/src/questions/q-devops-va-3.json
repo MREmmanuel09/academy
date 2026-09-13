@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-va-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Por qué NO usar env vars para secrets?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son lentas"
+    },
+    {
+      "id": "1",
+      "text": "Aparecen en docker inspect, ps aux, no rotan, no hay audit"
+    },
+    {
+      "id": "2",
+      "text": "No funcionan"
+    },
+    {
+      "id": "3",
+      "text": "Son inseguras siempre"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Env vars se ven en docker inspect, logs, ps aux. No rotan, no hay audit. Vault es la alternativa.",
+  "irtA": 1.028,
+  "irtB": -1.28,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

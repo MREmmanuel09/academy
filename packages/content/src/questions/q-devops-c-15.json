@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-15",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué es un Security Group?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un grupo de usuarios IAM"
+    },
+    {
+      "id": "1",
+      "text": "Un firewall stateful a nivel de instancia"
+    },
+    {
+      "id": "2",
+      "text": "Una red"
+    },
+    {
+      "id": "3",
+      "text": "Un bucket S3"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Security Group: firewall stateful que controla tráfico in/out de una instancia ENI. Reglas por IP/protocol/puerto.",
+  "irtA": 1.1280000000000001,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

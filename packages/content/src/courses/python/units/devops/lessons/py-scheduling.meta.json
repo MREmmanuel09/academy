@@ -1,0 +1,15 @@
+{
+  "id": "py-scheduling",
+  "title": "Scheduling: cron, schedule, APScheduler",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 18,
+  "xp": 75,
+  "summary": "Automatizar tareas periodicas: cron de Linux, schedule lib, APScheduler para jobs complejos.",
+  "keyTakeaways": [
+    "Cron de Linux: simple, robusto, pero limitado (sin logs, sin retry).",
+    "schedule lib: perfecto para scripts Python simples sin dependencias externas.",
+    "APScheduler: persistente, con SQLAlchemy, coalescing para jobs lentos.",
+    "Para sistemas distribuidos: Celery, RQ, Airflow, Temporal."
+  ]
+}

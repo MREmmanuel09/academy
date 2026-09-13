@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-intro-10",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Cual NO es una de las piezas tipicas de un stack Big Data moderno?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Apache Kafka"
+    },
+    {
+      "id": "1",
+      "text": "Apache Spark"
+    },
+    {
+      "id": "2",
+      "text": "Apache Airflow"
+    },
+    {
+      "id": "3",
+      "text": "Microsoft Word"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "El stack tipico incluye Kafka (ingestion), Spark (processing), Airflow (orchestration) y storage como S3/HDFS. Word no es una pieza de infraestructura.",
+  "irtA": 0.9400000000000001,
+  "irtB": 0.7,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

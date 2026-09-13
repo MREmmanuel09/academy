@@ -1,0 +1,14 @@
+{
+  "id": "q-da-np-3",
+  "quizId": "exam-data-analyst",
+  "type": "truefalse",
+  "prompt": "a = np.array([1, 2, 3]); a.dtype es \"int64\" en una plataforma de 64 bits.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Por defecto NumPy infiere int64 en plataformas de 64 bits. Puedes forzarlo con dtype=np.int32 o np.int8 si quieres ahorrar memoria.",
+  "irtA": 0.8160000000000001,
+  "irtB": 0.36,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

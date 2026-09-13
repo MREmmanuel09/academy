@@ -1,0 +1,14 @@
+{
+  "id": "q-bd-kafka-3",
+  "quizId": "exam-bigdata",
+  "type": "truefalse",
+  "prompt": "Kafka garantiza orden global entre TODAS las particiones de un topic.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Kafka solo garantiza orden dentro de una particion. Si necesitas orden global, usa una sola particion (limita throughput) o un key bien elegido.",
+  "irtA": 0.996,
+  "irtB": -0.8,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

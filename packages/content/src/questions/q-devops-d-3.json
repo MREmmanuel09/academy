@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-3",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Cómo mapeas el puerto 8080 del host al 80 del container?",
+  "options": [
+    {
+      "id": "0",
+      "text": "-p 80:8080"
+    },
+    {
+      "id": "1",
+      "text": "-p 8080:80"
+    },
+    {
+      "id": "2",
+      "text": "--port 8080:80"
+    },
+    {
+      "id": "3",
+      "text": "-port 8080,80"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Formato: -p host:container. -p 8080:80 significa host:8080 -> container:80.",
+  "irtA": 1.016,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

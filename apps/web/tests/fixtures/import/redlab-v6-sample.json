@@ -1,0 +1,92 @@
+{
+  "version": 6,
+  "exportedAt": "2026-08-15T10:30:00.000Z",
+  "appVersion": "5.4.0",
+  "progress": {
+    "completedLessons": [
+      "l-1",
+      "l-2",
+      "l-3",
+      "dk-1",
+      "dk-2",
+      "dk-3",
+      "git-1",
+      "git-2",
+      "iac-1",
+      "k8s-1"
+    ],
+    "completedLabs": ["lab-docker", "lab-cicd"],
+    "quizScores": {
+      "quiz-devops-1": { "score": 8, "total": 10, "xp": 10 },
+      "quiz-devops-2": { "score": 9, "total": 10, "xp": 25 },
+      "quiz-bash": { "score": 5, "total": 8, "xp": 10 }
+    },
+    "xp": 1240,
+    "streak": 7,
+    "lastActive": "2026-08-15"
+  },
+  "examAttempts": [
+    {
+      "examId": "exam-devops-mid",
+      "score": 7,
+      "total": 10,
+      "passed": false,
+      "completedAt": "2026-08-10T15:00:00.000Z"
+    },
+    {
+      "examId": "exam-linux-basics",
+      "score": 9,
+      "total": 10,
+      "passed": true,
+      "completedAt": "2026-08-12T18:00:00.000Z"
+    }
+  ],
+  "passedExams": ["exam-linux-basics"],
+  "earnedBadges": ["badge-linux-fundamentals"],
+  "earnedAchievements": [
+    "first-step",
+    "ten-lessons",
+    "streak-3",
+    "streak-7",
+    "first-cert",
+    "devops-master",
+    "night-owl"
+  ],
+  "interactiveExercises": {
+    "l-1": { "completed": true, "bestScore": 100 },
+    "l-2": { "completed": true, "bestScore": 85 },
+    "l-3": { "completed": true, "bestScore": 70 }
+  },
+  "diagnosticResult": {
+    "level": "mid",
+    "pct": 72,
+    "takenAt": "2026-07-01T12:00:00.000Z"
+  },
+  "srsReviews": {
+    "l-1": {
+      "nextReview": 1755254400000,
+      "interval": 3,
+      "easeFactor": 2.5,
+      "repetitions": 3
+    },
+    "l-2": {
+      "nextReview": 1755081600000,
+      "interval": 6,
+      "easeFactor": 2.6,
+      "repetitions": 4
+    },
+    "l-3": {
+      "nextReview": 1754815200000,
+      "interval": 1,
+      "easeFactor": 1.8,
+      "repetitions": 1
+    },
+    "dk-1": {
+      "nextReview": 1754556000000,
+      "interval": 12,
+      "easeFactor": 2.8,
+      "repetitions": 6
+    }
+  },
+  "bookmarks": ["l-1", "k8s-1", "iac-1"]
+}

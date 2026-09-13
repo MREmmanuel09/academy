@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-5",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué instrucción del Dockerfile define la imagen base?",
+  "options": [
+    {
+      "id": "0",
+      "text": "BASE"
+    },
+    {
+      "id": "1",
+      "text": "FROM"
+    },
+    {
+      "id": "2",
+      "text": "IMAGE"
+    },
+    {
+      "id": "3",
+      "text": "PARENT"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "FROM <imagen> define la imagen base. Ej: FROM node:20-alpine, FROM ubuntu:22.04.",
+  "irtA": 1.024,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-va-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es un dynamic secret en Vault?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un secret que cambia su nombre"
+    },
+    {
+      "id": "1",
+      "text": "Credenciales generadas on-demand con TTL"
+    },
+    {
+      "id": "2",
+      "text": "Un secret encriptado"
+    },
+    {
+      "id": "3",
+      "text": "Un secret en variable de entorno"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Dynamic secret: credenciales generadas en tiempo real, con TTL corto. Ej: password de Postgres que expira en 1h.",
+  "irtA": 1.024,
+  "irtB": -1.28,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

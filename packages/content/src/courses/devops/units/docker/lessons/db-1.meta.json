@@ -1,0 +1,15 @@
+{
+  "id": "db-1",
+  "title": "Databases para DevOps: SQL, NoSQL, time-series",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 22,
+  "xp": 100,
+  "summary": "PostgreSQL, MySQL, MongoDB, Redis, InfluxDB, TimescaleDB. Cuándo usar cada uno.",
+  "keyTakeaways": [
+    "CAP theorem: en sistemas distribuidos, solo puedes garantizar 2 de 3 (C, A, P). En la practica siempre es CP vs AP.",
+    "PostgreSQL es la base SQL recomendada para SRE: ACID, MVCC, extensible (PostGIS, TimescaleDB, pgvector).",
+    "PgBouncer multiplexa conexiones, evitando el problema de \"1000 conexiones = 10GB RAM\" en Postgres.",
+    "Redis es un cache en memoria, NO una base primaria. Para sesiones, rate limiting, leaderboards es excelente."
+  ]
+}

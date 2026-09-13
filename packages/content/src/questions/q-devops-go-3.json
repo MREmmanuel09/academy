@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-3",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Qué significa \"drift\" en GitOps?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cambio lento"
+    },
+    {
+      "id": "1",
+      "text": "Diferencia entre el estado en Git y el estado real del cluster"
+    },
+    {
+      "id": "2",
+      "text": "Baja performance"
+    },
+    {
+      "id": "3",
+      "text": "Merge conflict"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Drift = el cluster real diverge de lo declarado en Git. ArgoCD lo detecta y corrige (selfHeal).",
+  "irtA": 0.984,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

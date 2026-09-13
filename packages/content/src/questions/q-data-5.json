@@ -1,0 +1,14 @@
+{
+  "id": "q-data-5",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "El ciclo de vida del dato incluye: Collect, Store, Process, Analyze, Visualize.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. Esas son las 5 fases del ciclo de vida del dato.",
+  "irtA": 0.872,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-op-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué framework se usa para crear operators?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Django"
+    },
+    {
+      "id": "1",
+      "text": "Operator SDK / Kubebuilder (Go)"
+    },
+    {
+      "id": "2",
+      "text": "Flask"
+    },
+    {
+      "id": "3",
+      "text": "React"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Operator SDK y Kubebuilder son los frameworks estándar para crear operators en Go. También KOPF en Python.",
+  "irtA": 0.9400000000000001,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

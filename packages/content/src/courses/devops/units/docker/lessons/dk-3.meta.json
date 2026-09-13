@@ -1,0 +1,15 @@
+{
+  "id": "dk-3",
+  "title": "Docker Compose: aplicaciones multi-container",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 12,
+  "xp": 65,
+  "summary": "docker-compose.yml. Orquestar varios servicios.",
+  "keyTakeaways": [
+    "docker-compose.yml define servicios, networks y volumes en un solo archivo.",
+    "depends_on controla orden de arranque, pero NO espera a que esté \"ready\".",
+    "Profiles permiten subsets de servicios. Override files para diferencias dev/prod.",
+    "docker compose up -d arranca, docker compose down -v limpia todo."
+  ]
+}

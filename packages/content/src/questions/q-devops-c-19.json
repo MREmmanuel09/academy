@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-19",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué clase de S3 es la más barata pero con costo de retrieval?",
+  "options": [
+    {
+      "id": "0",
+      "text": "S3 Standard"
+    },
+    {
+      "id": "1",
+      "text": "S3 Glacier Deep Archive"
+    },
+    {
+      "id": "2",
+      "text": "S3 Intelligent-Tiering"
+    },
+    {
+      "id": "3",
+      "text": "S3 Standard-IA"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Glacier Deep Archive: ~$0.00099/GB/mes. Pero pagar por retrieval (12-48 horas). Standard = acceso frecuente.",
+  "irtA": 1.1440000000000001,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

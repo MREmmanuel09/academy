@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-g-12",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "GitHub Flow es una estrategia de branching con main + branches de vida corta + PR.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "GitHub Flow: main siempre deployable, branches cortas, PR con review, merge a main, deploy automático.",
+  "irtA": 0.972,
+  "irtB": 0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-1",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué significa SRE?",
+  "options": [
+    {
+      "id": "0",
+      "text": "System Recovery Engineering"
+    },
+    {
+      "id": "1",
+      "text": "Site Reliability Engineering"
+    },
+    {
+      "id": "2",
+      "text": "Software Release Engineering"
+    },
+    {
+      "id": "3",
+      "text": "Server Routing Engine"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "SRE (Site Reliability Engineering) es la disciplina creada por Google que aplica ingeniería a operaciones.",
+  "irtA": 1.068,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

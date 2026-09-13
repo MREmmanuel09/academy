@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-5",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué header HTTP obliga al navegador a usar HTTPS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "X-Frame-Options"
+    },
+    {
+      "id": "1",
+      "text": "HSTS"
+    },
+    {
+      "id": "2",
+      "text": "CSP"
+    },
+    {
+      "id": "3",
+      "text": "CORS"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "HSTS (HTTP Strict Transport Security) indica al navegador que siempre use HTTPS para ese dominio.",
+  "irtA": 1.052,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

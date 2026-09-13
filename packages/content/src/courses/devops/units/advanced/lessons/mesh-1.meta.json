@@ -1,0 +1,15 @@
+{
+  "id": "mesh-1",
+  "title": "Service Mesh: Istio y Linkerd",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 16,
+  "xp": 90,
+  "summary": "Sidecars, mTLS, traffic management, observabilidad para microservicios.",
+  "keyTakeaways": [
+    "Service mesh abstrae service-to-service: sidecars interceptan tráfico.",
+    "Istio = full-featured, Linkerd = ligero. Ambos usan sidecars.",
+    "VirtualService + DestinationRule permiten canary, A/B, traffic shaping.",
+    "mTLS automático entre servicios del mesh."
+  ]
+}

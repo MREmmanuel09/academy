@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-1",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Quién creó el kernel de Linux?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Richard Stallman"
+    },
+    {
+      "id": "1",
+      "text": "Linus Torvalds"
+    },
+    {
+      "id": "2",
+      "text": "Bill Gates"
+    },
+    {
+      "id": "3",
+      "text": "Steve Wozniak"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Linus Torvalds creó Linux en 1991, inspirado en Unix, mientras estudiaba en Helsinki.",
+  "irtA": 0.9600000000000001,
+  "irtB": 0.32,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

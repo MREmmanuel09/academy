@@ -1,0 +1,31 @@
+{
+  "id": "q-h-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué herramienta escanea puertos abiertos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "ping"
+    },
+    {
+      "id": "1",
+      "text": "nmap"
+    },
+    {
+      "id": "2",
+      "text": "tcpdump"
+    },
+    {
+      "id": "3",
+      "text": "arp"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "nmap es la herramienta estándar para escaneo de puertos y descubrimiento de hosts/servicios.",
+  "irtA": 1.04,
+  "irtB": -1.1,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

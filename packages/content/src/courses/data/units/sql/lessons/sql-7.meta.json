@@ -1,0 +1,15 @@
+{
+  "id": "sql-7",
+  "title": "PostgreSQL deep dive",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 17,
+  "xp": 90,
+  "summary": "Lo que hace a PostgreSQL especial: tipos, JSONB, FTS, CTEs recursivos, extensions.",
+  "keyTakeaways": [
+    "PostgreSQL es la base open source más avanzada: JSONB, arrays, FTS, PostGIS, CTEs recursivos.",
+    "JSONB es JSON binario indexable, ideal para datos semi-estructurados.",
+    "Full-Text Search nativo cubre el 80% de casos sin necesitar Elasticsearch.",
+    "Extensions como PostGIS y pg_trgm amplían PostgreSQL más allá del SQL tradicional."
+  ]
+}

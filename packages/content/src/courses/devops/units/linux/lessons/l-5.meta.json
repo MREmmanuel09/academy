@@ -1,0 +1,15 @@
+{
+  "id": "l-5",
+  "title": "Procesos y servicios",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 60,
+  "summary": "Ver, matar, monitorear procesos. Systemd, journalctl.",
+  "keyTakeaways": [
+    "Cada proceso tiene un PID. ps aux lista todos, top/htop monitorean en vivo.",
+    "Señales: SIGTERM (15) educado, SIGKILL (9) forzado. Intenta primero TERM.",
+    "systemd gestiona servicios: systemctl start/stop/enable.",
+    "journalctl lee los logs. -f para follow, -u para servicio específico."
+  ]
+}

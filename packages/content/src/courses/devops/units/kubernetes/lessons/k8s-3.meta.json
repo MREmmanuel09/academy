@@ -1,0 +1,15 @@
+{
+  "id": "k8s-3",
+  "title": "Helm y operadores",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 14,
+  "xp": 70,
+  "summary": "Package manager de K8s. Plantillas, releases, charts.",
+  "keyTakeaways": [
+    "Helm es el package manager de K8s. Charts = templates parametrizables.",
+    "values.yaml contiene los defaults. helm install -f values-prod.yaml los override.",
+    "helm install/upgrade/rollback/list/status para gestionar releases.",
+    "Operators automatizan tareas específicas de cada app (DBs, monitoring)."
+  ]
+}

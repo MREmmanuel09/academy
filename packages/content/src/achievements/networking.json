@@ -1,0 +1,366 @@
+[
+  {
+    "id": "first-step",
+    "slug": "first-step",
+    "title": "Primer paso",
+    "description": "Completa tu primera leccion",
+    "icon": "ST",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 50,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 1
+    }
+  },
+  {
+    "id": "ten-lessons",
+    "slug": "ten-lessons",
+    "title": "En racha",
+    "description": "Completa 10 lecciones",
+    "icon": "10",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 100,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 10
+    }
+  },
+  {
+    "id": "fifty-lessons",
+    "slug": "fifty-lessons",
+    "title": "Dedicado",
+    "description": "Completa 50 lecciones",
+    "icon": "50",
+    "category": "progress",
+    "rarity": "rare",
+    "xp": 500,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 50
+    }
+  },
+  {
+    "id": "all-lessons",
+    "slug": "all-lessons",
+    "title": "Maestro del conocimiento",
+    "description": "Completa todas las lecciones",
+    "icon": "AL",
+    "category": "mastery",
+    "rarity": "legendary",
+    "xp": 5000,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "streak-3",
+    "slug": "streak-3",
+    "title": "Constante",
+    "description": "3 dias seguidos de actividad",
+    "icon": "3D",
+    "category": "streak",
+    "rarity": "common",
+    "xp": 30,
+    "rule": {
+      "kind": "streak",
+      "days": 3
+    }
+  },
+  {
+    "id": "streak-7",
+    "slug": "streak-7",
+    "title": "Disciplinado",
+    "description": "7 dias seguidos de actividad",
+    "icon": "7D",
+    "category": "streak",
+    "rarity": "rare",
+    "xp": 200,
+    "rule": {
+      "kind": "streak",
+      "days": 7
+    }
+  },
+  {
+    "id": "streak-30",
+    "slug": "streak-30",
+    "title": "Imparable",
+    "description": "30 dias seguidos de actividad",
+    "icon": "30",
+    "category": "streak",
+    "rarity": "epic",
+    "xp": 1000,
+    "rule": {
+      "kind": "streak",
+      "days": 30
+    }
+  },
+  {
+    "id": "first-cert",
+    "slug": "first-cert",
+    "title": "Primera certificacion",
+    "description": "Aprueba tu primer examen",
+    "icon": "C1",
+    "category": "mastery",
+    "rarity": "common",
+    "xp": 200,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "five-certs",
+    "slug": "five-certs",
+    "title": "Profesional certificado",
+    "description": "Aprueba 5 examenes",
+    "icon": "C5",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 1000,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "all-certs",
+    "slug": "all-certs",
+    "title": "Full stack certificado",
+    "description": "Aprueba todos los examenes",
+    "icon": "C*",
+    "category": "mastery",
+    "rarity": "legendary",
+    "xp": 5000,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "first-quiz",
+    "slug": "first-quiz",
+    "title": "Curioso",
+    "description": "Completa tu primer quiz",
+    "icon": "Q1",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 20,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "all-domains",
+    "slug": "all-domains",
+    "title": "Todoterreno",
+    "description": "Completa al menos una leccion en cada modulo",
+    "icon": "TT",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 2000,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "srs-engaged",
+    "slug": "srs-engaged",
+    "title": "Memoria de hierro",
+    "description": "Completa 10 repasos SRS",
+    "icon": "SR",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 300,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "incident-handler",
+    "slug": "incident-handler",
+    "title": "Bombero",
+    "description": "Completa un escenario de incidente con decision optima",
+    "icon": "IR",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 500,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "night-owl",
+    "slug": "night-owl",
+    "title": "Buho nocturno",
+    "description": "Estudia despues de medianoche",
+    "icon": "OW",
+    "category": "secret",
+    "rarity": "rare",
+    "xp": 100,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "early-bird",
+    "slug": "early-bird",
+    "title": "Madrugador",
+    "description": "Estudia antes de las 6am",
+    "icon": "EB",
+    "category": "secret",
+    "rarity": "rare",
+    "xp": 100,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "daily-streak-7",
+    "slug": "daily-streak-7",
+    "title": "Semana perfecta",
+    "description": "Completa el Daily Challenge 7 dias seguidos",
+    "icon": "D7",
+    "category": "streak",
+    "rarity": "rare",
+    "xp": 200,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "devops-master",
+    "slug": "devops-master",
+    "title": "DevOps Master",
+    "description": "Completa todas las lecciones del modulo DevOps",
+    "icon": "DO",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 500,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "full-stack-engineer",
+    "slug": "full-stack-engineer",
+    "title": "Full Stack Engineer",
+    "description": "Completa al menos 1 leccion de cada modulo",
+    "icon": "FS",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 400,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "xp-1000",
+    "slug": "xp-1000",
+    "title": "Primer millar",
+    "description": "Acumula 1000 XP",
+    "icon": "1K",
+    "category": "progress",
+    "rarity": "rare",
+    "xp": 100,
+    "rule": {
+      "kind": "xp_threshold",
+      "xp": 1000
+    }
+  },
+  {
+    "id": "xp-5000",
+    "slug": "xp-5000",
+    "title": "Cinco mil",
+    "description": "Acumula 5000 XP",
+    "icon": "5K",
+    "category": "progress",
+    "rarity": "epic",
+    "xp": 500,
+    "rule": {
+      "kind": "xp_threshold",
+      "xp": 5000
+    }
+  },
+  {
+    "id": "streak-100",
+    "slug": "streak-100",
+    "title": "Centenario",
+    "description": "Mantén una racha de 100 dias",
+    "icon": "100",
+    "category": "streak",
+    "rarity": "legendary",
+    "xp": 2500,
+    "rule": {
+      "kind": "streak",
+      "days": 100
+    }
+  },
+  {
+    "id": "all-exams",
+    "slug": "all-exams",
+    "title": "Certificado completo",
+    "description": "Aprueba los 11 examenes",
+    "icon": "EX",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 750,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "bookworm",
+    "slug": "bookworm",
+    "title": "Mariposa social",
+    "description": "Marca 20 lecciones como favoritas",
+    "icon": "BM",
+    "category": "social",
+    "rarity": "common",
+    "xp": 75,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "completionist",
+    "slug": "completionist",
+    "title": "Completista",
+    "description": "Completa el 100% de las lecciones",
+    "icon": "100",
+    "category": "mastery",
+    "rarity": "legendary",
+    "xp": 2000,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "quiz-ace",
+    "slug": "quiz-ace",
+    "title": "As de los quizzes",
+    "description": "Responde 50 quizzes con score perfecto",
+    "icon": "QA",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 400,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "id": "18-job-interview-creative",
+  "title": "Creative job interview",
+  "titleEs": "Entrevista de trabajo creativa",
+  "level": "B2",
+  "scenario": "You're interviewing for a marketing role at a creative agency. The interviewer is friendly but will challenge your answers.",
+  "aiCharacter": "Hiring Manager (creative agency)",
+  "userRole": "Candidate for a marketing role",
+  "greeting": "Hi! Thanks for coming in. Tell me a bit about yourself.",
+  "objectives": [
+    "Give a strong, concise self-introduction (60 seconds)",
+    "Discuss your experience and key achievements",
+    "Answer 'why this company' and 'why this role'",
+    "Ask intelligent questions at the end"
+  ],
+  "vocabulary": [
+    {
+      "word": "background",
+      "translation": "formación, experiencia",
+      "example": "My background is in digital marketing."
+    },
+    {
+      "word": "to be passionate about",
+      "translation": "apasionarse por",
+      "example": "I'm passionate about brand storytelling."
+    },
+    {
+      "word": "strength",
+      "translation": "fortaleza",
+      "example": "My biggest strength is creativity."
+    },
+    {
+      "word": "weakness",
+      "translation": "debilidad",
+      "example": "My weakness is public speaking."
+    },
+    {
+      "word": "to be a good fit",
+      "translation": "ser compatible",
+      "example": "I think I'd be a good fit for this role."
+    },
+    {
+      "word": "to stand out",
+      "translation": "destacar",
+      "example": "What makes me stand out is my experience with..."
+    },
+    {
+      "word": "to be up for a challenge",
+      "translation": "estar listo para un desafío",
+      "example": "I'm up for new challenges."
+    }
+  ],
+  "falseFriends": [
+    { "word": "sensible", "trap": "sensible (emocional)", "real": "razonable" },
+    { "word": "actual", "trap": "actualmente", "real": "real" }
+  ],
+  "successCriteria": [
+    "User gives a clear self-introduction",
+    "User mentions specific achievements with numbers",
+    "User explains why this company/role",
+    "User asks at least 2 questions at the end"
+  ],
+  "fallbackHints": [
+    "Start with: 'I've been working in marketing for X years, and I'm passionate about [topic].'",
+    "Achievement: 'In my last role, I increased engagement by 30%.'",
+    "End with: 'What does success look like in this role in the first 6 months?'"
+  ],
+  "aiSystemPrompt": "You are the hiring manager at a creative agency. You're interviewing for a marketing role. Be friendly but professional. Ask behavioral questions (\"tell me about a time when...\"), situational questions, and questions about the company. Be a bit challenging — push for specifics, ask for examples. End by inviting questions from the candidate. Correct major mistakes gently.",
+  "firstTurn": "Hi! Thanks for coming in today. So, tell me a bit about yourself and what brings you here.",
+  "exchangeCount": 12
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-g-3",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "`git pull` es equivalente a `git fetch` + `git merge`.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "git pull descarga cambios (fetch) y los mergea automáticamente. Con --rebase usa rebase en lugar de merge.",
+  "irtA": 0.9480000000000001,
+  "irtB": 1.32,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

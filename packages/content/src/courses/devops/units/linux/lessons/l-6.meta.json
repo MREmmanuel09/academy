@@ -1,0 +1,15 @@
+{
+  "id": "l-6",
+  "title": "Networking en Linux",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 15,
+  "xp": 70,
+  "summary": "ip, ifconfig, ss, netstat, DNS, firewall iptables/nftables.",
+  "keyTakeaways": [
+    "`ip addr` y `ip route` son los comandos modernos (iproute2). ifconfig está deprecado.",
+    "ss -tulnp muestra puertos en escucha y sus procesos.",
+    "/etc/hosts tiene prioridad sobre DNS para mapeos locales.",
+    "Firewalls: iptables (legacy), nftables (moderno), UFW (Ubuntu fácil), firewalld (RHEL)."
+  ]
+}

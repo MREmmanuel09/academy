@@ -1,0 +1,31 @@
+{
+  "id": "q-r-6",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué hace NAT/PAT?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cifra tráfico"
+    },
+    {
+      "id": "1",
+      "text": "Traduce IPs privadas a una pública usando puertos"
+    },
+    {
+      "id": "2",
+      "text": "Asigna IPs dinámicamente"
+    },
+    {
+      "id": "3",
+      "text": "Resuelve nombres a IPs"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "PAT (Port Address Translation) traduce múltiples IPs privadas a una pública multiplexando por número de puerto.",
+  "irtA": 1.084,
+  "irtB": 0.9,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

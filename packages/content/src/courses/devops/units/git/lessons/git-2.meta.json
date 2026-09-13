@@ -1,0 +1,15 @@
+{
+  "id": "git-2",
+  "title": "Branches, merge y rebase",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 75,
+  "summary": "Trabajar en paralelo, integrar cambios, resolver conflictos.",
+  "keyTakeaways": [
+    "Branches permiten trabajo paralelo. -b crea y cambia, -d borra (merged).",
+    "Merge integra cambios preservando historia. Rebase lineariza reescribiendo.",
+    "Conflictos se resuelven editando marcadores <<<, ===, >>> en el archivo.",
+    "Regla de oro: rebase solo en ramas locales, nunca en commits compartidos."
+  ]
+}

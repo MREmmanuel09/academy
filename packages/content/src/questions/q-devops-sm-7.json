@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-7",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Qué problema resuelve un service mesh?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Storage"
+    },
+    {
+      "id": "1",
+      "text": "Concerns transversales (mTLS, retries, observability) sin tocar la app"
+    },
+    {
+      "id": "2",
+      "text": "Networking físico"
+    },
+    {
+      "id": "3",
+      "text": "Solo logging"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Service mesh abstrae concerns transversales: mTLS, retries, circuit breakers, observability, traffic shaping.",
+  "irtA": 0.88,
+  "irtB": -1.94,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

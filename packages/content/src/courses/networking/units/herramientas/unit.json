@@ -1,0 +1,6 @@
+{
+  "slug": "herramientas",
+  "title": "Herramientas",
+  "order": 8,
+  "summary": "Ping, traceroute, nmap, netcat, iperf3, y herramientas de diagnostico."
+}

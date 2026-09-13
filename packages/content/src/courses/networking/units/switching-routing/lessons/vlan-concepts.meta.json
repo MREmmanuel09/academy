@@ -1,0 +1,15 @@
+{
+  "id": "vlan-concepts",
+  "title": "VLANs: segmentacion logica de redes",
+  "module": "switching-routing",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 65,
+  "summary": "Como separar dominios de broadcast sin switches fisicos, trunking, y por que es fundamental en redes empresariales.",
+  "keyTakeaways": [
+    "Una VLAN es un dominio de broadcast logico. Separa trafico sin switches fisicos adicionales.",
+    "802.1Q es el estandar de trunking. Agrega un tag de 4 bytes con el VLAN ID (max 4094).",
+    "Access ports pertenecen a una VLAN. Trunk ports transportan multiples VLANs.",
+    "Inter-VLAN routing necesita un router (router-on-a-stick) o un Layer 3 switch."
+  ]
+}

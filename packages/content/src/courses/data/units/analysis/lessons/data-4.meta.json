@@ -1,0 +1,15 @@
+{
+  "id": "data-4",
+  "title": "Formatos de datos: CSV, JSON, Parquet, ORC, Avro, XML",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 65,
+  "summary": "Comparación de formatos. Cuándo usar cada uno. Row-based vs columnar.",
+  "keyTakeaways": [
+    "Row-based (CSV, JSON) es bueno para escribir fila por fila; columnar (Parquet, ORC) para análisis.",
+    "Parquet es el rey de data lakes: comprimido, columnar, predicate pushdown.",
+    "Avro es el estándar en Kafka por su schema embebido y evolución.",
+    "JSON anida, CSV es plano, XML es verboso. Usa cada uno en su contexto."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-24",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Cómo pasan variables de entorno a un container?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Solo con --env-file"
+    },
+    {
+      "id": "1",
+      "text": "Solo con -e"
+    },
+    {
+      "id": "2",
+      "text": "Con -e o --env-file"
+    },
+    {
+      "id": "3",
+      "text": "No se puede"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "docker run -e VAR=value o --env-file .env. También puedes usar ENV en Dockerfile, pero solo valores de build.",
+  "irtA": 0.812,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

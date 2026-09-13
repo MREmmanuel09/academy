@@ -1,0 +1,31 @@
+{
+  "id": "q-w-2",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué canales 2.4 GHz no se solapan?",
+  "options": [
+    {
+      "id": "0",
+      "text": "1, 2, 3"
+    },
+    {
+      "id": "1",
+      "text": "1, 5, 9"
+    },
+    {
+      "id": "2",
+      "text": "1, 6, 11"
+    },
+    {
+      "id": "3",
+      "text": "2, 7, 12"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Canales 1, 6 y 11 son los tres canales 2.4 GHz que no se solapan (separados 25 MHz, ancho 22 MHz).",
+  "irtA": 1.088,
+  "irtB": -0.08,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

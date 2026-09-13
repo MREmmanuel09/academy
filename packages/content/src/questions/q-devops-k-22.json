@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-22",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué hace `kubectl get events --sort-by=.lastTimestamp`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Lista eventos ordenados por tiempo"
+    },
+    {
+      "id": "1",
+      "text": "Lista deployments"
+    },
+    {
+      "id": "2",
+      "text": "Lista pods"
+    },
+    {
+      "id": "3",
+      "text": "Lista logs"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "get events muestra eventos del cluster (ImagePull, Failed, Scheduled, etc). Útil para troubleshooting.",
+  "irtA": 0.9520000000000001,
+  "irtB": -1.24,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

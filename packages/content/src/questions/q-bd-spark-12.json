@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-12",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que es un watermark en Structured Streaming?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una marca en el video de salida"
+    },
+    {
+      "id": "1",
+      "text": "Configuracion que indica cuanto tiempo esperar por datos tarde antes de cerrar ventanas"
+    },
+    {
+      "id": "2",
+      "text": "Un tipo de log de Kafka"
+    },
+    {
+      "id": "3",
+      "text": "Una version de Spark"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Watermark = \"espera hasta X tiempo por eventos tarde, despues cierra la ventana\". Con withWatermark(\"event_time\", \"10 minutes\") esperas 10 min.",
+  "irtA": 1.056,
+  "irtB": 1.54,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

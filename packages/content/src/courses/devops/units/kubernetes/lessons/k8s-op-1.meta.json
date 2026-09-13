@@ -1,0 +1,15 @@
+{
+  "id": "k8s-op-1",
+  "title": "Kubernetes Operators y CRDs",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 13,
+  "xp": 70,
+  "summary": "Extender K8s con CustomResourceDefinitions, operadores que automatizan apps.",
+  "keyTakeaways": [
+    "Operators automatizan apps con domain knowledge (DBs, queues, etc).",
+    "CRD define el recurso custom, Controller lo reconcilia.",
+    "Operadores populares: Postgres, Redis, Kafka (Strimzi), cert-manager.",
+    "Operator SDK y Kubebuilder para crear tus propios operators en Go."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-kafka-1",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es Apache Kafka?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una base de datos SQL"
+    },
+    {
+      "id": "1",
+      "text": "Un log distribuido, durable y ordenado usado como bus de eventos"
+    },
+    {
+      "id": "2",
+      "text": "Un lenguaje de programacion"
+    },
+    {
+      "id": "3",
+      "text": "Un sistema operativo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Kafka es un log distribuido donde escribes y lees streams de eventos. No es una DB tradicional, es un bus de mensajes persistente.",
+  "irtA": 0.988,
+  "irtB": -0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

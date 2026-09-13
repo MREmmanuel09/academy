@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-26",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué es un Docker registry privado?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un container sin internet"
+    },
+    {
+      "id": "1",
+      "text": "Un repositorio de imágenes con control de acceso"
+    },
+    {
+      "id": "2",
+      "text": "Un tipo de red"
+    },
+    {
+      "id": "3",
+      "text": "Un volumen"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Registry privado: almacenamiento de imágenes con auth, control de acceso, escaneo de vulnerabilidades. Ej: Harbor, ECR, GCR.",
+  "irtA": 0.8200000000000001,
+  "irtB": 0.44,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

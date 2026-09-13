@@ -1,0 +1,14 @@
+{
+  "id": "q-a-9",
+  "quizId": "exam-security",
+  "type": "truefalse",
+  "prompt": "HTTP/3 usa QUIC sobre UDP.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. HTTP/3 usa QUIC, que corre sobre UDP, para reducir la latencia de handshake y evitar head-of-line blocking.",
+  "irtA": 0.9480000000000001,
+  "irtB": -1.3,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

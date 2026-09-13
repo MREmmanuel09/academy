@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-d-9",
+  "quizId": "exam-docker",
+  "type": "truefalse",
+  "prompt": "Un multi-stage build reduce el tamaño de la imagen final.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Multi-stage copia solo los artefactos necesarios de un stage de build a uno de runtime, descartando herramientas de build.",
+  "irtA": 1.04,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

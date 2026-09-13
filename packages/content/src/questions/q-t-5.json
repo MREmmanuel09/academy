@@ -1,0 +1,31 @@
+{
+  "id": "q-t-5",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué puerto usa HTTPS por defecto?",
+  "options": [
+    {
+      "id": "0",
+      "text": "80"
+    },
+    {
+      "id": "1",
+      "text": "443"
+    },
+    {
+      "id": "2",
+      "text": "21"
+    },
+    {
+      "id": "3",
+      "text": "22"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "HTTPS usa el puerto 443 con TLS. HTTP en claro usa el 80.",
+  "irtA": 1.1680000000000001,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

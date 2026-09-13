@@ -1,0 +1,15 @@
+{
+  "id": "vault-1",
+  "title": "Secret management: Vault, SOPS, sealed-secrets",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 14,
+  "xp": 75,
+  "summary": "HashiCorp Vault, Bitnami Sealed Secrets, secrets dinámicos, rotación.",
+  "keyTakeaways": [
+    "env vars o archivos NO son suficiente: aparecen en logs, no rotan, no hay audit.",
+    "Vault es el estándar: dynamic secrets, rotación automática, audit, policies.",
+    "Sealed Secrets (K8s), SOPS (archivos), External Secrets Operator para integrar.",
+    "Dynamic database credentials son el gold standard: TTL corto, auto-rotación."
+  ]
+}

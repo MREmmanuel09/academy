@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-14",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué servicio AWS es para DNS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "CloudFront"
+    },
+    {
+      "id": "1",
+      "text": "Route 53"
+    },
+    {
+      "id": "2",
+      "text": "API Gateway"
+    },
+    {
+      "id": "3",
+      "text": "Direct Connect"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Route 53 = DNS service de AWS. También soporta health checks y traffic routing.",
+  "irtA": 1.124,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,11 @@
+{
+  "id": "proj-campus-network",
+  "deliverables": [
+    "Plano de direccionamiento VLSM con red, broadcast y rangos por VLAN",
+    "Tabla de VLANs (ID, nombre, subred, puertos access/trunk)",
+    "Configuracion de switches (VLANs, trunks, STP, PortFast+BPDU Guard)",
+    "Configuracion OSPF single-area entre edificios con costos",
+    "Plan DHCP/DNS y documentacion de troubleshooting"
+  ],
+  "tech": ["VLAN 802.1Q", "OSPF", "DHCP", "DNS", "STP/RSTP", "Packet Tracer o EVE-NG"]
+}

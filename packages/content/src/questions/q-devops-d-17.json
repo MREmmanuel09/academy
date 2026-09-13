@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-17",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Por qué NO usar `:latest` en producción?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Es más lento"
+    },
+    {
+      "id": "1",
+      "text": "No es reproducible ni inmutable"
+    },
+    {
+      "id": "2",
+      "text": "Ocupa más espacio"
+    },
+    {
+      "id": "3",
+      "text": "No funciona"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": ":latest es ambiguo y mutable (mismo tag puede apuntar a imágenes distintas). Usa SHA digest o semver.",
+  "irtA": 1.1,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

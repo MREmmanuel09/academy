@@ -1,0 +1,51 @@
+{
+  "id": "lab-bigdata-spark-basics",
+  "title": "Introduccion a Spark: RDDs y DataFrames",
+  "steps": [
+    {
+      "instruction": "Instala PySpark y crea una SparkSession. Importa SparkSession de pyspark.sql.",
+      "expectedCommand": "pip install pyspark",
+      "hint": "PySpark incluye Spark core y SQL. No necesitas instalar Java separadamente si usas la distribucion de Python."
+    },
+    {
+      "instruction": "Crea una lista de tuplas con datos de empleados (id, nombre, departamento, salario). Convierte a RDD usando sc.parallelize().",
+      "expectedCommand": "data = [(1, 'Ana', 'Engineering', 75000), (2, 'Bob', 'Marketing', 65000), (3, 'Carla', 'Engineering', 80000)]",
+      "hint": "parallelize() convierte una coleccion local en un RDD distribuido."
+    },
+    {
+      "instruction": "Filtra el RDD para obtener solo empleados de Engineering con salario > 70000 usando filter().",
+      "expectedCommand": "engineers = data.filter(lambda x: x[2] == 'Engineering' and x[3] > 70000)",
+      "hint": "filter() toma una funcion que retorna True/False para cada elemento."
+    },
+    {
+      "instruction": "Convierte el RDD a DataFrame usando spark.createDataFrame() y muestra el schema con printSchema().",
+      "expectedCommand": "df = spark.createDataFrame(data, ['id', 'name', 'dept', 'salary'])\ndf.printSchema()",
+      "hint": "Puedes pasar una lista de nombres de columna como segundo argumento."
+    },
+    {
+      "instruction": "Usa SQL para consultar el DataFrame: crea una vista temporal con createOrReplaceTempView() y ejecuta una query GROUP BY departamento con promedio de salario.",
+      "expectedCommand": "df.createOrReplaceTempView('employees')\nresult = spark.sql('SELECT dept, AVG(salary) as avg_salary FROM employees GROUP BY dept')\nresult.show()",
+      "hint": "createOrReplaceTempView() permite usar SQL sobre DataFrames."
+    },
+    {
+      "instruction": "Guarda el resultado en formato Parquet con df.write.mode('overwrite').parquet(). Verifica que se creo el directorio.",
+      "expectedCommand": "df.write.mode('overwrite').parquet('output/employees.parquet')",
+      "hint": "Parquet es un formato columnar optimizado para Big Data. mode('overwrite') reemplaza archivos existentes."
+    },
+    {
+      "instruction": "Lee el archivo Parquet de vuelta con spark.read.parquet() y muestra las primeras 5 filas.",
+      "expectedCommand": "spark.read.parquet('output/employees.parquet').show(5)",
+      "hint": "Parquet preserva el schema, no necesitas definir columnas al leer."
+    },
+    {
+      "instruction": "Cierra la sesion con spark.stop().",
+      "expectedCommand": "spark.stop()",
+      "hint": "Siempre libera los recursos al terminar."
+    }
+  ],
+  "topology": {
+    "devices": [{ "type": "server", "name": "Spark-Cluster", "x": 200, "y": 100 }],
+    "links": []
+  },
+  "validation": null
+}

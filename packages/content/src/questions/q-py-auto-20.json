@@ -1,0 +1,14 @@
+{
+  "id": "q-py-auto-20",
+  "quizId": "practice-general",
+  "type": "short",
+  "prompt": "Si asyncio.gather() recibe 50 coroutines, cada una con asyncio.sleep(2), ¿cuánto tarda TOTAL?",
+  "options": null,
+  "correctAnswer": "2",
+  "explanation": "gather() corre todas en paralelo. El tiempo total es el de la mas larga: 2 segundos, no 100.",
+  "irtA": 0.9600000000000001,
+  "irtB": -0.9,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-ds-5",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que hace cosign en el contexto de supply chain security?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Encripta imagenes de Docker"
+    },
+    {
+      "id": "1",
+      "text": "Firma criptograficamente imagenes de container para verificar autenticidad"
+    },
+    {
+      "id": "2",
+      "text": "Detecta CVEs en dependencies"
+    },
+    {
+      "id": "3",
+      "text": "Audita el cluster K8s"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Cosign (parte de Sigstore) firma imagenes de container. Los consumers verifican la firma antes de desplegar, asegurando que la imagen no fue modificada.",
+  "irtA": 0.9,
+  "irtB": 0.84,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

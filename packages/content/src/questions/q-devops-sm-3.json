@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-3",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Qué es mTLS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Mail TLS"
+    },
+    {
+      "id": "1",
+      "text": "Mutual TLS: ambos lados se autentican con certificados"
+    },
+    {
+      "id": "2",
+      "text": "Multi TLS"
+    },
+    {
+      "id": "3",
+      "text": "Manual TLS"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "mTLS (Mutual TLS): cliente y servidor se autentican mutuamente con certificados. Sin contraseñas.",
+  "irtA": 0.8640000000000001,
+  "irtB": -1.94,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pandas-cleaning",
+  "title": "Pandas: limpieza de datos (nulls, duplicados, tipos, outliers)",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 75,
+  "summary": "El 80% del tiempo de un data scientist se va en limpiar datos. Aprende las tecnicas clave.",
+  "keyTakeaways": [
+    "Antes de limpiar: info(), describe(), isna().sum(), duplicated().sum().",
+    "Para nulos: dropna() o fillna() con estrategia clara (media, mediana, ffill).",
+    "astype(category) ahorra memoria y acelera groupby en strings repetidos.",
+    "Outliers: detecta con IQR o z-score, pero investiga antes de eliminar."
+  ]
+}

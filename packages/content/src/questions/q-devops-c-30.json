@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-30",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué servicio usarías para infraestructura como código en AWS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "CloudFormation"
+    },
+    {
+      "id": "1",
+      "text": "Terraform (tercero)"
+    },
+    {
+      "id": "2",
+      "text": "CDK"
+    },
+    {
+      "id": "3",
+      "text": "Todas son válidas"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "CloudFormation: nativo AWS. Terraform: multi-cloud, HashiCorp. CDK: Cloud Development Kit, usa TypeScript/Python/Go.",
+  "irtA": 0.9560000000000001,
+  "irtB": 1.82,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

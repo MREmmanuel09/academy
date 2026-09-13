@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-7",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Qué hace el método dict.get(\"key\", default)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Lanza KeyError si la key no existe"
+    },
+    {
+      "id": "1",
+      "text": "Retorna el valor o \"default\" si no existe"
+    },
+    {
+      "id": "2",
+      "text": "Elimina la key del dict"
+    },
+    {
+      "id": "3",
+      "text": "Convierte el dict a una lista"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": ".get(key, default) retorna el valor asociado o el default si la key no existe, sin lanzar KeyError.",
+  "irtA": 1.1880000000000002,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

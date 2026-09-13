@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-15",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que es \"zero trust\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Confiar en nadie, verificar todo"
+    },
+    {
+      "id": "1",
+      "text": "Confiar en tu red interna"
+    },
+    {
+      "id": "2",
+      "text": "Confiar solo en admins"
+    },
+    {
+      "id": "3",
+      "text": "No usar passwords"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Zero trust: nunca confiar por defecto, siempre verificar (identity, device, location). Aplicado en redes (BeyondCorp), servicios (mTLS), usuarios (MFA).",
+  "irtA": 1.056,
+  "irtB": -0.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

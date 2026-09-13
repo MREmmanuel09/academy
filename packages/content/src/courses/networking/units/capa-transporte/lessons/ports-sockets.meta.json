@@ -1,0 +1,15 @@
+{
+  "id": "ports-sockets",
+  "title": "Puertos y sockets: como se identifican las aplicaciones",
+  "module": "capa-transporte",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 55,
+  "summary": "Rango de puertos, como funciona un socket, y por que un servidor web y un servidor de correo pueden correr en la misma maquina.",
+  "keyTakeaways": [
+    "Un puerto identifica un servicio. 0-1023 son well-known (requieren root). 1024-49151 registrados. 49152+ efimeros.",
+    "Socket = IP + Puerto + Protocolo. Permite multiples servicios en la misma IP.",
+    "ss -tlnp muestra puertos en escucha TCP. ss -ulnp para UDP.",
+    "Los firewalls controlan el acceso por puerto. Siempre cierra los puertos que no uses."
+  ]
+}

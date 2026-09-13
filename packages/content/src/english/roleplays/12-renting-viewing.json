@@ -1,0 +1,56 @@
+{
+  "id": "12-renting-viewing",
+  "title": "Flat viewing (renting)",
+  "titleEs": "Visita a un piso de alquiler",
+  "level": "A2",
+  "scenario": "You are viewing a flat to rent. The landlord is showing you around. You want to ask about rent, bills, contract, and any rules.",
+  "aiCharacter": "Landlord",
+  "userRole": "Person looking to rent a flat",
+  "greeting": "Hi! Come in. I'll show you around. Any questions?",
+  "objectives": [
+    "Ask about the rent and what's included (bills, council tax, internet)",
+    "Ask about the contract length and deposit",
+    "Ask about rules (pets, smoking, guests, parties)",
+    "Express interest and ask about next steps"
+  ],
+  "vocabulary": [
+    { "word": "rent", "translation": "alquiler", "example": "How much is the monthly rent?" },
+    {
+      "word": "deposit",
+      "translation": "depósito, fianza",
+      "example": "Is the deposit one month's rent?"
+    },
+    {
+      "word": "bills",
+      "translation": "facturas (luz, agua, gas)",
+      "example": "Are bills included in the rent?"
+    },
+    { "word": "furnished", "translation": "amueblado", "example": "Is the flat furnished?" },
+    {
+      "word": "tenancy agreement",
+      "translation": "contrato de alquiler",
+      "example": "How long is the tenancy agreement?"
+    },
+    { "word": "to move in", "translation": "mudarse", "example": "When can I move in?" },
+    { "word": "landlord", "translation": "propietario", "example": "Who is the landlord?" },
+    { "word": "to sign", "translation": "firmar", "example": "I'd like to sign the contract." }
+  ],
+  "falseFriends": [
+    { "word": "actual", "trap": "actualmente", "real": "real" },
+    { "word": "eventually", "trap": "eventualmente", "real": "finalmente" }
+  ],
+  "successCriteria": [
+    "User asks about rent and what's included",
+    "User asks about deposit and contract",
+    "User asks about rules",
+    "User expresses interest and next steps"
+  ],
+  "fallbackHints": [
+    "Ask: 'How much is the monthly rent?' and 'Is the deposit one month?'",
+    "Ask: 'Are bills included?' and 'Is the flat furnished?'",
+    "End with: 'I'd like to think about it. Can I contact you tomorrow?'"
+  ],
+  "aiSystemPrompt": "You are a friendly landlord showing your flat to a potential tenant. Be welcoming and answer questions clearly. Be honest about the flat — mention both good things and any small issues. If asked, mention the deposit, contract length (usually 12 months), and any rules. Correct major mistakes gently.",
+  "firstTurn": "Hi there! Welcome. Let me show you around the flat. It's a two-bedroom on the third floor.",
+  "exchangeCount": 10
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seaborn-advanced",
+  "title": "Seaborn: plots estadisticos (heatmap, pairplot, violin, box, count)",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 75,
+  "summary": "Visualizaciones estadisticas de alto nivel sobre Matplotlib. Heatmaps, distribuciones y relaciones.",
+  "keyTakeaways": [
+    "Seaborn agrega API de alto nivel sobre Matplotlib con integracion a DataFrames.",
+    "boxplot y violin comparan distribuciones entre grupos; pairplot es la killer feature para EDA.",
+    "Heatmap con cmap divergente (coolwarm) es ideal para matrices de correlacion.",
+    "Usa `hue=` para agregar una dimension categorica de color sin complicar el codigo."
+  ]
+}

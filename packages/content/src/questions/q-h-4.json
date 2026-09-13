@@ -1,0 +1,31 @@
+{
+  "id": "q-h-4",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué hace `traceroute 8.8.8.8`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Ping a 8.8.8.8"
+    },
+    {
+      "id": "1",
+      "text": "Muestra la ruta y latencia hasta 8.8.8.8"
+    },
+    {
+      "id": "2",
+      "text": "Resuelve DNS de 8.8.8.8"
+    },
+    {
+      "id": "3",
+      "text": "Hace telnet a 8.8.8.8"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "traceroute envía paquetes con TTL creciente y lista los routers por los que pasa hasta el destino.",
+  "irtA": 1.036,
+  "irtB": -1.1,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,114 @@
+{
+  "id": "lab-slack-bot",
+  "title": "Slack Alerting Bot con FastAPI + webhooks Prometheus",
+  "steps": [
+    {
+      "instruction": "Crea la estructura del proyecto con pyproject.toml, src/slack_alerting/ con modulos bot.py, formatter.py, api.py.",
+      "expectedCommand": "mkdir -p src/slack_alerting tests && touch src/slack_alerting/__init__.py",
+      "hint": "Estructura: src/ + tests/ es la convencion profesional."
+    },
+    {
+      "instruction": "Crea formatter.py con format_alert(payload: dict) -> dict que tome un webhook de Alertmanager y genere bloques de Slack enriquecidos.",
+      "expectedCommand": "touch src/slack_alerting/formatter.py",
+      "hint": "Alertmanager envia: {version, groupKey, status, receiver, groupLabels, alerts: [{status, labels, annotations, startsAt}]}"
+    },
+    {
+      "instruction": "En formatter.py, incluye campos: alertname, severity, instance, summary, description, dashboard_url, runbook_url.",
+      "expectedCommand": "echo \"def format_alert(payload):\" >> src/slack_alerting/formatter.py",
+      "hint": "Extrae de payload[\"alerts\"][0][\"labels\"] y [\"annotations\"]."
+    },
+    {
+      "instruction": "Crea bot.py con post_to_slack(channel, blocks, token) usando slack_sdk WebClient.",
+      "expectedCommand": "pip install slack-sdk fastapi uvicorn",
+      "hint": "client.chat_postMessage(channel=channel, blocks=blocks, text=fallback)."
+    },
+    {
+      "instruction": "Mapea severity (critical/warning/info) a canales de Slack: #ops-critical, #ops-warn, #ops-info.",
+      "expectedCommand": "echo \"CHANNELS = {\\\"critical\\\": \\\"#ops-critical\\\", ...}\" >> src/slack_alerting/bot.py",
+      "hint": "Usa un dict constante al inicio del modulo."
+    },
+    {
+      "instruction": "Crea api.py con FastAPI: POST /webhook/alertmanager que reciba el payload, formatee y envie a Slack.",
+      "expectedCommand": "touch src/slack_alerting/api.py",
+      "hint": "@app.post(\"/webhook/alertmanager\") async def webhook(payload: dict)."
+    },
+    {
+      "instruction": "Anade GET /health que retorne {status: \"ok\", timestamp, version}.",
+      "expectedCommand": "echo \"@app.get(\\\"/health\\\")\" >> src/slack_alerting/api.py",
+      "hint": "Importante para que el orchestrator verifique que el bot esta vivo."
+    },
+    {
+      "instruction": "Escribe tests/test_formatter.py con un payload de ejemplo y verifica que format_alert produce los bloques esperados.",
+      "expectedCommand": "touch tests/test_formatter.py",
+      "hint": "pytest.fixture para el payload de muestra."
+    },
+    {
+      "instruction": "Escribe tests/test_api.py usando TestClient de FastAPI para verificar /health y /webhook con mock de Slack.",
+      "expectedCommand": "touch tests/test_api.py",
+      "hint": "monkeypatch el bot.post_to_slack para no hacer requests reales."
+    },
+    {
+      "instruction": "Anade Dockerfile multi-stage y ejecuta el bot localmente con uvicorn.",
+      "expectedCommand": "uvicorn slack_alerting.api:app --reload --port 8000",
+      "hint": "Dockerfile: FROM python:3.11-slim, COPY requirements.txt, RUN pip install, COPY . ."
+    },
+    {
+      "instruction": "Configura Alertmanager con un webhook receiver apuntando a tu bot, y verifica que las alertas lleguen a Slack con el formato correcto.",
+      "expectedCommand": "curl -X POST http://localhost:8000/webhook/alertmanager -H \"Content-Type: application/json\" -d @sample-alert.json",
+      "hint": "Genera un alert de prueba con promtool o ammtool."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "prometheus",
+        "x": 100,
+        "y": 80
+      },
+      {
+        "type": "server",
+        "name": "alertmanager",
+        "x": 200,
+        "y": 80
+      },
+      {
+        "type": "server",
+        "name": "slack-bot",
+        "x": 300,
+        "y": 80
+      },
+      {
+        "type": "server",
+        "name": "slack",
+        "x": 400,
+        "y": 80
+      },
+      {
+        "type": "pc",
+        "name": "oncall",
+        "x": 300,
+        "y": 220
+      }
+    ],
+    "links": [
+      {
+        "from": "prometheus",
+        "to": "alertmanager"
+      },
+      {
+        "from": "alertmanager",
+        "to": "slack-bot"
+      },
+      {
+        "from": "slack-bot",
+        "to": "slack"
+      },
+      {
+        "from": "oncall",
+        "to": "slack"
+      }
+    ]
+  },
+  "validation": "Al completar, una alerta de Prometheus debe llegar como mensaje formateado al canal de Slack via el webhook del bot."
+}

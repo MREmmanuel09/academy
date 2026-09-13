@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-l-4",
+  "quizId": "exam-linux",
+  "type": "truefalse",
+  "prompt": "El usuario root en Linux tiene UID 0.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "El root siempre tiene UID 0. Usuarios normales tienen UID >= 1000.",
+  "irtA": 0.972,
+  "irtB": 0.32,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

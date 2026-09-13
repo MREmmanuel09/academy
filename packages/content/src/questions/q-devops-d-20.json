@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-20",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace un HEALTHCHECK en Dockerfile?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Verifica el estado del container"
+    },
+    {
+      "id": "1",
+      "text": "Reinicia si falla"
+    },
+    {
+      "id": "2",
+      "text": "Envía métricas"
+    },
+    {
+      "id": "3",
+      "text": "A y B son correctas"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "HEALTHCHECK ejecuta un comando periódicamente. Si falla, el container se marca unhealthy. Docker puede reiniciar según la política.",
+  "irtA": 1.1960000000000002,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bigdata-hadoop",
+  "title": "Hadoop ecosystem: HDFS, YARN, MapReduce",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 13,
+  "xp": 60,
+  "summary": "Contexto historico. Por que Hadoop importa aunque ya no se use directamente.",
+  "keyTakeaways": [
+    "Hadoop (HDFS + MapReduce + YARN) inicio la era Big Data pero esta en retirada.",
+    "HDFS divide archivos en bloques de 128MB con replica 3.",
+    "Spark reemplazo a MapReduce por velocidad (in-memory vs disk)."
+  ]
+}

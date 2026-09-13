@@ -1,0 +1,15 @@
+{
+  "id": "dk-2",
+  "title": "Dockerfile: construyendo tus imágenes",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 75,
+  "summary": "FROM, RUN, COPY, CMD, ENTRYPOINT. Crea imágenes optimizadas.",
+  "keyTakeaways": [
+    "FROM define la base, RUN ejecuta al build, COPY trae archivos, CMD arranca el container.",
+    "Multi-stage builds separan build de runtime, reduciendo tamaño final.",
+    "Orden de COPY importa: dependencias primero para aprovechar cache de layers.",
+    "Usa imágenes alpine/slim, .dockerignore, y usuario no-root."
+  ]
+}

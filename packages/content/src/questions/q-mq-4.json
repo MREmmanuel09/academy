@@ -1,0 +1,31 @@
+{
+  "id": "q-mq-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que es una Dead Letter Queue (DLQ)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una cola prioritaria"
+    },
+    {
+      "id": "1",
+      "text": "Una cola para mensajes que fallaron N veces, separada para analisis"
+    },
+    {
+      "id": "2",
+      "text": "Una cola que se borra automaticamente"
+    },
+    {
+      "id": "3",
+      "text": "Una cola encriptada"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "DLQ: mensajes que fallaron N veces (poison messages) van a una cola aparte. Los developers la revisan para entender por que fallan.",
+  "irtA": 0.916,
+  "irtB": -1.54,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

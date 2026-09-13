@@ -1,0 +1,15 @@
+{
+  "id": "py-files",
+  "title": "File I/O: open, with, modos",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 55,
+  "summary": "Leer y escribir archivos: open(), context manager with, encoding, modos (r/w/a/b).",
+  "keyTakeaways": [
+    "Usa \"with open() as f:\" SIEMPRE — garantiza el cierre del archivo.",
+    "Especifica encoding=\"utf-8\" para evitar problemas multiplataforma.",
+    "Modo \"w\" sobreescribe, \"a\" append, \"b\" binario. Lee la doc si dudas.",
+    "Iterar el archivo (for line in f) es mas eficiente que .readlines()."
+  ]
+}

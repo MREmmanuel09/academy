@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-8",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Cuál es la salida de: print([x*2 for x in range(3)])?",
+  "options": [
+    {
+      "id": "0",
+      "text": "[0, 1, 2]"
+    },
+    {
+      "id": "1",
+      "text": "[0, 2, 4]"
+    },
+    {
+      "id": "2",
+      "text": "[1, 2, 3]"
+    },
+    {
+      "id": "3",
+      "text": "[2, 4, 6]"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "range(3) genera 0,1,2. Multiplicados por 2: [0, 2, 4]. Es una list comprehension.",
+  "irtA": 1.1840000000000002,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

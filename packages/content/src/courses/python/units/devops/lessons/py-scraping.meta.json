@@ -1,0 +1,15 @@
+{
+  "id": "py-scraping",
+  "title": "Web scraping con BeautifulSoup y httpx",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 22,
+  "xp": 90,
+  "summary": "Extraer datos de paginas web: HTML parsing, selectores CSS, paginacion, etica y rate limits.",
+  "keyTakeaways": [
+    "Stack clasico: httpx + beautifulsoup4 + lxml. Selenium/Playwright para JS.",
+    "soup.select() con selectores CSS, soup.find/find_all para busqueda directa.",
+    "User-Agent obligatorio, respeta robots.txt y rate limits.",
+    "httpx.Client() reutiliza conexiones. asyncio.gather() para paralelismo."
+  ]
+}

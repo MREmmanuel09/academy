@@ -1,0 +1,14 @@
+{
+  "id": "q-py-fund-3",
+  "quizId": "exam-python-devops",
+  "type": "truefalse",
+  "prompt": "En Python, las variables se declaran con tipo explicito como en Java (int x = 5).",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Python infiere el tipo dinamicamente. Solo escribes x = 5.",
+  "irtA": 0.804,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

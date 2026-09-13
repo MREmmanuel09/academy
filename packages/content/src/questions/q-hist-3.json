@@ -1,0 +1,31 @@
+{
+  "id": "q-hist-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Quien es considerado el \"padre de DevOps\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Gene Kim (Phoenix Project)"
+    },
+    {
+      "id": "1",
+      "text": "Patrick Debois (DevOpsDays 2009, Belgica)"
+    },
+    {
+      "id": "2",
+      "text": "Jez Humble (Continuous Delivery)"
+    },
+    {
+      "id": "3",
+      "text": "Ben Treynor (SRE Google)"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Patrick Debois organizo la primera DevOpsDays en Gante, Belgica, en octubre 2009. El nombre DevOps nacio ahi.",
+  "irtA": 1.12,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

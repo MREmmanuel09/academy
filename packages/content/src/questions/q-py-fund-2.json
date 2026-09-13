@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-2",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Qué tipo de dato es inmutable (no se puede modificar despues de creado)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "list"
+    },
+    {
+      "id": "1",
+      "text": "dict"
+    },
+    {
+      "id": "2",
+      "text": "set"
+    },
+    {
+      "id": "3",
+      "text": "tuple"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "Las tuplas son inmutables. Listas, diccionarios y sets son mutables.",
+  "irtA": 0.808,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-10",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué es el livenessProbe?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Verifica si el pod puede recibir tráfico"
+    },
+    {
+      "id": "1",
+      "text": "Verifica si el pod está vivo (reinicia si falla)"
+    },
+    {
+      "id": "2",
+      "text": "Cuenta tráfico"
+    },
+    {
+      "id": "3",
+      "text": "Borra el pod"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "livenessProbe: si falla, K8s mata y reinicia el pod. readinessProbe: si falla, el pod no recibe tráfico. Diferentes propósitos.",
+  "irtA": 0.8200000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

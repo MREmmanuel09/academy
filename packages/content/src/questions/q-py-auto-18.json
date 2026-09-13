@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-18",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué patrón de WebSocket es esencial en producción para mantener conexiones resilientes?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Heartbeat ping/pong"
+    },
+    {
+      "id": "1",
+      "text": "Reconnect con backoff exponencial"
+    },
+    {
+      "id": "2",
+      "text": "Timeout en read"
+    },
+    {
+      "id": "3",
+      "text": "Todas las anteriores"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "En producción necesitas ping/pong para detectar conexiones muertas, reconnect con backoff, y timeouts.",
+  "irtA": 1.052,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

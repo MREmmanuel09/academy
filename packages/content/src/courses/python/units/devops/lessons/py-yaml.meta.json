@@ -1,0 +1,15 @@
+{
+  "id": "py-yaml",
+  "title": "YAML y TOML con PyYAML y tomllib",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 60,
+  "summary": "Parsear y generar archivos de configuracion YAML/TOML, anchors, multilineas, errores comunes.",
+  "keyTakeaways": [
+    "yaml.safe_load (NUNCA load — riesgo de RCE).",
+    "Anchors (&, *) permiten reutilizar bloques en YAML.",
+    "Usa \"|\" para multilineas literales, \">\" para folded.",
+    "tomllib en stdlib 3.11+ — preferido para configs nuevas (pyproject.toml)."
+  ]
+}

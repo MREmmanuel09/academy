@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-22",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En boto3 S3, ¿qué método genera una URL temporal para descargar un objeto privado?",
+  "options": [
+    {
+      "id": "0",
+      "text": "s3.get_url()"
+    },
+    {
+      "id": "1",
+      "text": "s3.generate_presigned_url()"
+    },
+    {
+      "id": "2",
+      "text": "s3.sign_url()"
+    },
+    {
+      "id": "3",
+      "text": "s3.create_temp_link()"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "generate_presigned_url(\"get_object\", Params={...}, ExpiresIn=3600) crea URLs temporales firmadas.",
+  "irtA": 0.8480000000000001,
+  "irtB": -1.18,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

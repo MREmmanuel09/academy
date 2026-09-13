@@ -1,0 +1,31 @@
+{
+  "id": "q-da-mp-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que funcion muestra una figura en pantalla?",
+  "options": [
+    {
+      "id": "0",
+      "text": "plt.render()"
+    },
+    {
+      "id": "1",
+      "text": "plt.show()"
+    },
+    {
+      "id": "2",
+      "text": "plt.draw()"
+    },
+    {
+      "id": "3",
+      "text": "plt.display()"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "plt.show() bloquea hasta cerrar la ventana (en scripts) o muestra inline (en Jupyter). En Vite/React no es necesario llamar plt.show() directamente.",
+  "irtA": 0.8480000000000001,
+  "irtB": 1.74,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

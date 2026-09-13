@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-3",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es un SLO?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Service Level Objective"
+    },
+    {
+      "id": "1",
+      "text": "System Level Option"
+    },
+    {
+      "id": "2",
+      "text": "Service Log Output"
+    },
+    {
+      "id": "3",
+      "text": "Service Load Optimizer"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "SLO (Service Level Objective) es el objetivo. Ej: \"99.9% de requests < 200ms en 30 días\".",
+  "irtA": 1.076,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

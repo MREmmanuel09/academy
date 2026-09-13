@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-l-10",
+  "quizId": "exam-linux",
+  "type": "truefalse",
+  "prompt": "El puerto 22 es para HTTPS por defecto.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Puerto 22 es SSH. HTTPS usa 443, HTTP usa 80.",
+  "irtA": 1.1840000000000002,
+  "irtB": 1.36,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

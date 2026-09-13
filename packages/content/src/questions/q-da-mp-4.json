@@ -1,0 +1,31 @@
+{
+  "id": "q-da-mp-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que hace plt.tight_layout()?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Reduce el tamano de la figura"
+    },
+    {
+      "id": "1",
+      "text": "Ajusta los subplots para que no se solapen las etiquetas"
+    },
+    {
+      "id": "2",
+      "text": "Cierra la figura"
+    },
+    {
+      "id": "3",
+      "text": "Guarda en disco"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "tight_layout() recalcula los margenes y espacios entre subplots para que titulos, labels y ticks no se solapen.",
+  "irtA": 0.8560000000000001,
+  "irtB": 1.74,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

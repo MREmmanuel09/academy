@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que hace catchup=False en la definicion de un DAG?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Captura todos los errores"
+    },
+    {
+      "id": "1",
+      "text": "Airflow NO ejecuta las corridas historicas desde start_date al activarlo, solo la corrida actual"
+    },
+    {
+      "id": "2",
+      "text": "Desactiva el DAG"
+    },
+    {
+      "id": "3",
+      "text": "Fuerza re-ejecucion"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "catchup=False le dice a Airflow que no ejecute las corridas entre start_date y el momento de activacion. Solo ejecuta la corrida mas reciente. Util para evitar backfills no deseados.",
+  "irtA": 1.004,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-6",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que comando usas para re-ejecutar un rango de fechas de un DAG?",
+  "options": [
+    {
+      "id": "0",
+      "text": "airflow dags rerun"
+    },
+    {
+      "id": "1",
+      "text": "airflow dags backfill --start-date X --end-date Y dag_id"
+    },
+    {
+      "id": "2",
+      "text": "airflow run --all"
+    },
+    {
+      "id": "3",
+      "text": "airflow restart"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "airflow dags backfill re-ejecuta un DAG para un rango de fechas. Util cuando llega tarde un dataset o se corrige un bug.",
+  "irtA": 1,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-s-1",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Para qué sirve STP?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cifrar tráfico"
+    },
+    {
+      "id": "1",
+      "text": "Evitar loops en LAN"
+    },
+    {
+      "id": "2",
+      "text": "Asignar IPs"
+    },
+    {
+      "id": "3",
+      "text": "Filtrar spam"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Spanning Tree Protocol evita loops en topologías con enlaces redundantes, bloqueando caminos de forma lógica.",
+  "irtA": 0.908,
+  "irtB": 1.5,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

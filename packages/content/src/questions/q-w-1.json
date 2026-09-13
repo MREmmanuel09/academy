@@ -1,0 +1,31 @@
+{
+  "id": "q-w-1",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué banda Wi-Fi tiene más canales no solapados?",
+  "options": [
+    {
+      "id": "0",
+      "text": "2.4 GHz"
+    },
+    {
+      "id": "1",
+      "text": "5 GHz"
+    },
+    {
+      "id": "2",
+      "text": "6 GHz"
+    },
+    {
+      "id": "3",
+      "text": "Todas igual"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "5 GHz tiene ~25 canales no solapados de 20 MHz, frente a solo 3 (1, 6, 11) en 2.4 GHz.",
+  "irtA": 1.084,
+  "irtB": -0.1,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

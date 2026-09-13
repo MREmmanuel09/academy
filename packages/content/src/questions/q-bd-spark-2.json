@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-2",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que hace el Driver en un cluster Spark?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Guarda los datos en HDFS"
+    },
+    {
+      "id": "1",
+      "text": "Ejecuta tu main() y construye el DAG de operaciones"
+    },
+    {
+      "id": "2",
+      "text": "Es el balanceador de carga de YARN"
+    },
+    {
+      "id": "3",
+      "text": "Corre los executors"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El Driver corre tu codigo (main), construye el DAG logico, y coordina los executors. Hay UNO por aplicacion.",
+  "irtA": 1.1560000000000001,
+  "irtB": -1.12,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

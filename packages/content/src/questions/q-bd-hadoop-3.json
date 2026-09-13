@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-hadoop-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cuales son las dos fases del modelo MapReduce?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Input y Output"
+    },
+    {
+      "id": "1",
+      "text": "Map (transforma input) y Reduce (agrega por clave)"
+    },
+    {
+      "id": "2",
+      "text": "Read y Write"
+    },
+    {
+      "id": "3",
+      "text": "Sort y Merge"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "MapReduce tiene 2 fases: Map (procesa cada input y emite pares clave-valor) y Reduce (agrega valores por clave). Entre medio hay shuffle&sort.",
+  "irtA": 0.888,
+  "irtB": 1.56,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

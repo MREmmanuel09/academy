@@ -1,0 +1,14 @@
+{
+  "id": "q-py-dev-14",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "pytest descubra automáticamente funciones que empiezan con \"test_\".",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Por convención pytest busca archivos test_*.py o *_test.py y funciones test_*.",
+  "irtA": 0.9640000000000001,
+  "irtB": -1.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

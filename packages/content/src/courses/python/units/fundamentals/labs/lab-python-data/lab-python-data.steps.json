@@ -1,0 +1,48 @@
+{
+  "id": "lab-python-data",
+  "title": "Procesar datos con pandas",
+  "steps": [
+    {
+      "instruction": "Instala pandas en tu entorno.",
+      "expectedCommand": "pip install pandas openpyxl",
+      "hint": "openpyxl es necesario para exportar a Excel."
+    },
+    {
+      "instruction": "Crea un CSV ventas.csv con columnas: producto, cantidad, precio, fecha.",
+      "expectedCommand": "ventas.csv",
+      "hint": "Incluye al menos 10 registros con productos variados."
+    },
+    {
+      "instruction": "Lee el CSV con pandas.read_csv() y muestra info() del DataFrame.",
+      "expectedCommand": "df = pd.read_csv('ventas.csv')",
+      "hint": "Usa df.info() para ver tipos de datos y valores no nulos."
+    },
+    {
+      "instruction": "Filtra las ventas con cantidad > 5 y precio > 10.",
+      "expectedCommand": "df_filtrado = df[(df['cantidad'] > 5) & (df['precio'] > 10)]",
+      "hint": "Usa & para combinar condiciones y parentesis para agrupar."
+    },
+    {
+      "instruction": "Agrupa por producto y calcula la suma de cantidad y el promedio de precio.",
+      "expectedCommand": "df.groupby('producto').agg({'cantidad': 'sum', 'precio': 'mean'})",
+      "hint": "agg() permite aplicar diferentes funciones de agregacion por columna."
+    },
+    {
+      "instruction": "Exporta el resultado a un archivo Excel ventas_resumen.xlsx.",
+      "expectedCommand": "df_resumen.to_excel('ventas_resumen.xlsx', index=False)",
+      "hint": "Usa index=False para no incluir el indice en el archivo Excel."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "pc",
+        "name": "dev-machine",
+        "x": 200,
+        "y": 150
+      }
+    ],
+    "links": []
+  },
+  "validation": null
+}

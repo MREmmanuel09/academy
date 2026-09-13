@@ -1,0 +1,15 @@
+{
+  "id": "py-stdlib",
+  "title": "Tour por la stdlib: os, sys, json, datetime, pathlib",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 18,
+  "xp": 70,
+  "summary": "Modulos de la biblioteca estandar mas usados en DevOps: I/O, sistema, datos, tiempo.",
+  "keyTakeaways": [
+    "os/sys: interaccion con el sistema y el runtime de Python.",
+    "pathlib es la forma moderna de manejar paths — usala en codigo nuevo.",
+    "json: dumps/loads para serializar, dump/load para archivos.",
+    "datetime con timezone.utc SIEMPRE — nunca datetime.now() sin timezone."
+  ]
+}

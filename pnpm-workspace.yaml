@@ -1,0 +1,18 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# pnpm 9 is more relaxed about peer deps than npm by default; we keep
+# React 19 + next-intl 3.26.3 working with these allowances.
+peerDependencyRules:
+  allowedVersions:
+    react: "19"
+    react-dom: "19"
+  ignoreMissing:
+    - "@next/swc-*"
+
+# pnpm 9: prevent accidental hoisting surprises for the web app.
+publicHoistPattern:
+  - "*types*"
+  - "*eslint*"
+  - "@types/*"

@@ -1,0 +1,1608 @@
+{
+  "id": "game-idioms-uk",
+  "title": "UK Idioms",
+  "titleEs": "Modismos del inglés británico",
+  "description": "200 modismos del Reino Unido con explicación y ejemplos. Lo que más rápido eleva el nivel de un hispanohablante.",
+  "idioms": [
+    {
+      "id": "id-1",
+      "phrase": "break the ice",
+      "literal": "romper el hielo",
+      "real": "iniciar una conversación",
+      "example": "He told a joke to break the ice.",
+      "tags": ["social", "básico"]
+    },
+    {
+      "id": "id-2",
+      "phrase": "cost an arm and a leg",
+      "literal": "costar un brazo y una pierna",
+      "real": "ser muy caro",
+      "example": "That car cost an arm and a leg.",
+      "tags": ["dinero"]
+    },
+    {
+      "id": "id-3",
+      "phrase": "hit the books",
+      "literal": "golpear los libros",
+      "real": "estudiar mucho",
+      "example": "I have to hit the books tonight.",
+      "tags": ["estudio"]
+    },
+    {
+      "id": "id-4",
+      "phrase": "spill the beans",
+      "literal": "derramar los frijoles",
+      "real": "revelar un secreto",
+      "example": "Don't spill the beans about the party.",
+      "tags": ["secrets"]
+    },
+    {
+      "id": "id-5",
+      "phrase": "under the weather",
+      "literal": "bajo el clima",
+      "real": "sentirse mal, enfermo",
+      "example": "I'm feeling under the weather today.",
+      "tags": ["salud"]
+    },
+    {
+      "id": "id-6",
+      "phrase": "piece of cake",
+      "literal": "pedazo de pastel",
+      "real": "muy fácil",
+      "example": "That exam was a piece of cake.",
+      "tags": ["básico"]
+    },
+    {
+      "id": "id-7",
+      "phrase": "let the cat out of the bag",
+      "literal": "sacar al gato de la bolsa",
+      "real": "revelar un secreto sin querer",
+      "example": "I let the cat out of the bag about her surprise.",
+      "tags": ["secrets"]
+    },
+    {
+      "id": "id-8",
+      "phrase": "bite the bullet",
+      "literal": "morder la bala",
+      "real": "afrontar algo difícil",
+      "example": "I'll bite the bullet and tell her the truth.",
+      "tags": ["básico"]
+    },
+    {
+      "id": "id-9",
+      "phrase": "cut to the chase",
+      "literal": "cortar a la persecución",
+      "real": "ir al grano",
+      "example": "Cut to the chase — what do you want?",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-10",
+      "phrase": "once in a blue moon",
+      "literal": "una vez en luna azul",
+      "real": "muy rara vez",
+      "example": "We see them once in a blue moon.",
+      "tags": ["tiempo", "frecuencia"]
+    },
+    {
+      "id": "id-11",
+      "phrase": "speak of the devil",
+      "literal": "hablar del diablo",
+      "real": "hablando del rey de Roma",
+      "example": "Speak of the devil! I was just talking about you.",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-12",
+      "phrase": "the ball is in your court",
+      "literal": "la pelota está en tu cancha",
+      "real": "te toca a ti decidir",
+      "example": "I've made my offer. The ball is in your court.",
+      "tags": ["negocio"]
+    },
+    {
+      "id": "id-13",
+      "phrase": "on the ball",
+      "literal": "en la pelota",
+      "real": "alerta, eficiente",
+      "example": "She's really on the ball with her work.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-14",
+      "phrase": "burn the midnight oil",
+      "literal": "quemar el aceite de medianoche",
+      "real": "trabajar hasta muy tarde",
+      "example": "I'm burning the midnight oil to finish this report.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-15",
+      "phrase": "jump on the bandwagon",
+      "literal": "subirse al carro",
+      "real": "sumarse a una tendencia",
+      "example": "More companies are jumping on the bandwagon.",
+      "tags": ["tendencia"]
+    },
+    {
+      "id": "id-16",
+      "phrase": "go the extra mile",
+      "literal": "ir la milla extra",
+      "real": "hacer un esfuerzo adicional",
+      "example": "She always goes the extra mile for her clients.",
+      "tags": ["trabajo", "esfuerzo"]
+    },
+    {
+      "id": "id-17",
+      "phrase": "hit the nail on the head",
+      "literal": "golpear el clavo en la cabeza",
+      "real": "dar en el clavo",
+      "example": "You hit the nail on the head with that comment.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-18",
+      "phrase": "cry over spilled milk",
+      "literal": "llorar sobre leche derramada",
+      "real": "no sirve de nada lamentarse",
+      "example": "Don't cry over spilled milk. Move on.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-19",
+      "phrase": "beat around the bush",
+      "literal": "golpear alrededor del arbusto",
+      "real": "andarse con rodeos",
+      "example": "Stop beating around the bush and tell me.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-20",
+      "phrase": "pull someone's leg",
+      "literal": "tirar de la pierna de alguien",
+      "real": "tomarle el pelo, bromear",
+      "example": "Are you pulling my leg, or is this real?",
+      "tags": ["humor"]
+    },
+    {
+      "id": "id-21",
+      "phrase": "in hot water",
+      "literal": "en agua caliente",
+      "real": "en problemas",
+      "example": "He's in hot water with his boss.",
+      "tags": ["problemas"]
+    },
+    {
+      "id": "id-22",
+      "phrase": "back to the drawing board",
+      "literal": "de vuelta al tablero de dibujo",
+      "real": "hay que empezar de nuevo",
+      "example": "That plan failed. Back to the drawing board.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-23",
+      "phrase": "bite off more than you can chew",
+      "literal": "morder más de lo que puedes masticar",
+      "real": "intentar hacer demasiado",
+      "example": "I think I bit off more than I can chew with this project.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-24",
+      "phrase": "break a leg",
+      "literal": "rómpete una pierna",
+      "real": "buena suerte (en actuación)",
+      "example": "Break a leg in your interview!",
+      "tags": ["suerte"]
+    },
+    {
+      "id": "id-25",
+      "phrase": "get out of hand",
+      "literal": "salirse de la mano",
+      "real": "descontrolarse",
+      "example": "The party got out of hand.",
+      "tags": ["problemas"]
+    },
+    {
+      "id": "id-26",
+      "phrase": "on cloud nine",
+      "literal": "en la nube nueve",
+      "real": "extremadamente feliz",
+      "example": "She's been on cloud nine since the promotion.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-27",
+      "phrase": "drive someone up the wall",
+      "literal": "conducir a alguien por la pared",
+      "real": "volver loco a alguien",
+      "example": "That noise drives me up the wall.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-28",
+      "phrase": "hit the road",
+      "literal": "golpear el camino",
+      "real": "irse, ponerse en marcha",
+      "example": "Let's hit the road — we're late.",
+      "tags": ["viaje"]
+    },
+    {
+      "id": "id-29",
+      "phrase": "off the hook",
+      "literal": "fuera del gancho",
+      "real": "librarse de una obligación",
+      "example": "Lucky you! You're off the hook for the meeting.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-30",
+      "phrase": "on the same page",
+      "literal": "en la misma página",
+      "real": "estar de acuerdo, entender lo mismo",
+      "example": "Let's make sure we're on the same page.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-31",
+      "phrase": "pull yourself together",
+      "literal": "júntate a ti mismo",
+      "real": "calmarse, recomponerse",
+      "example": "Pull yourself together! It's just a setback.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-32",
+      "phrase": "rain on someone's parade",
+      "literal": "llover sobre el desfile de alguien",
+      "real": "aguar la fiesta",
+      "example": "I hate to rain on your parade, but the budget is tight.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-33",
+      "phrase": "see eye to eye",
+      "literal": "ver ojo a ojo",
+      "real": "estar de acuerdo",
+      "example": "We don't always see eye to eye, but we respect each other.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-34",
+      "phrase": "the tip of the iceberg",
+      "literal": "la punta del iceberg",
+      "real": "la parte visible de un problema mayor",
+      "example": "This is just the tip of the iceberg.",
+      "tags": ["problemas"]
+    },
+    {
+      "id": "id-35",
+      "phrase": "throw in the towel",
+      "literal": "tirar la toalla",
+      "real": "rendirse",
+      "example": "I almost threw in the towel, but I kept going.",
+      "tags": ["esfuerzo"]
+    },
+    {
+      "id": "id-36",
+      "phrase": "to be on the fence",
+      "literal": "estar en la cerca",
+      "real": "estar indeciso",
+      "example": "I'm on the fence about changing jobs.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-37",
+      "phrase": "under the table",
+      "literal": "bajo la mesa",
+      "real": "en secreto, ilegal",
+      "example": "They paid him under the table.",
+      "tags": ["dinero"]
+    },
+    {
+      "id": "id-38",
+      "phrase": "up in the air",
+      "literal": "arriba en el aire",
+      "real": "incierto, sin resolver",
+      "example": "Our plans are still up in the air.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-39",
+      "phrase": "worth a shot",
+      "literal": "vale un disparo",
+      "real": "vale la pena intentarlo",
+      "example": "I don't know if it'll work, but it's worth a shot.",
+      "tags": ["esfuerzo"]
+    },
+    {
+      "id": "id-40",
+      "phrase": "your guess is as good as mine",
+      "literal": "tu suposición es tan buena como la mía",
+      "real": "no tengo idea",
+      "example": "When will it end? Your guess is as good as mine.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-41",
+      "phrase": "skeleton in the closet",
+      "literal": "esqueleto en el armario",
+      "real": "secreto vergonzoso",
+      "example": "Every family has a skeleton in the closet.",
+      "tags": ["secrets"]
+    },
+    {
+      "id": "id-42",
+      "phrase": "no skin off my nose",
+      "literal": "no es piel de mi nariz",
+      "real": "no me afecta",
+      "example": "If you want to do it, it's no skin off my nose.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-43",
+      "phrase": "method to my madness",
+      "literal": "método en mi locura",
+      "real": "hay una razón aunque parezca loco",
+      "example": "There is a method to my madness, I promise.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-44",
+      "phrase": "sitting on the fence",
+      "literal": "sentado en la cerca",
+      "real": "indeciso",
+      "example": "Stop sitting on the fence and make a decision.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-45",
+      "phrase": "miss the boat",
+      "literal": "perder el barco",
+      "real": "perder la oportunidad",
+      "example": "If we don't act now, we'll miss the boat.",
+      "tags": ["oportunidad"]
+    },
+    {
+      "id": "id-46",
+      "phrase": "jump the gun",
+      "literal": "saltar la pistola",
+      "real": "adelantarse, precipitarse",
+      "example": "Don't jump the gun — wait for the announcement.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-47",
+      "phrase": "cut corners",
+      "literal": "cortar esquinas",
+      "real": "ahorrar esfuerzo (a veces demasiado)",
+      "example": "They cut corners and the building collapsed.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-48",
+      "phrase": "rock the boat",
+      "literal": "mecer el bote",
+      "real": "causar problemas",
+      "example": "I don't want to rock the boat, but this is wrong.",
+      "tags": ["problemas"]
+    },
+    {
+      "id": "id-49",
+      "phrase": "burn bridges",
+      "literal": "quemar puentes",
+      "real": "destruir relaciones",
+      "example": "Don't burn bridges — you'll need them later.",
+      "tags": ["trabajo", "relaciones"]
+    },
+    {
+      "id": "id-50",
+      "phrase": "get your act together",
+      "literal": "junta tu acto",
+      "real": "organízate, compórtate",
+      "example": "You need to get your act together before the interview.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-51",
+      "phrase": "go back to square one",
+      "literal": "volver al cuadrado uno",
+      "real": "empezar de nuevo",
+      "example": "The plan didn't work. We're back to square one.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-52",
+      "phrase": "have a chip on your shoulder",
+      "literal": "tener un chip en el hombro",
+      "real": "tener resentimiento",
+      "example": "He's got a chip on his shoulder about not going to university.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-53",
+      "phrase": "have a frog in your throat",
+      "literal": "tener una rana en la garganta",
+      "real": "tener la voz ronca",
+      "example": "Sorry, I have a frog in my throat.",
+      "tags": ["salud"]
+    },
+    {
+      "id": "id-54",
+      "phrase": "have a heart of gold",
+      "literal": "tener corazón de oro",
+      "real": "ser muy buena persona",
+      "example": "She has a heart of gold.",
+      "tags": ["personalidad"]
+    },
+    {
+      "id": "id-55",
+      "phrase": "in the same boat",
+      "literal": "en el mismo bote",
+      "real": "en la misma situación",
+      "example": "We're all in the same boat here.",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-56",
+      "phrase": "it's not rocket science",
+      "literal": "no es ciencia de cohetes",
+      "real": "no es tan difícil",
+      "example": "Come on, it's not rocket science!",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-57",
+      "phrase": "jump the shark",
+      "literal": "saltar el tiburón",
+      "real": "pasarse de moda, perder calidad",
+      "example": "The show jumped the shark after season 3.",
+      "tags": ["cultura"]
+    },
+    {
+      "id": "id-58",
+      "phrase": "keep your chin up",
+      "literal": "mantén la barbilla arriba",
+      "real": "ánimo, no te desanimes",
+      "example": "Keep your chin up. Things will get better.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-59",
+      "phrase": "kill two birds with one stone",
+      "literal": "matar dos pájaros con una piedra",
+      "real": "lograr dos cosas a la vez",
+      "example": "By cycling to work, I kill two birds with one stone.",
+      "tags": ["productividad"]
+    },
+    {
+      "id": "id-60",
+      "phrase": "lose your touch",
+      "literal": "perder tu toque",
+      "real": "perder la habilidad",
+      "example": "Have you lost your touch?",
+      "tags": ["habilidad"]
+    },
+    {
+      "id": "id-61",
+      "phrase": "make a long story short",
+      "literal": "hacer una historia larga corta",
+      "real": "en resumen",
+      "example": "To make a long story short, we missed the flight.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-62",
+      "phrase": "miss the point",
+      "literal": "perder el punto",
+      "real": "no entender lo importante",
+      "example": "You're missing the point entirely.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-63",
+      "phrase": "no-brainer",
+      "literal": "sin cerebro",
+      "real": "decisión obvia",
+      "example": "The offer was a no-brainer. I took it.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-64",
+      "phrase": "off the top of my head",
+      "literal": "fuera de la parte superior de mi cabeza",
+      "real": "sin pensarlo mucho, de memoria",
+      "example": "Off the top of my head, I'd say 50 people came.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-65",
+      "phrase": "on second thought",
+      "literal": "en segundo pensamiento",
+      "real": "pensándolo mejor",
+      "example": "On second thought, I'll stay home tonight.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-66",
+      "phrase": "out of the blue",
+      "literal": "fuera del azul",
+      "real": "de la nada, inesperado",
+      "example": "She called me out of the blue.",
+      "tags": ["eventos"]
+    },
+    {
+      "id": "id-67",
+      "phrase": "out of this world",
+      "literal": "fuera de este mundo",
+      "real": "increíble, fantástico",
+      "example": "The food was out of this world.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-68",
+      "phrase": "over the moon",
+      "literal": "sobre la luna",
+      "real": "muy feliz",
+      "example": "She's over the moon about the baby.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-69",
+      "phrase": "paint the town red",
+      "literal": "pintar la ciudad de rojo",
+      "real": "salir a divertirse mucho",
+      "example": "Let's paint the town red tonight!",
+      "tags": ["social", "fiesta"]
+    },
+    {
+      "id": "id-70",
+      "phrase": "read between the lines",
+      "literal": "leer entre las líneas",
+      "real": "entender el mensaje oculto",
+      "example": "Read between the lines — she's not happy.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-71",
+      "phrase": "rub someone the wrong way",
+      "literal": "frotar a alguien del lado equivocado",
+      "real": "irritar a alguien",
+      "example": "He rubs me the wrong way.",
+      "tags": ["personalidad"]
+    },
+    {
+      "id": "id-72",
+      "phrase": "shoot from the hip",
+      "literal": "disparar desde la cadera",
+      "real": "hablar sin pensar",
+      "example": "He tends to shoot from the hip in meetings.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-73",
+      "phrase": "sit on the fence",
+      "literal": "sentarse en la cerca",
+      "real": "no comprometerse",
+      "example": "Stop sitting on the fence and vote!",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-74",
+      "phrase": "stab someone in the back",
+      "literal": "apuñalar a alguien en la espalda",
+      "real": "traicionar a alguien",
+      "example": "I can't believe he stabbed me in the back.",
+      "tags": ["traición"]
+    },
+    {
+      "id": "id-75",
+      "phrase": "steal someone's thunder",
+      "literal": "robar el trueno de alguien",
+      "real": "robarse el protagonismo",
+      "example": "I was about to announce it, but she stole my thunder.",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-76",
+      "phrase": "stick to your guns",
+      "literal": "mantente firme en tus armas",
+      "real": "mantener tu posición",
+      "example": "Stick to your guns. You're right.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-77",
+      "phrase": "strike while the iron is hot",
+      "literal": "golpear mientras el hierro está caliente",
+      "real": "aprovechar la oportunidad",
+      "example": "Strike while the iron is hot and apply now.",
+      "tags": ["oportunidad"]
+    },
+    {
+      "id": "id-78",
+      "phrase": "take it with a grain of salt",
+      "literal": "tómalo con un grano de sal",
+      "real": "no creerte todo",
+      "example": "Take his advice with a grain of salt.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-79",
+      "phrase": "the best of both worlds",
+      "literal": "lo mejor de ambos mundos",
+      "real": "dos ventajas a la vez",
+      "example": "Working from home gives me the best of both worlds.",
+      "tags": ["estilo de vida"]
+    },
+    {
+      "id": "id-80",
+      "phrase": "the last straw",
+      "literal": "la última paja",
+      "real": "lo que colmó el vaso",
+      "example": "His lateness was the last straw.",
+      "tags": ["problemas"]
+    },
+    {
+      "id": "id-81",
+      "phrase": "through thick and thin",
+      "literal": "por grueso y delgado",
+      "real": "en las buenas y en las malas",
+      "example": "We've been friends through thick and thin.",
+      "tags": ["relaciones"]
+    },
+    {
+      "id": "id-82",
+      "phrase": "tie the knot",
+      "literal": "atar el nudo",
+      "real": "casarse",
+      "example": "They're going to tie the knot next summer.",
+      "tags": ["relaciones"]
+    },
+    {
+      "id": "id-83",
+      "phrase": "to have bigger fish to fry",
+      "literal": "tener peces más grandes para freír",
+      "real": "tener cosas más importantes",
+      "example": "I can't deal with this now. I have bigger fish to fry.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-84",
+      "phrase": "under your nose",
+      "literal": "bajo tu nariz",
+      "real": "justo frente a ti (y no lo viste)",
+      "example": "The keys were under your nose the whole time.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-85",
+      "phrase": "up to your ears",
+      "literal": "hasta tus orejas",
+      "real": "muy ocupado",
+      "example": "I'm up to my ears in work.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-86",
+      "phrase": "when pigs fly",
+      "literal": "cuando los cerdos vuelen",
+      "real": "nunca va a pasar",
+      "example": "Yeah, right. When pigs fly!",
+      "tags": ["humor"]
+    },
+    {
+      "id": "id-87",
+      "phrase": "wolf in sheep's clothing",
+      "literal": "lobo con piel de oveja",
+      "real": "persona peligrosa disfrazada de buena",
+      "example": "Be careful — he's a wolf in sheep's clothing.",
+      "tags": ["personalidad"]
+    },
+    {
+      "id": "id-88",
+      "phrase": "you can't have your cake and eat it too",
+      "literal": "no puedes tener tu pastel y comértelo también",
+      "real": "no puedes tenerlo todo",
+      "example": "You can't have your cake and eat it too.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-89",
+      "phrase": "your call",
+      "literal": "tu llamada",
+      "real": "tú decides",
+      "example": "It's your call.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-90",
+      "phrase": "zero in on",
+      "literal": "poner a cero en",
+      "real": "enfocarse en",
+      "example": "Let's zero in on the main issue.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-91",
+      "phrase": "bent out of shape",
+      "literal": "doblado fuera de forma",
+      "real": "molesto, exagerado",
+      "example": "Don't get bent out of shape about it.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-92",
+      "phrase": "blow off steam",
+      "literal": "soplar vapor",
+      "real": "desahogarse, liberar estrés",
+      "example": "I go for a run to blow off steam.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-93",
+      "phrase": "boil down to",
+      "literal": "hervir a",
+      "real": "reducirse a",
+      "example": "It all boils down to money.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-94",
+      "phrase": "by and large",
+      "literal": "por y grande",
+      "real": "en general",
+      "example": "By and large, the project went well.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-95",
+      "phrase": "come clean",
+      "literal": "venir limpio",
+      "real": "confesar, ser honesto",
+      "example": "You need to come clean about what happened.",
+      "tags": ["honestidad"]
+    },
+    {
+      "id": "id-96",
+      "phrase": "cost a fortune",
+      "literal": "costar una fortuna",
+      "real": "ser muy caro",
+      "example": "That holiday cost a fortune.",
+      "tags": ["dinero"]
+    },
+    {
+      "id": "id-97",
+      "phrase": "cut some slack",
+      "literal": "cortar algo de holgura",
+      "real": "ser flexible, no ser muy estricto",
+      "example": "Cut him some slack — he's new.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-98",
+      "phrase": "devil's advocate",
+      "literal": "abogado del diablo",
+      "real": "quien defiende la posición contraria para probar un argumento",
+      "example": "Let me play devil's advocate for a moment.",
+      "tags": ["debate"]
+    },
+    {
+      "id": "id-99",
+      "phrase": "down to earth",
+      "literal": "bajo a la tierra",
+      "real": "sencillo, realista",
+      "example": "Despite his fame, he's very down to earth.",
+      "tags": ["personalidad"]
+    },
+    {
+      "id": "id-100",
+      "phrase": "downplay",
+      "literal": "minimizar",
+      "real": "no dar importancia",
+      "example": "He downplayed his role in the success.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-101",
+      "phrase": "drop the ball",
+      "literal": "soltar la pelota",
+      "real": "cometer un error",
+      "example": "I really dropped the ball on that one.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-102",
+      "phrase": "every cloud has a silver lining",
+      "literal": "toda nube tiene un forro de plata",
+      "real": "siempre hay un lado positivo",
+      "example": "I lost my job, but every cloud has a silver lining.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-103",
+      "phrase": "feather in your cap",
+      "literal": "pluma en tu gorra",
+      "real": "logro del que estar orgulloso",
+      "example": "That's a feather in your cap!",
+      "tags": ["éxito"]
+    },
+    {
+      "id": "id-104",
+      "phrase": "few and far between",
+      "literal": "pocos y lejos entre",
+      "real": "rara vez, escasos",
+      "example": "Good restaurants are few and far between here.",
+      "tags": ["frecuencia"]
+    },
+    {
+      "id": "id-105",
+      "phrase": "fish out of water",
+      "literal": "pez fuera del agua",
+      "real": "fuera de lugar",
+      "example": "I felt like a fish out of water at the party.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-106",
+      "phrase": "fit as a fiddle",
+      "literal": "en forma como un violín",
+      "real": "en perfecta salud",
+      "example": "My grandmother is fit as a fiddle.",
+      "tags": ["salud"]
+    },
+    {
+      "id": "id-107",
+      "phrase": "get a grip",
+      "literal": "agárrate",
+      "real": "cálmate, contrólate",
+      "example": "Get a grip! It's not that bad.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-108",
+      "phrase": "get the hang of it",
+      "literal": "agarrar el truco",
+      "real": "aprender, dominar",
+      "example": "You'll get the hang of it soon.",
+      "tags": ["aprendizaje"]
+    },
+    {
+      "id": "id-109",
+      "phrase": "get up on the wrong side of the bed",
+      "literal": "levantarse del lado equivocado de la cama",
+      "real": "levantarse de mal humor",
+      "example": "Someone got up on the wrong side of the bed today.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-110",
+      "phrase": "get your foot in the door",
+      "literal": "meter el pie en la puerta",
+      "real": "entrar (al mercado, a una industria)",
+      "example": "The internship helped me get my foot in the door.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-111",
+      "phrase": "give someone a hand",
+      "literal": "dar a alguien una mano",
+      "real": "ayudar",
+      "example": "Can you give me a hand with this?",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-112",
+      "phrase": "go down in flames",
+      "literal": "caer en llamas",
+      "real": "fracasar estrepitosamente",
+      "example": "His campaign went down in flames.",
+      "tags": ["fracaso"]
+    },
+    {
+      "id": "id-113",
+      "phrase": "go out on a limb",
+      "literal": "salir en una rama",
+      "real": "arriesgarse, exponerse",
+      "example": "I'll go out on a limb and say I think she'll win.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-114",
+      "phrase": "hang in there",
+      "literal": "colgar ahí",
+      "real": "aguantar, no rendirse",
+      "example": "Hang in there. It gets easier.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-115",
+      "phrase": "have a blast",
+      "literal": "tener una explosión",
+      "real": "divertirse mucho",
+      "example": "We had a blast at the party.",
+      "tags": ["social", "fiesta"]
+    },
+    {
+      "id": "id-116",
+      "phrase": "have mixed feelings",
+      "literal": "tener sentimientos mezclados",
+      "real": "estar dividido",
+      "example": "I have mixed feelings about the move.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-117",
+      "phrase": "hit it off",
+      "literal": "golpearlo",
+      "real": "llevarse bien inmediatamente",
+      "example": "We hit it off from the start.",
+      "tags": ["relaciones"]
+    },
+    {
+      "id": "id-118",
+      "phrase": "hold your horses",
+      "literal": "sostén tus caballos",
+      "real": "calmarse, tener paciencia",
+      "example": "Hold your horses! We'll get there.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-119",
+      "phrase": "in the dark",
+      "literal": "en la oscuridad",
+      "real": "sin información",
+      "example": "They kept me in the dark about it.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-120",
+      "phrase": "in the long run",
+      "literal": "en la carrera larga",
+      "real": "a largo plazo",
+      "example": "It's worth it in the long run.",
+      "tags": ["tiempo"]
+    },
+    {
+      "id": "id-121",
+      "phrase": "in the loop",
+      "literal": "en el lazo",
+      "real": "informado, al tanto",
+      "example": "Keep me in the loop, please.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-122",
+      "phrase": "in the red",
+      "literal": "en el rojo",
+      "real": "en números negativos (finanzas)",
+      "example": "The company is in the red.",
+      "tags": ["dinero", "negocio"]
+    },
+    {
+      "id": "id-123",
+      "phrase": "in the works",
+      "literal": "en las obras",
+      "real": "en desarrollo",
+      "example": "Something big is in the works.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-124",
+      "phrase": "iron out",
+      "literal": "alisar con plancha",
+      "real": "resolver (problemas menores)",
+      "example": "We need to iron out the details.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-125",
+      "phrase": "it takes two to tango",
+      "literal": "se necesitan dos para bailar tango",
+      "real": "son dos los responsables",
+      "example": "It takes two to tango. You're not the only one to blame.",
+      "tags": ["relaciones"]
+    },
+    {
+      "id": "id-126",
+      "phrase": "jump through hoops",
+      "literal": "saltar a través de aros",
+      "real": "pasar por muchas pruebas",
+      "example": "I had to jump through hoops to get the visa.",
+      "tags": ["esfuerzo"]
+    },
+    {
+      "id": "id-127",
+      "phrase": "keep an eye on",
+      "literal": "mantener un ojo en",
+      "real": "vigilar",
+      "example": "Can you keep an eye on my bag?",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-128",
+      "phrase": "keep your fingers crossed",
+      "literal": "mantén los dedos cruzados",
+      "real": "esperar que algo salga bien",
+      "example": "Keep your fingers crossed for me!",
+      "tags": ["suerte"]
+    },
+    {
+      "id": "id-129",
+      "phrase": "kick the bucket",
+      "literal": "patear el balde",
+      "real": "morir (humorístico)",
+      "example": "I'm going to kick the bucket if I eat more cake.",
+      "tags": ["humor"]
+    },
+    {
+      "id": "id-130",
+      "phrase": "last but not least",
+      "literal": "el último pero no el menos importante",
+      "real": "por último pero no menos importante",
+      "example": "Last but not least, I'd like to thank my family.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-131",
+      "phrase": "left in the lurch",
+      "literal": "dejado en el atolladero",
+      "real": "abandonado sin ayuda",
+      "example": "She left me in the lurch.",
+      "tags": ["problemas"]
+    },
+    {
+      "id": "id-132",
+      "phrase": "let bygones be bygones",
+      "literal": "deja que lo pasado sea pasado",
+      "real": "olvidar rencores",
+      "example": "Let bygones be bygones.",
+      "tags": ["relaciones"]
+    },
+    {
+      "id": "id-133",
+      "phrase": "like clockwork",
+      "literal": "como reloj",
+      "real": "con precisión, sin problemas",
+      "example": "The trains run like clockwork.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-134",
+      "phrase": "lucky break",
+      "literal": "suerte rota",
+      "real": "buena suerte inesperada",
+      "example": "I got my lucky break at 25.",
+      "tags": ["suerte"]
+    },
+    {
+      "id": "id-135",
+      "phrase": "make ends meet",
+      "literal": "juntar los extremos",
+      "real": "llegar a fin de mes",
+      "example": "With three kids, it's hard to make ends meet.",
+      "tags": ["dinero"]
+    },
+    {
+      "id": "id-136",
+      "phrase": "make or break",
+      "literal": "hacer o romper",
+      "real": "decisivo (éxito o fracaso total)",
+      "example": "This is a make-or-break moment.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-137",
+      "phrase": "many hands make light work",
+      "literal": "muchas manos hacen trabajo ligero",
+      "real": "con ayuda es más fácil",
+      "example": "Many hands make light work!",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-138",
+      "phrase": "my bad",
+      "literal": "mi mal",
+      "real": "mi culpa (informal)",
+      "example": "Oops, my bad!",
+      "tags": ["humor", "informal"]
+    },
+    {
+      "id": "id-139",
+      "phrase": "nest egg",
+      "literal": "huevo en nido",
+      "real": "ahorros",
+      "example": "I've been building a nest egg for retirement.",
+      "tags": ["dinero"]
+    },
+    {
+      "id": "id-140",
+      "phrase": "no pain, no gain",
+      "literal": "sin dolor, sin ganancia",
+      "real": "hay que esforzarse",
+      "example": "No pain, no gain. Keep studying!",
+      "tags": ["esfuerzo"]
+    },
+    {
+      "id": "id-141",
+      "phrase": "not a chance",
+      "literal": "no una oportunidad",
+      "real": "de ninguna manera",
+      "example": "Not a chance! I won't do that.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-142",
+      "phrase": "off the beaten track",
+      "literal": "fuera del camino batido",
+      "real": "en un lugar remoto o inusual",
+      "example": "We found a lovely café off the beaten track.",
+      "tags": ["viaje"]
+    },
+    {
+      "id": "id-143",
+      "phrase": "on pins and needles",
+      "literal": "en alfileres y agujas",
+      "real": "muy nervioso",
+      "example": "I was on pins and needles before the interview.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-144",
+      "phrase": "on the dot",
+      "literal": "en el punto",
+      "real": "exactamente a tiempo",
+      "example": "She arrived at 9 on the dot.",
+      "tags": ["tiempo"]
+    },
+    {
+      "id": "id-145",
+      "phrase": "on the house",
+      "literal": "en la casa",
+      "real": "gratis (ofrecido por el local)",
+      "example": "The drinks are on the house tonight.",
+      "tags": ["dinero"]
+    },
+    {
+      "id": "id-146",
+      "phrase": "once bitten, twice shy",
+      "literal": "una vez mordido, dos veces tímido",
+      "real": "una mala experiencia te hace cuidadoso",
+      "example": "Once bitten, twice shy. I won't invest again.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-147",
+      "phrase": "out of line",
+      "literal": "fuera de línea",
+      "real": "impertinente, grosero",
+      "example": "That comment was completely out of line.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-148",
+      "phrase": "out of sorts",
+      "literal": "fuera de sorts",
+      "real": "no sentirse bien, irritable",
+      "example": "I've been out of sorts all week.",
+      "tags": ["salud"]
+    },
+    {
+      "id": "id-149",
+      "phrase": "play it by ear",
+      "literal": "tócalo de oído",
+      "real": "improvisar según la situación",
+      "example": "Let's not plan too much. We'll play it by ear.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-150",
+      "phrase": "pull a fast one",
+      "literal": "tirar un rápido",
+      "real": "hacer una trampa, engañar",
+      "example": "He tried to pull a fast one on me.",
+      "tags": ["engaño"]
+    },
+    {
+      "id": "id-151",
+      "phrase": "pull the plug",
+      "literal": "tirar del enchufe",
+      "real": "cancelar un proyecto",
+      "example": "They pulled the plug on the new product.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-152",
+      "phrase": "rain check",
+      "literal": "cheque de lluvia",
+      "real": "posponer algo (pero queriéndolo hacer)",
+      "example": "Can I take a rain check on dinner?",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-153",
+      "phrase": "right as rain",
+      "literal": "correcto como lluvia",
+      "real": "perfecto, bien",
+      "example": "Don't worry, I'll be right as rain.",
+      "tags": ["salud"]
+    },
+    {
+      "id": "id-154",
+      "phrase": "round the clock",
+      "literal": "alrededor del reloj",
+      "real": "24/7, sin parar",
+      "example": "We worked round the clock to finish it.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-155",
+      "phrase": "run out of steam",
+      "literal": "quedarse sin vapor",
+      "real": "perder energía",
+      "example": "I ran out of steam around 3pm.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-156",
+      "phrase": "screw up",
+      "literal": "atornillar arriba",
+      "real": "equivocarse, arruinar",
+      "example": "I really screwed up that interview.",
+      "tags": ["errores"]
+    },
+    {
+      "id": "id-157",
+      "phrase": "set in stone",
+      "literal": "puesto en piedra",
+      "real": "definitivo, no cambiable",
+      "example": "The rules aren't set in stone.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-158",
+      "phrase": "shape up or ship out",
+      "literal": "ponte en forma o vete",
+      "real": "mejora o vete",
+      "example": "Shape up or ship out!",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-159",
+      "phrase": "sleep on it",
+      "literal": "dormir sobre ello",
+      "real": "pensarlo antes de decidir",
+      "example": "Let me sleep on it and I'll get back to you.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-160",
+      "phrase": "smooth sailing",
+      "literal": "navegación suave",
+      "real": "sin problemas",
+      "example": "After the launch, it was smooth sailing.",
+      "tags": ["éxito"]
+    },
+    {
+      "id": "id-161",
+      "phrase": "so far so good",
+      "literal": "hasta ahora tan bueno",
+      "real": "todo bien hasta ahora",
+      "example": "So far so good. No complaints yet.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-162",
+      "phrase": "stab in the dark",
+      "literal": "apuñalada en la oscuridad",
+      "real": "intento a ciegas",
+      "example": "I was just taking a stab in the dark.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-163",
+      "phrase": "stand out",
+      "literal": "destacar",
+      "real": "ser notable, diferente",
+      "example": "Her application really stood out.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-164",
+      "phrase": "start from scratch",
+      "literal": "empezar desde cero",
+      "real": "empezar desde el principio",
+      "example": "We had to start from scratch.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-165",
+      "phrase": "stick around",
+      "literal": "quedarse alrededor",
+      "real": "quedarse, esperar",
+      "example": "Stick around — the show's about to start.",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-166",
+      "phrase": "stir up trouble",
+      "literal": "revolver problemas",
+      "real": "causar problemas",
+      "example": "He's always stirring up trouble.",
+      "tags": ["problemas"]
+    },
+    {
+      "id": "id-167",
+      "phrase": "stop by",
+      "literal": "detenerse por",
+      "real": "visitar brevemente",
+      "example": "Why don't you stop by for coffee?",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-168",
+      "phrase": "straight from the horse's mouth",
+      "literal": "directo de la boca del caballo",
+      "real": "de la fuente más confiable",
+      "example": "I heard it straight from the horse's mouth.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-169",
+      "phrase": "take for granted",
+      "literal": "tomar por concedido",
+      "real": "no valorar",
+      "example": "Don't take your family for granted.",
+      "tags": ["relaciones"]
+    },
+    {
+      "id": "id-170",
+      "phrase": "take it easy",
+      "literal": "tómalo fácil",
+      "real": "relájate, no te preocupes",
+      "example": "Take it easy! It's just a small mistake.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-171",
+      "phrase": "take the bull by the horns",
+      "literal": "tomar al toro por los cuernos",
+      "real": "afrontar el problema",
+      "example": "Let's take the bull by the horns.",
+      "tags": ["consejos"]
+    },
+    {
+      "id": "id-172",
+      "phrase": "the elephant in the room",
+      "literal": "el elefante en la sala",
+      "real": "el problema obvio que nadie menciona",
+      "example": "Let's address the elephant in the room.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-173",
+      "phrase": "the whole nine yards",
+      "literal": "las nueve yardas completas",
+      "real": "todo, de cabo a rabo",
+      "example": "She went the whole nine yards on the project.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-174",
+      "phrase": "through and through",
+      "literal": "por y por",
+      "real": "completamente, de pies a cabeza",
+      "example": "He's a Londoner through and through.",
+      "tags": ["personalidad"]
+    },
+    {
+      "id": "id-175",
+      "phrase": "tied up",
+      "literal": "atado",
+      "real": "ocupado",
+      "example": "I'm a bit tied up right now. Can I call you back?",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-176",
+      "phrase": "time flies",
+      "literal": "el tiempo vuela",
+      "real": "el tiempo pasa rápido",
+      "example": "Time flies! I can't believe she's 5 already.",
+      "tags": ["tiempo"]
+    },
+    {
+      "id": "id-177",
+      "phrase": "to beat oneself up",
+      "literal": "golpearse a uno mismo",
+      "real": "ser muy duro con uno mismo",
+      "example": "Don't beat yourself up about it.",
+      "tags": ["emociones"]
+    },
+    {
+      "id": "id-178",
+      "phrase": "to be a piece of work",
+      "literal": "ser una obra de arte",
+      "real": "ser difícil o especial",
+      "example": "That boss is a real piece of work.",
+      "tags": ["personalidad"]
+    },
+    {
+      "id": "id-179",
+      "phrase": "to be in the dark",
+      "literal": "estar en la oscuridad",
+      "real": "no saber algo",
+      "example": "I'm completely in the dark about this.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-180",
+      "phrase": "to be over the hill",
+      "literal": "estar sobre la colina",
+      "real": "ser muy mayor (jerga)",
+      "example": "At 30, he feels over the hill.",
+      "tags": ["humor"]
+    },
+    {
+      "id": "id-181",
+      "phrase": "to be raining cats and dogs",
+      "literal": "estar lloviendo gatos y perros",
+      "real": "llover mucho",
+      "example": "It's raining cats and dogs!",
+      "tags": ["clima"]
+    },
+    {
+      "id": "id-182",
+      "phrase": "to bite the dust",
+      "literal": "morder el polvo",
+      "real": "fracasar o morir",
+      "example": "Another project bit the dust.",
+      "tags": ["fracaso"]
+    },
+    {
+      "id": "id-183",
+      "phrase": "to be on the same wavelength",
+      "literal": "estar en la misma longitud de onda",
+      "real": "pensar igual, entenderse",
+      "example": "We were on the same wavelength immediately.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-184",
+      "phrase": "to go the distance",
+      "literal": "ir la distancia",
+      "real": "persistir hasta el final",
+      "example": "Few companies can go the distance.",
+      "tags": ["esfuerzo"]
+    },
+    {
+      "id": "id-185",
+      "phrase": "to make a long story short",
+      "literal": "hacer una historia larga corta",
+      "real": "en resumen",
+      "example": "To make a long story short, we got married.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-186",
+      "phrase": "to pop the question",
+      "literal": "estallar la pregunta",
+      "real": "pedir matrimonio",
+      "example": "He popped the question on holiday.",
+      "tags": ["relaciones"]
+    },
+    {
+      "id": "id-187",
+      "phrase": "to wrap up",
+      "literal": "envolver arriba",
+      "real": "terminar, concluir",
+      "example": "Let's wrap up the meeting.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-188",
+      "phrase": "turn over a new leaf",
+      "literal": "girar una nueva hoja",
+      "real": "empezar de nuevo, cambiar",
+      "example": "I'm turning over a new leaf this year.",
+      "tags": ["decisiones"]
+    },
+    {
+      "id": "id-189",
+      "phrase": "twist someone's arm",
+      "literal": "retorcer el brazo de alguien",
+      "real": "convencer a alguien",
+      "example": "I had to twist his arm to come.",
+      "tags": ["social"]
+    },
+    {
+      "id": "id-190",
+      "phrase": "under the radar",
+      "literal": "bajo el radar",
+      "real": "sin ser notado",
+      "example": "The issue went under the radar.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-191",
+      "phrase": "up for grabs",
+      "literal": "arriba para agarrar",
+      "real": "disponible, en juego",
+      "example": "The promotion is up for grabs.",
+      "tags": ["oportunidad"]
+    },
+    {
+      "id": "id-192",
+      "phrase": "what's up?",
+      "literal": "qué hay arriba",
+      "real": "qué tal, qué pasa",
+      "example": "Hey! What's up?",
+      "tags": ["social", "saludo"]
+    },
+    {
+      "id": "id-193",
+      "phrase": "when it comes to",
+      "literal": "cuando viene a",
+      "real": "en lo que respecta a",
+      "example": "When it comes to money, I don't joke.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-194",
+      "phrase": "where there's smoke, there's fire",
+      "literal": "donde hay humo, hay fuego",
+      "real": "si hay rumores, algo hay",
+      "example": "Where there's smoke, there's fire.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-195",
+      "phrase": "wolf down",
+      "literal": "tragar como lobo",
+      "real": "comer muy rápido",
+      "example": "I wolfed down my lunch.",
+      "tags": ["comida"]
+    },
+    {
+      "id": "id-196",
+      "phrase": "you can say that again",
+      "literal": "puedes decir eso de nuevo",
+      "real": "exacto, totalmente de acuerdo",
+      "example": "\"It's hot today.\" \"You can say that again!\"",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-197",
+      "phrase": "your money or your life",
+      "literal": "tu dinero o tu vida",
+      "real": "decisión difícil (humor)",
+      "example": "It's your money or your life!",
+      "tags": ["humor"]
+    },
+    {
+      "id": "id-198",
+      "phrase": "zip your lip",
+      "literal": "cerrar tu labio",
+      "real": "cállate",
+      "example": "Zip your lip and listen.",
+      "tags": ["comunicación"]
+    },
+    {
+      "id": "id-199",
+      "phrase": "back to the drawing board",
+      "literal": "de vuelta al tablero de dibujo",
+      "real": "hay que empezar de nuevo",
+      "example": "The design didn't work. Back to the drawing board.",
+      "tags": ["trabajo"]
+    },
+    {
+      "id": "id-200",
+      "phrase": "bite the hand that feeds you",
+      "literal": "morder la mano que te alimenta",
+      "real": "ser desagradecido con quien te ayuda",
+      "example": "Don't bite the hand that feeds you.",
+      "tags": ["relaciones"]
+    }
+  ]
+}

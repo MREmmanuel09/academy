@@ -1,0 +1,31 @@
+{
+  "id": "q-w-4",
+  "quizId": "exam-security",
+  "type": "multiple",
+  "prompt": "WPA2-PSK es vulnerable principalmente a:",
+  "options": [
+    {
+      "id": "0",
+      "text": "Replay attacks"
+    },
+    {
+      "id": "1",
+      "text": "Offline dictionary attack"
+    },
+    {
+      "id": "2",
+      "text": "MITM activo"
+    },
+    {
+      "id": "3",
+      "text": "KPA"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "WPA2-PSK (pre-shared key) es vulnerable a fuerza bruta offline: capturas el 4-way handshake y pruebas contraseñas.",
+  "irtA": 1.096,
+  "irtB": -0.08,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

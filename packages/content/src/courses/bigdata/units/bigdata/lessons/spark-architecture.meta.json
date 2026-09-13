@@ -1,0 +1,14 @@
+{
+  "id": "spark-architecture",
+  "title": "Apache Spark: arquitectura (Driver, Executors, DAG)",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 85,
+  "summary": "Como Spark ejecuta tu codigo en un cluster. Driver, Executors, Cluster Manager y el DAG scheduler.",
+  "keyTakeaways": [
+    "Driver construye el DAG, executors ejecutan tasks, Cluster Manager asigna recursos.",
+    "Spark hace lazy evaluation: solo ejecuta cuando hay una action.",
+    "Shuffles son lo mas caro: minimiza groupByKey, prefiere reduceByKey."
+  ]
+}

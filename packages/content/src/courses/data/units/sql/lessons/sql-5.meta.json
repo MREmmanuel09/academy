@@ -1,0 +1,15 @@
+{
+  "id": "sql-5",
+  "title": "Window Functions: ROW_NUMBER, RANK, LAG, LEAD, PARTITION BY",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 16,
+  "xp": 85,
+  "summary": "Funciones que operan sobre ventanas de filas. La herramienta más poderosa de SQL analítico.",
+  "keyTakeaways": [
+    "Window functions operan sobre un grupo de filas SIN colapsarlas (a diferencia de GROUP BY).",
+    "ROW_NUMBER, RANK, DENSE_RANK para ranking. LAG/LEAD para comparar con fila anterior/siguiente.",
+    "SUM, AVG como window functions: running totals y moving averages.",
+    "Top N por grupo: ROW_NUMBER() + PARTITION BY + WHERE rn <= N."
+  ]
+}

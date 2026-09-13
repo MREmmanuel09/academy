@@ -1,0 +1,15 @@
+{
+  "id": "py-comprehensions",
+  "title": "Comprehensions: list, dict, set",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 12,
+  "xp": 50,
+  "summary": "Sintaxis compacta para crear colecciones: mas rapidas y legibles que loops.",
+  "keyTakeaways": [
+    "Comprehensions son mas rapidas y legibles que loops con append.",
+    "Tipos: list [], dict {}, set {}. Generators () para datos grandes.",
+    "No abuses: si pasa de 2 for o 2 condiciones, vuelve a un loop tradicional.",
+    "Generators (parentesis) no materializan la lista — ideales para datasets grandes."
+  ]
+}

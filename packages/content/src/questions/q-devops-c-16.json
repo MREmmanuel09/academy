@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-16",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué diferencia hay entre Security Group y NACL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son iguales"
+    },
+    {
+      "id": "1",
+      "text": "SG es stateful y por instancia, NACL es stateless y por subnet"
+    },
+    {
+      "id": "2",
+      "text": "NACL es más rápido"
+    },
+    {
+      "id": "3",
+      "text": "SG no permite reglas"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Security Group: stateful (tráfico de respuesta automático), opera a nivel de ENI. NACL: stateless (reglas separadas in/out), a nivel de subnet.",
+  "irtA": 1.1320000000000001,
+  "irtB": 1.8,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-6",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace `docker ps -a`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Lista containers corriendo"
+    },
+    {
+      "id": "1",
+      "text": "Lista todos los containers (incluyendo parados)"
+    },
+    {
+      "id": "2",
+      "text": "Lista imágenes"
+    },
+    {
+      "id": "3",
+      "text": "Limpia containers"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "docker ps lista corriendo. -a muestra todos (corriendo + parados + exited).",
+  "irtA": 1.028,
+  "irtB": -0.48,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

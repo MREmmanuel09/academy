@@ -1,0 +1,31 @@
+{
+  "id": "q-r-3",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Cuál de estas es una dirección privada RFC 1918?",
+  "options": [
+    {
+      "id": "0",
+      "text": "8.8.8.8"
+    },
+    {
+      "id": "1",
+      "text": "192.168.1.1"
+    },
+    {
+      "id": "2",
+      "text": "1.1.1.1"
+    },
+    {
+      "id": "3",
+      "text": "169.254.0.1"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "192.168.0.0/16 es el rango privado más usado (junto a 10.0.0.0/8 y 172.16.0.0/12).",
+  "irtA": 1.072,
+  "irtB": 0.9,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

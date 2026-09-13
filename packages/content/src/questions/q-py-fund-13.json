@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-13",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Para qué sirve el patrón \"if __name__ == \"__main__\":\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Define el nombre del módulo"
+    },
+    {
+      "id": "1",
+      "text": "Separa código ejecutable de código importable"
+    },
+    {
+      "id": "2",
+      "text": "Es obligatorio en todos los archivos Python"
+    },
+    {
+      "id": "3",
+      "text": "Permite usar private variables"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Permite que un archivo se ejecute como script pero NO se ejecute al importarlo. Convencion profesional.",
+  "irtA": 1.1440000000000001,
+  "irtB": 0.68,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

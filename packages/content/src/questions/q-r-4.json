@@ -1,0 +1,31 @@
+{
+  "id": "q-r-4",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Cuántas direcciones utilizables tiene una red /27?",
+  "options": [
+    {
+      "id": "0",
+      "text": "14"
+    },
+    {
+      "id": "1",
+      "text": "30"
+    },
+    {
+      "id": "2",
+      "text": "62"
+    },
+    {
+      "id": "3",
+      "text": "126"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Una /27 tiene 32 direcciones totales (2^(32-27) = 32). Restando red y broadcast quedan 30 utilizables.",
+  "irtA": 1.076,
+  "irtB": 0.9,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

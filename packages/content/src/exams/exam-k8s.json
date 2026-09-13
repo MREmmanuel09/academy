@@ -1,0 +1,42 @@
+{
+  "id": "exam-k8s",
+  "course": "devops",
+  "unit": "kubernetes",
+  "title": "Kubernetes CKAD-Style",
+  "description": "Examen de Kubernetes: pods, deployments, services, networking, storage, troubleshooting. Estilo CKAD.",
+  "level": "avanzado",
+  "totalQuestions": 25,
+  "durationMinutes": 40,
+  "passingScore": 75,
+  "xp": 600,
+  "prerequisites": [
+    "exam-docker"
+  ],
+  "questionIds": [
+    "q-devops-k-1",
+    "q-devops-k-2",
+    "q-devops-k-3",
+    "q-devops-k-4",
+    "q-devops-k-5",
+    "q-devops-k-6",
+    "q-devops-k-7",
+    "q-devops-k-8",
+    "q-devops-k-9",
+    "q-devops-k-10",
+    "q-devops-k-11",
+    "q-devops-k-12",
+    "q-devops-k-13",
+    "q-devops-k-14",
+    "q-devops-k-15",
+    "q-devops-k-16",
+    "q-devops-k-17",
+    "q-devops-k-18",
+    "q-devops-k-19",
+    "q-devops-k-20",
+    "q-devops-k-21",
+    "q-devops-k-22",
+    "q-devops-k-23",
+    "q-devops-k-24",
+    "q-devops-k-25"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-f-5",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué capa del modelo TCP/IP encapsula el mensaje de aplicación en segmentos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Acceso a red"
+    },
+    {
+      "id": "1",
+      "text": "Internet"
+    },
+    {
+      "id": "2",
+      "text": "Transporte"
+    },
+    {
+      "id": "3",
+      "text": "Aplicación"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "La capa de Transporte (TCP/UDP) toma los datos de aplicación y los divide en segmentos añadiendo puertos origen y destino.",
+  "irtA": 0.9520000000000001,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

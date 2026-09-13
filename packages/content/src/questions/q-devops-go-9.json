@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-9",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Qué es ApplicationSet en ArgoCD?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un test runner"
+    },
+    {
+      "id": "1",
+      "text": "Template para crear múltiples Applications a partir de un template"
+    },
+    {
+      "id": "2",
+      "text": "Una métrica"
+    },
+    {
+      "id": "3",
+      "text": "Un webhook"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ApplicationSet: templating para crear N ArgoCD Applications. Útil para multi-cluster o multi-env.",
+  "irtA": 1.008,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

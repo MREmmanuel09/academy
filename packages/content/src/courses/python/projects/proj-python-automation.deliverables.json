@@ -1,0 +1,29 @@
+{
+  "id": "proj-python-automation",
+  "title": "Sistema de Automatizacion DevOps con Python",
+  "scenario": "El equipo de DevOps necesita automatizar tareas repetitivas: monitoreo de servidores, notificaciones, despliegues, y reportes. Todo debe ser maintainable y testeable.",
+  "goal": "Construir un framework de automatizacion en Python que unifique monitoreo, alertas, despliegues y reportes con arquitectura modular.",
+  "deliverables": [
+    "CLI principal con subcomandos (monitor, deploy, report, notify)",
+    "Modulo de monitoreo: checks HTTP, CPU, memoria, disco con thresholds configurables",
+    "Modulo de notificaciones: Slack, email, webhook con reintentos y deduplicacion",
+    "Modulo de despliegues: ejecucion remota via SSH/paramiko con rollback automatico",
+    "Modulo de reportes: generacion de PDF/HTML con metricas historicas",
+    "Config YAML/TOML con validacion Pydantic",
+    "Tests unitarios (>80% coverage) y tests de integracion",
+    "Dockerfile multi-stage y docker-compose para desarrollo",
+    "CI/CD con GitHub Actions (lint, test, build)",
+    "Documentacion: README, ARCHITECTURE.md, runbook"
+  ],
+  "tech": [
+    "Python 3.11+",
+    "Click/ Typer (CLI)",
+    "Paramiko (SSH)",
+    "Pydantic (validacion)",
+    "Schedule (scheduling)",
+    "Slack SDK",
+    "Jinja2 (templates)",
+    "pytest",
+    "Docker"
+  ]
+}

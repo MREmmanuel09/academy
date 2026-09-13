@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-28",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace un bind mount en /etc/passwd del container?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Solo lo lee"
+    },
+    {
+      "id": "1",
+      "text": "Sobrescribe /etc/passwd del container con el del host"
+    },
+    {
+      "id": "2",
+      "text": "No funciona"
+    },
+    {
+      "id": "3",
+      "text": "Crea backup"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Cuidado: bind mounts de archivos críticos del host pueden romper el container. Útil en dev, peligroso en prod.",
+  "irtA": 0.8280000000000001,
+  "irtB": 0.44,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

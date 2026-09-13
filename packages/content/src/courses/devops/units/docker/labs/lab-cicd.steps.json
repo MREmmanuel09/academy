@@ -1,0 +1,79 @@
+{
+  "id": "lab-cicd",
+  "title": "Pipeline CI/CD con GitHub Actions",
+  "steps": [
+    {
+      "instruction": "Crea el directorio .github/workflows en tu repositorio.",
+      "expectedCommand": "mkdir -p .github/workflows",
+      "hint": "mkdir -p crea la ruta completa sin error si ya existe."
+    },
+    {
+      "instruction": "Crea el archivo ci.yml con un trigger que se ejecute en cada push.",
+      "expectedCommand": "touch .github/workflows/ci.yml",
+      "hint": "El workflow se ejecuta al hacer push a cualquier branch. Define on: push en el YAML."
+    },
+    {
+      "instruction": "Define un job \"test\" que instale dependencias y ejecute la suite de tests.",
+      "expectedCommand": "echo \"jobs:\\n  test:\\n    runs-on: ubuntu-latest\\n    steps:\\n      - uses: actions/checkout@v4\\n      - run: npm ci\\n      - run: npm test\" >> .github/workflows/ci.yml",
+      "hint": "npm ci es más rápido y determinista que npm install en CI."
+    },
+    {
+      "instruction": "Anade un job \"build\" que dependa de que \"test\" pase exitosamente.",
+      "expectedCommand": "echo \"  build:\\n    needs: test\\n    runs-on: ubuntu-latest\\n    steps:\\n      - uses: actions/checkout@v4\" >> .github/workflows/ci.yml",
+      "hint": "needs: test hace que build espere a que test termine exitosamente."
+    },
+    {
+      "instruction": "En el job build, construye la imagen Docker con un tag basado en el SHA del commit.",
+      "expectedCommand": "echo \"      - run: docker build -t myapp:${{ github.sha }} .\" >> .github/workflows/ci.yml",
+      "hint": "github.sha es el hash del commit. Úsalo como tag para trazabilidad."
+    },
+    {
+      "instruction": "Anade el paso de login al registry usando secrets.",
+      "expectedCommand": "echo \"      - run: echo \\$\\{{ secrets.DOCKER_PASS }} | docker login -u \\$\\{{ secrets.DOCKER_USER }} --password-stdin\" >> .github/workflows/ci.yml",
+      "hint": "Nunca hardcodees credenciales. Usa GitHub Secrets para DOCKER_USER y DOCKER_PASS."
+    },
+    {
+      "instruction": "Anade el paso que pushea la imagen al registry.",
+      "expectedCommand": "echo \"      - run: docker push myapp:${{ github.sha }}\" >> .github/workflows/ci.yml",
+      "hint": "Verifica que la imagen exista con docker images antes de push."
+    },
+    {
+      "instruction": "Documenta en el README que se requieren los secrets DOCKER_USER y DOCKER_PASS.",
+      "expectedCommand": "echo \"## CI/CD\\n\\nSecrets requeridos: DOCKER_USER, DOCKER_PASS\" >> README.md",
+      "hint": "Documenta en el README qué secrets se necesitan y cómo configurarlos."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "github",
+        "x": 100,
+        "y": 100
+      },
+      {
+        "type": "server",
+        "name": "gh-runner",
+        "x": 300,
+        "y": 100
+      },
+      {
+        "type": "server",
+        "name": "docker-hub",
+        "x": 300,
+        "y": 250
+      }
+    ],
+    "links": [
+      {
+        "from": "github",
+        "to": "gh-runner"
+      },
+      {
+        "from": "gh-runner",
+        "to": "docker-hub"
+      }
+    ]
+  },
+  "validation": "Al completar, cada push debe disparar lint, tests y build, y solo el codigo verde debe llegar al entorno de staging."
+}

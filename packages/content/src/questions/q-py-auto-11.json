@@ -1,0 +1,31 @@
+{
+  "id": "q-py-auto-11",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué librería se usa típicamente para construir un Slack bot en Python?",
+  "options": [
+    {
+      "id": "0",
+      "text": "slack-sdk"
+    },
+    {
+      "id": "1",
+      "text": "slack-bolt"
+    },
+    {
+      "id": "2",
+      "text": "ambas son validas"
+    },
+    {
+      "id": "3",
+      "text": "py-slack"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "slack-sdk es la SDK oficial. slack-bolt es un framework sobre slack-sdk con eventos, comandos, modals.",
+  "irtA": 1.08,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

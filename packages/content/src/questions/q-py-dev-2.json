@@ -1,0 +1,14 @@
+{
+  "id": "q-py-dev-2",
+  "quizId": "exam-python-devops",
+  "type": "truefalse",
+  "prompt": "En requests, es buena práctica siempre pasar un timeout para evitar cuelgues infinitos.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Sin timeout, una conexion fallida puede colgar tu script indefinidamente. SIEMPRE pasalo.",
+  "irtA": 1.048,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

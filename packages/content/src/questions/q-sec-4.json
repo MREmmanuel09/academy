@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-4",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué ataque inunda con SYN sin completar el handshake?",
+  "options": [
+    {
+      "id": "0",
+      "text": "UDP flood"
+    },
+    {
+      "id": "1",
+      "text": "ICMP flood"
+    },
+    {
+      "id": "2",
+      "text": "SYN flood"
+    },
+    {
+      "id": "3",
+      "text": "Slowloris"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "SYN flood envía miles de SYN iniciales, agotando la tabla de conexiones del servidor.",
+  "irtA": 1.056,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

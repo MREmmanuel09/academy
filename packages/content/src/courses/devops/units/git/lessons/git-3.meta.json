@@ -1,0 +1,15 @@
+{
+  "id": "git-3",
+  "title": "Remotos: GitHub, GitLab, Bitbucket",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 65,
+  "summary": "push, pull, fetch, PR/MR, forking, code review.",
+  "keyTakeaways": [
+    "git remote -v lista remotos. push envía, pull trae y merge, fetch solo descarga.",
+    "Pull/Merge Requests: pide code review antes de integrar. Pequeños y enfocados.",
+    "Git Flow: main + develop + features. GitHub Flow: solo main + branches cortas.",
+    "Code review es colaboración, no crítica. Comentarios específicos y constructivos."
+  ]
+}

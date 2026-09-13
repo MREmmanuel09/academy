@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-hadoop-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es el rol del NameNode en HDFS?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Guardar los datos reales"
+    },
+    {
+      "id": "1",
+      "text": "Guardar metadata: que archivo tiene que bloques en que nodos"
+    },
+    {
+      "id": "2",
+      "text": "Ejecutar jobs MapReduce"
+    },
+    {
+      "id": "3",
+      "text": "Balancear carga de red"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "NameNode es el maestro: guarda metadata (namespace, mapeo archivo->bloques->nodos). Los DataNodes guardan los bloques reales.",
+  "irtA": 0.884,
+  "irtB": 1.56,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

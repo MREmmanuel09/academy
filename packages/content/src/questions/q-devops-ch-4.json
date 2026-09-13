@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ch-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué NO deberías hacer antes de chaos engineering?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Tener SLOs definidos"
+    },
+    {
+      "id": "1",
+      "text": "Tener runbooks"
+    },
+    {
+      "id": "2",
+      "text": "Black Friday"
+    },
+    {
+      "id": "3",
+      "text": "Tener monitoring"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "NUNCA hagas chaos en eventos críticos (Black Friday, Cyber Monday, lanzamientos). Elige un martes tranquilo.",
+  "irtA": 1.024,
+  "irtB": 1.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

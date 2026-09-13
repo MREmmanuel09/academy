@@ -1,0 +1,31 @@
+{
+  "id": "q-da-pd-4",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "Cual es la salida de df.info()?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Las primeras 5 filas"
+    },
+    {
+      "id": "1",
+      "text": "Estadisticas de columnas numericas"
+    },
+    {
+      "id": "2",
+      "text": "Tipos de dato, conteo de no-nulos y memoria usada"
+    },
+    {
+      "id": "3",
+      "text": "Solo la cantidad de filas y columnas"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "df.info() imprime dtypes, non-null count por columna y uso de memoria. Es el primer comando a correr al cargar un dataset.",
+  "irtA": 1.02,
+  "irtB": -1.6,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

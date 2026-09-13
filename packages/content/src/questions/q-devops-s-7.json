@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-7",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es toil en SRE?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Trabajo difícil"
+    },
+    {
+      "id": "1",
+      "text": "Trabajo manual, repetitivo, automatizable, sin valor a largo plazo"
+    },
+    {
+      "id": "2",
+      "text": "Trabajo de noche"
+    },
+    {
+      "id": "3",
+      "text": "Trabajo en fin de semana"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Toil = trabajo manual repetitivo que debería automatizarse. Regla: max 50% del tiempo del SRE.",
+  "irtA": 1.092,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

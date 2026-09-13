@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-8",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué ataque aprovecha la amplificación de DNS o NTP?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Phishing"
+    },
+    {
+      "id": "1",
+      "text": "DDoS volumétrico"
+    },
+    {
+      "id": "2",
+      "text": "MITM"
+    },
+    {
+      "id": "3",
+      "text": "ARP poisoning"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Los ataques de amplificación (DNS, NTP, memcached) usan servidores abiertos para multiplicar el tamaño del tráfico hacia la víctima.",
+  "irtA": 1.04,
+  "irtB": -1.9,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

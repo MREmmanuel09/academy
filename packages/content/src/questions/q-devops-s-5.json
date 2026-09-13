@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-5",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es un error budget?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Dinero para resolver bugs"
+    },
+    {
+      "id": "1",
+      "text": "Tiempo de downtime permitido antes de feature freeze"
+    },
+    {
+      "id": "2",
+      "text": "Recursos extra del cloud"
+    },
+    {
+      "id": "3",
+      "text": "Un KPI de equipo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Error budget = cuánto downtime/error rate es aceptable. Si se quema, freeze de features.",
+  "irtA": 1.084,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

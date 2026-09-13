@@ -1,0 +1,31 @@
+{
+  "id": "q-da-sb-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cuando es preferible un violinplot sobre un boxplot?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Nunca, el boxplot siempre es mejor"
+    },
+    {
+      "id": "1",
+      "text": "Cuando quieres ver la forma completa de la distribucion, no solo quartiles y outliers"
+    },
+    {
+      "id": "2",
+      "text": "Solo con datos categoricos"
+    },
+    {
+      "id": "3",
+      "text": "Cuando el dataset es muy pequeno"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "El violinplot muestra la KDE (densidad) ademas de los quartiles. Es util cuando la distribucion es multimodal o asimetrica y los cuartiles no cuentan toda la historia.",
+  "irtA": 0.8240000000000001,
+  "irtB": 1.06,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-k-24",
+  "quizId": "exam-k8s",
+  "type": "truefalse",
+  "prompt": "Un Service en K8s siempre balancea carga entre pods.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Service usa iptables/IPVS para balancear tráfico entre los pods seleccionados por su label selector. Round-robin por defecto.",
+  "irtA": 0.9600000000000001,
+  "irtB": -1.24,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-da-np-5",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "Que hace broadcasting en NumPy?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Convierte arrays a listas"
+    },
+    {
+      "id": "1",
+      "text": "Permite operar arrays de formas compatibles alineandolos implicitamente"
+    },
+    {
+      "id": "2",
+      "text": "Envia datos por red"
+    },
+    {
+      "id": "3",
+      "text": "Compila el codigo a C"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Broadcasting extiende arrays de menor dimension para hacerlos compatibles con los de mayor dimension, sin copiar memoria.",
+  "irtA": 0.8240000000000001,
+  "irtB": 0.36,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

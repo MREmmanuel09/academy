@@ -1,0 +1,31 @@
+{
+  "id": "q-da-pd-5",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "Que metodo elimina filas con valores nulos?",
+  "options": [
+    {
+      "id": "0",
+      "text": "df.remove_na()"
+    },
+    {
+      "id": "1",
+      "text": "df.dropna()"
+    },
+    {
+      "id": "2",
+      "text": "df.fillna()"
+    },
+    {
+      "id": "3",
+      "text": "df.clean()"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "df.dropna() elimina filas (o columnas con axis=1) con valores nulos. df.fillna(value) los rellena.",
+  "irtA": 1.024,
+  "irtB": -1.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

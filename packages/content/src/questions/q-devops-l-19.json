@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-19",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué hace `tail -f archivo.log`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Muestra las primeras líneas"
+    },
+    {
+      "id": "1",
+      "text": "Sigue el archivo en tiempo real"
+    },
+    {
+      "id": "2",
+      "text": "Filtra errores"
+    },
+    {
+      "id": "3",
+      "text": "Borra el archivo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "tail -f hace follow: muestra nuevas líneas según se añaden al archivo. Ideal para monitoring de logs.",
+  "irtA": 0.8200000000000001,
+  "irtB": 1.36,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-intro-4",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Segun el teorema CAP, ante una particion de red solo puedes garantizar:",
+  "options": [
+    {
+      "id": "0",
+      "text": "Las 3 propiedades (C, A, P)"
+    },
+    {
+      "id": "1",
+      "text": "2 de las 3 (C, A, P)"
+    },
+    {
+      "id": "2",
+      "text": "Solo Consistency"
+    },
+    {
+      "id": "3",
+      "text": "Solo Availability"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "CAP dice que ante una particion (P), debes elegir entre Consistency (C) y Availability (A). No puedes tener las 3 a la vez.",
+  "irtA": 1.056,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

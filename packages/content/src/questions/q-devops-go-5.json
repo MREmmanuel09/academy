@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-go-5",
+  "quizId": "exam-gitops",
+  "type": "multiple",
+  "prompt": "¿Qué beneficio NO da GitOps?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Audit trail"
+    },
+    {
+      "id": "1",
+      "text": "Rollback fácil"
+    },
+    {
+      "id": "2",
+      "text": "Mejor performance del código"
+    },
+    {
+      "id": "3",
+      "text": "Drift detection"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "GitOps NO mejora la performance de tu código. Mejora: audit, rollback, drift detection, code review, DR.",
+  "irtA": 0.992,
+  "irtB": -0.16,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

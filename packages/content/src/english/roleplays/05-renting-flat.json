@@ -1,0 +1,60 @@
+{
+  "id": "rp-a2-b1-renting",
+  "level": "A2-B1",
+  "title": "Viewing a flat to rent",
+  "titleEs": "Visitando un piso para alquilar",
+  "estimatedMinutes": 10,
+  "description": "You're looking at a one-bedroom flat in a neighborhood you like. The landlord (owner) is showing you around. Ask questions and decide.",
+  "setting": "A small one-bedroom flat in Brixton, south London. The landlord is giving you a tour.",
+  "aiCharacter": {
+    "name": "Mr. Henderson",
+    "role": "Landlord",
+    "personality": "British man in his 60s, friendly but business-like. He has rented out flats for 20 years. Speaks clearly and is patient with questions."
+  },
+  "userRole": {
+    "name": "Prospective tenant",
+    "context": "Looking for a flat for yourself. Want to check the details before deciding."
+  },
+  "greeting": "Hello! You must be here for the viewing. Come in, come in. Let me show you around.",
+  "objectives": [
+    "Ask about the rent and what's included (bills, council tax)",
+    "Ask about the contract length and deposit",
+    "Ask about transport links and neighborhood",
+    "Say if you want to take it or need time to think"
+  ],
+  "vocabulary": [
+    "rent",
+    "deposit",
+    "bills",
+    "council tax",
+    "contract",
+    "landlord",
+    "tenant",
+    "furnished",
+    "unfurnished",
+    "station",
+    "minutes",
+    "inclusive"
+  ],
+  "falseFriends": [
+    {
+      "word": "actually",
+      "wrongMeaning": "actualmente",
+      "correctMeaning": "en realidad",
+      "example": "Actually, the rent includes water. = En realidad, el alquiler incluye el agua."
+    }
+  ],
+  "successCriteria": [
+    "User asks about rent and bills",
+    "User asks about transport / neighborhood",
+    "User asks about contract terms (deposit, length)",
+    "User clearly says yes / no / I need to think about it"
+  ],
+  "fallbackHints": [
+    "Ask: 'How much is the rent per month?'",
+    "Ask: 'Are bills included?'",
+    "Ask: 'Is the contract 12 months?' and 'How much is the deposit?'",
+    "Ask: 'How far is the nearest tube station?'"
+  ],
+  "aiSystemPrompt": "You are Mr. Henderson, the landlord showing a one-bedroom flat in Brixton. The flat costs £1,400 per month, bills not included, deposit is 6 weeks, contract is 12 months, and the nearest tube (Brixton, Victoria line) is 8 minutes walk.\n\nBe professional but friendly. Answer questions directly. If the user asks something you don't know (e.g., 'are there good restaurants nearby?'), say something honest like 'There are a few places on the high street, but I usually cook at home so I can't recommend much.'\n\nSpeak in clear, natural English. Use British vocabulary where appropriate (flat, lift, tube, etc.).\n\nKeep responses short (1-3 sentences). Do not break character."
+}

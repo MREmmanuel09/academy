@@ -1,0 +1,6 @@
+{
+  "slug": "capa-aplicacion",
+  "title": "Capa de Aplicacion",
+  "order": 4,
+  "summary": "HTTP/HTTPS, DNS, DHCP, y los protocolos que usan las aplicaciones."
+}

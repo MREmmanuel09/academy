@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-18",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace `depends_on` en docker-compose?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Espera a que el servicio esté healthy"
+    },
+    {
+      "id": "1",
+      "text": "Solo controla orden de arranque"
+    },
+    {
+      "id": "2",
+      "text": "Sincroniza archivos"
+    },
+    {
+      "id": "3",
+      "text": "Crea network"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "depends_on solo controla orden de arranque, NO espera a que el servicio esté ready. Para health checks usa healthcheck + condition: service_healthy.",
+  "irtA": 1.104,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

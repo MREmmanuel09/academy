@@ -1,0 +1,31 @@
+{
+  "id": "q-a-3",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué código HTTP indica \"no encontrado\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "200"
+    },
+    {
+      "id": "1",
+      "text": "301"
+    },
+    {
+      "id": "2",
+      "text": "404"
+    },
+    {
+      "id": "3",
+      "text": "500"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "404 Not Found. 2xx éxito, 3xx redirección, 4xx error cliente, 5xx error servidor.",
+  "irtA": 0.924,
+  "irtB": -1.3,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

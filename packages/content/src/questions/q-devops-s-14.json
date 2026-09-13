@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-14",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es \"usability\" en el contexto de SRE?",
+  "options": [
+    {
+      "id": "0",
+      "text": "UX del producto"
+    },
+    {
+      "id": "1",
+      "text": "Calidad de las herramientas internas del SRE"
+    },
+    {
+      "id": "2",
+      "text": "Facilidad de uso del dashboard"
+    },
+    {
+      "id": "3",
+      "text": "Velocidad de respuesta"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Usability en SRE = qué tan buenas son las herramientas que el SRE usa (monitoreo, deploy, runbooks). Malas tools = más toil.",
+  "irtA": 0.9480000000000001,
+  "irtB": -0.3,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

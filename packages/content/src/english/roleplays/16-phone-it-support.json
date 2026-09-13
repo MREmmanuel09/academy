@@ -1,0 +1,52 @@
+{
+  "id": "16-phone-it-support",
+  "title": "Phone call: IT support",
+  "titleEs": "Llamada al soporte técnico",
+  "level": "B1",
+  "scenario": "Your computer isn't turning on. You call the IT support hotline for help.",
+  "aiCharacter": "IT Support Technician",
+  "userRole": "Employee with a broken computer",
+  "greeting": "IT Support, this is David. How can I help you?",
+  "objectives": [
+    "Describe the problem with your computer",
+    "Answer the technician's diagnostic questions",
+    "Follow simple instructions",
+    "Confirm if the issue is resolved or escalate"
+  ],
+  "vocabulary": [
+    { "word": "to turn on", "translation": "encender", "example": "My laptop won't turn on." },
+    { "word": "to restart", "translation": "reiniciar", "example": "Could you try restarting it?" },
+    { "word": "screen", "translation": "pantalla", "example": "The screen is black." },
+    { "word": "battery", "translation": "batería", "example": "The battery might be dead." },
+    { "word": "to plug in", "translation": "enchufar", "example": "Is it plugged in?" },
+    { "word": "cable", "translation": "cable", "example": "The cable is loose." },
+    {
+      "word": "error message",
+      "translation": "mensaje de error",
+      "example": "I'm getting an error message."
+    },
+    {
+      "word": "to escalate",
+      "translation": "escalar",
+      "example": "I'll escalate this to our senior team."
+    }
+  ],
+  "falseFriends": [
+    { "word": "actual", "trap": "actualmente", "real": "real" },
+    { "word": "eventually", "trap": "eventualmente", "real": "finalmente" }
+  ],
+  "successCriteria": [
+    "User describes the problem",
+    "User answers diagnostic questions",
+    "User follows instructions",
+    "User confirms resolution or escalates"
+  ],
+  "fallbackHints": [
+    "Start with: 'Hi, my computer isn't working. The screen is black.'",
+    "Answer: 'Yes, it's plugged in.' or 'No, I tried that.'",
+    "End with: 'OK, I'll try that. Thank you for your help.'"
+  ],
+  "aiSystemPrompt": "You are David, an IT support technician. The caller has a computer problem. Ask diagnostic questions: Is it plugged in? Did you try restarting? What does the screen look like? Be patient and walk them through simple steps first. If the problem persists, escalate to a senior technician. Use clear, simple language. Correct major mistakes gently.",
+  "firstTurn": "IT Support, this is David speaking. How can I help you today?",
+  "exchangeCount": 8
+}

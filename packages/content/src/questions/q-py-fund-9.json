@@ -1,0 +1,31 @@
+{
+  "id": "q-py-fund-9",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Qué estructura de control ejecuta un bloque \"else\" solo si el loop NO termina con break?",
+  "options": [
+    {
+      "id": "0",
+      "text": "if/else"
+    },
+    {
+      "id": "1",
+      "text": "try/except/else"
+    },
+    {
+      "id": "2",
+      "text": "for/else"
+    },
+    {
+      "id": "3",
+      "text": "while/else"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "for/else (y while/else) ejecutan el bloque else si el loop termina sin break. Es exclusivo de Python.",
+  "irtA": 1.1800000000000002,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

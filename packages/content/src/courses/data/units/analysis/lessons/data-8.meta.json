@@ -1,0 +1,15 @@
+{
+  "id": "data-8",
+  "title": "Data Governance: GDPR, lineage, catalog, PII",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 15,
+  "xp": 80,
+  "summary": "Gobernanza de datos. Compliance, lineage, catalog, manejo de PII. Lo que necesitas saber para no meterte en problemas.",
+  "keyTakeaways": [
+    "Data Governance = políticas + procesos + roles + herramientas para datos confiables y seguros.",
+    "GDPR y similares son ley: el mal manejo de PII cuesta multas enormes.",
+    "PII se maneja con minimización, anonimización, cifrado y control de acceso.",
+    "Lineage traza el viaje del dato; catalog documenta qué hay disponible. Ambos son críticos."
+  ]
+}

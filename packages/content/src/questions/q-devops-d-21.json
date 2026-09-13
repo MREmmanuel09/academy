@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-21",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Cómo reduces el tamaño de una imagen?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Usando multi-stage"
+    },
+    {
+      "id": "1",
+      "text": "Usando alpine o distroless"
+    },
+    {
+      "id": "2",
+      "text": "Limpiando caches en el mismo RUN"
+    },
+    {
+      "id": "3",
+      "text": "Todas las anteriores"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "Multi-stage descarta el stage de build, alpine es ~5MB, combinar `apt update && apt install && rm -rf /var/lib/apt/lists/*` en un solo RUN.",
+  "irtA": 0.8,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

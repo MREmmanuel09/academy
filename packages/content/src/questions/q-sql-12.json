@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-12",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué hace ROW_NUMBER() OVER (PARTITION BY category ORDER BY price DESC)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Suma los precios por categoría"
+    },
+    {
+      "id": "1",
+      "text": "Asigna un número único secuencial dentro de cada categoría, ordenado por precio desc"
+    },
+    {
+      "id": "2",
+      "text": "Cuenta las filas de cada categoría"
+    },
+    {
+      "id": "3",
+      "text": "Borra las filas duplicadas"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Asigna un número único secuencial dentro de cada categoría, ordenado de mayor a menor precio. Útil para \"top N por grupo\".",
+  "irtA": 1.1840000000000002,
+  "irtB": 1.64,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

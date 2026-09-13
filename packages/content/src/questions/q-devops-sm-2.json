@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-2",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Cuál es el sidecar proxy más usado?",
+  "options": [
+    {
+      "id": "0",
+      "text": "HAProxy"
+    },
+    {
+      "id": "1",
+      "text": "NGINX"
+    },
+    {
+      "id": "2",
+      "text": "Envoy"
+    },
+    {
+      "id": "3",
+      "text": "Squid"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Envoy es el sidecar más usado (Istio, Consul Connect, AWS App Mesh, etc). Originalmente de Lyft.",
+  "irtA": 0.8600000000000001,
+  "irtB": -1.94,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

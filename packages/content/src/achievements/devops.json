@@ -1,0 +1,100 @@
+[
+  {
+    "id": "devops-first-lesson",
+    "slug": "devops-first-lesson",
+    "title": "Primer paso DevOps",
+    "description": "Completa tu primera leccion de DevOps",
+    "icon": "DO",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 50,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 1
+    }
+  },
+  {
+    "id": "devops-ten-lessons",
+    "slug": "devops-ten-lessons",
+    "title": "Entusiasta DevOps",
+    "description": "Completa 10 lecciones de DevOps",
+    "icon": "10",
+    "category": "progress",
+    "rarity": "common",
+    "xp": 100,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 10
+    }
+  },
+  {
+    "id": "devops-docker-master",
+    "slug": "devops-docker-master",
+    "title": "Docker Master",
+    "description": "Completa todas las lecciones de Docker",
+    "icon": "DK",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 300,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "devops-k8s-master",
+    "slug": "devops-k8s-master",
+    "title": "Kubernetes Master",
+    "description": "Completa todas las lecciones de Kubernetes",
+    "icon": "K8",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 300,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "devops-cicd-master",
+    "slug": "devops-cicd-master",
+    "title": "CI/CD Master",
+    "description": "Completa todas las lecciones de CI/CD",
+    "icon": "CI",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 300,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "devops-cloud-master",
+    "slug": "devops-cloud-master",
+    "title": "Cloud Master",
+    "description": "Completa todas las lecciones de Cloud",
+    "icon": "CL",
+    "category": "mastery",
+    "rarity": "rare",
+    "xp": 300,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  },
+  {
+    "id": "devops-master",
+    "slug": "devops-master",
+    "title": "DevOps Master",
+    "description": "Completa todas las lecciones del modulo DevOps",
+    "icon": "DM",
+    "category": "mastery",
+    "rarity": "epic",
+    "xp": 1000,
+    "rule": {
+      "kind": "lesson_count",
+      "count": 9007199254740991
+    }
+  }
+]

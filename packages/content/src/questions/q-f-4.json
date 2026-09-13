@@ -1,0 +1,14 @@
+{
+  "id": "q-f-4",
+  "quizId": "exam-basic",
+  "type": "truefalse",
+  "prompt": "TCP/IP es un modelo teórico que nunca se implementa en la práctica.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Falso. TCP/IP es justamente el modelo que se implementa en Internet. OSI es el modelo principalmente teórico/didáctico.",
+  "irtA": 0.9480000000000001,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-da-mi-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es el orden recomendado de imports en un script de data analysis con NumPy, Pandas y Matplotlib?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Aleatorio, no importa"
+    },
+    {
+      "id": "1",
+      "text": "Por convencion: stdlib, third-party, local. NumPy, luego Pandas (que depende de NumPy), luego Matplotlib"
+    },
+    {
+      "id": "2",
+      "text": "Siempre Matplotlib primero"
+    },
+    {
+      "id": "3",
+      "text": "Solo se importa lo que se usa"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Por convencion PEP 8: 1) stdlib, 2) third-party, 3) local. NumPy antes que Pandas porque Pandas lo requiere; Matplotlib al final por independencia.",
+  "irtA": 1.1400000000000001,
+  "irtB": 1.54,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

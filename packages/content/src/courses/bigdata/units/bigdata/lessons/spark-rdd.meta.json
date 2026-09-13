@@ -1,0 +1,17 @@
+{
+  "id": "spark-rdd",
+  "title": "Spark RDDs: transformations, actions, lazy evaluation",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 8,
+  "xp": 80,
+  "summary": "La API de bajo nivel. Cuándo usarla, cuándo preferir DataFrames.",
+  "keyTakeaways": [
+    "RDD es la primitiva fundamental de Spark. Transformations son lazy, actions ejecutan el DAG.",
+    "map, filter, flatMap son transformations. collect, count, reduce son actions.",
+    "RDDs son tipados pero no tienen schema. Para datos estructurados, usa DataFrames.",
+    "Spark decide el plan de ejecución optimo via Catalyst Optimizer en DataFrames, no en RDDs.",
+    "Prefiere reduceByKey sobre groupByKey — reduce localmente antes del shuffle.",
+    "Usa cache() cuando reutilices un RDD múltiples veces."
+  ]
+}

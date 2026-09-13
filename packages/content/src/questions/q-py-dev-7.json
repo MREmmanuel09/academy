@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-7",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Cuál es la diferencia entre venv y virtualenv?",
+  "options": [
+    {
+      "id": "0",
+      "text": "venv es de terceros, virtualenv es stdlib"
+    },
+    {
+      "id": "1",
+      "text": "venv es stdlib, virtualenv es第三方 mas rapido y con mas features"
+    },
+    {
+      "id": "2",
+      "text": "Son exactamente iguales"
+    },
+    {
+      "id": "3",
+      "text": "venv solo funciona en Windows"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "venv viene en la stdlib desde Python 3.3. virtualenv es第三方, mas antiguo y con mas features.",
+  "irtA": 1.028,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

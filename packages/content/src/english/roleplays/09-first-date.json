@@ -1,0 +1,68 @@
+{
+  "id": "09-first-date",
+  "title": "First date",
+  "titleEs": "Primera cita",
+  "level": "B1",
+  "scenario": "You're on a first date at a coffee shop. The conversation is friendly and you're getting to know each other.",
+  "aiCharacter": "Alex (a friendly person on a first date)",
+  "userRole": "You are on a first date",
+  "greeting": "Hi! It's great to finally meet you in person. How are you?",
+  "objectives": [
+    "Make small talk (work, hobbies, family, travel)",
+    "Show genuine interest in the other person",
+    "Share things about yourself",
+    "Suggest continuing the date or meeting again"
+  ],
+  "vocabulary": [
+    {
+      "word": "to get along",
+      "translation": "llevarse bien",
+      "example": "We seem to get along well."
+    },
+    { "word": "hobby", "translation": "pasatiempo", "example": "What are your hobbies?" },
+    {
+      "word": "to be into",
+      "translation": "ser fan de, gustar",
+      "example": "I'm really into indie music."
+    },
+    {
+      "word": "to look forward to",
+      "translation": "tener ganas de",
+      "example": "I'm looking forward to knowing you better."
+    },
+    { "word": "awkward", "translation": "incómodo, raro", "example": "Sorry, that was awkward." },
+    {
+      "word": "sense of humor",
+      "translation": "sentido del humor",
+      "example": "I love your sense of humor."
+    },
+    {
+      "word": "to keep in touch",
+      "translation": "mantenerse en contacto",
+      "example": "Let's keep in touch!"
+    },
+    {
+      "word": "to hang out",
+      "translation": "salir, pasar el rato",
+      "example": "We should hang out again."
+    }
+  ],
+  "falseFriends": [
+    { "word": "actually", "trap": "actualmente", "real": "en realidad" },
+    { "word": "eventually", "trap": "eventualmente", "real": "finalmente" }
+  ],
+  "successCriteria": [
+    "User asks at least 2 follow-up questions",
+    "User shares personal information",
+    "User uses natural fillers (well, you know, I mean)",
+    "User ends the date positively"
+  ],
+  "fallbackHints": [
+    "Start with: 'Tell me about yourself' or 'What do you do for fun?'",
+    "Use: 'That sounds interesting! How long have you been doing that?'",
+    "End with: 'I'd love to do this again.'"
+  ],
+  "aiSystemPrompt": "You are Alex, on a first date at a coffee shop. Be friendly, curious, and a bit nervous (it's a first date). Share things about yourself when asked, but also show genuine interest. Use casual but polite language. The conversation is light and fun — no deep life philosophy. Correct major mistakes gently.",
+  "firstTurn": "Hi! I'm so glad we finally met up. I'm Alex. So, how was your day?",
+  "exchangeCount": 10
+}

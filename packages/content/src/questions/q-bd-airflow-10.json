@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-10",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cual es una limitacion importante de Airflow a escala?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No tiene UI"
+    },
+    {
+      "id": "1",
+      "text": "No soporta Python"
+    },
+    {
+      "id": "2",
+      "text": "La metadata DB se vuelve cuello de botella a >5000 tasks/dia"
+    },
+    {
+      "id": "3",
+      "text": "No funciona en Linux"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "La metadata DB (Postgres/MySQL) registra todo el estado de tasks. A escala alta se vuelve cuello de botella. Mitigacion: CeleryExecutor/KubernetesExecutor.",
+  "irtA": 0.8280000000000001,
+  "irtB": 1.94,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

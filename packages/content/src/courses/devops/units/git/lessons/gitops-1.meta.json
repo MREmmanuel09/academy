@@ -1,0 +1,15 @@
+{
+  "id": "gitops-1",
+  "title": "GitOps: Git como fuente de verdad",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 16,
+  "xp": 85,
+  "summary": "ArgoCD, Flux, declarar el estado deseado en Git, reconciliación automática.",
+  "keyTakeaways": [
+    "GitOps: Git como única fuente de verdad para infra y apps.",
+    "ArgoCD/Flux sincronizan el estado del cluster con el repo.",
+    "Beneficios: audit trail, rollback fácil, code review, drift detection.",
+    "Sync waves permiten orden de despliegue para apps con dependencias."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-19",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "En un funnel analysis, ¿qué patrón de query es típico?",
+  "options": [
+    {
+      "id": "0",
+      "text": "COUNT(DISTINCT user_id) con CASE WHEN por cada paso"
+    },
+    {
+      "id": "1",
+      "text": "SELECT * FROM users"
+    },
+    {
+      "id": "2",
+      "text": "UPDATE users SET active = false"
+    },
+    {
+      "id": "3",
+      "text": "DROP TABLE events"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Funnel: COUNT(DISTINCT user_id) con CASE WHEN para contar cuántos usuarios llegaron a cada paso. Se comparan los % de conversión.",
+  "irtA": 1.1560000000000001,
+  "irtB": 1.62,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

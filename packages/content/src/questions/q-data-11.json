@@ -1,0 +1,31 @@
+{
+  "id": "q-data-11",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué formato es columnar y comprimido, ideal para data lakes?",
+  "options": [
+    {
+      "id": "0",
+      "text": "CSV"
+    },
+    {
+      "id": "1",
+      "text": "JSON"
+    },
+    {
+      "id": "2",
+      "text": "Parquet"
+    },
+    {
+      "id": "3",
+      "text": "XML"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Parquet es columnar y comprimido, el estándar para data lakes. 10x más pequeño que CSV y mucho más rápido para análisis.",
+  "irtA": 0.988,
+  "irtB": -0.6,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

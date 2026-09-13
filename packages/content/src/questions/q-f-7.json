@@ -1,0 +1,31 @@
+{
+  "id": "q-f-7",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué tipo de red cubre un área geográfica como una ciudad?",
+  "options": [
+    {
+      "id": "0",
+      "text": "LAN"
+    },
+    {
+      "id": "1",
+      "text": "PAN"
+    },
+    {
+      "id": "2",
+      "text": "MAN"
+    },
+    {
+      "id": "3",
+      "text": "WAN"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "MAN (Metropolitan Area Network) cubre el área de una ciudad o región metropolitana. WAN cubre áreas más amplias.",
+  "irtA": 0.9600000000000001,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

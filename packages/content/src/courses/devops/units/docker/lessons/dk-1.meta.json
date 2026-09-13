@@ -1,0 +1,15 @@
+{
+  "id": "dk-1",
+  "title": "Docker: qué es y cómo funciona",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 60,
+  "summary": "Contenedores, imágenes, Dockerfile. La base del cloud-native moderno.",
+  "keyTakeaways": [
+    "Docker empaqueta app + deps en un container portable.",
+    "Imagen = template, Container = instancia corriendo.",
+    "docker run con -d (detached), -p (puerto), -v (volumen), -e (env var).",
+    "docker ps/logs/exec/stop/rm para gestionar containers en vivo."
+  ]
+}

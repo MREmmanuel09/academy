@@ -1,0 +1,31 @@
+{
+  "id": "q-db-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Cuando NO deberias usar Redis?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Cache de sesiones"
+    },
+    {
+      "id": "1",
+      "text": "Rate limiting"
+    },
+    {
+      "id": "2",
+      "text": "Como base de datos primaria para datos que no caben en RAM"
+    },
+    {
+      "id": "3",
+      "text": "Leaderboards"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Si tus datos no caben en RAM, Redis NO sirve. Para datos grandes usa PostgreSQL, MongoDB, o Cassandra.",
+  "irtA": 1.052,
+  "irtB": -0.96,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

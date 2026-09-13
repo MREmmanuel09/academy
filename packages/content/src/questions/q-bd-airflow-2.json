@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-airflow-2",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que significa DAG en Airflow?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Data Aggregation Graph"
+    },
+    {
+      "id": "1",
+      "text": "Directed Acyclic Graph: un grafo dirigido sin ciclos que define tareas y dependencias"
+    },
+    {
+      "id": "2",
+      "text": "Database Access Gateway"
+    },
+    {
+      "id": "3",
+      "text": "Dynamic Array Generator"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "DAG = Directed Acyclic Graph. Las tareas son nodos, las dependencias son aristas. ACICLICO = no puede haber ciclos (A->B->A).",
+  "irtA": 1.016,
+  "irtB": 1.98,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

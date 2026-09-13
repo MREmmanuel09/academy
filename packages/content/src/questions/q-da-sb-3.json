@@ -1,0 +1,14 @@
+{
+  "id": "q-da-sb-3",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "sns.pairplot(df, hue=\"clase\") genera una matriz de NxN plots de todas las variables contra todas.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. La diagonal muestra la distribucion por clase; los off-diagonales muestran las relaciones scatter. Es la killer feature para EDA inicial.",
+  "irtA": 0.8200000000000001,
+  "irtB": 1.06,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

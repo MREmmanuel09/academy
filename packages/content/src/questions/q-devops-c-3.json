@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-3",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué servicio AWS ofrece VMs?",
+  "options": [
+    {
+      "id": "0",
+      "text": "S3"
+    },
+    {
+      "id": "1",
+      "text": "EC2"
+    },
+    {
+      "id": "2",
+      "text": "RDS"
+    },
+    {
+      "id": "3",
+      "text": "Lambda"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "EC2 (Elastic Compute Cloud) = VMs en la nube. S3 = storage. RDS = DB managed. Lambda = serverless.",
+  "irtA": 1.1720000000000002,
+  "irtB": -1.08,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

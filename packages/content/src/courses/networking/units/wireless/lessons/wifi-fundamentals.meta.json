@@ -1,0 +1,15 @@
+{
+  "id": "wifi-fundamentals",
+  "title": "WiFi: estandares, frecuencias y seguridad",
+  "module": "wireless",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 60,
+  "summary": "IEEE 802.11, 2.4 GHz vs 5 GHz vs 6 GHz, WPA3, y como configurar un AP.",
+  "keyTakeaways": [
+    "WiFi 6 (802.11ax) es el estandar actual. WiFi 7 (802.11be) esta llegando con 46 Gbps.",
+    "2.4 GHz tiene mejor alcance pero 3 canales no solapados. 5 GHz tiene mas canales pero menor alcance.",
+    "WEP esta roto. WPA2 es el minimo. WPA3 SAE es lo recomendado.",
+    "Para APs en empresa, usa canales 1, 6, 11 en 2.4 GHz y planifica separacion de 15-25 metros."
+  ]
+}

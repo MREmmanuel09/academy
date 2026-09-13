@@ -1,0 +1,31 @@
+{
+  "id": "q-f-8",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "En el modelo TCP/IP, ¿a qué capa OSI pertenece Ethernet?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Capa 1 y 2"
+    },
+    {
+      "id": "1",
+      "text": "Capa 3"
+    },
+    {
+      "id": "2",
+      "text": "Capa 4"
+    },
+    {
+      "id": "3",
+      "text": "Capa 7"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Ethernet cubre la capa 1 (señales, cableado) y la capa 2 (tramas, MAC) del modelo OSI, que juntas forman la capa de \"Acceso a red\" en TCP/IP.",
+  "irtA": 0.9640000000000001,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

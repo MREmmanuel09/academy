@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-spark-11",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que es un broadcast join?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un join por radio FM"
+    },
+    {
+      "id": "1",
+      "text": "Spark envia la tabla pequena completa a todos los executors para hacer join local"
+    },
+    {
+      "id": "2",
+      "text": "Un join que no requiere shuffle"
+    },
+    {
+      "id": "3",
+      "text": "Una tecnica de UI"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Broadcast join: cuando una tabla es pequena (<10MB default), Spark la replica a todos los executors. Asi evita shuffle y el join es O(1) por fila.",
+  "irtA": 1.06,
+  "irtB": 1.56,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

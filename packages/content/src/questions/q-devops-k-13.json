@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-13",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Cuál es la diferencia entre Deployment y StatefulSet?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Son sinónimos"
+    },
+    {
+      "id": "1",
+      "text": "Deployment es stateless, StatefulSet tiene identidad y storage persistente"
+    },
+    {
+      "id": "2",
+      "text": "StatefulSet es para testing"
+    },
+    {
+      "id": "3",
+      "text": "Deployment solo crea pods"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Deployment: pods intercambiables, sin identidad. StatefulSet: identidad estable (pod-0, pod-1), PVCs por pod, scaling ordenado.",
+  "irtA": 0.8320000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

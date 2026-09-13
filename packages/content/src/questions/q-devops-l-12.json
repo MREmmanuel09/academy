@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-12",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué hace `grep -v \"error\" archivo.log`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Muestra líneas con \"error\""
+    },
+    {
+      "id": "1",
+      "text": "Excluye líneas con \"error\""
+    },
+    {
+      "id": "2",
+      "text": "Cuenta errores"
+    },
+    {
+      "id": "3",
+      "text": "Borra líneas con \"error\""
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "-v invierte el match: muestra líneas que NO contienen el patrón.",
+  "irtA": 1.1920000000000002,
+  "irtB": 1.36,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

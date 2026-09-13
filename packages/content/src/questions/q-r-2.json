@@ -1,0 +1,31 @@
+{
+  "id": "q-r-2",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Cuántos bits tiene una dirección IPv6?",
+  "options": [
+    {
+      "id": "0",
+      "text": "32"
+    },
+    {
+      "id": "1",
+      "text": "64"
+    },
+    {
+      "id": "2",
+      "text": "128"
+    },
+    {
+      "id": "3",
+      "text": "256"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "IPv6 usa 128 bits, expresados en 8 grupos de 4 dígitos hexadecimales.",
+  "irtA": 1.068,
+  "irtB": 0.9,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

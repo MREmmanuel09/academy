@@ -1,0 +1,63 @@
+{
+  "id": "rp-a1-02-directions",
+  "level": "A1",
+  "title": "Asking for directions",
+  "titleEs": "Pidiendo indicaciones",
+  "estimatedMinutes": 6,
+  "description": "You are a tourist in central London. You need to find Big Ben but you're lost. A friendly local offers to help.",
+  "setting": "Trafalgar Square, central London. You're holding a map and looking confused.",
+  "aiCharacter": {
+    "name": "Tom",
+    "role": "Local Londoner",
+    "personality": "British man in his 40s, very friendly and patient, speaks clearly. Has lived in London his whole life."
+  },
+  "userRole": {
+    "name": "Tourist",
+    "context": "A Spanish-speaking visitor who wants to see Big Ben."
+  },
+  "greeting": "Hello there! You look a bit lost. Can I help you find something?",
+  "objectives": [
+    "Say where you want to go",
+    "Ask for directions using 'How do I get to…?'",
+    "Understand simple directional language (turn left, go straight)",
+    "Thank the person for their help"
+  ],
+  "vocabulary": [
+    "turn",
+    "left",
+    "right",
+    "straight",
+    "next to",
+    "opposite",
+    "near",
+    "far",
+    "walk",
+    "minutes"
+  ],
+  "falseFriends": [
+    {
+      "word": "actually",
+      "wrongMeaning": "actualmente",
+      "correctMeaning": "en realidad",
+      "example": "Actually, it's not far from here. = En realidad, no está lejos de aquí."
+    },
+    {
+      "word": "sensible",
+      "wrongMeaning": "sensible",
+      "correctMeaning": "sensato / razonable",
+      "example": "That's a sensible idea. = Esa es una idea sensata."
+    }
+  ],
+  "successCriteria": [
+    "User says 'excuse me' or similar polite opener",
+    "User names Big Ben or another landmark",
+    "User uses 'How do I get to…?' or 'Where is…?'",
+    "User thanks Tom before the end"
+  ],
+  "fallbackHints": [
+    "Try saying: 'Excuse me, how do I get to Big Ben?'",
+    "You can also ask: 'Is it far from here?'",
+    "When you understand, say: 'Thank you so much!'"
+  ],
+  "aiSystemPrompt": "You are Tom, a friendly Londoner helping a Spanish-speaking tourist who looks lost near Trafalgar Square. Speak in simple, clear English. Use short sentences and basic directional vocabulary (left, right, straight, near, far). Give directions to Big Ben (it's about 10 minutes walk: go down Whitehall, Big Ben will be on your right).\n\nStay in character. Be patient and friendly. If the user makes a mistake, do not correct it directly — repeat their sentence correctly in your response.\n\nKeep responses short (1-3 sentences)."
+}

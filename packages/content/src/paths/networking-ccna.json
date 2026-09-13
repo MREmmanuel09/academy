@@ -1,0 +1,102 @@
+{
+  "id": "networking-ccna",
+  "course": "networking",
+  "title": "Networking Profesional (CCNA)",
+  "description": "Ruta guiada desde fundamentos de red hasta troubleshooting nivel CCNA 200-301: capas OSI/TCP-IP, direccionamiento IP y subnetting, switching y VLANs, routing, wireless y seguridad.",
+  "externalExam": "Cisco CCNA 200-301",
+  "levels": [
+    {
+      "id": "fundamentos",
+      "title": "Fundamentos de red",
+      "description": "Qué es una red, modelos OSI y TCP/IP, y direccionamiento IPv4 con subnetting.",
+      "units": [
+        {
+          "unit": "fundamentos",
+          "objectives": [
+            "Describir la historia y los componentes de una red y el modelo OSI frente a TCP/IP",
+            "Identificar dispositivos (router, switch, firewall) y su función en cada capa"
+          ],
+          "exams": [{ "id": "exam-basic", "passingScore": 70 }]
+        },
+        {
+          "unit": "capa-red",
+          "objectives": [
+            "Calcular subredes IPv4 (máscara, broadcast, hosts útiles) sin calculadora",
+            "Explicar el reenvío de paquetes y la tabla de rutas de un router"
+          ],
+          "exams": []
+        }
+      ]
+    },
+    {
+      "id": "transporte-aplicaciones",
+      "title": "Transporte y aplicaciones",
+      "description": "TCP frente a UDP, puertos y sockets, y los protocolos de aplicación que usas cada día.",
+      "units": [
+        {
+          "unit": "capa-transporte",
+          "objectives": [
+            "Comparar TCP y UDP y elegir el protocolo adecuado por caso de uso",
+            "Interpretar puertos, sockets y los flags del three-way handshake"
+          ],
+          "exams": []
+        },
+        {
+          "unit": "capa-aplicacion",
+          "objectives": [
+            "Explicar el ciclo DNS → DHCP → HTTP(S) al abrir una página web",
+            "Diagnosticar fallos de resolución de nombres y direccionamiento dinámico"
+          ],
+          "exams": []
+        }
+      ]
+    },
+    {
+      "id": "switching-routing",
+      "title": "Switching y routing",
+      "description": "El corazón del CCNA: VLANs, STP, routing estático y OSPF con troubleshooting.",
+      "units": [
+        {
+          "unit": "switching-routing",
+          "objectives": [
+            "Segmentar una red con VLANs y trunks 802.1Q y verificar conectividad",
+            "Configurar routing estático y OSPF single-area y resolver fallos típicos"
+          ],
+          "exams": [{ "id": "exam-ccna", "passingScore": 75 }]
+        }
+      ],
+      "milestoneExam": { "id": "exam-ccna", "passingScore": 75 }
+    },
+    {
+      "id": "wireless-seguridad",
+      "title": "Wireless, seguridad y herramientas",
+      "description": "Wi-Fi empresarial, endurecimiento con ACL/NAT y la caja de herramientas del ingeniero.",
+      "units": [
+        {
+          "unit": "wireless",
+          "objectives": [
+            "Describir la arquitectura Wi-Fi (AP, controlador, SSID) y el roaming",
+            "Aplicar WPA2/WPA3 y buenas prácticas de seguridad inalámbrica"
+          ],
+          "exams": []
+        },
+        {
+          "unit": "seguridad",
+          "objectives": [
+            "Filtrar tráfico con ACLs y explicar NAT/PAT con casos reales",
+            "Detectar superficies de ataque típicas en una red SOHO y mitigarlas"
+          ],
+          "exams": [{ "id": "exam-security", "passingScore": 80 }]
+        },
+        {
+          "unit": "herramientas",
+          "objectives": [
+            "Usar ping, traceroute, dig/nslookup, netstat/ss e iperf para diagnosticar",
+            "Documentar un procedimiento de troubleshooting reproducible"
+          ],
+          "exams": []
+        }
+      ]
+    }
+  ]
+}

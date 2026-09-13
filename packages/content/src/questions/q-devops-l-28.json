@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-l-28",
+  "quizId": "exam-linux",
+  "type": "truefalse",
+  "prompt": "`nohup comando &` permite que un proceso sobreviva al cierre de sesión.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "nohup ignora SIGHUP (señal de hangup al cerrar terminal). & lo manda a background. Para servicios reales, usa systemd.",
+  "irtA": 0.9400000000000001,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

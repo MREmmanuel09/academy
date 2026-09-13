@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-fi-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué son Spot Instances?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Instancias reservadas para spot price"
+    },
+    {
+      "id": "1",
+      "text": "Capacidad sobrante del cloud a 60-90% descuento, pero pueden ser terminadas"
+    },
+    {
+      "id": "2",
+      "text": "Instancias premium"
+    },
+    {
+      "id": "3",
+      "text": "Instancias de prueba"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Spot: capacidad sobrante a 60-90% descuento. Se pueden terminar con 2 min de aviso. Para batch/CI/CD/stateless.",
+  "irtA": 1.1600000000000001,
+  "irtB": 1.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

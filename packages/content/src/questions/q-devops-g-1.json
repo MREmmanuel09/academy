@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Quién creó Git?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Bill Joy"
+    },
+    {
+      "id": "1",
+      "text": "Linus Torvalds"
+    },
+    {
+      "id": "2",
+      "text": "Guido van Rossum"
+    },
+    {
+      "id": "3",
+      "text": "Larry Wall"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Linus Torvalds creó Git en 2005 para el desarrollo del kernel de Linux, después de que BitKeeper cambiara su licencia.",
+  "irtA": 0.9400000000000001,
+  "irtB": 1.32,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

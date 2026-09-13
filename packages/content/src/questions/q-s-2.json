@@ -1,0 +1,31 @@
+{
+  "id": "q-s-2",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué tipo de puerto de switch pertenece a una sola VLAN?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Trunk"
+    },
+    {
+      "id": "1",
+      "text": "Access"
+    },
+    {
+      "id": "2",
+      "text": "Hybrid"
+    },
+    {
+      "id": "3",
+      "text": "Native"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Access port = una VLAN. Trunk port = múltiples VLANs con 802.1Q.",
+  "irtA": 0.912,
+  "irtB": 1.5,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

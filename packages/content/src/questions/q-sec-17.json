@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-17",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Que es un \"supply chain attack\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Atacar directamente tu servidor"
+    },
+    {
+      "id": "1",
+      "text": "Comprometer una dependencia o herramienta de tu supply chain"
+    },
+    {
+      "id": "2",
+      "text": "DDoS"
+    },
+    {
+      "id": "3",
+      "text": "Phishing"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Supply chain: atacante compromete un vendor upstream (npm package, Docker image, build tool) para afectar a todos sus usuarios. Ej: SolarWinds 2020, Codecov 2021.",
+  "irtA": 1.048,
+  "irtB": -0.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-21",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué hace el namespace?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Aísla recursos en el cluster"
+    },
+    {
+      "id": "1",
+      "text": "Crea un cluster"
+    },
+    {
+      "id": "2",
+      "text": "Borra pods"
+    },
+    {
+      "id": "3",
+      "text": "Crea network"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Namespace: partición lógica. Default namespaces: default, kube-system, kube-public. Útil para multi-tenant.",
+  "irtA": 0.9480000000000001,
+  "irtB": -1.24,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-hist-6",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Quien creo Docker?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Google (como Kubernetes)"
+    },
+    {
+      "id": "1",
+      "text": "Solomon Hykes (dotCloud, 2013)"
+    },
+    {
+      "id": "2",
+      "text": "Amazon (como AWS)"
+    },
+    {
+      "id": "3",
+      "text": "Red Hat (como RHEL)"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Solomon Hykes fundo dotCloud, y en 2013 presento Docker en PyCon. \"Build, ship, run\" democratizo los containers.",
+  "irtA": 1.108,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

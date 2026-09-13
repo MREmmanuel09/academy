@@ -1,0 +1,228 @@
+{
+  "id": "game-grammar",
+  "title": "Grammar drills",
+  "titleEs": "Ejercicios de gramática",
+  "description": "Targeted drills for the grammar points that trip up Spanish speakers in English. Each drill has 6-8 questions with explanations.",
+  "categories": [
+    {
+      "id": "present-perfect",
+      "title": "Present perfect vs. past simple",
+      "titleEs": "Present perfect vs. pasado simple",
+      "level": "A2-B1",
+      "description": "Spanish doesn't have a perfect equivalent of the present perfect. The 'have done' form is used for recent events with present relevance, life experiences, and ongoing situations.",
+      "rounds": [
+        {
+          "id": "pp-1",
+          "type": "fill",
+          "sentence": "I _____ to Paris twice in my life.",
+          "correct": "have been",
+          "options": ["have been", "was", "have went", "had been"],
+          "explanation": "Life experience → present perfect: 'I have been to Paris'."
+        },
+        {
+          "id": "pp-2",
+          "type": "fill",
+          "sentence": "Yesterday I _____ to the cinema with my brother.",
+          "correct": "went",
+          "options": ["went", "have gone", "have been", "had gone"],
+          "explanation": "Specific past time ('yesterday') → past simple: 'I went'."
+        },
+        {
+          "id": "pp-3",
+          "type": "fill",
+          "sentence": "I can't find my keys. Have you _____ them?",
+          "correct": "seen",
+          "options": ["seen", "saw", "see", "seeing"],
+          "explanation": "Past participle after 'have': 'Have you seen them?' (present relevance — the keys are still missing now.)"
+        },
+        {
+          "id": "pp-4",
+          "type": "fill",
+          "sentence": "She _____ here since 2019.",
+          "correct": "has lived",
+          "options": ["has lived", "lived", "lives", "is living"],
+          "explanation": "Ongoing situation from past to present → present perfect: 'She has lived here since 2019.'"
+        },
+        {
+          "id": "pp-5",
+          "type": "fill",
+          "sentence": "I _____ a coffee this morning. Do you want one too?",
+          "correct": "have had",
+          "options": ["have had", "had", "have", "am having"],
+          "explanation": "Recent event with present relevance → present perfect: 'I have had a coffee' (and the effects are still here — I'm not tired.)"
+        },
+        {
+          "id": "pp-6",
+          "type": "fill",
+          "sentence": "When I was a child, I _____ in a small village.",
+          "correct": "grew up",
+          "options": ["grew up", "have grown up", "have been growing up", "grow up"],
+          "explanation": "Definite finished period in the past ('when I was a child') → past simple: 'I grew up'."
+        }
+      ]
+    },
+    {
+      "id": "articles",
+      "title": "Articles (a / the / nothing)",
+      "titleEs": "Artículos (a / the / nada)",
+      "level": "A2-B1",
+      "description": "English has three options: 'a' (first mention), 'the' (specific), and nothing (plurals/general). Spanish uses 'un/una' and 'el/la' but the rules differ — English drops articles more often than Spanish.",
+      "rounds": [
+        {
+          "id": "ar-1",
+          "type": "choice",
+          "sentence": "I love _____ music. It relaxes me.",
+          "correct": "(no article)",
+          "options": ["the", "a", "(no article)", "an"],
+          "explanation": "General statement about music as a category → no article. 'I love music' (not 'the music')."
+        },
+        {
+          "id": "ar-2",
+          "type": "choice",
+          "sentence": "Can you pass me _____ salt, please?",
+          "correct": "the",
+          "options": ["a", "the", "(no article)", "an"],
+          "explanation": "Specific object we're both looking at → 'the salt'."
+        },
+        {
+          "id": "ar-3",
+          "type": "choice",
+          "sentence": "I met _____ interesting person yesterday.",
+          "correct": "an",
+          "options": ["a", "the", "an", "(no article)"],
+          "explanation": "First mention, singular, vowel sound → 'an interesting person'."
+        },
+        {
+          "id": "ar-4",
+          "type": "choice",
+          "sentence": "_____ life is short.",
+          "correct": "(no article)",
+          "options": ["The", "A", "An", "(no article)"],
+          "explanation": "General truth → no article. 'Life is short' (life as a concept)."
+        },
+        {
+          "id": "ar-5",
+          "type": "choice",
+          "sentence": "I need to go to _____ bank on Fifth Street.",
+          "correct": "the",
+          "options": ["a", "the", "an", "(no article)"],
+          "explanation": "Specific bank (named location) → 'the bank on Fifth Street'."
+        },
+        {
+          "id": "ar-6",
+          "type": "choice",
+          "sentence": "She plays _____ piano beautifully.",
+          "correct": "the",
+          "options": ["a", "the", "(no article)", "an"],
+          "explanation": "Musical instruments take 'the' in English: 'She plays the piano'."
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "title": "Common prepositions (in / on / at)",
+      "titleEs": "Preposiciones comunes (in / on / at)",
+      "level": "A1-A2",
+      "description": "Prepositions of time and place are different in Spanish. The rule of thumb: in (large/slow), on (surface/specific day), at (point/fast time).",
+      "rounds": [
+        {
+          "id": "pr-1",
+          "type": "choice",
+          "sentence": "I wake up _____ 7 o'clock.",
+          "correct": "at",
+          "options": ["in", "on", "at", "by"],
+          "explanation": "Time of day → 'at': 'at 7 o'clock'."
+        },
+        {
+          "id": "pr-2",
+          "type": "choice",
+          "sentence": "We have a meeting _____ Monday.",
+          "correct": "on",
+          "options": ["in", "on", "at", "by"],
+          "explanation": "Days → 'on': 'on Monday'."
+        },
+        {
+          "id": "pr-3",
+          "type": "choice",
+          "sentence": "She's on holiday _____ July.",
+          "correct": "in",
+          "options": ["in", "on", "at", "by"],
+          "explanation": "Months → 'in': 'in July'."
+        },
+        {
+          "id": "pr-4",
+          "type": "choice",
+          "sentence": "The book is _____ the table.",
+          "correct": "on",
+          "options": ["in", "on", "at", "by"],
+          "explanation": "Surface → 'on': 'on the table'."
+        },
+        {
+          "id": "pr-5",
+          "type": "choice",
+          "sentence": "She lives _____ Madrid.",
+          "correct": "in",
+          "options": ["in", "on", "at", "by"],
+          "explanation": "Cities / countries → 'in': 'in Madrid'."
+        },
+        {
+          "id": "pr-6",
+          "type": "choice",
+          "sentence": "He's _____ the door. Can you open it?",
+          "correct": "at",
+          "options": ["in", "on", "at", "by"],
+          "explanation": "Specific point → 'at': 'at the door'."
+        }
+      ]
+    },
+    {
+      "id": "conditionals",
+      "title": "Conditionals (if sentences)",
+      "titleEs": "Condicionales",
+      "level": "B1-B2",
+      "description": "English has 4 conditionals. Spanish speakers often confuse type 2 and type 3, and miss that English has the 'zero conditional' for general truths.",
+      "rounds": [
+        {
+          "id": "co-1",
+          "type": "fill",
+          "sentence": "If it rains tomorrow, we _____ at home.",
+          "correct": "will stay",
+          "options": ["will stay", "would stay", "stayed", "stay"],
+          "explanation": "Type 1 (real future): if + present, will + base. 'If it rains, we will stay'."
+        },
+        {
+          "id": "co-2",
+          "type": "fill",
+          "sentence": "If I won the lottery, I _____ a house.",
+          "correct": "would buy",
+          "options": ["would buy", "will buy", "bought", "buy"],
+          "explanation": "Type 2 (unreal present): if + past, would + base. 'If I won, I would buy'."
+        },
+        {
+          "id": "co-3",
+          "type": "fill",
+          "sentence": "If I had studied harder, I _____ the exam.",
+          "correct": "would have passed",
+          "options": ["would have passed", "would pass", "will pass", "passed"],
+          "explanation": "Type 3 (unreal past): if + past perfect, would have + past participle. 'If I had studied, I would have passed'."
+        },
+        {
+          "id": "co-4",
+          "type": "fill",
+          "sentence": "If you heat ice, it _____.",
+          "correct": "melts",
+          "options": ["melts", "would melt", "melted", "will melt"],
+          "explanation": "Type 0 (general truth): if + present, present. 'If you heat ice, it melts'."
+        },
+        {
+          "id": "co-5",
+          "type": "fill",
+          "sentence": "If I _____ you, I would apologize.",
+          "correct": "were",
+          "options": ["were", "am", "was", "be"],
+          "explanation": "Type 2: subjunctive 'were' (not 'was') for all subjects in formal English. 'If I were you…'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "rp-a2-01-doctor",
+  "level": "A2",
+  "title": "Booking a doctor's appointment",
+  "titleEs": "Reservar cita con el médico",
+  "estimatedMinutes": 8,
+  "description": "You've had a sore throat for a week. Call your local doctor's surgery (centro de salud) to book an appointment.",
+  "setting": "Phone call to a GP surgery in the UK. The receptionist answers.",
+  "aiCharacter": {
+    "name": "Patricia",
+    "role": "Receptionist at GP surgery",
+    "personality": "British woman in her 50s, professional, efficient, polite. Speaks clearly on the phone. Uses standard British health-service vocabulary."
+  },
+  "userRole": {
+    "name": "Patient",
+    "context": "A new patient at this surgery who needs to register and book an appointment for a sore throat."
+  },
+  "greeting": "Good morning, Park Road Surgery, Patricia speaking. How can I help you?",
+  "objectives": [
+    "Say you'd like to book an appointment",
+    "Briefly describe your symptoms (sore throat, one week)",
+    "Understand appointment options offered",
+    "Confirm the date and time"
+  ],
+  "vocabulary": [
+    "appointment",
+    "surgery",
+    "symptoms",
+    "sore throat",
+    "fever",
+    "cough",
+    "available",
+    "morning",
+    "afternoon",
+    "register",
+    "patient",
+    "GP"
+  ],
+  "falseFriends": [
+    {
+      "word": "constipated",
+      "wrongMeaning": "constipado (resfriado)",
+      "correctMeaning": "estreñido",
+      "example": "I'm constipated. = Estoy estreñido. (For a cold, say 'I have a cold'.)"
+    },
+    {
+      "word": "embarrassed",
+      "wrongMeaning": "embarazada",
+      "correctMeaning": "avergonzado/a",
+      "example": "I was embarrassed. = Estaba avergonzado/a."
+    }
+  ],
+  "successCriteria": [
+    "User explains the symptom (sore throat)",
+    "User understands and picks a time slot",
+    "User confirms the appointment details",
+    "User says thank you and goodbye"
+  ],
+  "fallbackHints": [
+    "Start with: 'Hello, I'd like to book an appointment, please.'",
+    "Describe the symptom: 'I have a sore throat' or 'my throat has been sore for a week'",
+    "Confirm with: 'Yes, that works. Thank you.'"
+  ],
+  "aiSystemPrompt": "You are Patricia, the receptionist at a UK GP surgery. The caller is a new patient (Spanish speaker) wanting to book an appointment. Be professional and clear.\n\nRespond in standard British English. Use health-service vocabulary: 'GP', 'surgery', 'appointment', 'prescription'. Offer options like 'We have Tuesday at 10am or Thursday at 2pm'.\n\nIf the user mentions a sore throat that's lasted a week, suggest seeing someone soon but in normal speed, not urgent.\n\nKeep responses short and clear. Stay in character. Do not break the fourth wall.\n\nIf the user says 'I'm constipated' meaning they have a cold, gently model the correct usage: 'Oh, you mean you have a cold. Sorry to hear that.'"
+}

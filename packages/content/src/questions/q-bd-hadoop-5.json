@@ -1,0 +1,14 @@
+{
+  "id": "q-bd-hadoop-5",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "HDFS esta optimizado para muchos archivos pequenos (KBs).",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "HDFS esta pensado para archivos GRANDES (cientos de MB a GB+). Muchos archivos pequenos es un antipatron: la metadata en el NameNode se infla y el throughput baja.",
+  "irtA": 0.896,
+  "irtB": 1.56,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "py-regex",
+  "title": "Regex avanzado: parsing de logs",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 20,
+  "xp": 80,
+  "summary": "Patrones regex con re: grupos, lookaheads, named groups, parsing de logs nginx/apache.",
+  "keyTakeaways": [
+    "re.match (inicio), re.search (cualquier parte), re.findall (todas), re.sub (reemplazar).",
+    "Named groups (?P<name>...) son mas legibles que grupos numerados.",
+    "re.compile() para patrones reutilizados — mejora performance ~30%.",
+    "Usa re.VERBOSE para patrones complejos con comentarios."
+  ]
+}

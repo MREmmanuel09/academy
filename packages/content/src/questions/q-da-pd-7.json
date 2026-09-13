@@ -1,0 +1,14 @@
+{
+  "id": "q-da-pd-7",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "astype(\"category\") reduce el uso de memoria cuando una columna tiene muchos valores repetidos.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. Categorical almacena los valores unicos una vez y mapea con codigos enteros. Ahorro tipico: 5-10x en strings repetidos.",
+  "irtA": 1.032,
+  "irtB": -1.6,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

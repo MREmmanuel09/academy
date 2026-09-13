@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-g-11",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es un Pull Request?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un comando git"
+    },
+    {
+      "id": "1",
+      "text": "Una petición para que tu branch sea revisado y mergeado"
+    },
+    {
+      "id": "2",
+      "text": "Un tipo de merge"
+    },
+    {
+      "id": "3",
+      "text": "Una rama"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "PR (GitHub) o MR (GitLab): pides a mantenedores que revisen y aprueben tus cambios antes de integrar.",
+  "irtA": 0.9680000000000001,
+  "irtB": 0.26,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

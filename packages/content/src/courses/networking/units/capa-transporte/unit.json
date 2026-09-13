@@ -1,0 +1,6 @@
+{
+  "slug": "capa-transporte",
+  "title": "Capa de Transporte",
+  "order": 3,
+  "summary": "TCP vs UDP, puertos, sockets, y control de flujo."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-py-fund-6",
+  "quizId": "exam-python-devops",
+  "type": "truefalse",
+  "prompt": "Los diccionarios en Python mantienen un orden de insercion desde Python 3.7.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "A partir de Python 3.7 los dict mantienen el orden de insercion como parte de la especificacion del lenguaje.",
+  "irtA": 1.1920000000000002,
+  "irtB": 1.2,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

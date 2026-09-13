@@ -1,0 +1,15 @@
+{
+  "id": "dk-4",
+  "title": "Networking, volumes y registries",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 70,
+  "summary": "Cómo se comunican containers, dónde persisten datos, cómo compartes imágenes.",
+  "keyTakeaways": [
+    "Networks: bridge (default), host, overlay, macvlan. Crea redes custom para DNS.",
+    "Volumes persisten datos. Bind mounts para dev, named volumes para prod.",
+    "Registries: Docker Hub, ECR, GCR, GHCR. Push/pull con docker.",
+    "NUNCA uses :latest en producción. Tags inmutables para reproducibilidad."
+  ]
+}

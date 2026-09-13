@@ -1,0 +1,14 @@
+{
+  "id": "q-da-pd-12",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "pd.read_parquet es mas rapido y eficiente en memoria que pd.read_csv para datasets grandes.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. Parquet es binario columnar, comprimido y preserva tipos. Para datasets >1GB la diferencia es de ordenes de magnitud.",
+  "irtA": 0.936,
+  "irtB": -0.1,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

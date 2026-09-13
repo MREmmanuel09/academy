@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-fi-1",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es FinOps?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una moneda"
+    },
+    {
+      "id": "1",
+      "text": "Cultura y práctica de optimizar costos cloud"
+    },
+    {
+      "id": "2",
+      "text": "Un lenguaje"
+    },
+    {
+      "id": "3",
+      "text": "Una empresa"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "FinOps: Framework para optimizar costos cloud. Cultura que une finanzas, ingeniería y negocio.",
+  "irtA": 1.1480000000000001,
+  "irtB": 1.6,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

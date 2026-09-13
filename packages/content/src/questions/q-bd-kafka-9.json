@@ -1,0 +1,31 @@
+{
+  "id": "q-bd-kafka-9",
+  "quizId": "exam-bigdata",
+  "type": "multiple",
+  "prompt": "Que es ksqlDB?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una nueva version de SQL estandar"
+    },
+    {
+      "id": "1",
+      "text": "Una capa SQL declarativa sobre Kafka Streams"
+    },
+    {
+      "id": "2",
+      "text": "Una base de datos relacional"
+    },
+    {
+      "id": "3",
+      "text": "Un driver ODBC"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ksqlDB expone Kafka Streams con una API SQL. Escribes CREATE STREAM, SELECT y ejecutas queries continuas sobre los topics.",
+  "irtA": 1.02,
+  "irtB": -0.78,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

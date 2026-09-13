@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-c-12",
+  "quizId": "exam-aws",
+  "type": "multiple",
+  "prompt": "¿Qué significa \"serverless\"?",
+  "options": [
+    {
+      "id": "0",
+      "text": "No hay servidores"
+    },
+    {
+      "id": "1",
+      "text": "No gestionas servidores, pagas por uso"
+    },
+    {
+      "id": "2",
+      "text": "Es gratis"
+    },
+    {
+      "id": "3",
+      "text": "Es más lento"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Serverless no significa \"sin servidores\" (siempre hay servidores), sino que TÚ no los gestionas. El cloud provider escala automáticamente.",
+  "irtA": 1.116,
+  "irtB": 1.78,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-db-3",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que significa MVCC en PostgreSQL?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Multi-Version Concurrency Control: readers no bloquean writers"
+    },
+    {
+      "id": "1",
+      "text": "Massive Volume Cluster Computing"
+    },
+    {
+      "id": "2",
+      "text": "My Very Cool Database"
+    },
+    {
+      "id": "3",
+      "text": "Multi-Vendor Cloud Controller"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "MVCC permite que cada transaccion vea una version consistente de los datos, sin bloquear otras transacciones concurrentes.",
+  "irtA": 1.056,
+  "irtB": -0.96,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

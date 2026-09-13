@@ -1,0 +1,106 @@
+name: academy
+
+# ---------------------------------------------------------------------------
+# Homelab deployment: pulls the CI-built image from GHCR and keeps it fresh.
+#
+# Flow:  tu PC --push--> main --CI build--> ghcr.io/<repo>:latest
+#        homelab Watchtower --poll--> pull + restart (solo + DB intacta)
+#
+# Setup once on the homelab box (see HOMELAB.md §§ 2, 10):
+#   git clone <tu-repo> /opt/academy
+#   cd /opt/academy
+#   openssl rand -base64 32   # -> AUTH_SECRET in /opt/academy/.env
+#   docker compose -f docker-compose.homelab.yml up -d
+#
+# Required env (export or put in /opt/academy/.env):
+#   AUTH_SECRET   openssl rand -base64 32                      (REQUIRED)
+#   IMAGE_REPO    tu-usuario/tu-repo  (REQUIRED, repo de GitHub)
+#   IMAGE_TAG     latest | sha-<commit>                        (default: latest)
+#
+# Optional env:
+#   NEXT_PUBLIC_APP_URL  https://<maquina>.<tailnet>.ts.net (tu URL de Funnel)
+#   DATABASE_URL         file:/app/apps/web/data/prod.db      (default)
+#   WATCHTOWER_POLL      segundos entre checks                 (default: 300)
+#   SHOUTRRR_URL         notificaciones (ntfy:/telegram:/discord:)
+#
+# Si el repo de GitHub es PRIVADO, haz login una vez en el homelab:
+#   echo <PAT-con-read:packages> | docker login ghcr.io -u <usuario> --password-stdin
+# ---------------------------------------------------------------------------
+
+services:
+  web:
+    image: ghcr.io/${IMAGE_REPO:?IMAGE_REPO is required, e.g. tu-usuario/academy}:${IMAGE_TAG:-latest}
+    container_name: academy-web
+    restart: unless-stopped
+    # `user: "1001:1001"` matches the non-root user created in the
+    # Dockerfile. The volume mount below inherits the same ownership so
+    # the SQLite file is writable by the app.
+    user: "1001:1001"
+    # Watchtower solo toca contenedores con esta etiqueta (--label-enable).
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: ${DATABASE_URL:-file:/app/apps/web/data/prod.db}
+      AUTH_SECRET: ${AUTH_SECRET:?AUTH_SECRET is required}
+      AUTH_TRUST_HOST: "true"
+      NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL:-http://localhost:3000}
+      NEXT_PUBLIC_PWA_ENABLED: "true"
+      # Skip the interactive seed prompt on first boot.
+      CI: "true"
+    volumes:
+      - academy-data-v2:/app/apps/web/data
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: "1.0"
+        reservations:
+          memory: 512M
+          cpus: "0.5"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Auto-updates: vigila GHCR y reinicia `web` cuando hay imagen nueva.
+  # - Solo mira contenedores etiquetados (el resto de tu homelab ni lo toca).
+  # - `--cleanup` borra la imagen vieja para no llenar el disco.
+  # - Las migraciones las aplica el entrypoint al arrancar (idempotente).
+  # Imagen: fork mantenido de Watchtower. El original (containrrr) está
+  # archivado desde dic-2025 y NO funciona con Docker Engine 29+ (API
+  # 1.25 vs mínimo 1.44). Este fork es drop-in compatible (mismos flags
+  # y labels) y añade `--health-check-gated`: solo da por buena la
+  # actualización si el nuevo contenedor pasa el healthcheck; si no,
+  # revierte solo a la imagen anterior.
+  watchtower:
+    image: ghcr.io/openserbia/watchtower:latest
+    container_name: academy-watchtower
+    restart: unless-stopped
+    command: --interval ${WATCHTOWER_POLL:-300} --cleanup --label-enable --health-check-gated
+    environment:
+      # Descomenta para avisos (ver https://shoutrrr.nicklasfrahm.dev):
+      # - SHOUTRRR_URL=${SHOUTRRR_URL:-}
+      - TZ=${TZ:-UTC}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      # Si tu repo GHCR es PRIVADO, descomenta para que Watchtower pueda
+      # hacer pull con tus credenciales (tras `docker login ghcr.io`):
+      # - /root/.docker/config.json:/config.json:ro
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "2"
+
+volumes:
+  academy-data-v2:

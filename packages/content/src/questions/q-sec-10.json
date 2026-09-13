@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-10",
+  "quizId": "exam-ccna",
+  "type": "multiple",
+  "prompt": "¿Qué atributo de BGP se usa para indicar la ruta preferida en iBGP?",
+  "options": [
+    {
+      "id": "0",
+      "text": "MED"
+    },
+    {
+      "id": "1",
+      "text": "Local Preference"
+    },
+    {
+      "id": "2",
+      "text": "AS Path"
+    },
+    {
+      "id": "3",
+      "text": "Weight"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Local Preference (default 100) se propaga por iBGP y se usa para preferir rutas salientes.",
+  "irtA": 1.076,
+  "irtB": -0.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

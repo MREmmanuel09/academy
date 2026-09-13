@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-4",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "En regex, ¿qué significa el patrón \\d+?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una letra"
+    },
+    {
+      "id": "1",
+      "text": "Cero o mas dígitos"
+    },
+    {
+      "id": "2",
+      "text": "Uno o mas dígitos"
+    },
+    {
+      "id": "3",
+      "text": "Exactamente un dígito"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "\\d es un dígito, + significa \"uno o mas\". \\d+ matchea una secuencia de uno o mas dígitos.",
+  "irtA": 1.04,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

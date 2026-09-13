@@ -1,0 +1,15 @@
+{
+  "id": "py-exceptions",
+  "title": "Excepciones: try/except/finally, custom",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 55,
+  "summary": "Manejo de errores, jerarquia de excepciones, raise, custom exceptions para scripts robustos.",
+  "keyTakeaways": [
+    "try/except/else/finally: estructura completa de manejo de errores.",
+    "Captura excepciones ESPECIFICAS (FileNotFoundError), nunca \"Exception\" generico.",
+    "finally se ejecuta SIEMPRE — util para cleanup (cerrar conexiones, archivos).",
+    "Custom exceptions documentan mejor la logica que strings de error."
+  ]
+}

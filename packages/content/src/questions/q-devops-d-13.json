@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-13",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace `docker compose`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Crea containers individuales"
+    },
+    {
+      "id": "1",
+      "text": "Orquesta multi-container con YAML"
+    },
+    {
+      "id": "2",
+      "text": "Sustituye K8s"
+    },
+    {
+      "id": "3",
+      "text": "Borra imágenes"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "docker-compose.yml define múltiples servicios, networks, volumes. `docker compose up` los levanta todos.",
+  "irtA": 1.084,
+  "irtB": 0.4,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

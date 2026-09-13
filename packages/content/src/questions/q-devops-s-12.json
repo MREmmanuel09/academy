@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-12",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "En un on-call rotation, ¿cuál es buena práctica?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Una sola persona siempre"
+    },
+    {
+      "id": "1",
+      "text": "Rotación corta, secundario también, runbooks, compensación post-guardia"
+    },
+    {
+      "id": "2",
+      "text": "Solo los juniors"
+    },
+    {
+      "id": "3",
+      "text": "Nadie rota"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Buenas prácticas: rotación < 1 semana, secundario disponible, runbooks actualizados, tiempo libre post-guardia.",
+  "irtA": 0.9400000000000001,
+  "irtB": -0.3,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

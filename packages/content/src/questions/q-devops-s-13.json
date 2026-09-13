@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-13",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es un SLI sintético vs real?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Sintético es manual, real automático"
+    },
+    {
+      "id": "1",
+      "text": "Sintético simula requests, real mide tráfico real"
+    },
+    {
+      "id": "2",
+      "text": "Sintético es de pago"
+    },
+    {
+      "id": "3",
+      "text": "Son lo mismo"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "SLI sintético: tests programáticos (ej: Blackbox probes). SLI real: mide tráfico real de usuarios (más representativo).",
+  "irtA": 0.9440000000000001,
+  "irtB": -0.3,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

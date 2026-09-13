@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-1",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué hace un firewall stateful?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Solo filtra por IP"
+    },
+    {
+      "id": "1",
+      "text": "Rastrea el estado de las conexiones"
+    },
+    {
+      "id": "2",
+      "text": "Cifra tráfico"
+    },
+    {
+      "id": "3",
+      "text": "Asigna IPs"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Un firewall stateful mantiene una tabla de conexiones y permite el tráfico de respuesta automáticamente.",
+  "irtA": 1.068,
+  "irtB": -1.88,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

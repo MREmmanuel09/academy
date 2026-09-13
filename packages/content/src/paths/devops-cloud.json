@@ -1,0 +1,110 @@
+{
+  "id": "devops-cloud",
+  "course": "devops",
+  "title": "DevOps y Cloud Profesional (CKA/AWS)",
+  "description": "Ruta guiada desde Linux y Git hasta Kubernetes en producción y nube: contenedores, CI/CD, infraestructura como código, observabilidad SRE y multi-cloud con mentalidad CKA y AWS Solutions Architect.",
+  "externalExam": "Linux Foundation CKA · AWS Certified Solutions Architect – Associate",
+  "levels": [
+    {
+      "id": "fundamentos",
+      "title": "Fundamentos",
+      "description": "Linux y Git: la base sobre la que se construye todo lo demás.",
+      "units": [
+        {
+          "unit": "linux",
+          "objectives": [
+            "Operar la terminal con soltura: filesystem, permisos, procesos y red",
+            "Automatizar tareas con scripting bash y programarlas con cron"
+          ],
+          "exams": [{ "id": "exam-linux", "passingScore": 70 }]
+        },
+        {
+          "unit": "git",
+          "objectives": [
+            "Trabajar con ramas, merges y rebases sin miedo en equipo",
+            "Aplicar Conventional Commits y un flujo trunk-based o GitFlow"
+          ],
+          "exams": []
+        }
+      ]
+    },
+    {
+      "id": "contenedores-cicd",
+      "title": "Contenedores y CI/CD",
+      "description": "Empaqueta una vez, ejecuta en cualquier parte; y que cada commit llegue solo a producción.",
+      "units": [
+        {
+          "unit": "docker",
+          "objectives": [
+            "Construir imágenes multi-stage pequeñas y seguras con Dockerfile",
+            "Orquestar servicios multi-contenedor con volúmenes y redes"
+          ],
+          "exams": [{ "id": "exam-docker", "passingScore": 75 }]
+        },
+        {
+          "unit": "cicd",
+          "objectives": [
+            "Diseñar un pipeline (lint → test → build → deploy) con gates de calidad",
+            "Aplicar estrategias de despliegue progresivo y rollback"
+          ],
+          "exams": []
+        }
+      ]
+    },
+    {
+      "id": "orquestacion-iac",
+      "title": "Orquestación e IaC",
+      "description": "Kubernetes como estándar y la infraestructura versionada como código.",
+      "units": [
+        {
+          "unit": "kubernetes",
+          "objectives": [
+            "Desplegar workloads (Pods, Deployments, Services, Ingress) y depurarlos",
+            "Gestionar configuración, secretos, recursos y troubleshooting estilo CKA"
+          ],
+          "exams": [{ "id": "exam-k8s", "passingScore": 75 }]
+        },
+        {
+          "unit": "iac",
+          "objectives": [
+            "Declarar infraestructura con Terraform: plan, apply y estado remoto",
+            "Estructurar módulos reutilizables y revisar cambios con seguridad"
+          ],
+          "exams": []
+        }
+      ]
+    },
+    {
+      "id": "operacion-nube",
+      "title": "Operación y nube",
+      "description": "Observar, responder y escalar: SRE, multi-cloud y patrones avanzados.",
+      "units": [
+        {
+          "unit": "monitoring",
+          "objectives": [
+            "Definir SLIs/SLOs y alertar sobre síntomas, no sobre causas",
+            "Montar un stack de observabilidad (métricas, logs, trazas) y responder a incidentes"
+          ],
+          "exams": [{ "id": "exam-sre", "passingScore": 75 }]
+        },
+        {
+          "unit": "multicloud",
+          "objectives": [
+            "Comparar servicios equivalentes de AWS, GCP y Azure para un diseño dado",
+            "Estimar costes y aplicarVault/secrets y mensajería entre nubes"
+          ],
+          "exams": [{ "id": "exam-aws", "passingScore": 70 }]
+        },
+        {
+          "unit": "advanced",
+          "objectives": [
+            "Describir GitOps, service mesh y chaos engineering y cuándo aplicarlos",
+            "Diseñar una plataforma interna mínima viable para un equipo"
+          ],
+          "exams": [{ "id": "exam-devsecops", "passingScore": 75 }]
+        }
+      ],
+      "milestoneExam": { "id": "exam-k8s", "passingScore": 75 }
+    }
+  ]
+}

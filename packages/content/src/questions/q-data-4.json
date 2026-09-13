@@ -1,0 +1,31 @@
+{
+  "id": "q-data-4",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Cuáles son las 5V del dato?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Variedad, Velocidad, Volumen, Veracidad, Valor"
+    },
+    {
+      "id": "1",
+      "text": "Venta, Versión, Variable, Vínculo, Visual"
+    },
+    {
+      "id": "2",
+      "text": "Virtual, Visual, Versátil, Vital, Vasto"
+    },
+    {
+      "id": "3",
+      "text": "Validación, Versión, Vista, Vínculo, Volumen"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "Las 5V son: Volume, Velocity, Variety, Veracity, Value.",
+  "irtA": 0.876,
+  "irtB": -0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

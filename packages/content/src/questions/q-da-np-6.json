@@ -1,0 +1,31 @@
+{
+  "id": "q-da-np-6",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "Que devuelve np.array([1, 2, 3, 4, 5])[1:4]?",
+  "options": [
+    {
+      "id": "0",
+      "text": "[1, 2, 3]"
+    },
+    {
+      "id": "1",
+      "text": "[1, 2, 3, 4]"
+    },
+    {
+      "id": "2",
+      "text": "[2, 3, 4]"
+    },
+    {
+      "id": "3",
+      "text": "[2, 3, 4, 5]"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Slicing [1:4] es inclusivo en 1 y exclusivo en 4, asi que devuelve los indices 1, 2, 3 -> [2, 3, 4].",
+  "irtA": 0.8280000000000001,
+  "irtB": 0.36,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

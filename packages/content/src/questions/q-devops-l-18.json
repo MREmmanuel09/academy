@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-l-18",
+  "quizId": "exam-linux",
+  "type": "multiple",
+  "prompt": "¿Qué significa SUID en un archivo ejecutable?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Set User ID - ejecuta con permisos del owner"
+    },
+    {
+      "id": "1",
+      "text": "Secure User ID - es seguro"
+    },
+    {
+      "id": "2",
+      "text": "Standard User ID"
+    },
+    {
+      "id": "3",
+      "text": "Suspend User ID"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "SUID hace que el archivo se ejecute con los permisos del owner, no del usuario que lo corre. /usr/bin/passwd es un ejemplo.",
+  "irtA": 0.8160000000000001,
+  "irtB": 1.36,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

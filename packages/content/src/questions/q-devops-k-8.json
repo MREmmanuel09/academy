@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-8",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué hace un ConfigMap?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Almacena secretos"
+    },
+    {
+      "id": "1",
+      "text": "Almacena config no sensible como key-value"
+    },
+    {
+      "id": "2",
+      "text": "Crea pods"
+    },
+    {
+      "id": "3",
+      "text": "Balancea carga"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "ConfigMap: configuración no sensible. Inyectable como env vars o archivos. Para secretos usa Secret.",
+  "irtA": 1.1440000000000001,
+  "irtB": -0.26,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-6",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Qué hace DestinationRule en Istio?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Crea pods"
+    },
+    {
+      "id": "1",
+      "text": "Define subsets (versiones) del servicio"
+    },
+    {
+      "id": "2",
+      "text": "Configura DNS"
+    },
+    {
+      "id": "3",
+      "text": "Crea namespaces"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "DestinationRule: define subsets por labels (v1, v2) que después se usan en VirtualService para canary.",
+  "irtA": 0.876,
+  "irtB": -1.94,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

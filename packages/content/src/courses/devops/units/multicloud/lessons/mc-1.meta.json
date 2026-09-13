@@ -1,0 +1,15 @@
+{
+  "id": "mc-1",
+  "title": "Multi-cloud: AWS vs GCP vs Azure comparativa honesta",
+  "module": "devops",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 22,
+  "xp": 100,
+  "summary": "Comparativa real de los 3 hyperscalers: servicios equivalentes, pricing, fortalezas, cuando usar cada uno.",
+  "keyTakeaways": [
+    "AWS es el mas grande y veterano. Azure es fuerte en enterprise Microsoft. GCP es lider en data/ML.",
+    "BigQuery (GCP) es el data warehouse mas avanzado y barato. Lambda (AWS) es el serverless mas maduro.",
+    "Los 3 cobran similar en compute; la diferencia real esta en egress y servicios de datos.",
+    "95% de empresas deberia estar en UN solo cloud. Multi-cloud es 2x complejidad operacional."
+  ]
+}

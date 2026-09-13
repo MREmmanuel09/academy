@@ -1,0 +1,15 @@
+{
+  "id": "cicd-1",
+  "title": "CI/CD: integración y entrega continua",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 70,
+  "summary": "Pipelines, GitHub Actions, GitLab CI, Jenkins. Automatiza tu deploy.",
+  "keyTakeaways": [
+    "CI/CD automatiza test, build, deploy. Reduce bugs y acelera releases.",
+    "GitHub Actions: workflows en .github/workflows/*.yml. Usa actions/setup-node, checkout, etc.",
+    "GitLab CI: .gitlab-ci.yml. Stages: test, build, deploy. Runners ejecutan.",
+    "Jenkins: pipelines Groovy. Self-hosted, ultra flexible pero requiere mantenimiento."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-f-10",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Qué PDU corresponde a la capa de Transporte?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Bit"
+    },
+    {
+      "id": "1",
+      "text": "Trama"
+    },
+    {
+      "id": "2",
+      "text": "Segmento"
+    },
+    {
+      "id": "3",
+      "text": "Paquete"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "La PDU de la capa 4 (Transporte) es el segmento (TCP) o datagrama (UDP). La PDU de capa 2 es la trama, la de capa 3 es el paquete/datagrama.",
+  "irtA": 1.1760000000000002,
+  "irtB": 1.56,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

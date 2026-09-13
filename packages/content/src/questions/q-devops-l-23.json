@@ -1,0 +1,14 @@
+{
+  "id": "q-devops-l-23",
+  "quizId": "exam-linux",
+  "type": "truefalse",
+  "prompt": "journalctl -u nginx muestra los logs del servicio nginx.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "journalctl -u <unit> filtra logs por unidad de systemd. -f hace follow, --since permite rango temporal.",
+  "irtA": 0.92,
+  "irtB": 1.38,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

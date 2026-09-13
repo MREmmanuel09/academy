@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-d-15",
+  "quizId": "exam-docker",
+  "type": "multiple",
+  "prompt": "¿Qué hace `docker network create mi-red`?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Crea container"
+    },
+    {
+      "id": "1",
+      "text": "Crea una red virtual para comunicar containers"
+    },
+    {
+      "id": "2",
+      "text": "Borra red"
+    },
+    {
+      "id": "3",
+      "text": "Lista redes"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Crea una red bridge custom. Containers en la misma red pueden resolverse por nombre (DNS interno).",
+  "irtA": 1.092,
+  "irtB": 0.42,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

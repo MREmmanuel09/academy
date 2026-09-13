@@ -1,0 +1,31 @@
+{
+  "id": "q-sec-18",
+  "quizId": "exam-devsecops",
+  "type": "multiple",
+  "prompt": "Por que usar un secret manager en vez de env vars?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Es mas bonito"
+    },
+    {
+      "id": "1",
+      "text": "Audit, rotacion automatica, encriptacion, accesos temporales"
+    },
+    {
+      "id": "2",
+      "text": "Es mas barato"
+    },
+    {
+      "id": "3",
+      "text": "Es mas rapido"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Secret managers (Vault, AWS Secrets Manager): audit trail, rotacion automatica, encryption at rest, accesos temporales. Env vars aparecen en docker inspect, ps aux, logs.",
+  "irtA": 1.044,
+  "irtB": -0.38,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

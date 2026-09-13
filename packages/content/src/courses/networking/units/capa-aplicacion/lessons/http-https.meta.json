@@ -1,0 +1,15 @@
+{
+  "id": "http-https",
+  "title": "HTTP y HTTPS: el protocolo que mueve la web",
+  "module": "capa-aplicacion",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 65,
+  "summary": "Metodos, headers, codigos de estado, y como TLS protege las comunicaciones.",
+  "keyTakeaways": [
+    "HTTP es request-response: cliente envia metodo + path, servidor responde con codigo + body.",
+    "GET y DELETE son idempotentes. POST y PUT requieren body. PATCH es para actualizaciones parciales.",
+    "HTTPS usa TLS para cifrar. TLS 1.3 es el estandar actual (1 round-trip handshake).",
+    "HTTP/2 usa multiplexing sobre TCP. HTTP/3 usa QUIC sobre UDP para evitar head-of-line blocking."
+  ]
+}

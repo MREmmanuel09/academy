@@ -1,0 +1,15 @@
+{
+  "id": "data-2",
+  "title": "Ciclo de vida del dato",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 14,
+  "xp": 60,
+  "summary": "Las fases del dato: collect, store, process, analyze, visualize. Desde la fuente hasta la decisión.",
+  "keyTakeaways": [
+    "El ciclo de vida: Collect → Store → Process → Analyze → Visualize.",
+    "Cada fase tiene tecnologías específicas (Kafka, S3, Spark, SQL, Metabase).",
+    "El dato solo tiene valor cuando llega a la visualización/decision.",
+    "Elige la latencia más baja que necesites: batch es gratis, real-time es carísimo."
+  ]
+}

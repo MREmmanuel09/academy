@@ -1,0 +1,15 @@
+{
+  "id": "sec-devops-1",
+  "title": "DevSecOps: seguridad en el ciclo de vida",
+  "module": "seguridad",
+  "difficulty": "avanzado",
+  "estimatedMinutes": 18,
+  "xp": 90,
+  "summary": "SAST, DAST, SCA, SBOM, secrets management, OWASP, secure by design. Seguridad sin frenar la entrega.",
+  "keyTakeaways": [
+    "DevSecOps = seguridad en el pipeline, no como gate al final. SAST + SCA + DAST + secrets scan + container scan.",
+    "OWASP Top 10 es la biblia de vulnerabilidades web. Broken Access Control e Injection son las mas comunes.",
+    "SBOM es requerido por regulaciones. Genera SPDX o CycloneDX para todos tus artefactos.",
+    "Nunca pongas secrets en codigo. Usa Vault, AWS Secrets Manager, o ESO. Firma imagenes con cosign."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-s-2",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué es un SLI?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Service Level Index"
+    },
+    {
+      "id": "1",
+      "text": "Service Level Indicator"
+    },
+    {
+      "id": "2",
+      "text": "System Latency Indicator"
+    },
+    {
+      "id": "3",
+      "text": "Service Layer Identifier"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "SLI (Service Level Indicator) es la métrica que mides. Ej: latencia p99, error rate.",
+  "irtA": 1.072,
+  "irtB": 0.54,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

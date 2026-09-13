@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-1",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Qué es un Pod en Kubernetes?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Un container"
+    },
+    {
+      "id": "1",
+      "text": "La unidad mínima: 1+ containers que comparten red y storage"
+    },
+    {
+      "id": "2",
+      "text": "Un node"
+    },
+    {
+      "id": "3",
+      "text": "Un namespace"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Pod es la unidad mínima de scheduling. Contiene 1+ containers que comparten network namespace, volumes y lifecycle.",
+  "irtA": 1.116,
+  "irtB": -0.28,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

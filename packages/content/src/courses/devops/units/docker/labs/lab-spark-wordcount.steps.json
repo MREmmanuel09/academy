@@ -1,0 +1,58 @@
+{
+  "id": "lab-spark-wordcount",
+  "title": "Primer job Spark: Word Count sobre un archivo de texto",
+  "steps": [
+    {
+      "instruction": "Crea una SparkSession con la app \"WordCount\" y modo local con 2 cores. Importa pyspark.sql.SparkSession.",
+      "expectedCommand": "spark = SparkSession.builder.appName(\"WordCount\").master(\"local[2]\").getOrCreate()",
+      "hint": "Usa builder pattern. getOrCreate() reusa una sesion existente o crea una nueva."
+    },
+    {
+      "instruction": "Crea un archivo de entrada data.txt con varias frases (una por linea). Puedes usar: echo -e \"hola mundo hola\\\nspark es genial\\\nhola spark spark\" > data.txt",
+      "expectedCommand": "echo -e \"hola mundo hola\\\nspark es genial\\\nhola spark spark\" > data.txt",
+      "hint": "El -e interpreta \\\n como salto de linea. Verifica con cat data.txt."
+    },
+    {
+      "instruction": "Lee el archivo con spark.read.text(\"data.txt\") y muestra el contenido con .show().",
+      "expectedCommand": "df = spark.read.text(\"data.txt\")\ndf.show()",
+      "hint": "read.text devuelve un DataFrame con una sola columna \"value\" (cada linea del archivo)."
+    },
+    {
+      "instruction": "Convierte el DataFrame a RDD con .rdd y aplica flatMap para dividir cada linea en palabras. Usa map(lambda x: x.split(\" \")) y luego aplana con flatMap.",
+      "expectedCommand": "words = df.rdd.flatMap(lambda row: row[0].split(\" \"))",
+      "hint": "row[0] accede a la columna \"value\". flatMap emite 0+ elementos por cada input (a diferencia de map que emite 1)."
+    },
+    {
+      "instruction": "Mapea cada palabra a un par (palabra, 1) con .map(lambda w: (w, 1)).",
+      "expectedCommand": "pairs = words.map(lambda w: (w, 1))",
+      "hint": "En Spark esto se llama \"pair RDD\" y habilita operaciones por clave."
+    },
+    {
+      "instruction": "Suma los 1s por palabra usando reduceByKey(lambda a, b: a + b). Esto combina en el mismo nodo antes de hacer shuffle.",
+      "expectedCommand": "counts = pairs.reduceByKey(lambda a, b: a + b)",
+      "hint": "reduceByKey es MAS EFICIENTE que groupByKey porque reduce localmente antes del shuffle."
+    },
+    {
+      "instruction": "Recolecta los resultados con .collect() e imprime los top 10 con sorted(counts, key=lambda x: -x[1])[:10].",
+      "expectedCommand": "result = counts.collect()\nfor word, c in sorted(result, key=lambda x: -x[1])[:10]: print(word, c)",
+      "hint": "collect() trae TODO al driver. Para datasets grandes usa .take(10) o escribe a un archivo."
+    },
+    {
+      "instruction": "Cierra la sesion con spark.stop() para liberar recursos.",
+      "expectedCommand": "spark.stop()",
+      "hint": "Siempre cierra la sesion al terminar. En modo interactivo (pyspark shell) puedes omitirlo, pero en scripts es obligatorio."
+    }
+  ],
+  "topology": {
+    "devices": [
+      {
+        "type": "server",
+        "name": "Spark-Cluster",
+        "x": 200,
+        "y": 100
+      }
+    ],
+    "links": []
+  },
+  "validation": "Al completar, el job debe contar palabras de un texto y mostrar el top 10 ordenado por frecuencia."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ob-4",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Cómo se propaga el contexto de tracing entre servicios?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Variables de entorno"
+    },
+    {
+      "id": "1",
+      "text": "Header HTTP \"traceparent\" (W3C standard)"
+    },
+    {
+      "id": "2",
+      "text": "Archivos compartidos"
+    },
+    {
+      "id": "3",
+      "text": "Base de datos"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "W3C Trace Context: header HTTP traceparent + tracestate. OpenTelemetry y otros lo soportan.",
+  "irtA": 1.1280000000000001,
+  "irtB": 0.98,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

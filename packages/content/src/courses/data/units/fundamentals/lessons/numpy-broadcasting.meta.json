@@ -1,0 +1,15 @@
+{
+  "id": "numpy-broadcasting",
+  "title": "NumPy: broadcasting, operaciones vectorizadas y ufuncs",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 14,
+  "xp": 65,
+  "summary": "Aplica operaciones entre arrays de distintas formas sin escribir loops. ufuncs y reglas de broadcasting.",
+  "keyTakeaways": [
+    "Las operaciones entre ndarrays son vectorizadas: cero loops explicitos.",
+    "Broadcasting permite operar arrays de formas compatibles alineandolos implicitamente.",
+    "Las ufuncs aplican funciones elemento a elemento; las reducciones colapsan ejes.",
+    "Cuidado: los slices son vistas, no copias. Usa `.copy()` si necesitas independencia."
+  ]
+}

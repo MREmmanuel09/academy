@@ -1,0 +1,14 @@
+{
+  "id": "q-py-fund-10",
+  "quizId": "exam-python-devops",
+  "type": "truefalse",
+  "prompt": "Las funciones lambda en Python pueden tener multiples expresiones separadas por punto y coma.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Las lambdas solo permiten UNA expresion. Para logica compleja usa def.",
+  "irtA": 1.1560000000000001,
+  "irtB": 0.7,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-sql-13",
+  "quizId": "exam-data-analyst",
+  "type": "multiple",
+  "prompt": "¿Qué hace LAG(total) OVER (ORDER BY order_date)?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Calcula el total del día actual"
+    },
+    {
+      "id": "1",
+      "text": "Devuelve el total del día anterior (la fila previa)"
+    },
+    {
+      "id": "2",
+      "text": "Suma todos los totales"
+    },
+    {
+      "id": "3",
+      "text": "Borra el total anterior"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "LAG() devuelve el valor de la fila anterior según el orden especificado. Útil para comparación con período anterior.",
+  "irtA": 1.1800000000000002,
+  "irtB": 1.64,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q-py-auto-10",
+  "quizId": "practice-general",
+  "type": "truefalse",
+  "prompt": "asyncio.gather() con 1000 tareas puede abrir 1000 conexiones TCP simultaneas sin limites.",
+  "options": null,
+  "correctAnswer": "false",
+  "explanation": "Sin un Semaphore para limitar, gather() intenta todo en paralelo. Usa Semaphore(N) para rate limiting.",
+  "irtA": 1.084,
+  "irtB": -0.88,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

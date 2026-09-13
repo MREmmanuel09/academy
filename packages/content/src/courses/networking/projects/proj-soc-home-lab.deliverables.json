@@ -1,0 +1,11 @@
+{
+  "id": "proj-soc-home-lab",
+  "deliverables": [
+    "Sensor con port mirroring capturando trafico real (pcaps de muestra)",
+    "SIEM con al menos 5 reglas (scan, brute force, DNS tuneling, etc.)",
+    "3 postmortems de incidentes simulados con timeline y causa raiz",
+    "Playbook de respuesta con ACLs de contencion",
+    "Dashboard con metricas de deteccion (MTTD/MTTR)"
+  ],
+  "tech": ["Wireshark", "Suricata o Zeek", "Wazuh o ELK", "Nmap", "Proxmox o VirtualBox", "ACLs"]
+}

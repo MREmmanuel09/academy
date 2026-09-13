@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-sm-8",
+  "quizId": "exam-mesh",
+  "type": "multiple",
+  "prompt": "¿Cómo se inyecta el sidecar en Istio?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Manualmente"
+    },
+    {
+      "id": "1",
+      "text": "Mutating webhook añade el sidecar al crear el pod (si namespace tiene label)"
+    },
+    {
+      "id": "2",
+      "text": "Solo con DaemonSet"
+    },
+    {
+      "id": "3",
+      "text": "No se inyecta"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Istiod (control plane) tiene un mutating admission webhook. Si el namespace tiene label istio-injection=enabled, inyecta Envoy automáticamente.",
+  "irtA": 0.884,
+  "irtB": -1.94,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

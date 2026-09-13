@@ -1,0 +1,15 @@
+{
+  "id": "py-docker",
+  "title": "Docker SDK: listar y gestionar containers",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 16,
+  "xp": 70,
+  "summary": "Controlar Docker desde Python: docker SDK, eventos, logs, exec, compose.",
+  "keyTakeaways": [
+    "docker.from_env() usa DOCKER_HOST. Por defecto, socket Unix local.",
+    "containers.list(), get(), exec_run(), stats() — los metodos que mas usas.",
+    "client.events() permite reaccionar a cambios (ideal para health monitors).",
+    "Para compose: python_on_whales es la opcion mas completa en 2025."
+  ]
+}

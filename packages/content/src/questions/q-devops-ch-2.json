@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-ch-2",
+  "quizId": "exam-sre",
+  "type": "multiple",
+  "prompt": "¿Qué empresa popularizó Chaos Engineering con Chaos Monkey?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Google"
+    },
+    {
+      "id": "1",
+      "text": "Amazon"
+    },
+    {
+      "id": "2",
+      "text": "Netflix"
+    },
+    {
+      "id": "3",
+      "text": "Microsoft"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "Netflix creó Chaos Monkey (2011) que mata instancias EC2 aleatorias. Pioneros de la disciplina.",
+  "irtA": 1.016,
+  "irtB": 1.14,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

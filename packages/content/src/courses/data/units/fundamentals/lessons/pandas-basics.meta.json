@@ -1,0 +1,15 @@
+{
+  "id": "pandas-basics",
+  "title": "Pandas: Series, DataFrames, index y columns",
+  "module": "devops",
+  "difficulty": "principiante",
+  "estimatedMinutes": 15,
+  "xp": 70,
+  "summary": "La libreria estandar para analisis tabular en Python. Aprende las dos estructuras clave y como manipularlas.",
+  "keyTakeaways": [
+    "Pandas extiende NumPy con etiquetas: index en filas, columns en columnas.",
+    "Series = vector 1D etiquetado. DataFrame = tabla 2D con index + columns.",
+    "Filtra con mascaras booleanas: `df[df[\"col\"] > x]` o `df.query(...)`.",
+    "Usa `.loc` para etiquetas y `.iloc` para posiciones enteras."
+  ]
+}

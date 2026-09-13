@@ -1,0 +1,31 @@
+{
+  "id": "q-py-dev-6",
+  "quizId": "exam-python-devops",
+  "type": "multiple",
+  "prompt": "¿Qué comando de pip muestra las dependencias instaladas con sus versiones exactas?",
+  "options": [
+    {
+      "id": "0",
+      "text": "pip list"
+    },
+    {
+      "id": "1",
+      "text": "pip show"
+    },
+    {
+      "id": "2",
+      "text": "pip freeze"
+    },
+    {
+      "id": "3",
+      "text": "pip dump"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "pip freeze genera un output en formato requirements.txt con versiones exactas (==).",
+  "irtA": 1.032,
+  "irtB": 0.8,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

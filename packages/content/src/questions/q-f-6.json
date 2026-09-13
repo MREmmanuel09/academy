@@ -1,0 +1,31 @@
+{
+  "id": "q-f-6",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Cuál es una topología LAN moderna más común?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Bus con coaxial"
+    },
+    {
+      "id": "1",
+      "text": "Anillo Token Ring"
+    },
+    {
+      "id": "2",
+      "text": "Estrella con switch"
+    },
+    {
+      "id": "3",
+      "text": "Malla completa"
+    }
+  ],
+  "correctAnswer": "2",
+  "explanation": "La topología estrella con switch es la más común: cableado estructurado donde cada dispositivo conecta a un switch central.",
+  "irtA": 0.9560000000000001,
+  "irtB": 1.7,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-t-3",
+  "quizId": "exam-basic",
+  "type": "multiple",
+  "prompt": "¿Cuántos bits tiene un número de puerto?",
+  "options": [
+    {
+      "id": "0",
+      "text": "8"
+    },
+    {
+      "id": "1",
+      "text": "16"
+    },
+    {
+      "id": "2",
+      "text": "32"
+    },
+    {
+      "id": "3",
+      "text": "64"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Los puertos son de 16 bits, valores 0–65535.",
+  "irtA": 1.1600000000000001,
+  "irtB": -1.9,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

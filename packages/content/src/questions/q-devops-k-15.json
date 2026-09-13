@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-k-15",
+  "quizId": "exam-k8s",
+  "type": "multiple",
+  "prompt": "¿Cómo se define un PersistentVolumeClaim?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Pides storage"
+    },
+    {
+      "id": "1",
+      "text": "Creas storage"
+    },
+    {
+      "id": "2",
+      "text": "Borrar storage"
+    },
+    {
+      "id": "3",
+      "text": "Snapshot"
+    }
+  ],
+  "correctAnswer": "0",
+  "explanation": "PVC es una \"petición\" de storage. K8s busca un PV que la satisfaga o provisiona dinámicamente según StorageClass.",
+  "irtA": 0.8400000000000001,
+  "irtB": -1.26,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

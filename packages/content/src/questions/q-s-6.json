@@ -1,0 +1,14 @@
+{
+  "id": "q-s-6",
+  "quizId": "exam-ccna",
+  "type": "truefalse",
+  "prompt": "BGP es el protocolo que enruta Internet.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. BGP es el EGP (Exterior Gateway Protocol) usado entre sistemas autónomos, base del routing global de Internet.",
+  "irtA": 0.928,
+  "irtB": 1.52,
+  "irtC": 0.25,
+  "points": 15,
+  "order": 0
+}

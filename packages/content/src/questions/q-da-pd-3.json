@@ -1,0 +1,14 @@
+{
+  "id": "q-da-pd-3",
+  "quizId": "exam-data-analyst",
+  "type": "truefalse",
+  "prompt": "pd.read_csv puede leer un CSV desde una URL HTTP ademas de un archivo local.",
+  "options": null,
+  "correctAnswer": "true",
+  "explanation": "Verdadero. read_csv acepta cualquier ruta que file-like entienda, incluyendo http://, https:// y s3://.",
+  "irtA": 1.016,
+  "irtB": -1.6,
+  "irtC": 0.25,
+  "points": 10,
+  "order": 0
+}

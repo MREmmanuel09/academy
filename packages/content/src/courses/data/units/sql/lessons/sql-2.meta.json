@@ -1,0 +1,15 @@
+{
+  "id": "sql-2",
+  "title": "JOINs: INNER, LEFT, RIGHT, FULL, CROSS",
+  "module": "devops",
+  "difficulty": "intermedio",
+  "estimatedMinutes": 15,
+  "xp": 75,
+  "summary": "Cómo combinar datos de múltiples tablas. La operación más importante de SQL.",
+  "keyTakeaways": [
+    "INNER JOIN: solo coincidencias. LEFT JOIN: todas las filas de la izquierda + matches.",
+    "LEFT JOIN + WHERE right.id IS NULL = anti-join (registros sin match).",
+    "RIGHT JOIN casi no se usa; FULL OUTER JOIN para auditorías.",
+    "Indexa las columnas de join y filtra antes de joinear para mejor performance."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "q-h-10",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "En un router Cisco, ¿qué comando entra a modo configuración global?",
+  "options": [
+    {
+      "id": "0",
+      "text": "enable"
+    },
+    {
+      "id": "1",
+      "text": "configure terminal"
+    },
+    {
+      "id": "2",
+      "text": "config t"
+    },
+    {
+      "id": "3",
+      "text": "B y C son correctas"
+    }
+  ],
+  "correctAnswer": "3",
+  "explanation": "`enable` entra a modo EXEC privilegiado. `configure terminal` (o `conf t`) entra a configuración global.",
+  "irtA": 0.8480000000000001,
+  "irtB": 0.32,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}

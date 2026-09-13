@@ -1,0 +1,31 @@
+{
+  "id": "q-devops-va-5",
+  "quizId": "practice-general",
+  "type": "multiple",
+  "prompt": "¿Qué es Sealed Secrets?",
+  "options": [
+    {
+      "id": "0",
+      "text": "Secrets de Windows"
+    },
+    {
+      "id": "1",
+      "text": "Plugin que cifra secrets para commitear en Git"
+    },
+    {
+      "id": "2",
+      "text": "Un tipo de encriptación"
+    },
+    {
+      "id": "3",
+      "text": "Una DB"
+    }
+  ],
+  "correctAnswer": "1",
+  "explanation": "Sealed Secrets (Bitnami): cifra secrets para que puedas commitearlos a Git. Solo el cluster puede descifrarlos.",
+  "irtA": 1.036,
+  "irtB": -1.28,
+  "irtC": 0.25,
+  "points": 20,
+  "order": 0
+}
