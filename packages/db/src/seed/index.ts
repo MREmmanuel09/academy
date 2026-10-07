@@ -27,6 +27,14 @@ const DEMO_USERS = [
 ] as const;
 
 export async function seedDev(db: SqliteDb): Promise<void> {
+  // Guards a public deployment: these fixture accounts must never be
+  // created in production (their passwordHash is null, so credential
+  // login already fails — but don't even leave them in the DB).
+  if (process.env.NODE_ENV === 'production') {
+    // biome-ignore lint/suspicious/noConsoleLog: CLI seed script, console is the output
+    console.log('[seed] NODE_ENV=production — skipping dev fixture users.');
+    return;
+  }
   for (const u of DEMO_USERS) {
     const existing = await db.select().from(schema.users).where(eq(schema.users.email, u.email));
     if (existing.length === 0) {

@@ -269,9 +269,13 @@ Tailscale prints your public URL — use it as `NEXT_PUBLIC_APP_URL`.
 The funnel survives reboots (tailscaled autostarts and re-applies it).
 To stop exposing: `tailscale funnel --off 3000` (or `tailscale funnel reset`).
 
-> Behind Funnel every visitor may share one source IP — the register
-> rate limit (3/hour/IP) counts them together. Fine for personal
-> testing; for shared use put the box behind Cloudflare (§1) instead.
+> **Public service (open registration):** behind Funnel, visitors may
+> share the proxy source IP, so the per-IP rate limits count everyone
+> together. Raise them in `.env` for a public launch:
+> `RATE_LIMIT_REGISTER_MAX=200` and `RATE_LIMIT_LOGIN_MAX=100`
+> (defaults: register 3/hour, login 5/15min). With Cloudflare Tunnel
+> (§1) the real client IP arrives via `CF-Connecting-IP` and the
+> defaults apply per visitor — no override needed.
 > Never set `E2E_BYPASS_RATE_LIMIT=1` outside tests.
 
 ## 11. Homelab deploys with auto-updates (no domain needed)

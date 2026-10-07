@@ -8,10 +8,14 @@ import { z } from 'zod';
  */
 export const registerSchema = z.object({
   email: z.string().email('Email inválido').max(254),
+  // Public-service policy: length + mixed character classes. NIST-style
+  // (no forced symbols/caps), just enough entropy to resist stuffing.
   password: z
     .string()
-    .min(8, 'La contraseña debe tener al menos 8 caracteres')
-    .max(200, 'Contraseña demasiado larga'),
+    .min(10, 'La contraseña debe tener al menos 10 caracteres')
+    .max(200, 'Contraseña demasiado larga')
+    .regex(/[A-Za-z]/, 'La contraseña debe incluir al menos una letra')
+    .regex(/[0-9]/, 'La contraseña debe incluir al menos un número'),
   name: z.string().min(1, 'El nombre es obligatorio').max(100),
   preferredLocale: z.enum(['es', 'en']).default('es'),
 });

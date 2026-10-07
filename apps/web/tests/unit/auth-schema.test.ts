@@ -35,6 +35,30 @@ describe('registerSchema', () => {
     });
     expect(r.success).toBe(false);
   });
+  it('rejects a password without a digit', () => {
+    const r = registerSchema.safeParse({
+      email: 'foo@bar.com',
+      password: 'onlyletters',
+      name: 'Foo',
+    });
+    expect(r.success).toBe(false);
+  });
+  it('rejects a password without a letter', () => {
+    const r = registerSchema.safeParse({
+      email: 'foo@bar.com',
+      password: '1234567890',
+      name: 'Foo',
+    });
+    expect(r.success).toBe(false);
+  });
+  it('rejects an 8-char mixed password (min is 10)', () => {
+    const r = registerSchema.safeParse({
+      email: 'foo@bar.com',
+      password: 'pass1234',
+      name: 'Foo',
+    });
+    expect(r.success).toBe(false);
+  });
   it('rejects empty name', () => {
     const r = registerSchema.safeParse({
       email: 'foo@bar.com',

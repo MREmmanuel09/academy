@@ -63,6 +63,21 @@ export const RATE_LIMITS = {
 export type RateLimitAction = keyof typeof RATE_LIMITS;
 
 /**
+ * Max attempts for an action, with an env override per action:
+ *   RATE_LIMIT_LOGIN_MAX / RATE_LIMIT_REGISTER_MAX / RATE_LIMIT_API_MAX
+ *
+ * Needed because behind a shared proxy (e.g. Tailscale Funnel without
+ * forwarded client IPs) every visitor counts as one identifier, and
+ * the default register budget (3/hour) would block the whole service.
+ * With Cloudflare Tunnel the app sees CF-Connecting-IP, so defaults
+ * apply per real visitor and no override is needed.
+ */
+function maxAttemptsFor(action: RateLimitAction): number {
+  const override = Number(process.env[`RATE_LIMIT_${action.toUpperCase()}_MAX`]);
+  return Number.isFinite(override) && override > 0 ? override : RATE_LIMITS[action].maxAttempts;
+}
+
+/**
  * Check if a request should be rate-limited.
  *
  * @param action - The action being rate-limited (login, register, api)
@@ -79,12 +94,13 @@ export function checkRateLimit(
   // (wired through `webServer.env` in playwright.config.ts); limits stay
   // enforced by default in every environment, including production.
   if (process.env.E2E_BYPASS_RATE_LIMIT === '1') {
-    return { allowed: true, remaining: RATE_LIMITS[action].maxAttempts };
+    return { allowed: true, remaining: maxAttemptsFor(action) };
   }
 
   cleanup();
 
   const config = RATE_LIMITS[action];
+  const maxAttempts = maxAttemptsFor(action);
   const key = `${action}:${identifier}`;
   const now = Date.now();
   const windowMs = config.windowSeconds * 1000;
@@ -100,14 +116,14 @@ export function checkRateLimit(
     store.set(key, entry);
     return {
       allowed: true,
-      remaining: config.maxAttempts - 1,
+      remaining: maxAttempts - 1,
     };
   }
 
   // Within window: increment counter
   entry.count += 1;
 
-  if (entry.count > config.maxAttempts) {
+  if (entry.count > maxAttempts) {
     const retryAfterSeconds = Math.ceil((entry.resetAt - now) / 1000);
     return {
       allowed: false,
@@ -118,7 +134,7 @@ export function checkRateLimit(
 
   return {
     allowed: true,
-    remaining: config.maxAttempts - entry.count,
+    remaining: maxAttempts - entry.count,
   };
 }
 

@@ -58,9 +58,11 @@ export function RegisterForm() {
           type="password"
           autoComplete="new-password"
           required
-          minLength={8}
+          minLength={10}
         />
-        <p className="text-xs text-muted-foreground">Mínimo 8 caracteres.</p>
+        <p className="text-xs text-muted-foreground">
+          Mínimo 10 caracteres, con al menos una letra y un número.
+        </p>
         {fieldErrors.password?.map((m) => (
           <p key={m} className="text-xs text-destructive">
             {m}
