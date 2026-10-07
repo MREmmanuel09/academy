@@ -14,7 +14,11 @@
 [![Lighthouse](https://img.shields.io/badge/Lighthouse-%E2%89%A590-success?style=flat-square&logo=lighthouse&logoColor=white)](./.github/workflows/lighthouse.yml)
 [![Coverage](https://img.shields.io/badge/coverage-target%2070%25-brightgreen?style=flat-square)](./vitest.config.ts)
 
-**[Live demo →](https://demo.academy.app)** · **[Roadmap](#roadmap)** · **[Architecture](#architecture)** · **[HOMELAB guide](./HOMELAB.md)**
+**[Roadmap](#roadmap)** · **[Architecture](#architecture)** · **[HOMELAB guide](./HOMELAB.md)**
+
+> **Deploy it yourself:** local `docker compose up --build` below, or on a
+> homelab box with Tailscale Funnel + auto-updates from GHCR — see
+> [HOMELAB.md §§ 10–11](./HOMELAB.md).
 
 ---
 
@@ -196,6 +200,23 @@ The compose file:
 - Configures a `wget`-based healthcheck that hits `/api/health` every 30s.
 - Will apply `pnpm db:push` on every boot, **but only if the SQLite file
   is missing or the schema isn't in sync** (see the entrypoint below).
+
+### Deploy to a homelab (GHCR + auto-updates)
+
+`docker-compose.homelab.yml` runs the CI-built image from GHCR and keeps
+it fresh with a health-gated Watchtower. Push to `main` → CI publishes
+`ghcr.io/<owner>/<repo>:latest` → the homelab updates itself.
+
+```bash
+# On the homelab box (see HOMELAB.md §§ 10–11 for Tailscale Funnel):
+git clone <repo> /opt/academy && cd /opt/academy
+cp .env.homelab.example .env      # fill AUTH_SECRET + IMAGE_REPO + public URL
+docker compose -f docker-compose.homelab.yml up -d
+curl -fsS http://127.0.0.1:3000/api/health
+```
+
+Manual update/rollback: `IMAGE_TAG=sha-<commit> docker compose -f docker-compose.homelab.yml up -d web`
+Backups: `docker exec academy-web /usr/local/bin/backup.sh`.
 
 ### Image layout
 
