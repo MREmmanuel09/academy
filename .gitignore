@@ -42,7 +42,9 @@ pnpm-debug.log*
 *.db-journal
 *.db-wal
 *.db-shm
-apps/web/data/
+# Ignore the contents (not the directory itself: a dir-scoped pattern
+# would also block the .gitkeep negation below from ever matching).
+apps/web/data/*
 !apps/web/data/.gitkeep
 
 # IDE

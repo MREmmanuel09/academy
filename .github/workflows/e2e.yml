@@ -44,11 +44,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Install Chromium
-        # Retried once: the runner occasionally fails the download/apt
-        # step with an immediate non-zero exit (transient infra issue).
+        # `--filter web exec` because @playwright/test is a devDependency of
+        # apps/web, not the workspace root. Retried once: the runner
+        # occasionally fails the download/apt step (transient infra issue).
         run: |
-          pnpm exec playwright install --with-deps chromium \
-            || (sleep 10 && pnpm exec playwright install --with-deps chromium)
+          pnpm --filter web exec playwright install --with-deps chromium \
+            || (sleep 10 && pnpm --filter web exec playwright install --with-deps chromium)
 
       # E2E registers real users; the SQLite schema must exist first.
       - name: Prepare database
