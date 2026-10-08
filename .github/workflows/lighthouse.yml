@@ -55,6 +55,10 @@ jobs:
 
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v12
+        env:
+          # LHCI boots the app (`pnpm --filter web start`); Auth.js
+          # needs a secret even for public pages (header session read).
+          AUTH_SECRET: ci-lh-not-used
         with:
           configPath: .lighthouserc.json
           uploadArtifacts: true

@@ -5,6 +5,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  # Called by deploy.yml so the image build only runs on green CI.
+  workflow_call:
 
 concurrency:
   group: ci-${{ github.ref }}
