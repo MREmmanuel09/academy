@@ -25,16 +25,16 @@ const NAV = {
 };
 
 const FOOTER = {
-  es: { license: 'Licencia AGPL-3.0', sourceCode: 'Código fuente' },
-  en: { license: 'AGPL-3.0 license', sourceCode: 'Source code' },
-  pt: { license: 'Licença AGPL-3.0', sourceCode: 'Código-fonte' },
-  fr: { license: 'Licence AGPL-3.0', sourceCode: 'Code source' },
-  de: { license: 'AGPL-3.0-Lizenz', sourceCode: 'Quellcode' },
-  it: { license: 'Licenza AGPL-3.0', sourceCode: 'Codice sorgente' },
-  pl: { license: 'Licencja AGPL-3.0', sourceCode: 'Kod źródłowy' },
-  zh: { license: 'AGPL-3.0 许可', sourceCode: '源代码' },
-  ja: { license: 'AGPL-3.0 ライセンス', sourceCode: 'ソースコード' },
-  ar: { license: 'رخصة AGPL-3.0', sourceCode: 'الشفرة المصدرية' },
+  es: { license: 'Licencia MIT', sourceCode: 'Código fuente' },
+  en: { license: 'MIT license', sourceCode: 'Source code' },
+  pt: { license: 'Licença MIT', sourceCode: 'Código-fonte' },
+  fr: { license: 'Licence MIT', sourceCode: 'Code source' },
+  de: { license: 'MIT-Lizenz', sourceCode: 'Quellcode' },
+  it: { license: 'Licenza MIT', sourceCode: 'Codice sorgente' },
+  pl: { license: 'Licencja MIT', sourceCode: 'Kod źródłowy' },
+  zh: { license: 'MIT 许可', sourceCode: '源代码' },
+  ja: { license: 'MIT ライセンス', sourceCode: 'ソースコード' },
+  ar: { license: 'رخصة MIT', sourceCode: 'الشفرة المصدرية' },
 };
 
 for (const locale of Object.keys(NAV)) {

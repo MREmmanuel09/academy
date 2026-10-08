@@ -2,11 +2,11 @@
 
 > Unified learning platform: DevOps, Data, and English in one place.
 
-[![Build](https://img.shields.io/github/actions/workflow/status/academy/platform/ci.yml?branch=main&style=flat-square)](https://github.com/academy/platform/actions)
-[![Tests: 341 unit + 44 E2E](https://img.shields.io/badge/tests-341%20unit%20%2B%2044%20E2E-brightgreen?style=flat-square)](./apps/web/tests)
+[![Build](https://img.shields.io/github/actions/workflow/status/MREmmanuel09/academy/ci.yml?branch=main&style=flat-square)](https://github.com/MREmmanuel09/academy/actions)
+[![Tests: 347 unit + 45 E2E](https://img.shields.io/badge/tests-347%20unit%20%2B%2045%20E2E-brightgreen?style=flat-square)](./apps/web/tests)
 [![A11y: WCAG 2.1 AA](https://img.shields.io/badge/a11y-WCAG%202.1%20AA-blue?style=flat-square)](./apps/web/tests/e2e/a11y.spec.ts)
 [![Docker](https://img.shields.io/badge/docker-multi--stage-2496ed?style=flat-square&logo=docker&logoColor=white)](./Dockerfile)
-[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue.svg?style=flat-square)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A522-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/typescript-5.6%20strict-3178c6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org)
@@ -29,7 +29,7 @@ Two separate learning apps (`RedLab Academy` and `Sprint L2`) became a maintenan
 - **DevOps / Data / Networking / Cloud** — migrated from RedLab (134 lessons, 28 labs, 7 projects, 14 exams, 45 achievements)
 - **English** — migrated from Sprint L2 (30 episodes in 6 narrative arcs, 18 roleplays, 5 mini-games, 805 vocab words, 10 UI languages)
 
-Real progress in a real database. No engagement hacks. No monetization. AGPL-3.0.
+Real progress in a real database. No engagement hacks. No monetization. MIT.
 
 ## Features
 
@@ -451,4 +451,4 @@ Pull requests welcome. Run `pnpm run lint` and `pnpm run test:unit` before openi
 
 ## License
 
-[AGPL-3.0](./LICENSE) — see the file for the full text. In short: free to use, modify, and self-host; if you make a derivative available to others, you must publish the source under the same license.
+[MIT](./LICENSE) — free to use, modify, and self-host, with or without attribution changes. See the file for the full text.

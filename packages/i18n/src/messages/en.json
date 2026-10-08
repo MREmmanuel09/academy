@@ -367,7 +367,7 @@
     "register": "Sign up"
   },
   "footer": {
-    "license": "AGPL-3.0 license",
+    "license": "MIT license",
     "sourceCode": "Source code"
   },
   "onboarding": {

@@ -321,7 +321,7 @@
     "register": "Registrati"
   },
   "footer": {
-    "license": "Licenza AGPL-3.0",
+    "license": "Licenza MIT",
     "sourceCode": "Codice sorgente"
   },
   "import": {
