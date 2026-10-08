@@ -85,7 +85,7 @@ importers:
         version: 5.0.0-beta.25(next@15.5.24(@babel/core@7.29.7)(@playwright/test@1.48.2)(@types/node@22.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       next-intl:
         specifier: 3.26.3
-        version: 3.26.3(next@15.5.24(@babel/core@7.29.7)(@playwright/test@1.48.2)(@types/node@22.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
+        version: 3.26.3(next@15.5.24(@types/node@22.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -180,6 +180,9 @@ importers:
 
   packages/content:
     devDependencies:
+      '@types/node':
+        specifier: 22.9.0
+        version: 22.9.0
       tsx:
         specifier: 4.19.2
         version: 4.19.2
@@ -202,6 +205,9 @@ importers:
       '@types/better-sqlite3':
         specifier: 7.6.12
         version: 7.6.12
+      '@types/node':
+        specifier: 22.9.0
+        version: 22.9.0
       drizzle-kit:
         specifier: 0.28.1
         version: 0.28.1
@@ -216,7 +222,7 @@ importers:
     dependencies:
       next-intl:
         specifier: 3.26.3
-        version: 3.26.3(next@15.5.24(@babel/core@7.29.7)(@playwright/test@1.48.2)(@types/node@22.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
+        version: 3.26.3(next@15.5.24(@types/node@22.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
     devDependencies:
       next:
         specifier: 15.5.24
@@ -10139,7 +10145,7 @@ snapshots:
       next: 15.5.24(@babel/core@7.29.7)(@playwright/test@1.48.2)(@types/node@22.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react: 19.0.0
 
-  next-intl@3.26.3(next@15.5.24(@babel/core@7.29.7)(@playwright/test@1.48.2)(@types/node@22.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0):
+  next-intl@3.26.3(next@15.5.24(@types/node@22.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0):
     dependencies:
       '@formatjs/intl-localematcher': 0.5.10
       negotiator: 1.1.0

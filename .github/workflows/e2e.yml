@@ -44,7 +44,11 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Install Chromium
-        run: pnpm exec playwright install --with-deps chromium
+        # Retried once: the runner occasionally fails the download/apt
+        # step with an immediate non-zero exit (transient infra issue).
+        run: |
+          pnpm exec playwright install --with-deps chromium \
+            || (sleep 10 && pnpm exec playwright install --with-deps chromium)
 
       # E2E registers real users; the SQLite schema must exist first.
       - name: Prepare database

@@ -9,7 +9,10 @@ on:
   workflow_call:
 
 concurrency:
-  group: ci-${{ github.ref }}
+  # github.workflow is the CALLER's name when invoked via workflow_call
+  # (deploy.yml), so the standalone run and the reusable call never share
+  # a group and cancel each other.
+  group: ci-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
