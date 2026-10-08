@@ -74,8 +74,12 @@ COPY . .
 RUN pnpm install --frozen-lockfile --offline
 # Make sure no local dev DB sneaks into the runtime image. The volume
 # mount at `/app/apps/web/data` will provide the actual DB file in
-# production; the entrypoint creates the schema fresh.
-RUN rm -f /app/apps/web/data/*.db* /app/apps/web/data/*.bak
+# production; the entrypoint creates the schema fresh. The mkdir also
+# guarantees the directory exists for the runner COPY below even on CI,
+# where a fresh checkout has no data dir at all (git tracks no files in
+# it, so the build context never contains it).
+RUN rm -f /app/apps/web/data/*.db* /app/apps/web/data/*.bak \
+    && mkdir -p /app/apps/web/data
 # `next build` with `output: 'standalone'` produces a minimal .next/standalone
 # directory with only the files needed at runtime.
 RUN pnpm --filter web build
