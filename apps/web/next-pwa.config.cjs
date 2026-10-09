@@ -28,8 +28,11 @@ const withPwa = require('@ducanh2912/next-pwa').default({
     cleanupOutdatedCaches: true,
     clientsClaim: true,
     skipWaiting: true,
-    navigateFallback: '/',
-    navigateFallbackDenylist: [/^\/api\//, /^\/sw\.js$/, /^\/workbox-/],
+    // NOTE: do NOT add modifyURLPrefix here — next-pwa already prefixes
+    // precache URLs with basePath itself (adding it double-prefixes to
+    // /academy/academy/...).
+    navigateFallback: '/academy/',
+    navigateFallbackDenylist: [/^\/academy\/api\//, /^\/academy\/sw\.js$/, /^\/academy\/workbox-/],
     runtimeCaching: [
       {
         urlPattern: ({ request }) => request.destination === 'image',
@@ -49,7 +52,7 @@ const withPwa = require('@ducanh2912/next-pwa').default({
         },
       },
       {
-        urlPattern: ({ url }) => url.pathname.startsWith('/api/'),
+          urlPattern: ({ url }) => url.pathname.startsWith('/academy/api/'),
         handler: 'NetworkFirst',
         options: {
           cacheName: 'api',
@@ -62,7 +65,9 @@ const withPwa = require('@ducanh2912/next-pwa').default({
         // when the network is gone. This is what makes the PWA usable
         // on a flaky connection.
         urlPattern: ({ url }) =>
-          /^\/(es|en|pt|fr|de|it|pl|zh|ja|ar)\/(practice|dashboard|achievements)(\/|$)/.test(url.pathname),
+          /^\/(es|en|pt|fr|de|it|pl|zh|ja|ar)\/(practice|dashboard|achievements)(\/|$)/.test(
+            url.pathname.replace(/^\/academy/, ''),
+          ),
         handler: 'NetworkFirst',
         options: {
           cacheName: 'practice-pages',
@@ -79,8 +84,8 @@ const withPwa = require('@ducanh2912/next-pwa').default({
         },
       },
       {
-        urlPattern: ({ url }) =>
-          url.pathname.startsWith('/audio/') || url.pathname.startsWith('/icons/'),
+          urlPattern: ({ url }) =>
+          url.pathname.startsWith('/academy/audio/') || url.pathname.startsWith('/academy/icons/'),
         handler: 'CacheFirst',
         options: {
           cacheName: 'media',
@@ -93,7 +98,7 @@ const withPwa = require('@ducanh2912/next-pwa').default({
         // change on deploy.
         urlPattern: ({ url }) =>
           /^\/(es|en|pt|fr|de|it|pl|zh|ja|ar)\/(courses|practice\/roleplay|practice\/vocab)(\/|$)/.test(
-            url.pathname,
+            url.pathname.replace(/^\/academy/, ''),
           ),
         handler: 'CacheFirst',
         options: {

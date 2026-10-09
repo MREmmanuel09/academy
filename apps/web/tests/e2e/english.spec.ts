@@ -11,7 +11,7 @@ test.describe('English episodes', () => {
     }
     await page.waitForURL(/\/dashboard/);
 
-    await page.goto('/courses/english/units/03-trabajo/lessons/email');
+    await page.goto('/academy/courses/english/units/03-trabajo/lessons/email');
     await page.getByRole('tab', { name: /quiz/i }).click();
     // First quiz question with options renders (InlineQuiz buttons).
     const option = page.getByRole('button', { name: /states the obvious/i });
@@ -35,7 +35,7 @@ test.describe('English episodes', () => {
     }
     await page.waitForURL(/\/dashboard/);
 
-    await page.goto('/courses/english/units/03-trabajo/lessons/email');
+    await page.goto('/academy/courses/english/units/03-trabajo/lessons/email');
     await page.getByRole('tab', { name: /speak/i }).click();
     // Dialogue lines render (headless has no mic; TTS buttons suffice).
     await expect(page.getByText(/^tom$/i).first()).toBeVisible({ timeout: 10_000 });
@@ -50,7 +50,7 @@ test.describe('English episodes', () => {
     }
     await page.waitForURL(/\/dashboard/);
 
-    await page.goto('/practice/games/listening');
+    await page.goto('/academy/practice/games/listening');
     // Renamed title renders and the sentence stays hidden pre-answer.
     await expect(page.getByText(/listening/i).first()).toBeVisible({ timeout: 10_000 });
     await expect(page.getByText(/listen, then choose/i)).toBeVisible({ timeout: 10_000 });

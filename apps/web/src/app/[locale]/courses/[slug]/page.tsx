@@ -1,6 +1,7 @@
 import { auth } from '@/auth';
 import { Link } from '@/components/link';
 import { ProgressBar } from '@/components/progress-bar';
+import { BASE_PATH } from '@/lib/base-path';
 import { getUnitProgress } from '@/lib/learning-path';
 import { getProgressSnapshot } from '@/lib/path-snapshot';
 import { getPathForCourse, loadCourse } from '@academy/content';
@@ -77,7 +78,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
         {path ? (
           <div className="pt-1">
             <a
-              href={`/api/paths/${path.id}/guide`}
+              href={`${BASE_PATH}/api/paths/${path.id}/guide`}
               download
               className="inline-flex h-9 items-center justify-center rounded-md border border-border bg-muted px-4 text-sm font-medium transition-colors hover:bg-accent"
             >

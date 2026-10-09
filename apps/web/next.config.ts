@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   typedRoutes: true,
   output: 'standalone',
+  // Public sub-path behind the shared homelab funnel
+  // (https://host/academy/...). Applies to dev, build and tests alike —
+  // localhost access also requires the prefix. MUST stay in sync with
+  // BASE_PATH in src/lib/base-path.ts.
+  basePath: '/academy',
   transpilePackages: ['@academy/db', '@academy/i18n', '@academy/ui', '@academy/content'],
   serverExternalPackages: ['better-sqlite3'],
   // Security headers applied to every route. Deliberately no

@@ -42,22 +42,22 @@ async function runA11yAudit(page: Page, name: string) {
 
 test.describe('Accessibility (axe-core, WCAG 2.1 AA)', () => {
   test('home page has no critical/serious violations', async ({ page }) => {
-    await page.goto('/es');
+    await page.goto('/academy/es');
     await runA11yAudit(page, 'home');
   });
 
   test('course index has no critical/serious violations', async ({ page }) => {
-    await page.goto('/es/courses');
+    await page.goto('/academy/es/courses');
     await runA11yAudit(page, 'courses');
   });
 
   test('login form has no critical/serious violations', async ({ page }) => {
-    await page.goto('/es/login');
+    await page.goto('/academy/es/login');
     await runA11yAudit(page, 'login');
   });
 
   test('register form has no critical/serious violations', async ({ page }) => {
-    await page.goto('/es/register');
+    await page.goto('/academy/es/register');
     await runA11yAudit(page, 'register');
   });
 
@@ -69,7 +69,7 @@ test.describe('Accessibility (axe-core, WCAG 2.1 AA)', () => {
       await runA11yAudit(page, 'onboarding');
     } else {
       // If the server skipped onboarding, navigate explicitly.
-      await page.goto('/es/onboarding');
+      await page.goto('/academy/es/onboarding');
       await runA11yAudit(page, 'onboarding');
     }
   });
@@ -80,7 +80,7 @@ test.describe('Accessibility (axe-core, WCAG 2.1 AA)', () => {
     // lesson path so this audit stays under the 60s budget even on a
     // cold server start; iterating the whole catalogue from /es/courses
     // exceeded the limit before.
-    await page.goto('/es/courses/devops/units/docker/lessons/bigdata-intro');
+    await page.goto('/academy/es/courses/devops/units/docker/lessons/bigdata-intro');
     await runA11yAudit(page, 'lesson');
   });
 });

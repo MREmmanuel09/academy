@@ -231,7 +231,7 @@ Sync a single offline mutation to the server.
 
 ## API Routes
 
-### `GET /api/health`
+### `GET /api/health` (public path: `/academy/api/health`)
 
 Health check endpoint.
 
