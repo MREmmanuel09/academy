@@ -52,6 +52,13 @@ services:
       CI: "true"
     volumes:
       - academy-data-v2:/app/apps/web/data
+    # Shared proxy network: Caddy (lumen stack) reaches this container as
+    # `academy-web:3000` to route the public /academy/* paths with the
+    # full prefix intact (the Funnel itself only sees Caddy :80 — see
+    # HOMELAB.md §10). The default network stays for everything else.
+    networks:
+      - default
+      - lumen_net
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/academy/api/health"]
       interval: 30s
@@ -104,3 +111,10 @@ services:
 
 volumes:
   academy-data-v2:
+
+networks:
+  # Pre-existing network of the sibling stack (~/lumen). Must exist
+  # before `up` (it does — lumen runs there permanently).
+  lumen_net:
+    external: true
+    name: lumen_lumen_net
