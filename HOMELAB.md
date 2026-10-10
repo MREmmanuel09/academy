@@ -387,3 +387,103 @@ IMAGE_TAG=sha-<commit> docker compose -f docker-compose.homelab.yml up -d web
 > Backup antes de cada release importante (§6). Si una release trae
 > una migración destructiva, restaura el backup en vez de hacer rollback
 > solo de imagen.
+
+## 12. Caso real operado: Funnel compartido Academy + Lumen
+
+Bitácora de referencia del despliegue del 2026-10-08/10 en un homelab
+con dos apps (Lumen en Caddy :80 + Academy en :3000) detrás de un solo
+Funnel `https://darkhomelab.tail01138b.ts.net`. Todo lo de abajo está
+verificado en producción, no es teoría.
+
+### URLs públicas
+
+| URL | Qué sirve | Estado esperado |
+|---|---|---|
+| `https://<maquina>.<tailnet>.ts.net/` | Lumen (página vieja, intacta) | 200 |
+| `https://<maquina>.<tailnet>.ts.net/academy/es` | Academy home (`<html lang="es">`) | 200 |
+| `https://<maquina>.<tailnet>.ts.net/academy/api/health` | Academy health | `{"status":"ok"}` |
+| `https://<maquina>.<tailnet>.ts.net/academy/_next/...` (cualquier asset) | Academy JS/CSS | 200 (este fue el caso que fallaba) |
+| `https://<maquina>.<tailnet>.ts.net/academy/dashboard` (sin sesión) | Redirect a login con base | 307 → `/academy/es/login?next=...` |
+
+### Arquitectura (la que funciona)
+
+```text
+Internet ──Funnel (TODO → :80, tubo tonto)──▶ Caddy :80 ─┬─ /academy/* ─▶ academy-web:3000 (basePath, ruta completa)
+                                                          └─ /* ─────────▶ lumen-app:3000 (intacto)
+```
+
+Reglas de oro aprendidas (leer antes de tocar):
+
+1. **`funnel --set-path` RECORTA el prefijo** antes de proxear.
+   Comprobado 3 veces: `/academy/api/health` devolvía el HTML del 404
+   en vez del JSON, y `/academy/robots.txt` 404. Con recorte no hay
+   variante que funcione: sin `basePath` fugan assets/redirects a `/`;
+   con `basePath` todo 404. Por eso el Funnel NO parte por rutas.
+2. **Caddy reenvía la ruta COMPLETA** (`reverse_proxy` sin strip).
+   Con la ruta completa, el `basePath` de Academy casa exacto:
+   páginas, assets, API y redirects. Todo lo demás sigue a lumen.
+3. **Watchtower y `up -d` manual no se mezclan**: si actualizas a mano,
+   para Watchtower primero (`docker stop academy-watchtower`) o verás
+   contenedores con nombres raros (`<id>_academy-web`) y carreras de
+   recreación. El `up -d` siguiente lo normaliza todo.
+4. **Pinea versiones para emergencias**: `IMAGE_TAG=<sha-7-chars>`
+   (ej. `80bbb03`) congela una imagen conocida-buena; `latest` reanuda
+   auto-updates. Los tags por SHA existen siempre (los publica Deploy).
+
+### Comandos de operación (copiar/pegar en el homelab)
+
+```bash
+cd ~/academy
+
+# --- Estado (30 s, solo lectura) ---
+docker ps --format 'table {{.Names}}\t{{.Status}}'
+docker inspect academy-web --format '{{.Image}}'   # digest corriendo
+tailscale funnel status                            # mappings activos
+curl -s -o /dev/null -w 'local:%{http_code}\n' http://127.0.0.1:3000/academy/api/health
+curl -s -o /dev/null -w 'public-lumen:%{http_code}\n' https://<tu-url-funnel>/
+curl -s -o /dev/null -w 'public-academy:%{http_code}\n' https://<tu-url-funnel>/academy/es
+
+# --- Update manual a la última imagen (sin esperar el poll) ---
+git pull --ff-only
+docker stop academy-watchtower
+docker compose -f docker-compose.homelab.yml pull
+docker compose -f docker-compose.homelab.yml up -d
+sleep 60
+docker inspect academy-web --format '{{.Image}}'   # confirma digest nuevo
+curl -fsS http://127.0.0.1:3000/academy/api/health
+
+# --- Rollback a imagen conocida-buena ---
+IMAGE_TAG=<sha-7-bueno> docker compose -f docker-compose.homelab.yml up -d web
+
+# --- Funnel: volver a tubo tonto (tras un --set-path experimental) ---
+sudo tailscale funnel reset
+sudo tailscale funnel --bg 80
+tailscale funnel status   # UNA sola regla: / -> :80
+
+# --- Caddy: editar rutas sin downtime (backup + validate + reload) ---
+cp /home/homelab/lumen/Caddyfile /home/homelab/lumen/Caddyfile.bak.$(date +%F)
+# ...edita el archivo...
+docker exec lumen-caddy caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile
+docker exec lumen-caddy caddy reload --config /etc/caddy/Caddyfile --adapter caddyfile
+# Rollback: cp Caddyfile.bak.<fecha> Caddyfile + mismo reload.
+
+# --- Red Docker compartida (una vez; Caddy debe resolver academy-web) ---
+docker network ls | grep -i lumen   # anota el nombre real (ej. lumen_lumen_net)
+# ...declarada como external en docker-compose.homelab.yml...
+# Prueba: docker exec lumen-caddy wget -qO- http://academy-web:3000/academy/api/health
+```
+
+### Bitácora de incidentes (qué se rompió y cómo se resolvió)
+
+| # | Síntoma | Causa raíz | Fix |
+|---|---|---|---|
+| 1 | `academy-web` en loop `Restarting (1)` | `.env` con texto literal `$(cat ...)` (heredoc entrecomillado no expandió) → `AUTH_SECRET` de 18 chars, el entrypoint se niega a arrancar | Reescribir `.env` con secreto fresco (`openssl rand -base64 32` sin comillas que bloqueen expansión) |
+| 2 | Página vieja "caída" (pública) | Nunca murió: el Funnel se retargeteó de `:80` a `:3000` y le quitó su salida pública. Contenedores sanos todo el tiempo | Devolverle `/` (esta sección) |
+| 3 | Página sin CSS/JS, solo HTML | Assets absolutos (`/_next/*`) escapan al mapping `/` → caen en lumen → 404 | Arquitectura Caddy de arriba (ruta completa + basePath) |
+| 4 | Todo `/academy/*` 404 tras `--set-path` | El Funnel recorta el prefijo (ver reglas de oro) | Quitar el mapping de path; que decida Caddy |
+| 5 | Contenedor `d054a3f7..._academy-web` + error `removal already in progress` | `up -d` manual en carrera con un update de Watchtower | `docker stop academy-watchtower` antes de updates manuales |
+| 6 | `docker compose pull` no traía la imagen nueva (digest viejo 30h) | Condición de carrera / estado transitorio del pull | Reintentar pull + verificar digest con `docker inspect` (nunca asumir por el mensaje `Pulled`) |
+| 7 | Healthcheck `(unhealthy)` tras actualizar | El clone `~/academy` estaba desactualizado: compose viejo con healthcheck en ruta vieja | `git pull` en el homelab ANTES del `up -d` (siempre) |
+| 8 | `caddy reload` → `no config file to load` | Sin `--config` no encuentra el Caddyfile | `caddy reload --config /etc/caddy/Caddyfile --adapter caddyfile` |
+| 9 | `caddy validate` rechaza el archivo | `log` no puede ir dentro de `handle` (no es route handler) | `log` a nivel de site; rutas en `handle` explícitos |
+| 10 | `tailscale funnel` → `Access denied` | Funnel requiere root la primera vez | `sudo tailscale funnel ...` o `sudo tailscale set --operator=$USER` una vez |
