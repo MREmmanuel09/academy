@@ -216,7 +216,7 @@ docker compose up --build -d
 
 - SQLite file persisted in named volume
 - Entrypoint runs idempotent schema migration
-- Healthcheck: `GET /academy/api/health` every 30s
+- Healthcheck: `GET /api/health` every 30s
 
 ### Multi-Instance (PostgreSQL)
 

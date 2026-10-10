@@ -186,8 +186,8 @@ docker compose up --build -d
 # 3. Tail logs until you see "Ready in"
 docker compose logs -f web
 
-# 4. Smoke test (the app lives under the /academy basePath everywhere)
-curl -fsS http://localhost:3000/academy/api/health
+# 4. Smoke test
+curl -fsS http://localhost:3000/api/health
 # {"status":"ok","service":"academy-web","timestamp":"..."}
 ```
 
@@ -197,7 +197,7 @@ The compose file:
 - Persists the SQLite DB in a named volume (`academy-data-v2`) so
   `docker compose down && docker compose up` keeps your data.
 - Runs as the non-root user `nextjs` (uid 1001).
-- Configures a `wget`-based healthcheck that hits `/academy/api/health` every 30s.
+- Configures a `wget`-based healthcheck that hits `/api/health` every 30s.
 - Will apply `pnpm db:push` on every boot, **but only if the SQLite file
   is missing or the schema isn't in sync** (see the entrypoint below).
 
@@ -212,7 +212,7 @@ it fresh with a health-gated Watchtower. Push to `main` → CI publishes
 git clone <repo> /opt/academy && cd /opt/academy
 cp .env.homelab.example .env      # fill AUTH_SECRET + IMAGE_REPO + public URL
 docker compose -f docker-compose.homelab.yml up -d
-curl -fsS http://127.0.0.1:3000/academy/api/health
+curl -fsS http://127.0.0.1:3000/api/health
 ```
 
 Manual update/rollback: `IMAGE_TAG=sha-<commit> docker compose -f docker-compose.homelab.yml up -d web`

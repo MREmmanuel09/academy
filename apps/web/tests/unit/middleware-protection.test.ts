@@ -1,4 +1,4 @@
-import { isProtectedPath, stripBasePath, stripLocale } from '@/middleware';
+import { isProtectedPath, stripLocale } from '@/middleware';
 import { describe, expect, it } from 'vitest';
 
 describe('middleware protected-prefix matcher', () => {
@@ -43,25 +43,5 @@ describe('middleware protected-prefix matcher', () => {
     ['/', '/'],
   ])('stripLocale("%s") -> "%s"', (input, expected) => {
     expect(stripLocale(input)).toBe(expected);
-  });
-
-  it.each([
-    ['/academy/es/dashboard', '/es/dashboard'],
-    ['/academy/api/health', '/api/health'],
-    ['/academy', '/'],
-    ['/es/dashboard', '/es/dashboard'],
-    ['/api/health', '/api/health'],
-    ['/', '/'],
-  ])('stripBasePath("%s") -> "%s"', (input, expected) => {
-    expect(stripBasePath(input)).toBe(expected);
-  });
-
-  it('protects dashboard/practice paths behind the /academy prefix', () => {
-    // The middleware strips the base path first, so the composed check
-    // must stay protected — otherwise /academy/dashboard would bypass auth.
-    for (const p of ['/academy/dashboard', '/academy/es/practice/srs', '/academy/settings']) {
-      expect(isProtectedPath(stripBasePath(p))).toBe(true);
-    }
-    expect(isProtectedPath(stripBasePath('/academy/es/courses/x'))).toBe(false);
   });
 });

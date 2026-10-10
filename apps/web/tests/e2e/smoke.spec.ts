@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test.describe('Smoke tests', () => {
   test('home page loads with localized title and skip link', async ({ page }) => {
-    await page.goto('/academy/');
+    await page.goto('/');
     // Middleware should redirect "/" to "/es" since default locale is "es".
     await expect(page).toHaveURL(/\/(es|en)\/?$/);
 
@@ -14,7 +14,7 @@ test.describe('Smoke tests', () => {
     await expect(page.getByRole('link', { name: /skip to main content/i })).toBeAttached();
 
     // Health endpoint answers.
-    const response = await page.request.get('/academy/api/health');
+    const response = await page.request.get('/api/health');
     expect(response.status()).toBe(200);
     const body = (await response.json()) as { status: string; service: string };
     expect(body.status).toBe('ok');
@@ -22,28 +22,28 @@ test.describe('Smoke tests', () => {
   });
 
   test('language switch via /en route renders English copy', async ({ page }) => {
-    await page.goto('/academy/en');
+    await page.goto('/en');
     await expect(page).toHaveURL(/\/en\/?$/);
     // English copy: "Welcome to Academy"
     await expect(page.getByRole('heading', { level: 1 })).toContainText(/welcome/i);
   });
 
   test('demo route is reachable', async ({ page }) => {
-    await page.goto('/academy/demo');
+    await page.goto('/demo');
     // Demo showcase: hero heading plus the tracks section with real courses.
     await expect(page.getByRole('heading', { name: /welcome|bienvenido/i })).toBeVisible();
     await expect(page.getByRole('heading', { name: /courses|cursos/i })).toBeVisible();
   });
 
   test('login page is reachable and shows form', async ({ page }) => {
-    await page.goto('/academy/login');
+    await page.goto('/login');
     await expect(page.getByRole('heading', { name: /iniciar sesi/i })).toBeVisible();
     await expect(page.locator('input[name="email"]')).toBeVisible();
     await expect(page.locator('input[name="password"]')).toBeVisible();
   });
 
   test('register page is reachable and shows form', async ({ page }) => {
-    await page.goto('/academy/register');
+    await page.goto('/register');
     await expect(page.getByRole('heading', { name: /crear cuenta/i })).toBeVisible();
     await expect(page.locator('input[name="name"]')).toBeVisible();
     await expect(page.locator('input[name="email"]')).toBeVisible();
@@ -51,12 +51,12 @@ test.describe('Smoke tests', () => {
   });
 
   test('protected dashboard redirects to login when unauthenticated', async ({ page }) => {
-    await page.goto('/academy/dashboard');
+    await page.goto('/dashboard');
     await expect(page).toHaveURL(/\/login\?next=/);
   });
 
   test('courses index lists all 6 courses', async ({ page }) => {
-    await page.goto('/academy/courses');
+    await page.goto('/courses');
     // Use substring match because the in-app <Link> wrapper prepends the
     // active locale segment to every internal href.
     const cards = page.locator('a[href*="/courses/"]');
@@ -66,7 +66,7 @@ test.describe('Smoke tests', () => {
   });
 
   test('English course detail page renders title and syllabus', async ({ page }) => {
-    await page.goto('/academy/en/courses/english');
+    await page.goto('/en/courses/english');
     await expect(page).toHaveURL(/\/en\/courses\/english$/);
     // Sprint L2 content: course page + 6 narrative arcs with episodes.
     await expect(page.getByRole('heading', { name: /english \(sprint l2\)/i })).toBeVisible();
@@ -75,26 +75,26 @@ test.describe('Smoke tests', () => {
   });
 
   test('dashboard renders unauthenticated (redirect to login)', async ({ page }) => {
-    const response = await page.goto('/academy/es/dashboard');
+    const response = await page.goto('/es/dashboard');
     // Middleware should redirect to /login?next=/es/dashboard
     expect(page.url()).toMatch(/\/login\?next=/);
     expect(response?.status()).toBe(200);
   });
 
   test('achievements page renders unauthenticated (redirect to login)', async ({ page }) => {
-    const response = await page.goto('/academy/es/achievements');
+    const response = await page.goto('/es/achievements');
     expect(page.url()).toMatch(/\/login\?next=/);
     expect(response?.status()).toBe(200);
   });
 
   test('settings page renders unauthenticated (redirect to login)', async ({ page }) => {
-    const response = await page.goto('/academy/es/settings');
+    const response = await page.goto('/es/settings');
     expect(page.url()).toMatch(/\/login\?next=/);
     expect(response?.status()).toBe(200);
   });
 
   test('PWA service worker is served at /sw.js (smoke)', async ({ page }) => {
-    const r = await page.request.get('/academy/sw.js');
+    const r = await page.request.get('/sw.js');
     // In dev the wrapper is disabled (we ship a stub). In prod it's
     // the real workbox-generated SW. Either way, the URL must respond.
     expect(r.status()).toBe(200);
@@ -103,7 +103,7 @@ test.describe('Smoke tests', () => {
   });
 
   test('manifest is served at /manifest.json', async ({ page }) => {
-    const r = await page.request.get('/academy/manifest.json');
+    const r = await page.request.get('/manifest.json');
     expect(r.status()).toBe(200);
     const body = (await r.json()) as { name: string; display: string };
     expect(body.name).toBeTruthy();

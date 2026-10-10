@@ -35,7 +35,7 @@ export async function registerUser(
   const name = opts.name ?? `E2E ${email.split('@')[0]}`;
   const password = opts.password ?? DEFAULT_PASSWORD;
 
-  await page.goto('/academy/register');
+  await page.goto('/register');
   await page.locator('input[name="name"]').fill(name);
   await page.locator('input[name="email"]').fill(email);
   await page.locator('input[name="password"]').fill(password);
@@ -52,7 +52,7 @@ export async function loginUser(
   opts: { email: string; password?: string },
 ): Promise<void> {
   const password = opts.password ?? DEFAULT_PASSWORD;
-  await page.goto('/academy/login');
+  await page.goto('/login');
   await page.locator('input[name="email"]').fill(opts.email);
   await page.locator('input[name="password"]').fill(password);
   await page.locator('button[type="submit"]').click();

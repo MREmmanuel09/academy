@@ -11,7 +11,7 @@ test.describe('Practice hub', () => {
     }
     await page.waitForURL(/\/dashboard/);
 
-    await page.goto('/academy/es/practice');
+    await page.goto('/es/practice');
     // The practice layout exposes tabs for SRS, quiz, vocab and games,
     // and the new /practice index page renders a card per mode. We use a
     // substring match because the in-app <Link> wrapper prepends the
@@ -30,7 +30,7 @@ test.describe('Practice hub', () => {
     }
     await page.waitForURL(/\/dashboard/);
 
-    await page.goto('/academy/practice/srs');
+    await page.goto('/practice/srs');
     // The page renders either the review card (if cards are due) or the
     // empty state. We assert the page itself rendered something useful
     // (a heading) without crashing.
@@ -45,7 +45,7 @@ test.describe('Practice hub', () => {
     }
     await page.waitForURL(/\/dashboard/);
 
-    await page.goto('/academy/practice/quiz?quiz=practice-general');
+    await page.goto('/practice/quiz?quiz=practice-general');
     // Either a Start button or an error is acceptable. The page must
     // not crash; assert some content is present.
     await expect(page.getByRole('heading').first()).toBeVisible();
@@ -62,7 +62,7 @@ test.describe('Practice hub', () => {
     }
     await page.waitForURL(/\/dashboard/);
 
-    await page.goto('/academy/practice/quiz?quiz=exam-basic');
+    await page.goto('/practice/quiz?quiz=exam-basic');
     await page.getByRole('button', { name: /start/i }).click();
     // First question renders with options; answering reveals feedback.
     const options = page.locator('main ul li button');
@@ -81,7 +81,7 @@ test.describe('Practice hub', () => {
     }
     await page.waitForURL(/\/dashboard/);
 
-    await page.goto('/academy/practice/vocabulary');
+    await page.goto('/practice/vocabulary');
     await expect(page.getByRole('heading').first()).toBeVisible();
   });
 });

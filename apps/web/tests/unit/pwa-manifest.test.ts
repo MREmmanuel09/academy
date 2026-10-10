@@ -52,8 +52,8 @@ describe('PWA manifest', () => {
     const data = loadManifest();
     expect(data.name).toBeTruthy();
     expect(data.short_name).toBeTruthy();
-    expect(data.start_url).toBe('/academy/');
-    expect(data.scope).toBe('/academy/');
+    expect(data.start_url).toBe('/');
+    expect(data.scope).toBe('/');
     expect(data.display).toBe('standalone');
     expect(data.theme_color).toMatch(/^#[0-9a-fA-F]{6}$/);
     expect(data.background_color).toMatch(/^#[0-9a-fA-F]{6}$/);

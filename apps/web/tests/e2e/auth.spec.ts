@@ -48,7 +48,7 @@ test.describe('Authentication flow', () => {
     await page.waitForURL(/\/dashboard/);
     await page.context().clearCookies();
 
-    await page.goto('/academy/login');
+    await page.goto('/login');
     await page.locator('input[name="email"]').fill(email);
     await page.locator('input[name="password"]').fill('definitely-wrong');
     await page.locator('button[type="submit"]').click();
@@ -61,14 +61,14 @@ test.describe('Authentication flow', () => {
   });
 
   test('protected route without a session redirects to login with next=', async ({ page }) => {
-    const r = await page.goto('/academy/dashboard');
+    const r = await page.goto('/dashboard');
     expect(r?.status()).toBe(200);
     await expect(page).toHaveURL(/\/login\?next=/);
   });
 
   test('each locale keeps the protected path inside its own locale', async ({ page }) => {
     for (const locale of ['es', 'en', 'pt']) {
-      await page.goto(`/academy/${locale}/practice/srs`);
+      await page.goto(`/${locale}/practice/srs`);
       // The middleware redirects to /<locale>/login?next=<urlencoded original path>.
       // The next= value is the FULL path, fully URL-encoded. We match the
       // encoded form (%2F everywhere) which is what Next.js next-intl
@@ -89,7 +89,7 @@ test.describe('Authentication flow', () => {
     await page.context().clearCookies();
 
     // Try to register again with the same email.
-    await page.goto('/academy/register');
+    await page.goto('/register');
     await page.locator('input[name="name"]').fill('Dup2');
     await page.locator('input[name="email"]').fill(email);
     await page.locator('input[name="password"]').fill('TestPass123!');
