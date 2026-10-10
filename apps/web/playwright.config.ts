@@ -1,7 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
-const baseURL = `http://localhost:${PORT}`;
+// The app is served under the public basePath (see next.config.ts), so
+// every relative test URL resolves under /academy automatically.
+const baseURL = `http://localhost:${PORT}/academy`;
 
 export default defineConfig({
   testDir: './tests/e2e',
@@ -30,7 +32,8 @@ export default defineConfig({
     // `pnpm run build` before invoking playwright (see apps/web/scripts
     // notes in the README).
     command: 'pnpm run start',
-    url: baseURL,
+    // Wait on the health endpoint: with basePath, `/` itself 404s.
+    url: `${baseURL}/api/health`,
     reuseExistingServer: !process.env.CI,
     timeout: 60_000,
     stdout: 'pipe',

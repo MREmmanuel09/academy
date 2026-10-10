@@ -74,12 +74,15 @@ docker compose logs -f web
 Verify locally:
 
 ```bash
-curl -fsS http://localhost:3000/api/health
+curl -fsS http://localhost:3000/academy/api/health
 # {"status":"ok","service":"academy-web","timestamp":"..."}
 
-curl -fsS http://localhost:3000/es | head -c 100
+curl -fsS http://localhost:3000/academy/es | head -c 100
 # <!doctype html>... (renders the home page in Spanish)
 ```
+
+> The app is served under the `/academy` basePath on every transport
+> (dev, `next start`, Funnel). Bare `http://localhost:3000/es` 404s.
 
 The compose file is also configured with a Docker healthcheck. Check its status any time with `docker compose ps`. The container should report `(healthy)`.
 
@@ -203,7 +206,7 @@ Restore drill (do this once before go-live, then yearly):
 docker compose stop web
 docker cp /mnt/nas/academy/prod-<UTC>.db academy-web:/app/apps/web/data/prod.db
 docker compose start web
-curl -fsS http://127.0.0.1:3000/api/health
+curl -fsS http://127.0.0.1:3000/academy/api/health
 ```
 
 ## 7. Switching to PostgreSQL
@@ -269,33 +272,55 @@ Tailscale prints your public URL — use it as `NEXT_PUBLIC_APP_URL`.
 The funnel survives reboots (tailscaled autostarts and re-applies it).
 To stop exposing: `tailscale funnel --off 3000` (or `tailscale funnel reset`).
 
-### Sharing one Funnel between two apps (path routing)
+### Sharing one Funnel between two apps (Academy + another service)
 
-One machine gets one Funnel hostname. To serve a second local app
-publicly next to Academy, split by path — e.g. `/` for the existing
-app (Caddy on :80) and `/academy` for Academy:
+One machine gets one Funnel hostname. The robust pattern is a **dumb
+funnel + smart reverse proxy**: the Funnel forwards *everything* to
+Caddy on :80, and Caddy routes by path — `/` to the existing app,
+`/academy/*` to Academy **with the full path preserved**:
 
 ```bash
-tailscale funnel --bg 80
-tailscale funnel --bg --set-path /academy http://127.0.0.1:3000
-tailscale funnel status   # must list both mappings
+tailscale funnel reset                 # clear path mappings (10 s downtime)
+tailscale funnel --bg 80               # everything -> Caddy :80
+tailscale funnel status                # single mapping, no subpaths
 ```
 
-How it works (verified in production):
+```caddy
+# In the existing :80 block, FIRST (Caddy tries handles in order):
+handle /academy/* {
+    reverse_proxy academy-web:3000 {
+        header_up Host {host}
+        header_up X-Real-IP {remote}
+    }
+}
+# ...existing config (reverse_proxy to the other app) follows untouched
+```
 
-- `--set-path` **strips** the matched prefix before proxying: a public
-  request to `/academy/es` reaches Academy as `/es`, and `/academy`
-  asset URLs (`/academy/_next/...`) arrive as `/_next/...`.
-- So Academy needs **zero code changes** — it keeps serving at root
-  (`/`), exactly like local dev. Do NOT set a Next.js `basePath`
-  (we tried: every funnel route 404s because the app then expects the
-  prefix the funnel already removed).
-- `NEXT_PUBLIC_APP_URL` documents the public base including the
-  subpath: `https://<machine>.<tailnet>.ts.net/academy`.
-- Auth cookies are host-scoped but each app uses its own session
-  cookie names, so logins don't leak across apps.
-- Direct access (`http://127.0.0.1:3000/...`) keeps working at root
-  paths — the healthcheck still hits `/api/health`.
+Why this shape and not `funnel --set-path` (verified the hard way):
+
+- `--set-path` **strips** the matched prefix before proxying, so the
+  backend never sees `/academy`. With stripping, no app variant works:
+  root-serving leaks absolute asset/redirect URLs to `/` (wrong app),
+  and a `basePath` app 404s on the stripped paths.
+- Caddy's `reverse_proxy` forwards the path **whole**, so Academy's
+  `basePath` (`apps/web/next.config.ts` + `src/lib/base-path.ts`)
+  matches exactly what the browser sent. Pages, `/_next` assets,
+  API routes and login redirects all stay under `/academy/*`.
+- For this, `academy-web` must share the proxy's Docker network
+  (`lumen_net` in `docker-compose.homelab.yml`) so Caddy resolves it
+  by container name. Reload, don't recreate, the proxy:
+  `docker exec <caddy> caddy reload`.
+
+Notes:
+
+- Academy ONLY answers under `/academy` — direct
+  `http://127.0.0.1:3000/es` 404s; use
+  `http://127.0.0.1:3000/academy/es`. The compose healthcheck already
+  hits `/academy/api/health`.
+- `NEXT_PUBLIC_APP_URL` must include the subpath:
+  `https://<machine>.<tailnet>.ts.net/academy`.
+- Auth cookies are host-scoped but each app uses its own session cookie
+  names, so logins don't leak across apps.
 
 > **Public service (open registration):** behind Funnel, visitors may
 > share the proxy source IP, so the per-IP rate limits count everyone
@@ -328,14 +353,14 @@ cat > /opt/academy/.env <<'EOF'
 AUTH_SECRET=<pega-el-secreto>
 IMAGE_REPO=<tu-usuario>/<tu-repo>
 IMAGE_TAG=latest
-NEXT_PUBLIC_APP_URL=https://<tu-maquina>.<tu-tailnet>.ts.net
+NEXT_PUBLIC_APP_URL=https://<tu-maquina>.<tu-tailnet>.ts.net/academy
 TZ=America/Guatemala
 EOF
 
 # 3. Boot (DB volume, healthcheck, Watchtower included):
 docker compose -f docker-compose.homelab.yml up -d
 docker compose -f docker-compose.homelab.yml logs -f web   # hasta "Ready"
-curl -fsS http://127.0.0.1:3000/api/health
+curl -fsS http://127.0.0.1:3000/academy/api/health
 ```
 
 Update flow (automatic):
@@ -346,7 +371,7 @@ Update flow (automatic):
    reinicia `web`, borra la imagen vieja. La DB y el seed sobreviven
    (volumen + migraciones idempotentes del entrypoint).
 4. Verificas: `docker compose -f docker-compose.homelab.yml ps` y
-   `/api/health`. Avisos opcionales con `SHOUTRRR_URL`.
+   `/academy/api/health`. Avisos opcionales con `SHOUTRRR_URL`.
 
 Manual update / rollback (sin esperar el poll):
 

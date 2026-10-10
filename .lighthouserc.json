@@ -2,7 +2,11 @@
   "ci": {
     "collect": {
       "startServerCommand": "pnpm --filter web start",
-      "url": ["http://localhost:3000/", "http://localhost:3000/es", "http://localhost:3000/en"],
+      "url": [
+        "http://localhost:3000/academy/",
+        "http://localhost:3000/academy/es",
+        "http://localhost:3000/academy/en"
+      ],
       "numberOfRuns": 3
     },
     "assert": {

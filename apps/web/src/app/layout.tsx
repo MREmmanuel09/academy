@@ -1,3 +1,4 @@
+import { BASE_PATH } from '@/lib/base-path';
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
@@ -16,13 +17,16 @@ export const metadata: Metadata = {
     'Hands-on courses in DevOps, Data, and English with spaced repetition, adaptive tests, and real progress tracking.',
   applicationName: 'Academy',
   authors: [{ name: 'Academy' }],
-  manifest: '/manifest.json',
+  // Next.js does NOT prefix metadata asset URLs with basePath, so we do
+  // it by hand — otherwise browsers resolve them against the funnel root
+  // (another app) instead of /academy.
+  manifest: `${BASE_PATH}/manifest.json`,
   icons: {
     icon: [
-      { url: '/favicon-32.png', type: 'image/png', sizes: '32x32' },
-      { url: '/favicon.ico', sizes: 'any' },
+      { url: `${BASE_PATH}/favicon-32.png`, type: 'image/png', sizes: '32x32' },
+      { url: `${BASE_PATH}/favicon.ico`, sizes: 'any' },
     ],
-    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+    apple: [{ url: `${BASE_PATH}/apple-touch-icon.png`, sizes: '180x180', type: 'image/png' }],
   },
   openGraph: {
     type: 'website',

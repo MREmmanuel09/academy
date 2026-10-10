@@ -4,6 +4,7 @@ import { signIn, signOut } from '@/auth';
 import { hashPassword, normalizeEmail } from '@/lib/auth/password';
 import { checkRateLimit, getClientIp } from '@/lib/auth/rate-limit';
 import { loginSchema, onboardingSchema, registerSchema } from '@/lib/auth/schema';
+import { BASE_PATH } from '@/lib/base-path';
 import { logger } from '@/lib/logger';
 import { type SqliteDb, getDb, schema } from '@academy/db';
 import { eq } from 'drizzle-orm';
@@ -87,10 +88,13 @@ export async function registerAction(formData: FormData): Promise<ActionResult> 
   });
 
   // Sign the user in. signIn throws NEXT_REDIRECT on success — re-thrown.
+  // NOTE: Auth.js uses redirectTo verbatim (it knows nothing about Next
+  // basePath), so the public prefix goes here by hand. Locale detection
+  // still applies: the intl middleware prefixes the locale on the way in.
   await signIn('credentials', {
     email: normalised,
     password,
-    redirectTo: '/onboarding',
+    redirectTo: `${BASE_PATH}/onboarding`,
   });
 
   return { ok: true };
@@ -134,7 +138,7 @@ export async function loginAction(formData: FormData): Promise<ActionResult> {
     await signIn('credentials', {
       email: normalised,
       password: parsed.data.password,
-      redirectTo: '/dashboard',
+      redirectTo: `${BASE_PATH}/dashboard`,
     });
     return { ok: true };
   } catch (err) {
@@ -158,7 +162,7 @@ export async function loginAction(formData: FormData): Promise<ActionResult> {
  * Log out the current user and redirect to the home page.
  */
 export async function logoutAction(): Promise<void> {
-  await signOut({ redirectTo: '/' });
+  await signOut({ redirectTo: `${BASE_PATH}/` });
 }
 
 /**

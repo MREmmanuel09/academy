@@ -5,7 +5,7 @@ test.describe('Course browser', () => {
   test('home -> courses index -> course detail -> unit -> lesson', async ({ page }) => {
     test.setTimeout(60_000);
     // Browse as a guest (courses are public).
-    await page.goto('/');
+    await page.goto('/academy/');
     await page.waitForURL(/\/(es|en)\/?$/);
 
     // Header has a "Cursos" link in Spanish, "Courses" in English.
@@ -42,7 +42,7 @@ test.describe('Course browser', () => {
     // unit ships many lessons (`l-1`...`l-11`); this avoids a costly
     // N×M crawl through the course index and keeps the test under its
     // 60s budget even on a cold start.
-    await page.goto('/courses/devops/units/linux/lessons/l-1');
+    await page.goto('/academy/courses/devops/units/linux/lessons/l-1');
     // The lesson viewer renders the title (h1) and the body. The page
     // actually has two <h1>s (one in the page header, one in the article),
     // so we assert that at least one is visible rather than strict-matching.
@@ -64,7 +64,7 @@ test.describe('Course browser', () => {
     // Navigate straight to a known lesson path. The devops/linux unit
     // always has many lessons available, so we skip the N×M crawl and
     // stay under the 60s test budget even on a cold server start.
-    await page.goto('/courses/devops/units/linux/lessons/l-1');
+    await page.goto('/academy/courses/devops/units/linux/lessons/l-1');
 
     // The "Mark complete" button (or its i18n equivalent) should be visible.
     const completeButton = page
@@ -97,11 +97,11 @@ test.describe('Course browser', () => {
     await page.waitForURL(/\/dashboard/);
 
     // l-2 is locked before l-1 is complete: locked panel, no body.
-    await page.goto('/courses/devops/units/linux/lessons/l-2');
+    await page.goto('/academy/courses/devops/units/linux/lessons/l-2');
     await expect(page.getByText(/bloquead|locked/i).first()).toBeVisible({ timeout: 10_000 });
 
     // Complete l-1 through the UI.
-    await page.goto('/courses/devops/units/linux/lessons/l-1');
+    await page.goto('/academy/courses/devops/units/linux/lessons/l-1');
     const completeButton = page
       .getByRole('button', { name: /(marcar como completa|mark as complete|completar)/i })
       .first();
@@ -109,12 +109,12 @@ test.describe('Course browser', () => {
     await expect(page.getByText(/completad|completed/i).first()).toBeVisible({ timeout: 10_000 });
 
     // l-2 is now unlocked: body renders instead of the locked panel.
-    await page.goto('/courses/devops/units/linux/lessons/l-2');
+    await page.goto('/academy/courses/devops/units/linux/lessons/l-2');
     await expect(page.locator('article p').first()).toBeVisible({ timeout: 10_000 });
   });
 
   test('study guide downloads as markdown', async ({ page }) => {
-    await page.goto('/courses/networking');
+    await page.goto('/academy/courses/networking');
     const downloadPromise = page.waitForEvent('download', { timeout: 15_000 });
     await page.getByRole('link', { name: /guía de estudio|study guide/i }).click();
     const download = await downloadPromise;
