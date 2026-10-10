@@ -269,6 +269,34 @@ Tailscale prints your public URL — use it as `NEXT_PUBLIC_APP_URL`.
 The funnel survives reboots (tailscaled autostarts and re-applies it).
 To stop exposing: `tailscale funnel --off 3000` (or `tailscale funnel reset`).
 
+### Sharing one Funnel between two apps (path routing)
+
+One machine gets one Funnel hostname. To serve a second local app
+publicly next to Academy, split by path — e.g. `/` for the existing
+app (Caddy on :80) and `/academy` for Academy:
+
+```bash
+tailscale funnel --bg 80
+tailscale funnel --bg --set-path /academy http://127.0.0.1:3000
+tailscale funnel status   # must list both mappings
+```
+
+How it works (verified in production):
+
+- `--set-path` **strips** the matched prefix before proxying: a public
+  request to `/academy/es` reaches Academy as `/es`, and `/academy`
+  asset URLs (`/academy/_next/...`) arrive as `/_next/...`.
+- So Academy needs **zero code changes** — it keeps serving at root
+  (`/`), exactly like local dev. Do NOT set a Next.js `basePath`
+  (we tried: every funnel route 404s because the app then expects the
+  prefix the funnel already removed).
+- `NEXT_PUBLIC_APP_URL` documents the public base including the
+  subpath: `https://<machine>.<tailnet>.ts.net/academy`.
+- Auth cookies are host-scoped but each app uses its own session
+  cookie names, so logins don't leak across apps.
+- Direct access (`http://127.0.0.1:3000/...`) keeps working at root
+  paths — the healthcheck still hits `/api/health`.
+
 > **Public service (open registration):** behind Funnel, visitors may
 > share the proxy source IP, so the per-IP rate limits count everyone
 > together. Raise them in `.env` for a public launch:
